@@ -1,0 +1,59 @@
+{
+  "series": "nadie",
+  "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+  "title_post": "Perderte los 10 mejores días",
+  "coverScene": 1,
+  "scenes": [
+    {
+      "dark": true,
+      "say": "Si en veinte años de bolsa te pierdes solo diez días, ¿cuánto crees que te cuesta? ¿Un poco? ¿Un cinco por ciento?",
+      "html": "<div class=\"row in\" data-cue=\"veinte años\"><span class=\"big c-teal\" style=\"font-size:96px\">20 años</span></div><div class=\"row in\" data-cue=\"diez días\" style=\"margin-top:40px\"><span class=\"big c-orange\" style=\"font-size:96px\">− 10 días</span></div><div class=\"q in\" data-cue=\"cuánto\">¿Cuánto te <em class=\"c-orange\">cuesta</em>?</div>"
+    },
+    {
+      "dark": true,
+      "say": "No. Te cuesta la mitad de tu dinero. Esto es lo que nadie te cuenta sobre salir del mercado.",
+      "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">Los 10 <em class=\"c-orange\">mejores</em> días</div><div class=\"q in\" data-cue=\"la mitad\" style=\"font-size:46px\">Te cuesta <em class=\"c-orange\">la mitad</em></div>"
+    },
+    {
+      "title": "Hagamos la <em class=\"c-teal\">cuenta</em>",
+      "sub": "S&amp;P 500, 2000 – 2019 · J.P. Morgan",
+      "say": "Imagina que metes diez mil dólares en el S&P 500 en enero del año 2000 y no lo tocas en veinte años. Te comes la crisis de las punto com, donde llegó a caer casi a la mitad. Te comes la de 2008, que fue todavía peor. Y aun así, sin vender nunca, acabas con unos treinta y dos mil. Más del triple.",
+      "html": "<div class=\"cols\" style=\"height:600px\"><div class=\"c in\" data-cue=\"diez mil\"><b>10.000 $</b><i class=\"sand grow\" style=\"--h:31%\"></i><span>2000</span></div><div class=\"c in\" data-cue=\"punto com\"><b class=\"c-orange\">−49 %</b><i class=\"orange grow\" style=\"--h:17%\"></i><span>2002</span></div><div class=\"c in\" data-cue=\"2008\"><b class=\"c-orange\">−57 %</b><i class=\"orange grow\" style=\"--h:15%\"></i><span>2009</span></div><div class=\"c in\" data-cue=\"treinta y dos\"><b class=\"c-teal\">32.421 $</b><i class=\"teal grow\" style=\"--h:100%\"></i><span>2019</span></div></div><div class=\"row in\" data-cue=\"más del triple\" style=\"margin-top:70px\"><span class=\"pill teal lg\">× 3,2</span></div>"
+    },
+    {
+      "title": "Ahora <em class=\"c-orange\">quita</em> los mejores días",
+      "say": "Ahora haz lo mismo, pero perdiéndote solo los diez mejores días. Diez días, de unos cinco mil que abre la bolsa en ese tiempo. Te quedas en unos dieciséis mil. La mitad. Y si te pierdes los veinte mejores, acabas con diez mil. Lo mismo que pusiste. Veinte años invertido para nada.",
+      "html": "<div class=\"bars\"><div class=\"b in\" data-t=\"0.3\"><span>Siempre dentro</span><i class=\"teal grow\" style=\"--w:100%\">32.421 $</i></div><div class=\"b in\" data-cue=\"dieciséis mil\"><span>Sin los 10 mejores</span><i class=\"navy grow\" style=\"--w:50%\">16.180 $</i></div><div class=\"b in\" data-cue=\"veinte mejores\"><span>Sin los 20 mejores</span><i class=\"orange grow\" style=\"--w:31%\">10.176 $</i></div></div><div class=\"row in\" data-cue=\"cinco mil\" style=\"margin-top:30px\"><span class=\"pill sand\">10 días de ≈ 5.000</span></div><div class=\"row in\" data-cue=\"para nada\" style=\"margin-top:10px\"><span class=\"pill lg\">Ganancia: 0 $</span></div>"
+    },
+    {
+      "title": "El problema es <em class=\"c-navy\">cuándo</em> llegan",
+      "say": "Y lo peor es cuándo llegan esos días. Según J.P. Morgan, la mayoría de los mejores días caen a menos de dos semanas de los peores. En octubre de 2008, después de una semana en la que la bolsa se desplomó casi un veinte por ciento, el S&P 500 subió más de un once en un solo día.",
+      "html": "<div class=\"card in\" data-cue=\"la mayoría\" style=\"width:100%\"><div class=\"lab\">Los mejores días</div><div class=\"txt\">llegan pegados a <em style=\"color:#E8915A\">los peores</em></div></div><div class=\"row\" style=\"margin-top:40px;gap:30px\"><div class=\"card orange in\" data-cue=\"se desplomó\"><div class=\"lab\">6 – 10 oct 2008</div><div class=\"val\">−18 %</div></div><span class=\"arrow in\" data-cue=\"subió\">→</span><div class=\"card teal in\" data-cue=\"subió\"><div class=\"lab\">13 oct 2008</div><div class=\"val\">+11,6 %</div></div></div>"
+    },
+    {
+      "title": "Y en <em class=\"c-navy\">2020</em>, igual",
+      "say": "Con el covid pasó exactamente lo mismo. El dieciséis de marzo de 2020 la bolsa cayó un doce por ciento en un solo día. Ocho días después, subió más de un nueve. Y en agosto ya había recuperado todo lo perdido.",
+      "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card orange in\" data-cue=\"doce por ciento\"><div class=\"lab\">16 mar 2020</div><div class=\"val\">−12 %</div></div><span class=\"arrow in\" data-cue=\"ocho días\">→</span><div class=\"card teal in\" data-cue=\"ocho días\"><div class=\"lab\">24 mar 2020</div><div class=\"val\">+9,4 %</div></div></div><div class=\"row in\" data-cue=\"en agosto\" style=\"margin-top:40px\"><span class=\"pill navy lg\">Agosto 2020: recuperado</span></div>"
+    },
+    {
+      "title": "¿Y si me salto también los <em class=\"c-orange\">peores</em>?",
+      "say": "Vale, ¿y si me salto también los peores días? En teoría sería genial. El problema es que nadie sabe cuáles van a ser. Y como los buenos y los malos van juntos, para esquivar unos casi siempre acabas perdiéndote los otros.",
+      "html": "<div class=\"row\"><span class=\"pill orange lg in\" data-cue=\"peores días\">Peores días</span><span class=\"pill teal lg in\" data-cue=\"peores días\" data-d=\"0.3\">Mejores días</span></div><div class=\"note in\" data-cue=\"nadie sabe\" style=\"margin-top:30px\">Nadie sabe cuáles serán</div><div class=\"card in\" data-cue=\"van juntos\" style=\"margin-top:30px;width:100%\"><div class=\"lab\">Van juntos</div><div class=\"txt\">Esquivas unos… y te <em style=\"color:#E8915A\">pierdes los otros</em></div></div>"
+    },
+    {
+      "title": "El <em class=\"c-orange\">pánico</em> sale caro",
+      "say": "Así que quien vende por miedo en lo peor de la caída suele estar fuera justo cuando llega el rebote. Se come la caída y se pierde la subida. Pierde dos veces.",
+      "html": "<div class=\"col\"><span class=\"pill orange lg in\" data-cue=\"vende por miedo\">Caída</span><span class=\"arrow in\" data-cue=\"vende por miedo\" data-d=\"0.3\">↓</span><span class=\"pill lg in\" data-cue=\"suele estar fuera\">Vendes por miedo</span><span class=\"arrow in\" data-cue=\"rebote\">↓</span><span class=\"pill teal lg in\" data-cue=\"rebote\">Rebote… sin ti</span></div><div class=\"note in\" data-cue=\"pierde dos veces\" style=\"margin-top:40px\">Pierdes dos veces</div>"
+    },
+    {
+      "title": "Lo que hacen los que <em class=\"c-teal\">ganan</em>",
+      "say": "Nadie sabe qué días van a ser esos. Por eso lo que mejor suele funcionar es lo más aburrido: invertir, diversificar y quedarte dentro, también cuando da miedo.",
+      "html": "<div class=\"card in\" data-cue=\"por eso\" style=\"width:100%\"><div class=\"lab\">La regla</div><div class=\"txt\">No es acertar el momento,<br>es <em style=\"color:#7CC4BF\">estar dentro</em></div></div><div class=\"row\" style=\"margin-top:20px\"><span class=\"pill sand in\" data-cue=\"invertir\">Invertir</span><span class=\"pill sand in\" data-cue=\"diversificar\">Diversificar</span><span class=\"pill teal in\" data-cue=\"quedarte dentro\">Quedarte dentro</span></div>"
+    },
+    {
+      "dark": true,
+      "say": "Porque en bolsa, el tiempo dentro del mercado importa más que acertar el momento.",
+      "html": "<div class=\"final in\" data-t=\"0\">El <em class=\"c-teal\">tiempo</em> dentro del mercado importa más que <em class=\"c-orange\">acertar el momento</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Datos: J.P. Morgan, Guide to Retirement 2020 (S&amp;P 500, 2000–2019).<br>Contenido educativo, no es recomendación de inversión.</div>"
+    }
+  ]
+}
