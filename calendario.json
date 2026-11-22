@@ -50,8 +50,9 @@
    "serie": "fondo",
    "slug": "fcff-vs-fcfe",
    "tema": "FCFF vs FCFE",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-03_fondo_fcff-vs-fcfe"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-03_fondo_fcff-vs-fcfe",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-6090829901047315873"
   },
   {
    "fecha": "2026-12-06",
@@ -67,88 +68,99 @@
    "serie": "bolsa",
    "slug": "tipos-ordenes",
    "tema": "Bolsa desde cero II: tipos de órdenes",
-   "estado": "hecho",
-   "carpeta": "videos/2026-12-08_bolsa_tipos-ordenes"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-08_bolsa_tipos-ordenes",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=6952832235233430179"
   },
   {
    "fecha": "2026-12-10",
    "serie": "fondo",
    "slug": "sharpe-treynor-jensen",
    "tema": "Sharpe, Treynor y Jensen",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-10_fondo_sharpe-treynor-jensen"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-10_fondo_sharpe-treynor-jensen",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4245456721015161275"
   },
   {
    "fecha": "2026-12-13",
    "serie": "nadie",
    "slug": "inversor-peor-suerte",
    "tema": "El inversor con peor suerte del mundo: solo invertía justo antes de cada gran crisis y aun así ganó, porque nunca vendió",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-13_nadie_inversor-peor-suerte"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-13_nadie_inversor-peor-suerte",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=5776439210885727196"
   },
   {
    "fecha": "2026-12-15",
    "serie": "bolsa",
    "slug": "dividendos-recompras",
    "tema": "Dividendos y recompras",
-   "estado": "hecho",
-   "carpeta": "videos/2026-12-15_bolsa_dividendos-recompras"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-15_bolsa_dividendos-recompras",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-7423899367899312176"
   },
   {
    "fecha": "2026-12-17",
    "serie": "fondo",
    "slug": "tracking-error",
    "tema": "Tracking error y ratio de información",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-17_fondo_tracking-error"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-17_fondo_tracking-error",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=5962698001443342303"
   },
   {
    "fecha": "2026-12-20",
    "serie": "nadie",
    "slug": "traders-pierden",
    "tema": "Por qué la mayoría de traders pierde dinero (los brókers europeos publican el % de clientes que pierde con CFDs)",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-20_nadie_traders-pierden"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-20_nadie_traders-pierden",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=6287049805465012378"
   },
   {
    "fecha": "2026-12-22",
    "serie": "bolsa",
    "slug": "estados-financieros",
    "tema": "Analizar empresas: los tres estados financieros",
-   "estado": "hecho",
-   "carpeta": "videos/2026-12-22_bolsa_estados-financieros"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-22_bolsa_estados-financieros",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=7929505294926432937"
   },
   {
    "fecha": "2026-12-24",
    "serie": "fondo",
    "slug": "var-expected-shortfall",
    "tema": "VaR y Expected Shortfall",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-24_fondo_var-expected-shortfall"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-24_fondo_var-expected-shortfall",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=5905947259820262954"
   },
   {
    "fecha": "2026-12-27",
    "serie": "nadie",
    "slug": "sesgo-supervivencia",
    "tema": "El sesgo de supervivencia: solo ves los fondos y empresas que triunfaron",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-27_nadie_sesgo-supervivencia"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-27_nadie_sesgo-supervivencia",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=7216921718633219544"
   },
   {
    "fecha": "2026-12-29",
    "serie": "bolsa",
    "slug": "cuenta-resultados",
    "tema": "La cuenta de resultados",
-   "estado": "hecho",
-   "carpeta": "videos/2026-12-29_bolsa_cuenta-resultados"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-29_bolsa_cuenta-resultados",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=1244831194034751133"
   },
   {
    "fecha": "2026-12-31",
    "serie": "fondo",
    "slug": "como-funciona-bono",
    "tema": "Cómo funciona un bono: precio, YTM, riesgo de crédito y curva de tipos",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-31_fondo_como-funciona-bono"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-31_fondo_como-funciona-bono",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-6606513823317143964"
   },
   {
    "fecha": "2027-01-03",
