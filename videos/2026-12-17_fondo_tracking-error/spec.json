@@ -17,12 +17,12 @@
   {
    "title": "1 · Tracking <em class=\"c-navy\">error</em>",
    "say": "El tracking error mide cuánto se separa un fondo de su índice. No si gana o pierde, sino cuánto se aleja de él, año tras año. Técnicamente, es la volatilidad de la diferencia entre la rentabilidad del fondo y la del índice. Un fondo indexado tiene un tracking error casi de cero. Uno de gestión activa de verdad, de varios puntos.",
-   "html": "<div class=\"row in\" data-cue=\"técnicamente\"><span class=\"pill lg\">Volatilidad de (R fondo − R índice)</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"casi de cero\"><span>Indexado</span><i class=\"teal grow\" style=\"--w:4%\">&nbsp;≈ 0 %</i></div><div class=\"b in\" data-cue=\"de verdad\"><span>Activo de verdad</span><i class=\"navy grow\" style=\"--w:70%\">varios puntos</i></div></div>"
+   "html": "<div class=\"row in\" data-cue=\"técnicamente\"><span class=\"pill lg\">Volatilidad de (R fondo − R índice)</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"casi de cero\"><span>Indexado</span><i class=\"teal grow short\" style=\"--w:3%\">≈ 0 %</i></div><div class=\"b in\" data-cue=\"de verdad\"><span>Activo de verdad</span><i class=\"navy grow\" style=\"--w:70%\">varios puntos</i></div></div>"
   },
   {
    "title": "El <em class=\"c-orange\">falso activo</em>",
    "say": "Y aquí aparece el falso activo: fondos que cobran como gestión activa, pero con un tracking error tan bajo que en la práctica copian el índice. Pagas el uno coma cinco y recibes casi lo mismo que con un indexado de cero coma dos. En 2016, la autoridad europea ESMA calculó que entre un cinco y un quince por ciento de los fondos de renta variable podían serlo.",
-   "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"pagas el uno\"><span>Falso activo</span><i class=\"orange grow\" style=\"--w:100%\">1,5 %/año</i></div><div class=\"b in\" data-cue=\"cero coma dos\"><span>Indexado</span><i class=\"teal grow\" style=\"--w:13%\">0,2 %</i></div></div><div class=\"card in\" data-cue=\"en 2016\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">ESMA, 2016</div><div class=\"txt\">Entre el <em style=\"color:#E8915A\">5 y el 15 %</em> de los fondos de renta variable, posibles falsos activos</div></div>"
+   "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"pagas el uno\"><span>Falso activo</span><i class=\"orange grow\" style=\"--w:100%\">1,5 %/año</i></div><div class=\"b in\" data-cue=\"cero coma dos\"><span>Indexado</span><i class=\"teal grow short\" style=\"--w:13%\">0,2 %</i></div></div><div class=\"card in\" data-cue=\"en 2016\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">ESMA, 2016</div><div class=\"txt\">Entre el <em style=\"color:#E8915A\">5 y el 15 %</em> de los fondos de renta variable, posibles falsos activos</div></div>"
   },
   {
    "title": "2 · Ratio de <em class=\"c-teal\">información</em>",

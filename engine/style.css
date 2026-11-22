@@ -89,3 +89,5 @@ body{font-family:IN;color:var(--ink)}
 .step .d{font-size:24px;opacity:.85;margin-top:4px}
 
 svg{overflow:visible}
+/* barra corta: el texto va fuera, a la derecha de la barra */
+.b>i.short{color:var(--ink);text-indent:calc(100% + 14px)}

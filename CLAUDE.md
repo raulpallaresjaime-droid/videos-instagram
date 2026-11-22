@@ -83,7 +83,7 @@ inventar ni publicar nada a medias: dejar el estado como estaba y explicarlo en 
   Playfair Display (títulos, `<em>` = cursiva de color), Inter (texto), IBM Plex Mono (cifras).
 - Componentes (ver `engine/style.css`): `.kicker` `.hero` `.q` `.final` `.disc` `.rule`
   `.pill(.navy|.teal|.orange|.sand|.lg)` `.card(.navy|.teal|.orange|.sand)` con `.lab` + `.val`/`.txt`,
-  `.bars > .b > span + i.grow[--w]`, `.cols > .c > b + i.grow[--h] + span`,
+  `.bars > .b > span + i.grow[--w]` (clase `short` si la barra es tan corta que el texto no cabe), `.cols > .c > b + i.grow[--h] + span`,
   `.steps > .step > .n + div(.t,.d)`, `.row` `.col` `.note` `.big` `.arrow` `.label`.
 - Ejemplo completo: `videos/2026-12-06_nadie_10-mejores-dias/spec.json`.
 - **La primera escena tiene que mostrar algo desde el segundo 0** (`data-t="0"`): en Instagram el

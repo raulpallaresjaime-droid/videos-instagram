@@ -24,7 +24,7 @@
       "title": "Y no son <em class=\"c-orange\">pocos</em> euros",
       "sub": "Pérdida media por cliente · datos recogidos por ESMA",
       "say": "Y no hablamos de calderilla. Según los datos que recogió ESMA, la pérdida media por cliente iba de unos mil seiscientos a veintinueve mil euros, dependiendo del país.",
-      "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"mil seiscientos\"><span>País con menos</span><i class=\"orange grow\" style=\"--w:14%\">1.600 €</i></div><div class=\"b in\" data-cue=\"veintinueve mil\"><span>País con más</span><i class=\"orange grow\" style=\"--w:100%\">29.000 €</i></div></div>"
+      "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"mil seiscientos\"><span>País con menos</span><i class=\"orange grow short\" style=\"--w:6%\">1.600 €</i></div><div class=\"b in\" data-cue=\"veintinueve mil\"><span>País con más</span><i class=\"orange grow\" style=\"--w:100%\">29.000 €</i></div></div>"
     },
     {
       "title": "En Brasil lo <em class=\"c-navy\">midieron</em>",
