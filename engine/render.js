@@ -119,7 +119,7 @@ fs.writeFileSync(pagePath, html);
     };
   }, { times, bounds: scenes.map(s => [s.start, s.end]) });
 
-  const out = path.join(dir, 'video.mp4');
+  const out = path.join(dir, 'video.tmp.mp4'); // se renombra a video.mp4 al terminar
   const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-',
     '-i', path.join(dir, 'audio.mp3'), '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p',
     '-c:a', 'aac', '-b:a', '160k', '-t', total.toFixed(2), '-movflags', '+faststart', out], { stdio: ['pipe', 'inherit', 'inherit'] });
@@ -133,7 +133,9 @@ fs.writeFileSync(pagePath, html);
     if (f % 300 === 0) process.stdout.write(`  frame ${f}/${N} (${((Date.now() - t0) / 1000).toFixed(0)} s)\n`);
   }
   ff.stdin.end();
-  await new Promise(r => ff.on('close', r));
+  const code = await new Promise(r => ff.on('close', r));
+  if (code !== 0) { console.error('FALLO ffmpeg ' + code); process.exit(1); }
+  fs.renameSync(out, path.join(dir, 'video.mp4'));
 
   // portada: escena de título (spec.coverScene, por defecto la 1) completamente montada
   const cs = scenes[spec.coverScene ?? 1] || scenes[0];
@@ -141,5 +143,5 @@ fs.writeFileSync(pagePath, html);
   await page.screenshot({ path: path.join(dir, 'portada.jpg'), type: 'jpeg', quality: 92 });
   await browser.close();
   fs.unlinkSync(pagePath);
-  console.log(`OK ${out} · ${total.toFixed(1)} s · render ${((Date.now() - t0) / 1000).toFixed(0)} s`);
+  console.log(`OK ${path.join(dir, 'video.mp4')} · ${total.toFixed(1)} s · render ${((Date.now() - t0) / 1000).toFixed(0)} s`);
 })();
