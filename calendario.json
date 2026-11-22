@@ -14,40 +14,45 @@
    "serie": "bolsa",
    "slug": "riesgo-rentabilidad",
    "tema": "Riesgo y rentabilidad, y diversificar",
-   "estado": "hecho",
-   "carpeta": "videos/2026-11-24_bolsa_riesgo-rentabilidad"
+   "estado": "programado",
+   "carpeta": "videos/2026-11-24_bolsa_riesgo-rentabilidad",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=3756797704220263172"
   },
   {
    "fecha": "2026-11-26",
    "serie": "nadie",
    "slug": "pignorar-acciones",
    "tema": "Pignorar acciones",
-   "estado": "hecho",
-   "carpeta": "videos/2026-11-26_nadie_pignorar-acciones"
+   "estado": "programado",
+   "carpeta": "videos/2026-11-26_nadie_pignorar-acciones",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=1294447730763384761"
   },
   {
    "fecha": "2026-11-28",
    "serie": "fondo",
    "slug": "pe-vs-vc",
    "tema": "Private Equity vs Venture Capital",
-   "estado": "hecho",
-   "carpeta": "videos/2026-11-28_fondo_pe-vs-vc"
+   "estado": "programado",
+   "carpeta": "videos/2026-11-28_fondo_pe-vs-vc",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=2847600522943745559"
   },
   {
    "fecha": "2026-12-01",
    "serie": "bolsa",
    "slug": "indices-market-cap",
    "tema": "Bolsa desde cero I: índices bursátiles y Market Cap",
-   "estado": "hecho",
-   "carpeta": "videos/2026-12-01_bolsa_indices-market-cap"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-01_bolsa_indices-market-cap",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4399459364221963981"
   },
   {
    "fecha": "2026-12-03",
    "serie": "nadie",
    "slug": "10-mejores-dias",
    "tema": "Perderte los 10 mejores días de la bolsa",
-   "estado": "hecho",
-   "carpeta": "videos/2026-12-03_nadie_10-mejores-dias"
+   "estado": "programado",
+   "carpeta": "videos/2026-12-03_nadie_10-mejores-dias",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=7743459546119553549"
   },
   {
    "fecha": "2026-12-05",

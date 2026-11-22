@@ -116,10 +116,11 @@ carrusel con la explicación completa 👆») → «Guárdalo y compártelo con 
   `https://raw.githubusercontent.com/raulpallaresjaime-droid/videos-instagram/main/videos/<carpeta>/video.mp4`
   y portada `.../portada.jpg` en `videoThumbnailUrl`.
 - Tipo `REEL`, `showReelOnFeed: true`, fecha `<fecha>T10:00:00`, texto = `caption.txt`.
-- Flujo de revisión: crear la publicación con `createScheduledPostForReview`
-  (revisor: el email de la cuenta de Raúl en Metricool, `approvalSystem: "any"`). Si el plan no
-  lo permite, crearla con `createScheduledPost` y `"draft": true` (borrador con la fecha puesta:
-  Raúl la revisa y pulsa Programar). **Nunca** programar con publicación automática sin revisión.
+- Revisión: crear la publicación con `createScheduledPost` y **`"draft": true`** (borrador con
+  la fecha y la hora puestas). Raúl la revisa en Metricool y pulsa Programar. Así se hizo con las
+  primeras y funciona. **Nunca** crear una publicación que se publique sola sin su revisión.
+- Metricool descarga el vídeo de GitHub y lo copia a sus servidores al crear la publicación, así
+  que el push tiene que estar hecho antes.
 - Comprobar antes con `getScheduledPosts` que esa fecha no tiene ya una publicación (no duplicar).
 
 ## Drive
