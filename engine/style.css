@@ -91,3 +91,5 @@ body{font-family:IN;color:var(--ink)}
 svg{overflow:visible}
 /* barra corta: el texto va fuera, a la derecha de la barra */
 .b>i.short{color:var(--ink);text-indent:calc(100% + 14px)}
+/* en escenas oscuras, la tarjeta negra se aclara un poco para que se vea */
+.dark .card:not(.navy):not(.teal):not(.orange):not(.sand){background:#2B2B27}
