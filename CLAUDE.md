@@ -4,16 +4,19 @@ Reels de finanzas en español (España) con la voz clonada de Raúl. Tres series
 
 | Día (10:00 Europe/Madrid) | Serie (`series` en spec) | Kicker de portada |
 |---|---|---|
-| Lunes | `bolsa` · Serie de bolsa | FINANZAS DESDE CERO |
-| Miércoles | `nadie` · Lo que nadie te cuenta | LO QUE NADIE TE CUENTA |
-| Viernes | `fondo` · Finanzas a fondo | FINANZAS A FONDO |
+| Martes | `bolsa` · Serie de bolsa | FINANZAS DESDE CERO |
+| Jueves | `fondo` · Finanzas a fondo | FINANZAS A FONDO |
+| Domingo | `nadie` · Lo que nadie te cuenta | LO QUE NADIE TE CUENTA |
+
+(Elegidos con el mapa de mejores horas de Metricool: jueves, martes y domingo a las 10:00.
+Ojo: en `getBestTimeToPostByNetwork`, `dayOfWeek` 1 = domingo.) Se publica también en festivos.
 
 `calendario.json` es la fuente de verdad: fecha, serie, tema y estado de cada publicación
 (`pendiente` → `hecho` → `programado` → `publicado`).
 
 ## Tarea semanal (se ejecuta sola cada semana)
 
-Objetivo: dejar **las 3 publicaciones de la semana siguiente** (lunes a viernes) listas y
+Objetivo: dejar **las 3 publicaciones de la semana siguiente** (martes, jueves y domingo) listas y
 programadas en Metricool **pendientes de la revisión de Raúl**. Raúl solo revisa; nunca hay
 que pedirle que haga nada a mano.
 
@@ -82,7 +85,7 @@ inventar ni publicar nada a medias: dejar el estado como estaba y explicarlo en 
   `.pill(.navy|.teal|.orange|.sand|.lg)` `.card(.navy|.teal|.orange|.sand)` con `.lab` + `.val`/`.txt`,
   `.bars > .b > span + i.grow[--w]`, `.cols > .c > b + i.grow[--h] + span`,
   `.steps > .step > .n + div(.t,.d)`, `.row` `.col` `.note` `.big` `.arrow` `.label`.
-- Ejemplo completo: `videos/2026-12-02_nadie_10-mejores-dias/spec.json`.
+- Ejemplo completo: `videos/2026-12-06_nadie_10-mejores-dias/spec.json`.
 - Una idea por escena, pocos elementos, que se vayan montando según habla. Revisar siempre el
   resultado con una hoja de fotogramas (ffmpeg `tile`) y corregir solapes o textos cortados.
 

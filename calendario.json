@@ -10,353 +10,353 @@
  },
  "publicaciones": [
   {
-   "fecha": "2026-11-23",
+   "fecha": "2026-11-24",
    "serie": "bolsa",
    "slug": "riesgo-rentabilidad",
    "tema": "Riesgo y rentabilidad, y diversificar",
    "estado": "programado",
-   "carpeta": "videos/2026-11-23_bolsa_riesgo-rentabilidad",
+   "carpeta": "videos/2026-11-24_bolsa_riesgo-rentabilidad",
    "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=3756797704220263172"
   },
   {
-   "fecha": "2026-11-25",
-   "serie": "nadie",
-   "slug": "pignorar-acciones",
-   "tema": "Pignorar acciones",
-   "estado": "programado",
-   "carpeta": "videos/2026-11-25_nadie_pignorar-acciones",
-   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=1294447730763384761"
-  },
-  {
-   "fecha": "2026-11-27",
+   "fecha": "2026-11-26",
    "serie": "fondo",
    "slug": "pe-vs-vc",
    "tema": "Private Equity vs Venture Capital",
    "estado": "programado",
-   "carpeta": "videos/2026-11-27_fondo_pe-vs-vc",
+   "carpeta": "videos/2026-11-26_fondo_pe-vs-vc",
    "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=2847600522943745559"
   },
   {
-   "fecha": "2026-11-30",
+   "fecha": "2026-11-29",
+   "serie": "nadie",
+   "slug": "pignorar-acciones",
+   "tema": "Pignorar acciones",
+   "estado": "programado",
+   "carpeta": "videos/2026-11-29_nadie_pignorar-acciones",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=1294447730763384761"
+  },
+  {
+   "fecha": "2026-12-01",
    "serie": "bolsa",
    "slug": "indices-market-cap",
    "tema": "Bolsa desde cero I: índices bursátiles y Market Cap",
    "estado": "programado",
-   "carpeta": "videos/2026-11-30_bolsa_indices-market-cap",
+   "carpeta": "videos/2026-12-01_bolsa_indices-market-cap",
    "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4399459364221963981"
   },
   {
-   "fecha": "2026-12-02",
-   "serie": "nadie",
-   "slug": "10-mejores-dias",
-   "tema": "Perderte los 10 mejores días de la bolsa",
-   "estado": "programado",
-   "carpeta": "videos/2026-12-02_nadie_10-mejores-dias",
-   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=7743459546119553549"
-  },
-  {
-   "fecha": "2026-12-04",
+   "fecha": "2026-12-03",
    "serie": "fondo",
    "slug": "fcff-vs-fcfe",
    "tema": "FCFF vs FCFE",
    "estado": "pendiente",
-   "carpeta": "videos/2026-12-04_fondo_fcff-vs-fcfe"
+   "carpeta": "videos/2026-12-03_fondo_fcff-vs-fcfe"
   },
   {
-   "fecha": "2026-12-07",
+   "fecha": "2026-12-06",
+   "serie": "nadie",
+   "slug": "10-mejores-dias",
+   "tema": "Perderte los 10 mejores días de la bolsa",
+   "estado": "programado",
+   "carpeta": "videos/2026-12-06_nadie_10-mejores-dias",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=7743459546119553549"
+  },
+  {
+   "fecha": "2026-12-08",
    "serie": "bolsa",
    "slug": "tipos-ordenes",
    "tema": "Bolsa desde cero II: tipos de órdenes",
    "estado": "hecho",
-   "carpeta": "videos/2026-12-07_bolsa_tipos-ordenes"
+   "carpeta": "videos/2026-12-08_bolsa_tipos-ordenes"
   },
   {
-   "fecha": "2026-12-09",
-   "serie": "nadie",
-   "slug": "inversor-peor-suerte",
-   "tema": "El inversor con peor suerte del mundo: solo invertía justo antes de cada gran crisis y aun así ganó, porque nunca vendió",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-09_nadie_inversor-peor-suerte"
-  },
-  {
-   "fecha": "2026-12-11",
+   "fecha": "2026-12-10",
    "serie": "fondo",
    "slug": "sharpe-treynor-jensen",
    "tema": "Sharpe, Treynor y Jensen",
    "estado": "pendiente",
-   "carpeta": "videos/2026-12-11_fondo_sharpe-treynor-jensen"
+   "carpeta": "videos/2026-12-10_fondo_sharpe-treynor-jensen"
   },
   {
-   "fecha": "2026-12-14",
+   "fecha": "2026-12-13",
+   "serie": "nadie",
+   "slug": "inversor-peor-suerte",
+   "tema": "El inversor con peor suerte del mundo: solo invertía justo antes de cada gran crisis y aun así ganó, porque nunca vendió",
+   "estado": "pendiente",
+   "carpeta": "videos/2026-12-13_nadie_inversor-peor-suerte"
+  },
+  {
+   "fecha": "2026-12-15",
    "serie": "bolsa",
    "slug": "dividendos-recompras",
    "tema": "Dividendos y recompras",
    "estado": "hecho",
-   "carpeta": "videos/2026-12-14_bolsa_dividendos-recompras"
+   "carpeta": "videos/2026-12-15_bolsa_dividendos-recompras"
   },
   {
-   "fecha": "2026-12-16",
-   "serie": "nadie",
-   "slug": "traders-pierden",
-   "tema": "Por qué la mayoría de traders pierde dinero (los brókers europeos publican el % de clientes que pierde con CFDs)",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-16_nadie_traders-pierden"
-  },
-  {
-   "fecha": "2026-12-18",
+   "fecha": "2026-12-17",
    "serie": "fondo",
    "slug": "tracking-error",
    "tema": "Tracking error y ratio de información",
    "estado": "pendiente",
-   "carpeta": "videos/2026-12-18_fondo_tracking-error"
+   "carpeta": "videos/2026-12-17_fondo_tracking-error"
   },
   {
-   "fecha": "2026-12-21",
+   "fecha": "2026-12-20",
+   "serie": "nadie",
+   "slug": "traders-pierden",
+   "tema": "Por qué la mayoría de traders pierde dinero (los brókers europeos publican el % de clientes que pierde con CFDs)",
+   "estado": "pendiente",
+   "carpeta": "videos/2026-12-20_nadie_traders-pierden"
+  },
+  {
+   "fecha": "2026-12-22",
    "serie": "bolsa",
    "slug": "estados-financieros",
    "tema": "Analizar empresas: los tres estados financieros",
    "estado": "hecho",
-   "carpeta": "videos/2026-12-21_bolsa_estados-financieros"
+   "carpeta": "videos/2026-12-22_bolsa_estados-financieros"
   },
   {
-   "fecha": "2026-12-23",
-   "serie": "nadie",
-   "slug": "sesgo-supervivencia",
-   "tema": "El sesgo de supervivencia: solo ves los fondos y empresas que triunfaron",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-23_nadie_sesgo-supervivencia"
-  },
-  {
-   "fecha": "2026-12-25",
+   "fecha": "2026-12-24",
    "serie": "fondo",
    "slug": "var-expected-shortfall",
    "tema": "VaR y Expected Shortfall",
    "estado": "pendiente",
-   "carpeta": "videos/2026-12-25_fondo_var-expected-shortfall"
+   "carpeta": "videos/2026-12-24_fondo_var-expected-shortfall"
   },
   {
-   "fecha": "2026-12-28",
+   "fecha": "2026-12-27",
+   "serie": "nadie",
+   "slug": "sesgo-supervivencia",
+   "tema": "El sesgo de supervivencia: solo ves los fondos y empresas que triunfaron",
+   "estado": "pendiente",
+   "carpeta": "videos/2026-12-27_nadie_sesgo-supervivencia"
+  },
+  {
+   "fecha": "2026-12-29",
    "serie": "bolsa",
    "slug": "cuenta-resultados",
    "tema": "La cuenta de resultados",
    "estado": "hecho",
-   "carpeta": "videos/2026-12-28_bolsa_cuenta-resultados"
+   "carpeta": "videos/2026-12-29_bolsa_cuenta-resultados"
   },
   {
-   "fecha": "2026-12-30",
-   "serie": "nadie",
-   "slug": "coste-oportunidad",
-   "tema": "Lo que de verdad te cuesta tu coche (o el tabaco, o las suscripciones) si lo hubieras invertido: coste de oportunidad",
-   "estado": "pendiente",
-   "carpeta": "videos/2026-12-30_nadie_coste-oportunidad"
-  },
-  {
-   "fecha": "2027-01-01",
+   "fecha": "2026-12-31",
    "serie": "fondo",
    "slug": "como-funciona-bono",
    "tema": "Cómo funciona un bono: precio, YTM, riesgo de crédito y curva de tipos",
    "estado": "pendiente",
-   "carpeta": "videos/2027-01-01_fondo_como-funciona-bono"
+   "carpeta": "videos/2026-12-31_fondo_como-funciona-bono"
   },
   {
-   "fecha": "2027-01-04",
+   "fecha": "2027-01-03",
+   "serie": "nadie",
+   "slug": "coste-oportunidad",
+   "tema": "Lo que de verdad te cuesta tu coche (o el tabaco, o las suscripciones) si lo hubieras invertido: coste de oportunidad",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-01-03_nadie_coste-oportunidad"
+  },
+  {
+   "fecha": "2027-01-05",
    "serie": "bolsa",
    "slug": "balance-1",
    "tema": "El balance I: activos, pasivos y patrimonio neto (con Café Lumen)",
    "estado": "pendiente",
-   "carpeta": "videos/2027-01-04_bolsa_balance-1"
+   "carpeta": "videos/2027-01-05_bolsa_balance-1"
   },
   {
-   "fecha": "2027-01-06",
-   "serie": "nadie",
-   "slug": "revolving",
-   "tema": "La trampa del pago mínimo en las tarjetas revolving",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-06_nadie_revolving"
-  },
-  {
-   "fecha": "2027-01-08",
+   "fecha": "2027-01-07",
    "serie": "fondo",
    "slug": "duration-convexity",
    "tema": "Duration y convexity",
    "estado": "pendiente",
-   "carpeta": "videos/2027-01-08_fondo_duration-convexity"
+   "carpeta": "videos/2027-01-07_fondo_duration-convexity"
   },
   {
-   "fecha": "2027-01-11",
+   "fecha": "2027-01-10",
+   "serie": "nadie",
+   "slug": "revolving",
+   "tema": "La trampa del pago mínimo en las tarjetas revolving",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-01-10_nadie_revolving"
+  },
+  {
+   "fecha": "2027-01-12",
    "serie": "bolsa",
    "slug": "balance-2",
    "tema": "El balance II",
    "estado": "pendiente",
-   "carpeta": "videos/2027-01-11_bolsa_balance-2"
+   "carpeta": "videos/2027-01-12_bolsa_balance-2"
   },
   {
-   "fecha": "2027-01-13",
-   "serie": "nadie",
-   "slug": "tin-tae",
-   "tema": "TIN o TAE: por qué dos préstamos «al mismo interés» no cuestan lo mismo",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-13_nadie_tin-tae"
-  },
-  {
-   "fecha": "2027-01-15",
+   "fecha": "2027-01-14",
    "serie": "fondo",
    "slug": "dcf-1",
    "tema": "DCF I: proyectar el flujo de caja libre",
    "estado": "pendiente",
-   "carpeta": "videos/2027-01-15_fondo_dcf-1"
+   "carpeta": "videos/2027-01-14_fondo_dcf-1"
   },
   {
-   "fecha": "2027-01-18",
+   "fecha": "2027-01-17",
+   "serie": "nadie",
+   "slug": "tin-tae",
+   "tema": "TIN o TAE: por qué dos préstamos «al mismo interés» no cuestan lo mismo",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-01-17_nadie_tin-tae"
+  },
+  {
+   "fecha": "2027-01-19",
    "serie": "bolsa",
    "slug": "flujo-caja",
    "tema": "El flujo de caja",
    "estado": "pendiente",
-   "carpeta": "videos/2027-01-18_bolsa_flujo-caja"
+   "carpeta": "videos/2027-01-19_bolsa_flujo-caja"
   },
   {
-   "fecha": "2027-01-20",
-   "serie": "nadie",
-   "slug": "loteria",
-   "tema": "Lotería o invertir: lo que gastas cada semana en Euromillones, invertido 30 años",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-20_nadie_loteria"
-  },
-  {
-   "fecha": "2027-01-22",
+   "fecha": "2027-01-21",
    "serie": "fondo",
    "slug": "dcf-2",
    "tema": "DCF II: valor terminal, Equity Value y sensibilidad",
    "estado": "pendiente",
-   "carpeta": "videos/2027-01-22_fondo_dcf-2"
+   "carpeta": "videos/2027-01-21_fondo_dcf-2"
   },
   {
-   "fecha": "2027-01-25",
+   "fecha": "2027-01-24",
+   "serie": "nadie",
+   "slug": "loteria",
+   "tema": "Lotería o invertir: lo que gastas cada semana en Euromillones, invertido 30 años",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-01-24_nadie_loteria"
+  },
+  {
+   "fecha": "2027-01-26",
    "serie": "bolsa",
    "slug": "resultados-trimestrales",
    "tema": "Cómo leer los resultados trimestrales",
    "estado": "pendiente",
-   "carpeta": "videos/2027-01-25_bolsa_resultados-trimestrales"
+   "carpeta": "videos/2027-01-26_bolsa_resultados-trimestrales"
   },
   {
-   "fecha": "2027-01-27",
-   "serie": "nadie",
-   "slug": "dividendos-reinvertidos",
-   "tema": "Dividendos reinvertidos: el S&P 500 con y sin reinvertir",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-27_nadie_dividendos-reinvertidos"
-  },
-  {
-   "fecha": "2027-01-29",
+   "fecha": "2027-01-28",
    "serie": "fondo",
    "slug": "ev-vs-equity",
    "tema": "Enterprise Value vs Equity Value",
    "estado": "pendiente",
-   "carpeta": "videos/2027-01-29_fondo_ev-vs-equity"
+   "carpeta": "videos/2027-01-28_fondo_ev-vs-equity"
   },
   {
-   "fecha": "2027-02-01",
+   "fecha": "2027-01-31",
+   "serie": "nadie",
+   "slug": "dividendos-reinvertidos",
+   "tema": "Dividendos reinvertidos: el S&P 500 con y sin reinvertir",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-01-31_nadie_dividendos-reinvertidos"
+  },
+  {
+   "fecha": "2027-02-02",
    "serie": "bolsa",
    "slug": "moats",
    "tema": "Moats: ventajas competitivas",
    "estado": "pendiente",
-   "carpeta": "videos/2027-02-01_bolsa_moats"
+   "carpeta": "videos/2027-02-02_bolsa_moats"
   },
   {
-   "fecha": "2027-02-03",
-   "serie": "nadie",
-   "slug": "regla-4",
-   "tema": "¿Cuánto necesitas para vivir de rentas? La regla del 4 %",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-03_nadie_regla-4"
-  },
-  {
-   "fecha": "2027-02-05",
+   "fecha": "2027-02-04",
    "serie": "fondo",
    "slug": "wacc",
    "tema": "El WACC",
    "estado": "pendiente",
-   "carpeta": "videos/2027-02-05_fondo_wacc"
+   "carpeta": "videos/2027-02-04_fondo_wacc"
   },
   {
-   "fecha": "2027-02-08",
+   "fecha": "2027-02-07",
+   "serie": "nadie",
+   "slug": "regla-4",
+   "tema": "¿Cuánto necesitas para vivir de rentas? La regla del 4 %",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-02-07_nadie_regla-4"
+  },
+  {
+   "fecha": "2027-02-09",
    "serie": "bolsa",
    "slug": "calidad-beneficio",
    "tema": "Calidad del beneficio",
    "estado": "pendiente",
-   "carpeta": "videos/2027-02-08_bolsa_calidad-beneficio"
+   "carpeta": "videos/2027-02-09_bolsa_calidad-beneficio"
   },
   {
-   "fecha": "2027-02-10",
-   "serie": "nadie",
-   "slug": "hipoteca-o-invertir",
-   "tema": "¿Amortizar la hipoteca o invertir?",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-10_nadie_hipoteca-o-invertir"
-  },
-  {
-   "fecha": "2027-02-12",
+   "fecha": "2027-02-11",
    "serie": "fondo",
    "slug": "multiplos",
    "tema": "Valoración por múltiplos",
    "estado": "pendiente",
-   "carpeta": "videos/2027-02-12_fondo_multiplos"
+   "carpeta": "videos/2027-02-11_fondo_multiplos"
   },
   {
-   "fecha": "2027-02-15",
+   "fecha": "2027-02-14",
+   "serie": "nadie",
+   "slug": "hipoteca-o-invertir",
+   "tema": "¿Amortizar la hipoteca o invertir?",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-02-14_nadie_hipoteca-o-invertir"
+  },
+  {
+   "fecha": "2027-02-16",
    "serie": "bolsa",
    "slug": "value-vs-growth",
    "tema": "Value vs growth",
    "estado": "pendiente",
-   "carpeta": "videos/2027-02-15_bolsa_value-vs-growth"
+   "carpeta": "videos/2027-02-16_bolsa_value-vs-growth"
   },
   {
-   "fecha": "2027-02-17",
-   "serie": "nadie",
-   "slug": "no-solo-tu-pais",
-   "tema": "No invertir solo en tu país: el IBEX y Japón tras sus máximos",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-17_nadie_no-solo-tu-pais"
-  },
-  {
-   "fecha": "2027-02-19",
+   "fecha": "2027-02-18",
    "serie": "fondo",
    "slug": "roe-roa-roce-roic",
    "tema": "ROE, ROA, ROCE y ROIC",
    "estado": "pendiente",
-   "carpeta": "videos/2027-02-19_fondo_roe-roa-roce-roic"
+   "carpeta": "videos/2027-02-18_fondo_roe-roa-roce-roic"
   },
   {
-   "fecha": "2027-02-22",
+   "fecha": "2027-02-21",
+   "serie": "nadie",
+   "slug": "no-solo-tu-pais",
+   "tema": "No invertir solo en tu país: el IBEX y Japón tras sus máximos",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-02-21_nadie_no-solo-tu-pais"
+  },
+  {
+   "fecha": "2027-02-23",
    "serie": "bolsa",
    "slug": "ciclicos-defensivos",
    "tema": "Cíclicos vs defensivos",
    "estado": "pendiente",
-   "carpeta": "videos/2027-02-22_bolsa_ciclicos-defensivos"
+   "carpeta": "videos/2027-02-23_bolsa_ciclicos-defensivos"
   },
   {
-   "fecha": "2027-02-26",
+   "fecha": "2027-02-25",
    "serie": "fondo",
    "slug": "ratios-deuda",
    "tema": "Ratios de deuda: ¿puede una empresa pagar lo que debe?",
    "estado": "pendiente",
-   "carpeta": "videos/2027-02-26_fondo_ratios-deuda"
+   "carpeta": "videos/2027-02-25_fondo_ratios-deuda"
   },
   {
-   "fecha": "2027-03-01",
+   "fecha": "2027-03-02",
    "serie": "bolsa",
    "slug": "riesgo-renta-variable",
    "tema": "Riesgo en renta variable",
    "estado": "pendiente",
-   "carpeta": "videos/2027-03-01_bolsa_riesgo-renta-variable"
+   "carpeta": "videos/2027-03-02_bolsa_riesgo-renta-variable"
   },
   {
-   "fecha": "2027-03-05",
+   "fecha": "2027-03-04",
    "serie": "fondo",
    "slug": "ebitda-ebit-fcf",
    "tema": "EBITDA, EBIT o FCF",
    "estado": "pendiente",
-   "carpeta": "videos/2027-03-05_fondo_ebitda-ebit-fcf"
+   "carpeta": "videos/2027-03-04_fondo_ebitda-ebit-fcf"
   }
  ]
 }
