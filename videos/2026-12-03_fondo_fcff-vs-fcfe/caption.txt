@@ -1,0 +1,12 @@
+FCFF o FCFE: misma caja, distinto dueño 🏠
+
+Si un piso te deja 20.000 € al año y pagas 8.000 de hipoteca, el piso genera 20.000… pero a ti te quedan 12.000. Con las empresas pasa igual:
+
+🔸 FCFF → caja para todos (bancos y accionistas) → se descuenta al WACC → Enterprise Value
+🔹 FCFE → caja solo para el accionista → se descuenta al Ke → Equity Value
+
+Mezclarlos es el error más común al valorar una empresa.
+
+Guárdalo para repasar 📌
+
+#finanzas #valoraciondeempresas #inversion #educacionfinanciera #finanzasafondo

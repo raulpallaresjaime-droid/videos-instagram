@@ -1,0 +1,55 @@
+{
+  "series": "nadie",
+  "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+  "title_post": "El inversor con peor suerte del mundo",
+  "coverScene": 1,
+  "scenes": [
+    {
+      "dark": true,
+      "say": "Imagina al peor inversor del mundo. Alguien que solo mete dinero en bolsa justo antes de cada gran crisis. No acierta ni una vez. ¿Cuánto crees que acaba ganando?",
+      "html": "<div class=\"q in\" data-t=\"0\" style=\"margin:0 0 50px\">El <em class=\"c-orange\">peor</em> inversor del mundo</div><div class=\"col\" style=\"gap:24px\"><span class=\"pill orange lg in\" data-cue=\"justo antes\">Compra → crisis</span><span class=\"pill orange lg in\" data-cue=\"ni una vez\" data-d=\"0\">Compra → crisis</span><span class=\"pill orange lg in\" data-cue=\"ni una vez\" data-d=\"0.4\">Compra → crisis</span></div><div class=\"q in\" data-cue=\"cuánto crees\">¿Cuánto <em class=\"c-teal\">gana</em>?</div>"
+    },
+    {
+      "dark": true,
+      "say": "Más de un millón de dólares. Esto es lo que nadie te cuenta sobre el inversor con peor suerte de la historia.",
+      "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">El inversor con <em class=\"c-orange\">peor suerte</em></div><div class=\"q in\" data-cue=\"millón\" style=\"font-size:50px\">+1.000.000 <em class=\"c-teal\">$</em></div>"
+    },
+    {
+      "title": "Te presento a <em class=\"c-navy\">Bob</em>",
+      "sub": "Personaje de Ben Carlson · datos reales del S&amp;P 500",
+      "say": "Se llama Bob. Es un personaje que se inventó el analista Ben Carlson, pero con datos reales del S&P 500. Bob ahorra cada año: dos mil dólares en los setenta, cuatro mil en los ochenta, seis mil en los noventa y ocho mil en los dos mil. Pero no lo invierte. Lo guarda en la cuenta, esperando el momento perfecto.",
+      "html": "<div class=\"cols\" style=\"height:520px\"><div class=\"c in\" data-cue=\"dos mil dólares\"><b>2.000 $</b><i class=\"sand grow\" style=\"--h:25%\"></i><span>Años 70</span></div><div class=\"c in\" data-cue=\"cuatro mil\"><b>4.000 $</b><i class=\"sand grow\" style=\"--h:50%\"></i><span>Años 80</span></div><div class=\"c in\" data-cue=\"seis mil\"><b>6.000 $</b><i class=\"sand grow\" style=\"--h:75%\"></i><span>Años 90</span></div><div class=\"c in\" data-cue=\"ocho mil\"><b>8.000 $</b><i class=\"sand grow\" style=\"--h:100%\"></i><span>Años 2000</span></div></div><div class=\"note in\" data-cue=\"momento perfecto\" style=\"margin-top:80px\">Ahorro al año… esperando el momento perfecto</div>"
+    },
+    {
+      "title": "Y siempre <em class=\"c-orange\">falla</em>",
+      "say": "Y siempre elige el peor. En diciembre de 1972 mete seis mil dólares, justo antes de una caída de casi el cincuenta por ciento. En agosto de 1987 mete cuarenta y seis mil, dos meses antes del lunes negro. En diciembre de 1999 mete sesenta y ocho mil, en plena burbuja punto com. Y en octubre de 2007, sesenta y cuatro mil, justo antes de la gran crisis financiera.",
+      "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"1972\"><span>Dic 1972</span><i class=\"orange grow\" style=\"--w:40%\">6.000 $ → −48 %</i></div><div class=\"b in\" data-cue=\"1987\"><span>Ago 1987</span><i class=\"orange grow\" style=\"--w:60%\">46.000 $ → −34 %</i></div><div class=\"b in\" data-cue=\"1999\"><span>Dic 1999</span><i class=\"orange grow\" style=\"--w:75%\">68.000 $ → −49 %</i></div><div class=\"b in\" data-cue=\"2007\"><span>Oct 2007</span><i class=\"orange grow\" style=\"--w:72%\">64.000 $ → −57 %</i></div></div><div class=\"note in\" data-cue=\"gran crisis\" style=\"margin-top:40px\">Caída del S&amp;P 500 justo después de cada compra</div>"
+    },
+    {
+      "title": "Pero hizo una cosa <em class=\"c-teal\">bien</em>",
+      "say": "Pero Bob hizo una sola cosa bien: nunca vendió. Ni en las caídas, ni en el pánico, ni cuando todo el mundo decía que la bolsa estaba acabada. Compraba en el peor momento… y luego se olvidaba.",
+      "html": "<div class=\"card in\" data-cue=\"nunca vendió\" style=\"width:100%\"><div class=\"lab\">La regla de Bob</div><div class=\"txt\">Nunca <em style=\"color:#7CC4BF\">vendió</em></div></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill sand in\" data-cue=\"las caídas\">Ni en las caídas</span><span class=\"pill sand in\" data-cue=\"el pánico\">Ni en el pánico</span></div>"
+    },
+    {
+      "title": "El <em class=\"c-teal\">resultado</em>",
+      "sub": "Final de 2013",
+      "say": "En total puso ciento ochenta y cuatro mil dólares. A finales de 2013 tenía un millón cien mil. Seis veces lo que invirtió, con el peor timing de la historia.",
+      "html": "<div class=\"cols\" style=\"height:560px\"><div class=\"c in\" data-cue=\"ciento ochenta\" style=\"width:260px\"><b>184.000 $</b><i class=\"sand grow\" style=\"--h:17%\"></i><span>Invertido</span></div><div class=\"c in\" data-cue=\"un millón cien\" style=\"width:260px\"><b class=\"c-teal\">1.100.000 $</b><i class=\"teal grow\" style=\"--h:100%\"></i><span>Final 2013</span></div></div><div class=\"row in\" data-cue=\"seis veces\" style=\"margin-top:80px\"><span class=\"pill teal lg\">× 6</span></div>"
+    },
+    {
+      "title": "Y podría haber sido <em class=\"c-navy\">mejor</em>",
+      "say": "Y ojo, que podría haber sido mucho mejor. Si en vez de esperar al momento perfecto hubiera invertido sus ahorros cada año, sin pensar, habría acabado con más de dos millones trescientos mil. Esperar le costó más de la mitad.",
+      "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"podría haber sido\"><span>Solo en máximos</span><i class=\"navy grow\" style=\"--w:48%\">1,1 M$</i></div><div class=\"b in\" data-cue=\"dos millones\"><span>Cada año, sin pensar</span><i class=\"teal grow\" style=\"--w:100%\">+2,3 M$</i></div></div><div class=\"row in\" data-cue=\"esperar le costó\" style=\"margin-top:40px\"><span class=\"pill orange lg\">Esperar le costó más de la mitad</span></div>"
+    },
+    {
+      "title": "La <em class=\"c-orange\">lección</em>",
+      "say": "La lección no es que dé igual cuándo entres. Es que, a largo plazo, el tiempo dentro del mercado pesa mucho más que el momento. Lo que de verdad destroza tu dinero no es comprar caro. Es vender en el pánico.",
+      "html": "<div class=\"card in\" data-cue=\"destroza\" style=\"width:100%\"><div class=\"lab\">Lo que destroza tu dinero</div><div class=\"txt\">No es comprar caro.<br>Es <em style=\"color:#E8915A\">vender en el pánico</em>.</div></div>"
+    },
+    {
+      "dark": true,
+      "say": "El peor inversor del mundo ganó dinero por una sola razón: nunca vendió.",
+      "html": "<div class=\"final in\" data-t=\"0\">El peor inversor del mundo ganó dinero por una razón: <em class=\"c-teal\">nunca vendió</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo de Ben Carlson (A Wealth of Common Sense, 2014) con datos del S&amp;P 500.<br>Contenido educativo, no es recomendación de inversión.</div>"
+    }
+  ]
+}

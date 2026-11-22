@@ -1,0 +1,53 @@
+{
+  "series": "fondo",
+  "topic": "<span class=\"c-navy\">FCFF</span> <span class=\"k\">vs</span> <span class=\"c-teal\">FCFE</span>",
+  "title_post": "FCFF vs FCFE",
+  "coverScene": 1,
+  "scenes": [
+    {
+      "dark": true,
+      "say": "Dos analistas valoran la misma empresa, con los mismos números. Uno dice que vale mil millones. El otro, ochocientos. Y los dos tienen razón.",
+      "html": "<div class=\"q in\" data-t=\"0\" style=\"margin:0 0 50px\">Misma empresa,<br>mismos <em class=\"c-teal\">números</em></div><div class=\"row\" style=\"gap:40px\"><div class=\"card navy in\" data-cue=\"mil millones\"><div class=\"lab\">Analista 1</div><div class=\"val\">1.000 M€</div></div><div class=\"card teal in\" data-cue=\"ochocientos\"><div class=\"lab\">Analista 2</div><div class=\"val\">800 M€</div></div></div><div class=\"q in\" data-cue=\"los dos tienen razón\">Y los dos tienen <em class=\"c-teal\">razón</em></div>"
+    },
+    {
+      "dark": true,
+      "say": "La clave está en de quién es el dinero. Hoy, en finanzas a fondo: FCFF frente a FCFE.",
+      "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\"><span class=\"c-navy\">FCFF</span> vs <em class=\"c-teal\">FCFE</em></div><div class=\"q in\" data-cue=\"de quién\" style=\"font-size:46px\">¿De <em class=\"c-orange\">quién</em> es el dinero?</div>"
+    },
+    {
+      "title": "Todo empieza en la <em class=\"c-teal\">caja</em>",
+      "say": "Para valorar una empresa no se mira el beneficio, se mira la caja. El dinero que de verdad le queda después de pagar a proveedores, sueldos, impuestos y todo lo que invierte en máquinas y en el día a día. Eso es el flujo de caja libre.",
+      "html": "<div class=\"col\" style=\"gap:18px\"><span class=\"pill navy lg in\" data-cue=\"la caja\">Ventas</span><span class=\"pill sand in\" data-cue=\"proveedores\">− proveedores y sueldos</span><span class=\"pill sand in\" data-cue=\"impuestos\">− impuestos</span><span class=\"pill sand in\" data-cue=\"invierte\">− inversión (CAPEX y circulante)</span><span class=\"arrow in\" data-cue=\"eso es\">↓</span><span class=\"pill teal lg in\" data-cue=\"flujo de caja libre\">Flujo de caja libre</span></div>"
+    },
+    {
+      "title": "Piensa en un <em class=\"c-orange\">piso</em> alquilado",
+      "say": "Imagina un piso que te deja veinte mil euros al año de alquiler, ya descontados gastos e impuestos. Lo compraste con hipoteca, y al banco le pagas ocho mil al año. ¿Cuánto genera el piso? Veinte mil. ¿Cuánto te queda a ti? Doce mil.",
+      "html": "<div class=\"card in\" data-cue=\"veinte mil euros\" style=\"width:100%\"><div class=\"lab\">El piso genera</div><div class=\"val\">20.000 €/año</div></div><div class=\"bars\" style=\"margin-top:30px\"><div class=\"b in\" data-cue=\"ocho mil\"><span>Al banco</span><i class=\"orange grow\" style=\"--w:40%\">8.000 €</i></div><div class=\"b in\" data-cue=\"doce mil\"><span>Para ti</span><i class=\"teal grow\" style=\"--w:60%\">12.000 €</i></div></div>"
+    },
+    {
+      "title": "FCFF: caja para <em class=\"c-navy\">todos</em>",
+      "say": "Pues esa es justo la diferencia. El FCFF, el flujo de caja libre para la empresa, son los veinte mil: el dinero para todos los que la financian, bancos y accionistas. Por eso se descuenta al WACC, el coste medio de todo ese dinero, y lo que sale es el Enterprise Value: lo que vale el negocio entero.",
+      "html": "<div class=\"card navy in\" data-cue=\"veinte mil\" style=\"width:100%\"><div class=\"lab\">FCFF · Free Cash Flow to the Firm</div><div class=\"txt\">Bancos + accionistas</div></div><div class=\"col\" style=\"margin-top:30px\"><span class=\"pill lg in\" data-cue=\"WACC\">÷ WACC</span><span class=\"arrow in\" data-cue=\"lo que sale\">↓</span><span class=\"pill navy lg in\" data-cue=\"Enterprise Value\">Enterprise Value</span><div class=\"note in\" data-cue=\"negocio entero\">Lo que vale el negocio entero</div></div>"
+    },
+    {
+      "title": "FCFE: caja para el <em class=\"c-teal\">accionista</em>",
+      "say": "El FCFE, el flujo de caja libre para el accionista, son los doce mil. Lo que queda después de pagar intereses y devolver deuda, sumando la deuda nueva que pidas. Se descuenta al coste del accionista, el Ke, y te da directamente el Equity Value: lo que valen las acciones.",
+      "html": "<div class=\"card teal in\" data-cue=\"doce mil\" style=\"width:100%\"><div class=\"lab\">FCFE · Free Cash Flow to Equity</div><div class=\"txt\">Solo accionistas</div></div><div class=\"row in\" data-cue=\"intereses\" style=\"margin-top:24px\"><span class=\"pill sand\">FCFF − intereses × (1 − t) + deuda neta nueva</span></div><div class=\"col\" style=\"margin-top:24px\"><span class=\"pill lg in\" data-cue=\"el Ke\">÷ Ke</span><span class=\"arrow in\" data-cue=\"te da\">↓</span><span class=\"pill teal lg in\" data-cue=\"Equity Value\">Equity Value</span></div>"
+    },
+    {
+      "title": "El puente entre los <em class=\"c-navy\">dos</em>",
+      "say": "Y si lo haces bien, los dos caminos llegan al mismo sitio. Al Enterprise Value le restas la deuda neta y te sale el Equity Value. Por eso aquellos dos analistas tenían razón: uno daba el valor de la empresa, mil millones, y el otro el de sus acciones, ochocientos. La diferencia, doscientos, es la deuda.",
+      "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"enterprise value\"><span>Enterprise Value</span><i class=\"navy grow\" style=\"--w:100%\">1.000 M€</i></div><div class=\"b in\" data-cue=\"deuda neta\"><span>− Deuda neta</span><i class=\"orange grow\" style=\"--w:20%\">200</i></div><div class=\"b in\" data-cue=\"te sale\"><span>= Equity Value</span><i class=\"teal grow\" style=\"--w:80%\">800 M€</i></div></div><div class=\"note in\" data-cue=\"es la deuda\" style=\"margin-top:40px\">Lo que vale, menos lo que debes, es lo tuyo</div>"
+    },
+    {
+      "title": "El error más <em class=\"c-orange\">común</em>",
+      "say": "El error típico es mezclarlos. Descontar el FCFF al coste del accionista, o el FCFE al WACC. Como el Ke casi siempre es más alto que el WACC, en el primer caso infravaloras la empresa, y en el segundo la inflas.",
+      "html": "<div class=\"steps\"><div class=\"step orange in\" data-cue=\"FCFF al coste\"><div class=\"n\">✗</div><div><div class=\"t\">FCFF ÷ Ke</div><div class=\"d\">Valor demasiado bajo</div></div></div><div class=\"step orange in\" data-cue=\"FCFE al WACC\"><div class=\"n\">✗</div><div><div class=\"t\">FCFE ÷ WACC</div><div class=\"d\">Valor inflado</div></div></div></div><div class=\"row in\" data-cue=\"más alto\" style=\"margin-top:30px\"><span class=\"pill lg\">Ke &gt; WACC</span></div>"
+    },
+    {
+      "dark": true,
+      "say": "Misma caja, distinto dueño. Y cada caja, con su tasa.",
+      "html": "<div class=\"final in\" data-t=\"0\">Misma caja, <em class=\"c-orange\">distinto dueño</em>.<br>Y cada caja, <em class=\"c-teal\">con su tasa</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+    }
+  ]
+}

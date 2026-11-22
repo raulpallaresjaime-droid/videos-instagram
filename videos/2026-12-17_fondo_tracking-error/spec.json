@@ -1,0 +1,49 @@
+{
+ "series": "fondo",
+ "topic": "Tracking error <span class=\"k\">y</span> <span class=\"c-teal\">ratio de información</span>",
+ "title_post": "Tracking error y ratio de información",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Pagas un uno coma cinco por ciento al año para que un gestor bata al índice. ¿Y si en realidad solo lo está copiando?",
+   "html": "<div class=\"card in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">Comisión de gestión activa</div><div class=\"val\">1,5 % al año</div></div><div class=\"q in\" data-cue=\"copiando\">¿Y si solo está <em class=\"c-orange\">copiando</em>?</div>"
+  },
+  {
+   "dark": true,
+   "say": "Para saberlo hay dos números que casi nadie mira. Hoy, en finanzas a fondo: el tracking error y el ratio de información.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">Tracking error y <em class=\"c-teal\">ratio de información</em></div>"
+  },
+  {
+   "title": "1 · Tracking <em class=\"c-navy\">error</em>",
+   "say": "El tracking error mide cuánto se separa un fondo de su índice. No si gana o pierde, sino cuánto se aleja de él, año tras año. Técnicamente, es la volatilidad de la diferencia entre la rentabilidad del fondo y la del índice. Un fondo indexado tiene un tracking error casi de cero. Uno de gestión activa de verdad, de varios puntos.",
+   "html": "<div class=\"row in\" data-cue=\"técnicamente\"><span class=\"pill lg\">Volatilidad de (R fondo − R índice)</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"casi de cero\"><span>Indexado</span><i class=\"teal grow\" style=\"--w:4%\">&nbsp;≈ 0 %</i></div><div class=\"b in\" data-cue=\"de verdad\"><span>Activo de verdad</span><i class=\"navy grow\" style=\"--w:70%\">varios puntos</i></div></div>"
+  },
+  {
+   "title": "El <em class=\"c-orange\">falso activo</em>",
+   "say": "Y aquí aparece el falso activo: fondos que cobran como gestión activa, pero con un tracking error tan bajo que en la práctica copian el índice. Pagas el uno coma cinco y recibes casi lo mismo que con un indexado de cero coma dos. En 2016, la autoridad europea ESMA calculó que entre un cinco y un quince por ciento de los fondos de renta variable podían serlo.",
+   "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"pagas el uno\"><span>Falso activo</span><i class=\"orange grow\" style=\"--w:100%\">1,5 %/año</i></div><div class=\"b in\" data-cue=\"cero coma dos\"><span>Indexado</span><i class=\"teal grow\" style=\"--w:13%\">0,2 %</i></div></div><div class=\"card in\" data-cue=\"en 2016\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">ESMA, 2016</div><div class=\"txt\">Entre el <em style=\"color:#E8915A\">5 y el 15 %</em> de los fondos de renta variable, posibles falsos activos</div></div>"
+  },
+  {
+   "title": "2 · Ratio de <em class=\"c-teal\">información</em>",
+   "say": "Ahora bien, alejarse del índice no es ni bueno ni malo. La pregunta es si compensa. Y eso lo mide el ratio de información: cuánta rentabilidad extra consigue el fondo por cada punto de tracking error. Cuánto premio saca por cada punto de riesgo que asume al separarse.",
+   "html": "<div class=\"note in\" data-cue=\"si compensa\">¿Compensa separarse?</div><div class=\"row in\" data-cue=\"cuánta rentabilidad extra\" style=\"margin-top:30px\"><span class=\"pill lg\">(R fondo − R índice) ÷ tracking error</span></div>"
+  },
+  {
+   "title": "El que más bate no es el <em class=\"c-teal\">mejor</em>",
+   "sub": "Ejemplo ilustrativo",
+   "say": "Mira este ejemplo. El fondo X bate al índice por un uno por ciento al año, con un tracking error del uno: ratio de información de uno. El fondo Y lo bate por un tres por ciento, pero con un tracking error del diez: un ratio de cero coma tres. Y bate más, pero X lo hace mucho mejor: por cada punto de riesgo, gana más del triple.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-cue=\"el fondo x\" style=\"min-width:420px\"><div class=\"lab\">Fondo X</div><div class=\"txt\">+1 % · TE 1 %</div></div><div class=\"card orange in\" data-cue=\"el fondo y\" style=\"min-width:420px\"><div class=\"lab\">Fondo Y</div><div class=\"txt\">+3 % · TE 10 %</div></div></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"ratio de información de uno\"><span>Ratio X</span><i class=\"teal grow\" style=\"--w:100%\">1,0</i></div><div class=\"b in\" data-cue=\"cero coma tres\"><span>Ratio Y</span><i class=\"orange grow\" style=\"--w:30%\">0,3</i></div></div>"
+  },
+  {
+   "title": "¿Qué es un buen <em class=\"c-navy\">ratio</em>?",
+   "say": "Como referencia, un ratio de información de cero coma cinco ya se considera bueno, y uno, excepcional. Y muy pocos gestores consiguen mantenerlo durante muchos años.",
+   "html": "<div class=\"steps\"><div class=\"step teal in\" data-cue=\"cero coma cinco\"><div class=\"n\">½</div><div><div class=\"t\">0,5 · Bueno</div></div></div><div class=\"step navy in\" data-cue=\"excepcional\"><div class=\"n\">1</div><div><div class=\"t\">1,0 · Excepcional</div></div></div></div><div class=\"note in\" data-cue=\"muy pocos\" style=\"margin-top:30px\">Y muy pocos lo mantienen en el tiempo</div>"
+  },
+  {
+   "dark": true,
+   "say": "Si pagas por gestión activa, exige que sea activa. Y que compense.",
+   "html": "<div class=\"final in\" data-t=\"0\">Si pagas por gestión activa, exige que sea <em class=\"c-orange\">activa</em>… y que <em class=\"c-teal\">compense</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo. Dato: ESMA (2016).<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

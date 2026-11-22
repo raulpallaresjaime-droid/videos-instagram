@@ -1,0 +1,49 @@
+{
+ "series": "nadie",
+ "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+ "title_post": "El sesgo de supervivencia",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "En la Segunda Guerra Mundial, los aviones que volvían del combate llegaban llenos de agujeros en las alas. Así que el ejército quiso reforzar las alas. Y era justo el error.",
+   "html": "<div class=\"big c-lblue in\" data-t=\"0\" style=\"font-size:150px\">✈</div><div class=\"row in\" data-cue=\"agujeros\" style=\"margin-top:30px\"><span class=\"pill orange lg\">Agujeros en las alas</span></div><div class=\"q in\" data-cue=\"era justo el error\">Y era justo el <em class=\"c-orange\">error</em></div>"
+  },
+  {
+   "dark": true,
+   "say": "Esto es lo que nadie te cuenta sobre el sesgo de supervivencia. Y por qué te engaña cada vez que eliges un fondo.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">El sesgo de <em class=\"c-orange\">supervivencia</em></div>"
+  },
+  {
+   "title": "Los aviones que <em class=\"c-orange\">no volvieron</em>",
+   "say": "Según la famosa historia, el estadístico Abraham Wald se dio cuenta de algo. Solo estaban mirando los aviones que habían vuelto. Los que recibían disparos en el motor no volvían, así que no aparecían en las estadísticas. Había que reforzar justo donde no había agujeros.",
+   "html": "<div class=\"steps\"><div class=\"step ink in\" data-cue=\"habían vuelto\"><div class=\"n\">✓</div><div><div class=\"t\">Volvieron</div><div class=\"d\">Agujeros en las alas</div></div></div><div class=\"step orange in\" data-cue=\"en el motor\"><div class=\"n\">✗</div><div><div class=\"t\">No volvieron</div><div class=\"d\">Disparos en el motor</div></div></div></div><div class=\"row in\" data-cue=\"había que reforzar\" style=\"margin-top:30px\"><span class=\"pill teal lg\">Reforzar el motor</span></div>"
+  },
+  {
+   "title": "Con los fondos pasa <em class=\"c-navy\">igual</em>",
+   "say": "Con los fondos de inversión pasa exactamente lo mismo. Cuando miras el ranking de los mejores fondos de los últimos diez años, solo ves los que siguen vivos. Los que lo hicieron fatal se cerraron o se fusionaron con otros. Y desaparecieron de la lista.",
+   "html": "<div class=\"col\" style=\"gap:16px\"><span class=\"pill teal in\" data-cue=\"ranking\">1 · Fondo A  +9 %</span><span class=\"pill teal in\" data-cue=\"ranking\" data-d=\"0.2\">2 · Fondo B  +8 %</span><span class=\"pill teal in\" data-cue=\"ranking\" data-d=\"0.4\">3 · Fondo C  +7 %</span><span class=\"pill grey in\" data-cue=\"se cerraron\" style=\"text-decoration:line-through\">Fondo D  cerrado</span><span class=\"pill grey in\" data-cue=\"se fusionaron\" style=\"text-decoration:line-through\">Fondo E  fusionado</span></div><div class=\"note in\" data-cue=\"desaparecieron\" style=\"margin-top:30px\">Los que fallan, desaparecen del ranking</div>"
+  },
+  {
+   "title": "¿Cuántos <em class=\"c-orange\">desaparecen</em>?",
+   "sub": "S&amp;P · SPIVA Europa",
+   "say": "¿Y cuántos son? Según S&P, en Europa solo sobrevivieron unos seis de cada diez fondos de renta variable en los últimos diez años. Cuatro de cada diez ya no existen. Y no desaparecen al azar: los que peor lo hacían se cierran el doble que los mejores.",
+   "html": "<div class=\"cols\" style=\"height:480px\"><div class=\"c in\" data-cue=\"seis de cada diez\" style=\"width:260px\"><b class=\"c-teal\">≈ 59 %</b><i class=\"teal grow\" style=\"--h:59%\"></i><span>Siguen vivos</span></div><div class=\"c in\" data-cue=\"cuatro de cada diez\" style=\"width:260px\"><b class=\"c-orange\">≈ 41 %</b><i class=\"orange grow\" style=\"--h:41%\"></i><span>Desaparecidos</span></div></div><div class=\"row in\" data-cue=\"el doble\" style=\"margin-top:80px\"><span class=\"pill orange\">Peores: 36 % cerrados</span><span class=\"pill teal\">Mejores: 18 %</span></div>"
+  },
+  {
+   "title": "Por eso las medias <em class=\"c-orange\">engañan</em>",
+   "say": "Por eso, cuando una gestora te diga que sus fondos baten al mercado de media, pregunta: ¿contando también los que cerraste? Si solo cuentas a los supervivientes, cualquier media sale bonita.",
+   "html": "<div class=\"card in\" data-cue=\"pregunta\" style=\"width:100%\"><div class=\"lab\">La pregunta</div><div class=\"txt\">¿Contando también <em style=\"color:#E8915A\">los que cerraste</em>?</div></div>"
+  },
+  {
+   "title": "Y no solo con los <em class=\"c-navy\">fondos</em>",
+   "say": "Y no solo pasa con los fondos. Ves al que se hizo rico con una criptomoneda, pero no a los miles que lo perdieron todo. Ves a los que triunfaron dejando la universidad, no a los que fracasaron. Los ganadores hacen ruido. Los perdedores, silencio.",
+   "html": "<div class=\"col\"><span class=\"pill sand lg in\" data-cue=\"criptomoneda\">Cripto</span><span class=\"pill sand lg in\" data-cue=\"universidad\">Emprendedores</span></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill teal lg in\" data-cue=\"hacen ruido\">Ganadores: ruido</span><span class=\"pill grey lg in\" data-cue=\"silencio\">Perdedores: silencio</span></div>"
+  },
+  {
+   "dark": true,
+   "say": "Antes de fiarte de una estadística, pregúntate quién falta en ella.",
+   "html": "<div class=\"final in\" data-t=\"0\">Antes de fiarte de una estadística, pregúntate <em class=\"c-orange\">quién falta</em> en ella.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Datos: S&amp;P Dow Jones Indices, SPIVA Europa.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

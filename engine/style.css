@@ -21,6 +21,7 @@ body{font-family:IN;color:var(--ink)}
 .hdr .topic{font-family:PF;font-weight:700;font-size:30px;color:var(--navy)}
 .hdr .handle{font-size:25px;color:var(--grey)}
 .hdr .k{color:var(--ink)}.dark .hdr .k{color:var(--cream)}
+.dark .hdr .topic{color:var(--lblue)}
 .dark .hdr .handle{color:#9c9a90}
 
 /* títulos */

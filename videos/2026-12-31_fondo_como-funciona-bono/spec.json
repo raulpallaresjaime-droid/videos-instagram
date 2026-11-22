@@ -1,0 +1,44 @@
+{
+ "series": "fondo",
+ "topic": "Cómo funciona un <span class=\"c-navy\">bono</span>",
+ "title_post": "Cómo funciona un bono",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Un bono que paga un cinco por ciento puede hacerte ganar un seis. O un cuatro. Depende de algo que casi nadie mira al comprarlo: el precio.",
+   "html": "<div class=\"card navy in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">Cupón</div><div class=\"val\">5 %</div></div><div class=\"row\" style=\"margin-top:30px;gap:30px\"><span class=\"pill teal lg in\" data-cue=\"un seis\">¿6 %?</span><span class=\"pill orange lg in\" data-cue=\"o un cuatro\">¿4 %?</span></div><div class=\"q in\" data-cue=\"el precio\">Depende del <em class=\"c-teal\">precio</em></div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas a fondo: cómo funciona de verdad un bono.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">Cómo funciona un <em class=\"c-navy\">bono</em></div>"
+  },
+  {
+   "title": "Un bono es una lista de <em class=\"c-teal\">pagos</em>",
+   "sub": "Bono a 5 años · 1.000 € · cupón del 5 %",
+   "say": "Un bono no es más que una lista de pagos futuros. Uno a cinco años, de mil euros y con un cupón del cinco por ciento, te paga cincuenta euros cada año, y los mil al final. Su precio es lo que valen hoy todos esos pagos, descontados a la rentabilidad que exige el mercado ahora.",
+   "html": "<div class=\"cols\" style=\"height:520px;gap:24px\"><div class=\"c in\" data-cue=\"cincuenta euros\" style=\"width:130px\"><b>50</b><i class=\"teal grow\" style=\"--h:5%\"></i><span>Año 1</span></div><div class=\"c in\" data-cue=\"cincuenta euros\" data-d=\"0.2\" style=\"width:130px\"><b>50</b><i class=\"teal grow\" style=\"--h:5%\"></i><span>Año 2</span></div><div class=\"c in\" data-cue=\"cincuenta euros\" data-d=\"0.4\" style=\"width:130px\"><b>50</b><i class=\"teal grow\" style=\"--h:5%\"></i><span>Año 3</span></div><div class=\"c in\" data-cue=\"cincuenta euros\" data-d=\"0.6\" style=\"width:130px\"><b>50</b><i class=\"teal grow\" style=\"--h:5%\"></i><span>Año 4</span></div><div class=\"c in\" data-cue=\"los mil al final\" style=\"width:130px\"><b>1.050</b><i class=\"navy grow\" style=\"--h:100%\"></i><span>Año 5</span></div></div><div class=\"row in\" data-cue=\"su precio\" style=\"margin-top:80px\"><span class=\"pill lg\">Precio = valor hoy de todos los pagos</span></div>"
+  },
+  {
+   "title": "Cupón no es <em class=\"c-orange\">rentabilidad</em>",
+   "say": "Por eso el cupón no es lo que ganas. Si los tipos suben al seis y ese bono cae a novecientos cincuenta y ocho euros, sigues cobrando cincuenta al año, pero al final recuperas mil por algo que te costó novecientos cincuenta y ocho. Tu rentabilidad real, la TIR, es del seis. Y si lo pagas a mil cuarenta y cinco, baja al cuatro.",
+   "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"el cupón no\"><span>Cupón</span><i class=\"ink grow\" style=\"--w:83%\">5 %</i></div><div class=\"b in\" data-cue=\"es del seis\"><span>Compras a 958 €</span><i class=\"teal grow\" style=\"--w:100%\">TIR 6 %</i></div><div class=\"b in\" data-cue=\"baja al cuatro\"><span>Compras a 1.045 €</span><i class=\"orange grow\" style=\"--w:67%\">TIR 4 %</i></div></div><div class=\"note in\" data-cue=\"tu rentabilidad real\" style=\"margin-top:40px\">TIR = lo que ganas si lo aguantas hasta el final</div>"
+  },
+  {
+   "title": "¿Te van a <em class=\"c-orange\">pagar</em>?",
+   "say": "Luego está la pregunta clave: ¿te van a pagar? Para eso están las agencias de rating. De triple A a triple B es el grado de inversión: emisores sólidos. Por debajo está el high yield, los bonos basura, que pagan más porque el riesgo de impago es mayor. Esa rentabilidad extra se llama diferencial, o spread.",
+   "html": "<div class=\"steps\"><div class=\"step teal in\" data-cue=\"triple a a triple b\"><div class=\"n\">A</div><div><div class=\"t\">AAA – BBB · Grado de inversión</div><div class=\"d\">Emisores sólidos, pagan menos</div></div></div><div class=\"step orange in\" data-cue=\"high yield\"><div class=\"n\">B</div><div><div class=\"t\">BB o menos · High yield</div><div class=\"d\">Más riesgo de impago, pagan más</div></div></div></div><div class=\"row in\" data-cue=\"spread\" style=\"margin-top:30px\"><span class=\"pill lg\">Spread = premio por el riesgo</span></div>"
+  },
+  {
+   "title": "La curva de <em class=\"c-navy\">tipos</em>",
+   "say": "Y por último, la curva de tipos. Normalmente, prestar a diez años paga más que prestar a uno, porque inmovilizas tu dinero más tiempo. Pero a veces la curva se invierte y los plazos cortos pagan más que los largos. En Estados Unidos, eso se ha adelantado a casi todas las recesiones de los últimos cincuenta años.",
+   "html": "<svg width=\"900\" height=\"420\" viewBox=\"0 0 900 420\"><line x1=\"0\" y1=\"360\" x2=\"690\" y2=\"360\" stroke=\"#cfcabd\" stroke-width=\"3\"/><text x=\"0\" y=\"400\" font-family=\"IN\" font-size=\"24\" fill=\"#77766E\">1 año</text><text x=\"600\" y=\"400\" font-family=\"IN\" font-size=\"24\" fill=\"#77766E\">10 años</text><path class=\"draw\" data-cue=\"prestar a diez\" d=\"M0,320 L120,247 L240,204 L360,174 L480,151 L600,132 L690,119\" fill=\"none\" stroke=\"#0C585D\" stroke-width=\"6\"/><text class=\"in\" data-cue=\"prestar a diez\" x=\"700\" y=\"129\" font-family=\"IN\" font-size=\"28\" font-weight=\"600\" fill=\"#0C585D\">Normal</text><path class=\"draw\" data-cue=\"se invierte\" d=\"M0,140 L120,194 L240,226 L360,248 L480,266 L600,280 L690,290\" fill=\"none\" stroke=\"#B65920\" stroke-width=\"6\"/><text class=\"in\" data-cue=\"se invierte\" x=\"700\" y=\"300\" font-family=\"IN\" font-size=\"28\" font-weight=\"600\" fill=\"#B65920\">Invertida</text></svg>"
+  },
+  {
+   "dark": true,
+   "say": "Con un bono no ganas el cupón. Ganas lo que pagas por él.",
+   "html": "<div class=\"final in\" data-t=\"0\">Con un bono no ganas el cupón.<br>Ganas lo que <em class=\"c-teal\">pagas</em> por él.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

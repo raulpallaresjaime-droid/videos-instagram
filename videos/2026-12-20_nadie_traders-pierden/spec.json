@@ -1,0 +1,51 @@
+{
+  "series": "nadie",
+  "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+  "title_post": "Por qué la mayoría de traders pierde dinero",
+  "coverScene": 1,
+  "scenes": [
+    {
+      "dark": true,
+      "say": "Hay un dato que todos los brókers de CFDs de Europa están obligados a enseñarte. Casi nadie lo lee. Y es demoledor.",
+      "html": "<div class=\"card in\" data-t=\"0\" style=\"background:#2a2a26;width:100%\"><div class=\"lab\">Aviso obligatorio</div><div class=\"txt\" style=\"font-size:34px\">El <span class=\"c-orange\">██ %</span> de las cuentas de inversores minoristas pierde dinero…</div></div><div class=\"q in\" data-cue=\"demoledor\">Y es <em class=\"c-orange\">demoledor</em></div>"
+    },
+    {
+      "dark": true,
+      "say": "Entre el setenta y cuatro y el ochenta y nueve por ciento de sus clientes pierde dinero. Esto es lo que nadie te cuenta sobre el trading.",
+      "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">Por qué casi todos los traders <em class=\"c-orange\">pierden</em></div><div class=\"q in\" data-cue=\"ochenta y nueve\" style=\"font-size:50px\"><em class=\"c-orange\">74 – 89 %</em> pierde</div>"
+    },
+    {
+      "title": "El aviso que <em class=\"c-orange\">nadie lee</em>",
+      "sub": "ESMA, 2018",
+      "say": "Desde 2018, la autoridad europea de valores, ESMA, obliga a los brókers que venden CFDs a poner un aviso con el porcentaje de sus clientes que pierde dinero. Entra en cualquiera de sus webs y lo verás en letra pequeña: setenta, setenta y cinco, ochenta por ciento.",
+      "html": "<div class=\"card sand in\" data-cue=\"obliga\" style=\"width:100%\"><div class=\"lab\">Aviso de riesgo</div><div class=\"txt\" style=\"font-size:34px\">Los CFD son instrumentos complejos. El <span class=\"c-orange\">7X %</span> de las cuentas de inversores minoristas pierde dinero.</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill orange lg in\" data-cue=\"setenta,\">70 %</span><span class=\"pill orange lg in\" data-cue=\"setenta y cinco\">75 %</span><span class=\"pill orange lg in\" data-cue=\"ochenta por ciento\">80 %</span></div>"
+    },
+    {
+      "title": "Y no son <em class=\"c-orange\">pocos</em> euros",
+      "sub": "Pérdida media por cliente · datos recogidos por ESMA",
+      "say": "Y no hablamos de calderilla. Según los datos que recogió ESMA, la pérdida media por cliente iba de unos mil seiscientos a veintinueve mil euros, dependiendo del país.",
+      "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"mil seiscientos\"><span>País con menos</span><i class=\"orange grow\" style=\"--w:14%\">1.600 €</i></div><div class=\"b in\" data-cue=\"veintinueve mil\"><span>País con más</span><i class=\"orange grow\" style=\"--w:100%\">29.000 €</i></div></div>"
+    },
+    {
+      "title": "En Brasil lo <em class=\"c-navy\">midieron</em>",
+      "sub": "Day traders de futuros, 2013 – 2015",
+      "say": "Y no es solo cosa de los CFDs. En Brasil, unos investigadores siguieron a todas las personas que empezaron a hacer day trading en futuros del índice. De las que insistieron más de trescientos días, el noventa y siete por ciento perdió dinero. Y solo una de cada cien ganó más que el salario mínimo.",
+      "html": "<div class=\"cols\" style=\"height:520px\"><div class=\"c in\" data-cue=\"noventa y siete\" style=\"width:260px\"><b class=\"c-orange\">97 %</b><i class=\"orange grow\" style=\"--h:97%\"></i><span>Perdió dinero</span></div><div class=\"c in\" data-cue=\"una de cada cien\" style=\"width:260px\"><b class=\"c-teal\">1,1 %</b><i class=\"teal grow\" style=\"--h:2%\"></i><span>&gt; salario mínimo</span></div></div><div class=\"note in\" data-cue=\"trescientos días\" style=\"margin-top:80px\">Los que insistieron más de 300 días</div>"
+    },
+    {
+      "title": "¿Por qué <em class=\"c-orange\">pierden</em>?",
+      "say": "¿Por qué? Primero, el apalancamiento: con poco dinero mueves mucho, y un movimiento pequeño en contra te borra la cuenta. Segundo, los costes: comisiones, horquillas y financiación que pagas en cada operación, ganes o pierdas. Y tercero, nosotros mismos: cortamos las ganancias rápido por miedo y dejamos correr las pérdidas esperando que se den la vuelta.",
+      "html": "<div class=\"steps\"><div class=\"step orange in\" data-cue=\"apalancamiento\"><div class=\"n\">1</div><div><div class=\"t\">Apalancamiento</div><div class=\"d\">Un movimiento pequeño te borra la cuenta</div></div></div><div class=\"step ink in\" data-cue=\"los costes\"><div class=\"n\">2</div><div><div class=\"t\">Costes</div><div class=\"d\">Comisiones, horquillas y financiación</div></div></div><div class=\"step navy in\" data-cue=\"nosotros mismos\"><div class=\"n\">3</div><div><div class=\"t\">Tú mismo</div><div class=\"d\">Cortas ganancias, dejas correr pérdidas</div></div></div></div>"
+    },
+    {
+      "title": "Un juego de <em class=\"c-orange\">suma negativa</em>",
+      "say": "Piénsalo así. En el trading a corto plazo, lo que gana uno lo pierde otro. Y encima, en cada operación el bróker se lleva su parte. Es un juego de suma negativa. Invertir a largo plazo en empresas es lo contrario: la economía crece, los beneficios también, y pueden ganar todos.",
+      "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card orange in\" data-cue=\"suma negativa\" style=\"min-width:420px\"><div class=\"lab\">Trading a corto</div><div class=\"txt\">Suma negativa</div></div><div class=\"card teal in\" data-cue=\"lo contrario\" style=\"min-width:420px\"><div class=\"lab\">Invertir a largo</div><div class=\"txt\">Suma positiva</div></div></div><div class=\"row in\" data-cue=\"su parte\" style=\"margin-top:40px\"><span class=\"pill lg\">− comisión del bróker</span></div>"
+    },
+    {
+      "dark": true,
+      "say": "Porque en bolsa no se gana operando más, sino aguantando más.",
+      "html": "<div class=\"final in\" data-t=\"0\">En bolsa no se gana <em class=\"c-orange\">operando más</em>, sino <em class=\"c-teal\">aguantando más</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Datos: ESMA (2018) y Chague, De-Losso y Giovannetti (2019).<br>Contenido educativo, no es recomendación de inversión.</div>"
+    }
+  ]
+}

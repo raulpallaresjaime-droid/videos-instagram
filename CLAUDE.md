@@ -86,6 +86,8 @@ inventar ni publicar nada a medias: dejar el estado como estaba y explicarlo en 
   `.bars > .b > span + i.grow[--w]`, `.cols > .c > b + i.grow[--h] + span`,
   `.steps > .step > .n + div(.t,.d)`, `.row` `.col` `.note` `.big` `.arrow` `.label`.
 - Ejemplo completo: `videos/2026-12-06_nadie_10-mejores-dias/spec.json`.
+- **La primera escena tiene que mostrar algo desde el segundo 0** (`data-t="0"`): en Instagram el
+  primer segundo decide si la gente sigue mirando. Nunca empezar con la pantalla vacía.
 - Una idea por escena, pocos elementos, que se vayan montando según habla. Revisar siempre el
   resultado con una hoja de fotogramas (ffmpeg `tile`) y corregir solapes o textos cortados.
 

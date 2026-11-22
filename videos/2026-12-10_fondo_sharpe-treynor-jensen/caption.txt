@@ -1,0 +1,12 @@
+¿Un fondo que gana un 12 % es mejor que uno que gana un 9 %? 🤔
+
+Depende del riesgo que haya corrido para conseguirlo. Para eso están:
+🔸 Sharpe → cuánto ganas por cada unidad de riesgo total
+🔹 Treynor → cuánto ganas por cada unidad de riesgo de mercado
+🔸 Jensen → cuánto ha batido lo que le tocaba ganar
+
+En el vídeo, un ejemplo en el que no se ponen de acuerdo… y por qué los tres tienen razón.
+
+Guárdalo para repasar 📌
+
+#finanzas #inversion #fondosdeinversion #educacionfinanciera #finanzasafondo

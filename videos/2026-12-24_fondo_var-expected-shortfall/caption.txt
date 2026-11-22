@@ -1,0 +1,11 @@
+El VaR no es lo máximo que puedes perder 😬
+
+Es de los errores más comunes al interpretarlo:
+🔸 VaR → a partir de qué pérdida empiezan los días malos
+🔹 Expected Shortfall → cuánto pierdes de media en esos días
+
+Por eso, tras 2008, Basilea cambió el VaR al 99 % por el Expected Shortfall al 97,5 % para los bancos. Dos carteras con el mismo VaR pueden esconder colas muy distintas.
+
+Guárdalo para repasar 📌
+
+#finanzas #gestionderiesgos #inversion #educacionfinanciera #finanzasafondo

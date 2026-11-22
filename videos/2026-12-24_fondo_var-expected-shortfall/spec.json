@@ -1,0 +1,48 @@
+{
+ "series": "fondo",
+ "topic": "VaR <span class=\"k\">y</span> <span class=\"c-orange\">Expected Shortfall</span>",
+ "title_post": "VaR y Expected Shortfall",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Tu banco te dice que el VaR de tu cartera es de veinte mil euros. ¿Significa que es lo máximo que puedes perder? No. Y ese error ha costado muy caro.",
+   "html": "<div class=\"card in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">VaR de tu cartera</div><div class=\"val\">20.000 €</div></div><div class=\"q in\" data-cue=\"lo máximo\">¿Lo <em class=\"c-orange\">máximo</em> que puedes perder?</div><div class=\"q in\" data-cue=\"no. y\" style=\"font-size:80px\"><em class=\"c-orange\">No.</em></div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas a fondo: el VaR y el Expected Shortfall.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">VaR y <em class=\"c-orange\">Expected Shortfall</em></div>"
+  },
+  {
+   "title": "¿Qué es el <em class=\"c-navy\">VaR</em>?",
+   "say": "El VaR, o valor en riesgo, responde a una pregunta: con un nivel de confianza y un plazo concretos, ¿a partir de qué pérdida empiezan los días malos? Por ejemplo: para una cartera de un millón de euros, un VaR al noventa y nueve por ciento, a un día, de veinte mil euros.",
+   "html": "<div class=\"row in\" data-cue=\"un millón\"><span class=\"pill sand lg\">Cartera: 1.000.000 €</span></div><div class=\"card navy in\" data-cue=\"veinte mil euros\" style=\"margin-top:30px;width:100%\"><div class=\"lab\">VaR · 99 % · 1 día</div><div class=\"val\">20.000 €</div></div>"
+  },
+  {
+   "title": "Lo que dice de <em class=\"c-orange\">verdad</em>",
+   "say": "Lo que dice de verdad es esto: noventa y nueve de cada cien días, no perderás más de veinte mil. Pero uno de cada cien, sí. Y el VaR no te dice cuánto. Pueden ser veintiún mil… o doscientos mil.",
+   "html": "<div class=\"steps\"><div class=\"step teal in\" data-cue=\"noventa y nueve de cada cien\"><div class=\"n\">99</div><div><div class=\"t\">Días normales</div><div class=\"d\">Pierdes menos de 20.000 €</div></div></div><div class=\"step orange in\" data-cue=\"uno de cada cien\"><div class=\"n\">1</div><div><div class=\"t\">Día malo</div><div class=\"d\">Pierdes más… ¿cuánto?</div></div></div></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill lg in\" data-cue=\"veintiún mil\">21.000 €</span><span class=\"arrow in\" data-cue=\"doscientos mil\">…</span><span class=\"pill orange lg in\" data-cue=\"doscientos mil\">200.000 €</span></div>"
+  },
+  {
+   "title": "El problema está en la <em class=\"c-orange\">cola</em>",
+   "say": "Ese día malo está en lo que se llama la cola de la distribución. Y ahí es donde están las crisis de verdad. En 2008, muchos bancos tenían su VaR bajo control y aun así sufrieron pérdidas enormes. Porque el VaR mira hasta el borde de la cola, pero no dentro.",
+   "html": "<div class=\"in\" data-t=\"0.2\"><svg width=\"900\" height=\"440\" viewBox=\"0 0 900 440\"><path class=\"draw\" d=\"M0.0,379.9 L5.6,379.9 L11.3,379.8 L16.9,379.8 L22.5,379.7 L28.1,379.7 L33.7,379.6 L39.4,379.6 L45.0,379.5 L50.6,379.4 L56.2,379.2 L61.9,379.1 L67.5,378.9 L73.1,378.7 L78.8,378.5 L84.4,378.2 L90.0,377.9 L95.6,377.6 L101.2,377.1 L106.9,376.7 L112.5,376.1 L118.1,375.5 L123.8,374.8 L129.4,374.0 L135.0,373.1 L140.6,372.0 L146.2,370.9 L151.9,369.6 L157.5,368.1 L163.1,366.5 L168.8,364.7 L174.4,362.6 L180.0,360.4 L185.6,357.9 L191.3,355.2 L196.9,352.2 L202.5,349.0 L208.1,345.4 L213.8,341.5 L219.4,337.3 L225.0,332.8 L230.6,327.9 L236.2,322.6 L241.9,316.9 L247.5,310.9 L253.1,304.5 L258.8,297.7 L264.4,290.5 L270.0,282.9 L275.6,275.0 L281.2,266.7 L286.9,258.0 L292.5,249.0 L298.1,239.7 L303.8,230.1 L309.4,220.2 L315.0,210.1 L320.6,199.8 L326.2,189.4 L331.9,178.9 L337.5,168.3 L343.1,157.7 L348.8,147.2 L354.4,136.8 L360.0,126.5 L365.6,116.5 L371.2,106.8 L376.9,97.4 L382.5,88.4 L388.1,79.9 L393.8,71.9 L399.4,64.5 L405.0,57.8 L410.6,51.7 L416.2,46.3 L421.9,41.7 L427.5,37.8 L433.1,34.8 L438.8,32.7 L444.4,31.4 L450.0,30.9 L455.6,31.4 L461.2,32.7 L466.9,34.8 L472.5,37.8 L478.1,41.7 L483.8,46.3 L489.4,51.7 L495.0,57.8 L500.6,64.5 L506.2,71.9 L511.9,79.9 L517.5,88.4 L523.1,97.4 L528.8,106.8 L534.4,116.5 L540.0,126.5 L545.6,136.8 L551.2,147.2 L556.9,157.7 L562.5,168.3 L568.1,178.9 L573.8,189.4 L579.4,199.8 L585.0,210.1 L590.6,220.2 L596.2,230.1 L601.9,239.7 L607.5,249.0 L613.1,258.0 L618.8,266.7 L624.4,275.0 L630.0,282.9 L635.6,290.5 L641.2,297.7 L646.9,304.5 L652.5,310.9 L658.1,316.9 L663.8,322.6 L669.4,327.9 L675.0,332.8 L680.6,337.3 L686.2,341.5 L691.9,345.4 L697.5,349.0 L703.1,352.2 L708.8,355.2 L714.4,357.9 L720.0,360.4 L725.6,362.6 L731.2,364.7 L736.9,366.5 L742.5,368.1 L748.1,369.6 L753.8,370.9 L759.4,372.0 L765.0,373.1 L770.6,374.0 L776.2,374.8 L781.9,375.5 L787.5,376.1 L793.1,376.7 L798.8,377.1 L804.4,377.6 L810.0,377.9 L815.6,378.2 L821.2,378.5 L826.9,378.7 L832.5,378.9 L838.1,379.1 L843.8,379.2 L849.4,379.4 L855.0,379.5 L860.6,379.6 L866.2,379.6 L871.9,379.7 L877.5,379.7 L883.1,379.8 L888.8,379.8 L894.4,379.9 L900.0,379.9\" fill=\"none\" stroke=\"#2D4B81\" stroke-width=\"5\"/><line x1=\"0\" y1=\"380\" x2=\"900\" y2=\"380\" stroke=\"#cfcabd\" stroke-width=\"3\"/><path class=\"in\" data-cue=\"la cola\" d=\"M0.0,380 L0.0,379.9 L5.6,379.9 L11.3,379.8 L16.9,379.8 L22.5,379.7 L28.1,379.7 L33.7,379.6 L39.4,379.6 L45.0,379.5 L50.6,379.4 L56.2,379.2 L61.9,379.1 L67.5,378.9 L73.1,378.7 L78.8,378.5 L84.4,378.2 L90.0,377.9 L95.6,377.6 L101.2,377.1 L106.9,376.7 L112.5,376.1 L118.1,375.5 L123.8,374.8 L129.4,374.0 L135.0,373.1 L140.6,372.0 L146.2,370.9 L151.9,369.6 L157.5,368.1 L163.1,366.5 L168.8,364.7 L174.4,362.6 L180.0,360.4 L185.6,357.9 L187.9,380 Z\" fill=\"#B65920\"/><line class=\"in\" data-cue=\"mira hasta el borde\" x1=\"187.9\" y1=\"60\" x2=\"187.9\" y2=\"380\" stroke=\"#1A1A17\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><text class=\"in\" data-cue=\"mira hasta el borde\" x=\"201.9\" y=\"80\" font-family=\"MO\" font-size=\"30\" font-weight=\"600\" fill=\"#1A1A17\">VaR</text><text class=\"in\" data-cue=\"la cola\" x=\"10\" y=\"428\" font-family=\"IN\" font-size=\"26\" fill=\"#B65920\">la cola: los días malos</text></svg></div>"
+  },
+  {
+   "title": "Expected <em class=\"c-orange\">Shortfall</em>",
+   "say": "Para eso está el Expected Shortfall: la pérdida media en esos días malos. Si el VaR dice a partir de qué pérdida empieza el desastre, el Expected Shortfall dice cuánto pierdes de media cuando llega. En nuestra cartera serían unos veintitrés mil euros si los mercados fueran normales, y bastante más en la realidad, porque las colas son más gordas.",
+   "html": "<div class=\"bars\"><div class=\"b in\" data-cue=\"a partir de qué\"><span>VaR 99 %</span><i class=\"navy grow\" style=\"--w:70%\">20.000 €</i></div><div class=\"b in\" data-cue=\"veintitrés mil\"><span>Expected Shortfall</span><i class=\"orange grow\" style=\"--w:80%\">≈ 23.000 €</i></div></div><div class=\"row in\" data-cue=\"más gordas\" style=\"margin-top:40px\"><span class=\"pill orange lg\">Real: colas más gordas</span></div>"
+  },
+  {
+   "title": "Por eso los bancos <em class=\"c-navy\">cambiaron</em>",
+   "say": "Por eso, tras la crisis, el comité de Basilea cambió las reglas. Para la cartera de negociación de los bancos, el VaR al noventa y nueve por ciento se sustituyó por el Expected Shortfall al noventa y siete coma cinco. Porque dos carteras con el mismo VaR pueden esconder colas muy distintas.",
+   "html": "<div class=\"col\"><span class=\"pill grey lg in\" data-cue=\"cambió las reglas\">Antes: VaR 99 %</span><span class=\"arrow in\" data-cue=\"se sustituyó\">↓</span><span class=\"pill orange lg in\" data-cue=\"noventa y siete\">Ahora: ES 97,5 %</span></div><div class=\"note in\" data-cue=\"mismo var\" style=\"margin-top:40px\">Mismo VaR, colas muy distintas</div>"
+  },
+  {
+   "dark": true,
+   "say": "El VaR te dice dónde empieza la tormenta. El Expected Shortfall, cómo de fuerte sopla.",
+   "html": "<div class=\"final in\" data-t=\"0\">El VaR te dice dónde empieza <em class=\"c-navy\">la tormenta</em>. El Expected Shortfall, <em class=\"c-orange\">cómo de fuerte sopla</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

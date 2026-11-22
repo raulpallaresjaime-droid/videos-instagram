@@ -1,0 +1,51 @@
+{
+  "series": "fondo",
+  "topic": "Sharpe, Treynor <span class=\"k\">y</span> <span class=\"c-teal\">Jensen</span>",
+  "title_post": "Sharpe, Treynor y Jensen",
+  "coverScene": 1,
+  "scenes": [
+    {
+      "dark": true,
+      "say": "Un fondo gana un doce por ciento al año. Otro, un nueve. ¿Cuál lo ha hecho mejor? Si has dicho el primero, te has saltado la mitad de la historia.",
+      "html": "<div class=\"row\" style=\"gap:40px\"><div class=\"card navy in\" data-cue=\"doce por ciento\"><div class=\"lab\">Fondo A</div><div class=\"val\">+12 %</div></div><div class=\"card teal in\" data-cue=\"un nueve\"><div class=\"lab\">Fondo B</div><div class=\"val\">+9 %</div></div></div><div class=\"q in\" data-cue=\"cuál lo ha hecho\">¿Cuál lo ha hecho <em class=\"c-orange\">mejor</em>?</div>"
+    },
+    {
+      "dark": true,
+      "say": "Porque ganar más no sirve de mucho si para conseguirlo has corrido el doble de riesgo. Hoy, en finanzas a fondo: Sharpe, Treynor y Jensen.",
+      "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">Sharpe, Treynor y <em class=\"c-teal\">Jensen</em></div><div class=\"q in\" data-cue=\"doble de riesgo\" style=\"font-size:46px\">Rentabilidad <em class=\"c-orange\">ajustada al riesgo</em></div>"
+    },
+    {
+      "title": "Los <em class=\"c-navy\">datos</em>",
+      "sub": "Ejemplo ilustrativo",
+      "say": "Vamos con los números. El fondo A gana un doce por ciento, pero su volatilidad es del veinticuatro. El fondo B gana un nueve, con una volatilidad del doce. Los dos tienen una beta de uno: se mueven igual que el mercado. Y una letra del Tesoro, sin riesgo, paga un dos.",
+      "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-cue=\"el fondo a\" style=\"min-width:420px\"><div class=\"lab\">Fondo A</div><div class=\"txt\">Rentab. 12 %</div><div class=\"txt in\" data-cue=\"del veinticuatro\">Volat. 24 %</div><div class=\"txt in\" data-cue=\"beta de uno\">Beta 1</div></div><div class=\"card teal in\" data-cue=\"el fondo b\" style=\"min-width:420px\"><div class=\"lab\">Fondo B</div><div class=\"txt\">Rentab. 9 %</div><div class=\"txt in\" data-cue=\"del doce\">Volat. 12 %</div><div class=\"txt in\" data-cue=\"beta de uno\">Beta 1</div></div></div><div class=\"row in\" data-cue=\"letra del tesoro\" style=\"margin-top:40px\"><span class=\"pill sand lg\">Sin riesgo: 2 %</span></div>"
+    },
+    {
+      "title": "1 · <em class=\"c-teal\">Sharpe</em>",
+      "sub": "Riesgo total",
+      "say": "El ratio de Sharpe mide cuánto ganas por encima de lo que te daría algo sin riesgo, por cada unidad de riesgo total. Al fondo A le restas el dos y lo divides entre veinticuatro: cero coma cuarenta y dos. Al B, siete entre doce: cero coma cincuenta y ocho. Gana el B.",
+      "html": "<div class=\"row in\" data-cue=\"mide cuánto\"><span class=\"pill lg\">(R − Rf) ÷ volatilidad</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"cuarenta y dos\"><span>Fondo A</span><i class=\"navy grow\" style=\"--w:72%\">0,42</i></div><div class=\"b in\" data-cue=\"cincuenta y ocho\"><span>Fondo B</span><i class=\"teal grow\" style=\"--w:100%\">0,58</i></div></div><div class=\"row in\" data-cue=\"gana el b\" style=\"margin-top:30px\"><span class=\"pill teal lg\">Gana B</span></div>"
+    },
+    {
+      "title": "2 · <em class=\"c-navy\">Treynor</em>",
+      "sub": "Riesgo de mercado",
+      "say": "Treynor hace la misma cuenta, pero en vez de dividir por la volatilidad total, divide por la beta: solo el riesgo que viene del mercado. Fondo A: diez entre uno, diez. Fondo B: siete. Ahora gana el A.",
+      "html": "<div class=\"row in\" data-cue=\"misma cuenta\"><span class=\"pill lg\">(R − Rf) ÷ beta</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"diez entre uno\"><span>Fondo A</span><i class=\"navy grow\" style=\"--w:100%\">10</i></div><div class=\"b in\" data-cue=\"fondo b\"><span>Fondo B</span><i class=\"teal grow\" style=\"--w:70%\">7</i></div></div><div class=\"row in\" data-cue=\"ahora gana\" style=\"margin-top:30px\"><span class=\"pill navy lg\">Gana A</span></div>"
+    },
+    {
+      "title": "3 · El alfa de <em class=\"c-orange\">Jensen</em>",
+      "say": "Y el alfa de Jensen compara lo que ha ganado el fondo con lo que debería haber ganado por el riesgo de mercado que ha asumido. Si el mercado subió un ocho, con beta uno le tocaba un ocho. El A ha hecho cuatro puntos más. El B, solo uno. Gana el A otra vez.",
+      "html": "<div class=\"row in\" data-cue=\"compara\"><span class=\"pill\">α = R − [Rf + β · (Rm − Rf)]</span></div><div class=\"row in\" data-cue=\"le tocaba\" style=\"margin-top:20px\"><span class=\"pill sand lg\">Le tocaba: 8 %</span></div><div class=\"bars\" style=\"margin-top:30px\"><div class=\"b in\" data-cue=\"cuatro puntos\"><span>Fondo A</span><i class=\"navy grow\" style=\"--w:100%\">+4</i></div><div class=\"b in\" data-cue=\"solo uno\"><span>Fondo B</span><i class=\"teal grow\" style=\"--w:25%\">+1</i></div></div><div class=\"row in\" data-cue=\"otra vez\" style=\"margin-top:30px\"><span class=\"pill navy lg\">Gana A</span></div>"
+    },
+    {
+      "title": "¿Quién tiene <em class=\"c-teal\">razón</em>?",
+      "say": "Entonces, ¿quién tiene razón? Los tres. La diferencia está en qué riesgo mides. El fondo A tiene mucho riesgo que no viene del mercado: el de apostar por pocas empresas. Si ese fondo es todo tu dinero, ese riesgo te afecta, y manda Sharpe. Si es solo una pieza de una cartera bien diversificada, ese riesgo se diluye, y mandan Treynor y Jensen.",
+      "html": "<div class=\"note in\" data-cue=\"qué riesgo mides\">Depende de qué riesgo mides</div><div class=\"steps\" style=\"margin-top:30px\"><div class=\"step teal in\" data-cue=\"todo tu dinero\"><div class=\"n\">1</div><div><div class=\"t\">Es todo tu dinero</div><div class=\"d\">Riesgo total → Sharpe</div></div></div><div class=\"step navy in\" data-cue=\"una pieza\"><div class=\"n\">2</div><div><div class=\"t\">Es una pieza de tu cartera</div><div class=\"d\">Riesgo de mercado → Treynor y Jensen</div></div></div></div>"
+    },
+    {
+      "dark": true,
+      "say": "Porque la rentabilidad, sola, no dice nada. Siempre hay que preguntar cuánto riesgo ha costado.",
+      "html": "<div class=\"final in\" data-t=\"0\">La rentabilidad, sola, <em class=\"c-orange\">no dice nada</em>.<br>Pregunta cuánto <em class=\"c-teal\">riesgo</em> ha costado.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+    }
+  ]
+}
