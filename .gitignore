@@ -1,3 +1,5 @@
 node_modules/
 engine/_page_*.html
 .tts_body.json
+.lote*.log
+.render_*.log
