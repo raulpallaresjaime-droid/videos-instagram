@@ -40,7 +40,7 @@
     {
       "title": "Un juego de <em class=\"c-orange\">suma negativa</em>",
       "say": "Piénsalo así. En el trading a corto plazo, lo que gana uno lo pierde otro. Y encima, en cada operación el bróker se lleva su parte. Es un juego de suma negativa. Invertir a largo plazo en empresas es lo contrario: la economía crece, los beneficios también, y pueden ganar todos.",
-      "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card orange in\" data-cue=\"suma negativa\" style=\"min-width:420px\"><div class=\"lab\">Trading a corto</div><div class=\"txt\">Suma negativa</div></div><div class=\"card teal in\" data-cue=\"lo contrario\" style=\"min-width:420px\"><div class=\"lab\">Invertir a largo</div><div class=\"txt\">Suma positiva</div></div></div><div class=\"row in\" data-cue=\"su parte\" style=\"margin-top:40px\"><span class=\"pill lg\">− comisión del bróker</span></div>"
+      "html": "<div class=\"row in\" data-cue=\"su parte\" style=\"margin-bottom:40px\"><span class=\"pill lg\">− comisión del bróker</span></div><div class=\"row\" style=\"gap:30px\"><div class=\"card orange in\" data-cue=\"suma negativa\" style=\"min-width:420px\"><div class=\"lab\">Trading a corto</div><div class=\"txt\">Suma negativa</div></div><div class=\"card teal in\" data-cue=\"lo contrario\" style=\"min-width:420px\"><div class=\"lab\">Invertir a largo</div><div class=\"txt\">Suma positiva</div></div></div>"
     },
     {
       "dark": true,
