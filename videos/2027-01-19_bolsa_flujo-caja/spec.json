@@ -28,7 +28,7 @@
   {
    "title": "Lo que quieres <em class=\"c-teal\">ver</em>",
    "say": "Lo ideal es una empresa cuyo negocio genera caja, que usa parte de esa caja para invertir, y que con lo que le sobra devuelve deuda o paga dividendos. Operativa positiva, inversión negativa y financiación negativa.",
-   "html": "<div class=\"row\" style=\"\"><span class=\"pill teal lg in\" data-cue=\"operativa positiva\">Operativa +</span><span class=\"pill navy lg in\" data-cue=\"inversión negativa\">Inversión −</span><span class=\"pill ink lg in\" data-cue=\"financiación negativa\">Financiación −</span></div><div class=\"note in\" data-cue=\"devuelve deuda\" style=\"margin-top:30px\">El negocio se paga a sí mismo</div>"
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill teal lg in\" data-cue=\"genera caja\">Operativa +</span><span class=\"pill navy lg in\" data-cue=\"para invertir\">Inversión −</span><span class=\"pill ink lg in\" data-cue=\"devuelve deuda\">Financiación −</span></div><div class=\"note in\" data-cue=\"operativa positiva\" style=\"margin-top:30px\">El negocio se paga a sí mismo</div>"
   },
   {
    "title": "La señal de <em class=\"c-orange\">alarma</em>",
