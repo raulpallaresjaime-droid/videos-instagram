@@ -126,13 +126,13 @@ pmin, pmax = price(0.08), price(0.01)
 Y = lambda p: 30 + (pmax-p)/(pmax-pmin)*(H-80)
 curve = "M" + " L".join(f"{X(y):.0f},{Y(price(y)):.0f}" for y in ys)
 p0 = price(0.04); dp = (price(0.0401)-price(0.0399))/0.0002
-tan = f"M{X(0.015):.0f},{Y(p0+dp*(0.015-0.04)):.0f} L{X(0.075):.0f},{Y(p0+dp*(0.075-0.04)):.0f}"
+tan = f"M{X(0.02):.0f},{Y(p0+dp*(0.02-0.04)):.0f} L{X(0.065):.0f},{Y(p0+dp*(0.065-0.04)):.0f}"
 svg_conv = (f'<svg width="{W}" height="{H+40}" viewBox="0 0 {W} {H+40}">'
  f'<line x1="40" y1="{H-30}" x2="{W-40}" y2="{H-30}" stroke="#cfcabd" stroke-width="3"/>'
  f'<text x="{W-210}" y="{H+5}" font-family="IN" font-size="24" fill="#77766E">tipos de interés →</text>'
  f'<text x="40" y="22" font-family="IN" font-size="24" fill="#77766E">precio</text>'
  f'<path class="draw" data-cue="línea recta" d="{tan}" fill="none" stroke="#B65920" stroke-width="4" stroke-dasharray="12 10"/>'
- f'<text class="in" data-cue="línea recta" x="{X(0.07):.0f}" y="{Y(p0+dp*0.03)+50:.0f}" font-family="IN" font-size="26" font-weight="600" fill="#B65920">duración</text>'
+ f'<text class="in" data-cue="línea recta" x="{X(0.052):.0f}" y="{Y(p0+dp*0.012)+48:.0f}" font-family="IN" font-size="26" font-weight="600" fill="#B65920">duración (recta)</text>'
  f'<path class="draw" data-cue="es una curva" d="{curve}" fill="none" stroke="#0C585D" stroke-width="6"/>'
  f'<text class="in" data-cue="es una curva" x="{X(0.017):.0f}" y="{Y(price(0.017))-18:.0f}" font-family="IN" font-size="26" font-weight="600" fill="#0C585D">precio real</text></svg>')
 mac = sum(t*4/1.04**t for t in range(1, 11)) + 10*100/1.04**10
