@@ -38,7 +38,7 @@
   {
    "title": "Por qué siempre <em class=\"c-teal\">cuadra</em>",
    "say": "Y aquí está la magia: el balance siempre cuadra. Lo que tiene la empresa es exactamente igual a lo que debe, más lo que es de sus dueños. Ochenta mil de activo, igual a cuarenta mil de pasivo más cuarenta mil de patrimonio. Siempre.",
-   "html": "<div class=\"col\" style=\"\"><span class=\"pill navy lg in\" data-cue=\"ochenta mil de activo\">Activo 80.000</span><span class=\"arrow in\" data-cue=\"igual a cuarenta\">=</span><div class=\"row\" style=\"\"><span class=\"pill orange lg in\" data-cue=\"pasivo más\">Pasivo 40.000</span><span class=\"arrow in\" data-cue=\"pasivo más\">+</span><span class=\"pill teal lg in\" data-cue=\"de patrimonio\">Patrimonio 40.000</span></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"siempre.\">Activo = Pasivo + Patrimonio neto</span></div>"
+   "html": "<div class=\"col\" style=\"\"><span class=\"pill navy lg in\" data-cue=\"ochenta mil de activo\">Activo 80.000</span><span class=\"arrow in\" data-cue=\"igual a cuarenta\">=</span><div class=\"row\" style=\"\"><span class=\"pill orange in\" data-cue=\"pasivo más\">Pasivo 40.000</span><span class=\"arrow in\" data-cue=\"pasivo más\">+</span><span class=\"pill teal in\" data-cue=\"de patrimonio\">Patrimonio 40.000</span></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"siempre.\">Activo = Pasivo + Patrimonio neto</span></div>"
   },
   {
    "title": "Por qué te <em class=\"c-orange\">importa</em>",
