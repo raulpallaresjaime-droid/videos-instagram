@@ -1,0 +1,54 @@
+{
+ "series": "bolsa",
+ "topic": "El <span class=\"c-teal\">balance</span>",
+ "title_post": "El balance I",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "¿Qué tiene una empresa? ¿Y qué debe? Hay un documento que te lo cuenta todo en una sola foto.",
+   "html": "<div class=\"q in\" data-t=\"0\" style=\"font-size:64px\">¿Qué <em class=\"c-teal\">tiene</em>…<br>y qué <em class=\"c-orange\">debe</em>?</div><div class=\"note in\" data-cue=\"una sola foto\" style=\"margin-top:30px\">En una sola foto</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas desde cero: el balance.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas desde cero</div><div class=\"hero sm in\" data-t=\"0.2\">El <em class=\"c-teal\">balance</em></div>"
+  },
+  {
+   "title": "Una <em class=\"c-navy\">foto</em>, no una película",
+   "say": "Si la cuenta de resultados es una película de todo un año, el balance es una foto de un día concreto. Y muestra dos cosas: todo lo que tiene la empresa, y de dónde ha salido el dinero para tenerlo.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-cue=\"una película\" style=\"min-width:420px\"><div class=\"lab\">Cuenta de resultados</div><div class=\"txt\">Una película: todo el año</div></div><div class=\"card teal in\" data-cue=\"una foto\" style=\"min-width:420px\"><div class=\"lab\">Balance</div><div class=\"txt\">Una foto: un día</div></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill sand lg in\" data-cue=\"todo lo que tiene\">Lo que tiene</span><span class=\"pill sand lg in\" data-cue=\"de dónde ha salido\">De dónde sale el dinero</span></div>"
+  },
+  {
+   "title": "Lo que tiene: el <em class=\"c-navy\">activo</em>",
+   "say": "Volvamos a Café Lumen, nuestra cafetería inventada. Lo que tiene se llama activo. La reforma del local y las máquinas, sesenta mil euros. El café y la leche del almacén, cinco mil. Y el dinero en la cuenta, quince mil. En total, ochenta mil euros.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"sesenta mil\"><span>Local y máquinas</span><i class=\"navy grow\" style=\"--w:100%\">60.000 €</i></div><div class=\"b in\" data-cue=\"cinco mil\"><span>Existencias</span><i class=\"navy grow short\" style=\"--w:8%\">5.000 €</i></div><div class=\"b in\" data-cue=\"quince mil\"><span>Caja</span><i class=\"navy grow\" style=\"--w:25%\">15.000 €</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill navy lg in\" data-cue=\"ochenta mil\">Activo: 80.000 €</span></div>",
+   "sub": "Café Lumen · ejemplo"
+  },
+  {
+   "title": "De dónde sale: el <em class=\"c-orange\">pasivo</em>",
+   "say": "Pero ese dinero tuvo que salir de algún sitio. Una parte se la deben a otros: un préstamo del banco de treinta mil euros, y diez mil que todavía no ha pagado a sus proveedores. Eso es el pasivo: cuarenta mil euros.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"un préstamo\"><span>Préstamo del banco</span><i class=\"orange grow\" style=\"--w:100%\">30.000 €</i></div><div class=\"b in\" data-cue=\"diez mil\"><span>Proveedores</span><i class=\"orange grow\" style=\"--w:33%\">10.000 €</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill orange lg in\" data-cue=\"eso es el pasivo\">Pasivo: 40.000 €</span></div>"
+  },
+  {
+   "title": "Lo de los dueños: el <em class=\"c-teal\">patrimonio neto</em>",
+   "say": "El resto es de los dueños. Los treinta mil euros que pusieron al empezar, más diez mil de beneficios que han ido dejando dentro. Eso es el patrimonio neto: cuarenta mil euros.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"treinta mil euros\"><span>Capital inicial</span><i class=\"teal grow\" style=\"--w:100%\">30.000 €</i></div><div class=\"b in\" data-cue=\"diez mil de beneficios\"><span>Beneficios retenidos</span><i class=\"teal grow\" style=\"--w:33%\">10.000 €</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill teal lg in\" data-cue=\"patrimonio neto\">Patrimonio neto: 40.000 €</span></div>"
+  },
+  {
+   "title": "Por qué siempre <em class=\"c-teal\">cuadra</em>",
+   "say": "Y aquí está la magia: el balance siempre cuadra. Lo que tiene la empresa es exactamente igual a lo que debe, más lo que es de sus dueños. Ochenta mil de activo, igual a cuarenta mil de pasivo más cuarenta mil de patrimonio. Siempre.",
+   "html": "<div class=\"col\" style=\"\"><span class=\"pill navy lg in\" data-cue=\"ochenta mil de activo\">Activo 80.000</span><span class=\"arrow in\" data-cue=\"igual a cuarenta\">=</span><div class=\"row\" style=\"\"><span class=\"pill orange lg in\" data-cue=\"pasivo más\">Pasivo 40.000</span><span class=\"arrow in\" data-cue=\"pasivo más\">+</span><span class=\"pill teal lg in\" data-cue=\"de patrimonio\">Patrimonio 40.000</span></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"siempre.\">Activo = Pasivo + Patrimonio neto</span></div>"
+  },
+  {
+   "title": "Por qué te <em class=\"c-orange\">importa</em>",
+   "say": "¿Y para qué te sirve? Porque dos empresas pueden ganar lo mismo, pero si una lo hace con mucha deuda y la otra casi sin deber nada, el riesgo no tiene nada que ver. Y eso solo lo ves en el balance. Por eso, cuando analices una empresa, nunca te quedes solo con cuánto gana.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-cue=\"casi sin deber\" style=\"min-width:420px\"><div class=\"lab\">Empresa A</div><div class=\"txt\">Casi sin deuda</div></div><div class=\"card orange in\" data-cue=\"mucha deuda\" style=\"min-width:420px\"><div class=\"lab\">Empresa B</div><div class=\"txt\">Mucha deuda</div></div></div><div class=\"note in\" data-cue=\"no tiene nada que ver\" style=\"margin-top:30px\">Mismo beneficio, distinto riesgo</div>"
+  },
+  {
+   "dark": true,
+   "say": "La cuenta de resultados te dice cuánto gana una empresa. El balance, cuánto aguanta.",
+   "html": "<div class=\"final in\" data-t=\"0\">La cuenta de resultados te dice cuánto <em class=\"c-teal\">gana</em>. El balance, cuánto <em class=\"c-orange\">aguanta</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

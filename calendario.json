@@ -256,7 +256,8 @@
    "slug": "ev-vs-equity",
    "tema": "Enterprise Value vs Equity Value",
    "estado": "pendiente",
-   "carpeta": "videos/2027-01-28_fondo_ev-vs-equity"
+   "carpeta": "videos/2027-01-28_fondo_ev-vs-equity",
+   "aviso": "La idea nueva «Del Enterprise Value al Equity Value» de la lista de Raúl es esta misma; no se ha duplicado. Avisar a Raúl."
   },
   {
    "fecha": "2027-01-31",
@@ -576,7 +577,8 @@
    "slug": "historias-gamestop",
    "tema": "Historias épicas de la bolsa I: GameStop ⭐",
    "estado": "pendiente",
-   "carpeta": "videos/2027-05-02_nadie_historias-gamestop"
+   "carpeta": "videos/2027-05-02_nadie_historias-gamestop",
+   "aviso": "Cambio respecto a la lista de Raúl: «Historias épicas de la bolsa» se ha dividido en 3 episodios (GameStop, tulipanes, FTX). Avisar a Raúl para que lo ordene en Drive."
   },
   {
    "fecha": "2027-05-04",
@@ -640,7 +642,8 @@
    "slug": "varianza-volatilidad",
    "tema": "Varianza, covarianza y volatilidad",
    "estado": "pendiente",
-   "carpeta": "videos/2027-05-20_fondo_varianza-volatilidad"
+   "carpeta": "videos/2027-05-20_fondo_varianza-volatilidad",
+   "aviso": "Orden cambiado respecto a la lista de Raúl: varianza → correlación → Markowitz → CAPM (en su lista CAPM iba antes). Avisar a Raúl."
   },
   {
    "fecha": "2027-05-23",
@@ -688,7 +691,8 @@
    "slug": "historias-tulipanes",
    "tema": "Historias épicas de la bolsa II: la burbuja de los tulipanes ⭐",
    "estado": "pendiente",
-   "carpeta": "videos/2027-06-06_nadie_historias-tulipanes"
+   "carpeta": "videos/2027-06-06_nadie_historias-tulipanes",
+   "aviso": "Episodio II de «Historias épicas» (idea dividida en 3). Avisar a Raúl."
   },
   {
    "fecha": "2027-06-10",
@@ -696,7 +700,8 @@
    "slug": "capm-beta",
    "tema": "CAPM y beta: de dónde sale el coste del equity del WACC",
    "estado": "pendiente",
-   "carpeta": "videos/2027-06-10_fondo_capm-beta"
+   "carpeta": "videos/2027-06-10_fondo_capm-beta",
+   "aviso": "Va después de Markowitz por orden lógico (en la lista de Raúl iba antes). Avisar a Raúl."
   },
   {
    "fecha": "2027-06-13",
@@ -704,7 +709,8 @@
    "slug": "historias-ftx",
    "tema": "Historias épicas de la bolsa III: la caída de FTX ⭐",
    "estado": "pendiente",
-   "carpeta": "videos/2027-06-13_nadie_historias-ftx"
+   "carpeta": "videos/2027-06-13_nadie_historias-ftx",
+   "aviso": "Episodio III de «Historias épicas» (idea dividida en 3). Avisar a Raúl."
   }
  ]
 }

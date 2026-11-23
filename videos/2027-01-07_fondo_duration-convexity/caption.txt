@@ -1,0 +1,12 @@
+¿Por qué algunos bonos cayeron más que la bolsa en 2022? 📉
+
+Cuando los tipos suben, los bonos bajan. Pero cuánto bajan depende de un número: la duración.
+🔸 Macaulay duration → cuándo recuperas tu dinero, de media
+🔹 Modified duration → cuánto cae el precio si los tipos suben un 1 %
+🔸 Convexity → el ajuste que juega a tu favor
+
+Un bono a 2 años apenas lo nota. Uno con duración 15 puede caer un 15 %.
+
+Guárdalo para repasar 📌
+
+#finanzas #bonos #rentafija #educacionfinanciera #finanzasafondo

@@ -1,0 +1,54 @@
+{
+ "series": "fondo",
+ "topic": "Enterprise Value <span class=\"k\">vs</span> <span class=\"c-teal\">Equity Value</span>",
+ "title_post": "Enterprise Value vs Equity Value",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Una casa que vale cuatrocientos mil euros. Te quedan doscientos veinte mil de hipoteca. ¿Cuánto de esa casa es tuyo de verdad?",
+   "html": "<div class=\"card navy in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">La casa vale</div><div class=\"val\">400.000 €</div></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"doscientos veinte mil\">Hipoteca: 220.000 €</span></div><div class=\"q in\" data-cue=\"tuyo de verdad\" style=\"\">¿Cuánto es <em class=\"c-teal\">tuyo</em>?</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas a fondo: Enterprise Value frente a Equity Value.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">Enterprise Value vs <em class=\"c-teal\">Equity Value</em></div>"
+  },
+  {
+   "title": "Empecemos por la <em class=\"c-navy\">casa</em>",
+   "say": "La casa vale cuatrocientos mil, pero lo tuyo son ciento ochenta mil. El resto es del banco. Con las empresas pasa exactamente lo mismo. Solo que con nombres más raros.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"la casa vale\"><span>La casa</span><i class=\"navy grow\" style=\"--w:100%\">400.000 €</i></div><div class=\"b in\" data-cue=\"el resto\"><span>Del banco</span><i class=\"orange grow\" style=\"--w:55%\">220.000 €</i></div><div class=\"b in\" data-cue=\"ciento ochenta mil\"><span>Tuyo</span><i class=\"teal grow\" style=\"--w:45%\">180.000 €</i></div></div><div class=\"note in\" data-cue=\"exactamente lo mismo\" style=\"margin-top:30px\">Con las empresas, igual</div>"
+  },
+  {
+   "title": "<em class=\"c-navy\">Enterprise Value</em>",
+   "say": "El Enterprise Value es lo que vale el negocio entero, para todos los que lo financian: accionistas y bancos. Es el valor de la casa. Y no depende de cómo se haya pagado.",
+   "html": "<div class=\"card navy in\" data-cue=\"el negocio entero\" style=\"width:100%\"><div class=\"lab\">Enterprise Value</div><div class=\"txt\">El negocio entero</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill teal lg in\" data-cue=\"accionistas\">Accionistas</span><span class=\"pill orange lg in\" data-cue=\"y bancos\">Bancos</span></div><div class=\"note in\" data-cue=\"el valor de la casa\" style=\"margin-top:30px\">Como el valor de la casa</div>"
+  },
+  {
+   "title": "<em class=\"c-teal\">Equity Value</em>",
+   "say": "El Equity Value es lo que vale solo la parte de los accionistas. Es lo que ves en bolsa: la capitalización. Como la parte de la casa que es tuya.",
+   "html": "<div class=\"card teal in\" data-cue=\"solo la parte\" style=\"width:100%\"><div class=\"lab\">Equity Value</div><div class=\"txt\">Solo los accionistas</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"la capitalización\">= capitalización en bolsa</span></div><div class=\"note in\" data-cue=\"que es tuya\" style=\"margin-top:30px\">Como la parte de la casa que es tuya</div>"
+  },
+  {
+   "title": "El <em class=\"c-orange\">puente</em>",
+   "say": "Para pasar de uno a otro se construye un puente. Al Enterprise Value le restas la deuda, le sumas la caja que tiene la empresa, y le restas lo que no es de los accionistas, como los minoritarios: la parte de sus filiales que pertenece a otros socios.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"al enterprise\"><span>Enterprise Value</span><i class=\"navy grow\" style=\"--w:100%\">1.000</i></div><div class=\"b in\" data-cue=\"le restas la deuda\"><span>− Deuda</span><i class=\"orange grow\" style=\"--w:40%\">400</i></div><div class=\"b in\" data-cue=\"le sumas la caja\"><span>+ Caja</span><i class=\"teal grow short\" style=\"--w:10%\">100</i></div><div class=\"b in\" data-cue=\"minoritarios\"><span>− Minoritarios</span><i class=\"orange grow short\" style=\"--w:5%\">50</i></div><div class=\"b in\" data-cue=\"otros socios\"><span>= Equity Value</span><i class=\"teal grow\" style=\"--w:65%\">650</i></div></div>",
+   "sub": "Ejemplo ilustrativo · millones"
+  },
+  {
+   "title": "Y de ahí, al precio por <em class=\"c-teal\">acción</em>",
+   "say": "Y si divides el Equity Value entre el número de acciones, tienes lo que vale cada una. Pero ojo: hay que contar también las acciones que pueden aparecer más adelante, por ejemplo por las opciones de los directivos. Si te las saltas, el precio por acción te saldrá más alto de lo que es en realidad.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill  lg in\" data-cue=\"divides\">Equity Value ÷ acciones</span><span class=\"pill teal lg in\" data-cue=\"lo que vale cada una\">= precio por acción</span></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill orange lg in\" data-cue=\"opciones de los directivos\">+ acciones que pueden aparecer</span></div><div class=\"note in\" data-cue=\"más alto\" style=\"margin-top:30px\">Si las olvidas, sobrevaloras el precio</div>"
+  },
+  {
+   "title": "Por qué <em class=\"c-navy\">importa</em>",
+   "say": "¿Y por qué importa? Porque dos empresas con el mismo negocio pueden valer lo mismo como empresa, pero si una tiene mucha más deuda, sus acciones valen mucho menos. Por eso, para comparar negocios, los profesionales usan múltiplos sobre el Enterprise Value, como el EV entre EBITDA, y no solo el PER.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-cue=\"dos empresas\" style=\"min-width:420px\"><div class=\"lab\">Empresa A · poca deuda</div><div class=\"txt\">Equity alto</div></div><div class=\"card orange in\" data-cue=\"mucha más deuda\" style=\"min-width:420px\"><div class=\"lab\">Empresa B · mucha deuda</div><div class=\"txt\">Equity bajo</div></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill navy lg in\" data-cue=\"ev entre ebitda\">EV / EBITDA</span><span class=\"pill sand lg in\" data-cue=\"solo el per\">no solo el PER</span></div>"
+  },
+  {
+   "dark": true,
+   "say": "Lo que vale una empresa no es lo que valen sus acciones. La diferencia es la deuda.",
+   "html": "<div class=\"final in\" data-t=\"0\">Lo que vale la empresa no es lo que valen sus acciones. <em class=\"c-orange\">La diferencia es la deuda</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

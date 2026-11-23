@@ -1,0 +1,50 @@
+{
+ "series": "fondo",
+ "topic": "Duration <span class=\"k\">y</span> <span class=\"c-orange\">convexity</span>",
+ "title_post": "Duration y convexity",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "En 2022 pasó algo que casi nadie esperaba: los bonos, que se supone que son lo seguro, se hundieron. El gran índice de bonos de Estados Unidos cayó un trece por ciento, su peor año desde 1976. Y los bonos más largos, más de un veinticinco.",
+   "html": "<div class=\"card orange in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">Bonos de EE. UU. · 2022</div><div class=\"val\">−13 %</div></div><div class=\"q in\" data-cue=\"peor año\" style=\"\">Su peor año desde <em class=\"c-orange\">1976</em></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"más de un veinticinco\">Bonos largos: más de −25 %</span></div>"
+  },
+  {
+   "dark": true,
+   "say": "¿Por qué? Por algo llamado duración. Hoy, en finanzas a fondo: duration y convexity.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">Duration y <em class=\"c-orange\">convexity</em></div>"
+  },
+  {
+   "title": "Ya sabemos el <em class=\"c-navy\">qué</em>",
+   "say": "Ya vimos que cuando los tipos de interés suben, el precio de los bonos baja. La pregunta es cuánto. Y la respuesta depende, sobre todo, de un número: la duración.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill  lg in\" data-cue=\"tipos de interés suben\">Tipos ↑</span><span class=\"arrow in\" data-cue=\"el precio\">→</span><span class=\"pill orange lg in\" data-cue=\"el precio\">Precio ↓</span></div><div class=\"q in\" data-cue=\"cuánto\" style=\"color:#1A1A17\">¿<em class=\"c-navy\">Cuánto</em>?</div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill navy lg in\" data-cue=\"un número\">La duración</span></div>"
+  },
+  {
+   "title": "1 · Macaulay <em class=\"c-navy\">duration</em>",
+   "say": "La duración de Macaulay es, más o menos, cuántos años tardas de media en recuperar tu dinero, contando los cupones y el pago final. Un bono a diez años que paga cupones tiene una duración algo menor que diez, porque parte del dinero lo cobras antes.",
+   "html": "<div class=\"cols\" style=\"height:440px;gap:14px\"><div class=\"c in\" data-cue=\"contando los cupones\" style=\"width:70px\"><b>4</b><i class=\"teal grow\" style=\"--h:8%\"></i><span>1</span></div><div class=\"c in\" data-cue=\"contando los cupones\" style=\"width:70px\"><b>4</b><i class=\"teal grow\" style=\"--h:8%\"></i><span>2</span></div><div class=\"c in\" data-cue=\"contando los cupones\" style=\"width:70px\"><b>4</b><i class=\"teal grow\" style=\"--h:8%\"></i><span>3</span></div><div class=\"c in\" data-cue=\"contando los cupones\" style=\"width:70px\"><b>4</b><i class=\"teal grow\" style=\"--h:8%\"></i><span>4</span></div><div class=\"c in\" data-cue=\"contando los cupones\" style=\"width:70px\"><b>4</b><i class=\"teal grow\" style=\"--h:8%\"></i><span>5</span></div><div class=\"c in\" data-cue=\"contando los cupones\" style=\"width:70px\"><b>4</b><i class=\"teal grow\" style=\"--h:8%\"></i><span>6</span></div><div class=\"c in\" data-cue=\"contando los cupones\" style=\"width:70px\"><b>4</b><i class=\"teal grow\" style=\"--h:8%\"></i><span>7</span></div><div class=\"c in\" data-cue=\"contando los cupones\" style=\"width:70px\"><b>4</b><i class=\"teal grow\" style=\"--h:8%\"></i><span>8</span></div><div class=\"c in\" data-cue=\"contando los cupones\" style=\"width:70px\"><b>4</b><i class=\"teal grow\" style=\"--h:8%\"></i><span>9</span></div><div class=\"c in\" data-cue=\"el pago final\" style=\"width:70px\"><b>104</b><i class=\"navy grow\" style=\"--h:100%\"></i><span>10</span></div></div><div class=\"row\" style=\"margin-top:70px\"><span class=\"pill navy lg in\" data-cue=\"algo menor que diez\">Duración ≈ 8,4 años</span></div>",
+   "sub": "Bono a 10 años · cupón del 4 %"
+  },
+  {
+   "title": "2 · Modified <em class=\"c-orange\">duration</em>",
+   "say": "La duración modificada es la que se usa en el día a día, porque te dice cuánto cae el precio si los tipos suben un punto. Con una duración de dos, cae más o menos un dos por ciento. Con una de quince, un quince. Por eso los bonos largos sufrieron tanto en 2022.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill  lg in\" data-cue=\"cuánto cae\">Δ precio ≈ − duración × Δ tipos</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"duración de dos\"><span>Duración 2</span><i class=\"orange grow short\" style=\"--w:13%\">−2 %</i></div><div class=\"b in\" data-cue=\"un dos por ciento\"><span>Duración 7</span><i class=\"orange grow\" style=\"--w:47%\">−7 %</i></div><div class=\"b in\" data-cue=\"una de quince\"><span>Duración 15</span><i class=\"orange grow\" style=\"--w:100%\">−15 %</i></div></div>",
+   "sub": "Si los tipos suben un 1 %"
+  },
+  {
+   "title": "3 · <em class=\"c-teal\">Convexity</em>",
+   "say": "Pero esa regla es solo una aproximación en línea recta, y el precio de un bono es una curva. Esa curvatura se llama convexidad, y en un bono normal juega a tu favor: cuando los tipos bajan, el precio sube un poco más de lo que dice la duración, y cuando suben, cae un poco menos.",
+   "html": "<div class=\"in\" data-t=\"0.2\"><svg width=\"860\" height=\"460\" viewBox=\"0 0 860 460\"><line x1=\"40\" y1=\"390\" x2=\"820\" y2=\"390\" stroke=\"#cfcabd\" stroke-width=\"3\"/><text x=\"650\" y=\"425\" font-family=\"IN\" font-size=\"24\" fill=\"#77766E\">tipos de interés →</text><text x=\"40\" y=\"22\" font-family=\"IN\" font-size=\"24\" fill=\"#77766E\">precio</text><path class=\"draw\" data-cue=\"línea recta\" d=\"M96,103 L764,400\" fill=\"none\" stroke=\"#B65920\" stroke-width=\"4\" stroke-dasharray=\"12 10\"/><text class=\"in\" data-cue=\"línea recta\" x=\"709\" y=\"425\" font-family=\"IN\" font-size=\"26\" font-weight=\"600\" fill=\"#B65920\">duración</text><path class=\"draw\" data-cue=\"es una curva\" d=\"M40,30 L68,51 L96,71 L124,90 L151,108 L179,125 L207,142 L235,158 L263,173 L291,187 L319,201 L346,214 L374,227 L402,239 L430,251 L458,262 L486,272 L514,283 L541,292 L569,302 L597,311 L625,319 L653,327 L681,335 L709,343 L736,350 L764,357 L792,364 L820,370\" fill=\"none\" stroke=\"#0C585D\" stroke-width=\"6\"/><text class=\"in\" data-cue=\"es una curva\" x=\"118\" y=\"68\" font-family=\"IN\" font-size=\"26\" font-weight=\"600\" fill=\"#0C585D\">precio real</text></svg></div><div class=\"note in\" data-cue=\"juega a tu favor\" style=\"margin-top:10px\">La curva siempre queda por encima de la recta</div>"
+  },
+  {
+   "title": "¿Y en la <em class=\"c-navy\">práctica</em>?",
+   "say": "¿Y en la práctica? Los fondos de renta fija publican su duración. Si esperas que los tipos suban, una duración corta te protege. Si crees que van a bajar, una duración larga te hará ganar más. Es tu riesgo de tipos en un solo número. Y recuerda: si aguantas el bono hasta el vencimiento, cobras lo pactado; la duración importa sobre todo si necesitas vender antes.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step teal in\" data-cue=\"duración corta\"><div class=\"n\">↑</div><div><div class=\"t\">Esperas tipos al alza</div><div class=\"d\">Duración corta: te protege</div></div></div><div class=\"step navy in\" data-cue=\"duración larga\"><div class=\"n\">↓</div><div><div class=\"t\">Esperas tipos a la baja</div><div class=\"d\">Duración larga: ganas más</div></div></div></div>"
+  },
+  {
+   "dark": true,
+   "say": "Antes de comprar un bono, mira su duración: es tu riesgo de tipos en un solo número.",
+   "html": "<div class=\"final in\" data-t=\"0\">Antes de comprar un bono, mira su <em class=\"c-orange\">duración</em>: es tu riesgo de tipos en un número.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Datos 2022: Bloomberg US Aggregate. Resto, ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

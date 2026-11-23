@@ -1,0 +1,49 @@
+{
+ "series": "nadie",
+ "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+ "title_post": "La trampa del pago mínimo de las revolving",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Compras algo de mil euros con una tarjeta revolving y pagas veinte euros al mes. Parece cómodo. Pero vas a tardar casi once años en terminar de pagarlo.",
+   "html": "<div class=\"card  in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">Compra con tarjeta revolving</div><div class=\"val\">1.000 €</div></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill sand lg in\" data-cue=\"veinte euros al mes\">20 €/mes</span></div><div class=\"q in\" data-cue=\"once años\" style=\"\">Casi <em class=\"c-orange\">11 años</em> pagando</div>"
+  },
+  {
+   "dark": true,
+   "say": "Esto es lo que nadie te cuenta sobre la trampa del pago mínimo en las tarjetas revolving.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">La trampa del <em class=\"c-orange\">pago mínimo</em></div>"
+  },
+  {
+   "title": "¿Qué es una <em class=\"c-orange\">revolving</em>?",
+   "say": "Una tarjeta revolving es un crédito que se renueva solo. Gastas, y en vez de pagarlo todo a final de mes, devuelves una cuota pequeña. Lo que no pagas sigue generando intereses. Y esos intereses suelen rondar el veinte por ciento al año, o más. Como la cuota es tan cómoda, es muy fácil seguir usándola sin darte cuenta de todo lo que debes.",
+   "html": "<div class=\"col\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"gastas\">Gastas</span><span class=\"arrow in\" data-cue=\"cuota pequeña\">↓</span><span class=\"pill  lg in\" data-cue=\"cuota pequeña\">Pagas una cuota pequeña</span><span class=\"arrow in\" data-cue=\"sigue generando\">↓</span><span class=\"pill orange lg in\" data-cue=\"sigue generando\">El resto genera intereses</span></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"veinte por ciento\">≈ 20 % TAE o más</span></div>"
+  },
+  {
+   "title": "Hagamos la <em class=\"c-orange\">cuenta</em>",
+   "say": "Hagamos la cuenta con un veinticuatro por ciento TAE. Pagando treinta euros al mes, tardas más de cuatro años y pagas unos mil quinientos cincuenta euros. Pagando veinticinco, seis años y unos mil ochocientos. Y pagando veinte, casi once años y más de dos mil seiscientos. Por una compra de mil.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"pagando treinta\"><span>30 €/mes · 4,3 años</span><i class=\"orange grow\" style=\"--w:59%\">1.546 €</i></div><div class=\"b in\" data-cue=\"pagando veinticinco\"><span>25 €/mes · 6 años</span><i class=\"orange grow\" style=\"--w:68%\">1.793 €</i></div><div class=\"b in\" data-cue=\"pagando veinte\"><span>20 €/mes · 11 años</span><i class=\"orange grow\" style=\"--w:100%\">2.619 €</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"por una compra\">Compra: 1.000 €</span></div>",
+   "sub": "Ejemplo ilustrativo · 24 % TAE"
+  },
+  {
+   "title": "¿Por qué <em class=\"c-orange\">pasa</em>?",
+   "say": "¿Por qué pasa esto? Porque con una cuota tan baja, casi todo lo que pagas se va en intereses. El primer mes, de tus veinte euros, unos dieciocho son intereses. Y solo dos reducen la deuda.",
+   "html": "<div class=\"row\" style=\"\"><div class=\"card  in\" data-cue=\"el primer mes\" style=\"min-width:400px\"><div class=\"lab\">Tu cuota</div><div class=\"val\">20 €</div></div></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"dieciocho\"><span>Intereses</span><i class=\"orange grow\" style=\"--w:90%\">≈ 18 €</i></div><div class=\"b in\" data-cue=\"solo dos\"><span>Reduce la deuda</span><i class=\"teal grow short\" style=\"--w:10%\">≈ 2 €</i></div></div>"
+  },
+  {
+   "title": "¿Y esto es <em class=\"c-navy\">legal</em>?",
+   "say": "¿Y esto es legal? Depende. En 2023, el Tribunal Supremo estableció que el interés de estas tarjetas es usurario si supera en más de seis puntos el tipo medio del mercado. Muchos clientes han recuperado dinero en los tribunales. Pero lo mejor es no llegar ahí.",
+   "html": "<div class=\"card  in\" data-cue=\"tribunal supremo\" style=\"width:100%\"><div class=\"lab\">Tribunal Supremo · 2023</div><div class=\"txt\">Usura si supera en <em style=\"color:#E8915A\">más de 6 puntos</em> el tipo medio</div></div><div class=\"note in\" data-cue=\"han recuperado\" style=\"margin-top:30px\">Muchos clientes han recuperado su dinero</div>"
+  },
+  {
+   "title": "Cómo <em class=\"c-teal\">evitarla</em>",
+   "say": "Así que, si tienes una revolving: sube la cuota todo lo que puedas, o cámbiala por un préstamo personal más barato para quitártela de encima. Y si no la necesitas, mejor una tarjeta de débito. Y revisa tu contrato: si el interés es muy alto, puede que tengas derecho a reclamar.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step teal in\" data-cue=\"sube la cuota\"><div class=\"n\">1</div><div><div class=\"t\">Sube la cuota</div><div class=\"d\">Todo lo que puedas</div></div></div><div class=\"step navy in\" data-cue=\"préstamo personal\"><div class=\"n\">2</div><div><div class=\"t\">Cámbiala por un préstamo más barato</div></div></div><div class=\"step ink in\" data-cue=\"tarjeta de débito\"><div class=\"n\">3</div><div><div class=\"t\">Usa débito</div><div class=\"d\">Si no necesitas crédito</div></div></div></div>"
+  },
+  {
+   "dark": true,
+   "say": "Porque una cuota pequeña no es una deuda pequeña.",
+   "html": "<div class=\"final in\" data-t=\"0\">Una cuota pequeña <em class=\"c-orange\">no es</em> una deuda pequeña.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo: 24 % TAE, cuota fija. Tribunal Supremo, STS 258/2023.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

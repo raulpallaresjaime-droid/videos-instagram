@@ -1,0 +1,54 @@
+{
+ "series": "nadie",
+ "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+ "title_post": "TIN o TAE",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Dos préstamos de diez mil euros. Uno al siete por ciento y otro al seis. ¿Cuál es más barato? Spoiler: el del seis te sale más caro.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-t=\"0\" style=\"min-width:380px\"><div class=\"lab\">Préstamo A</div><div class=\"val\">7 %</div></div><div class=\"card teal in\" data-t=\"0\" style=\"min-width:380px\"><div class=\"lab\">Préstamo B</div><div class=\"val\">6 %</div></div></div><div class=\"q in\" data-cue=\"más barato\" style=\"\">¿Cuál es más <em class=\"c-teal\">barato</em>?</div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"spoiler\">El del 6 % es más caro</span></div>"
+  },
+  {
+   "dark": true,
+   "say": "Esto es lo que nadie te cuenta sobre el TIN y la TAE.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">TIN o <em class=\"c-orange\">TAE</em></div>"
+  },
+  {
+   "title": "El <em class=\"c-navy\">TIN</em>",
+   "say": "El TIN, el tipo de interés nominal, es solo el precio del dinero: el interés que te cobran por lo que debes. Pero no incluye las comisiones, ni tiene en cuenta cada cuánto te cobran los intereses.",
+   "html": "<div class=\"card navy in\" data-cue=\"tipo de interés nominal\" style=\"width:100%\"><div class=\"lab\">TIN · tipo de interés nominal</div><div class=\"txt\">Solo el precio del dinero</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill grey lg in\" data-cue=\"comisiones\">Comisiones ✗</span><span class=\"pill grey lg in\" data-cue=\"cada cuánto\">Frecuencia de pago ✗</span></div>"
+  },
+  {
+   "title": "La <em class=\"c-teal\">TAE</em>",
+   "say": "La TAE, la tasa anual equivalente, lo mete todo: el interés, la frecuencia de los pagos y las comisiones obligatorias. Por eso es el número que sirve para comparar. Y el banco está obligado a dártela.",
+   "html": "<div class=\"card teal in\" data-cue=\"tasa anual equivalente\" style=\"width:100%\"><div class=\"lab\">TAE · tasa anual equivalente</div><div class=\"txt\">Lo mete todo</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill teal in\" data-cue=\"el interés\">Interés ✓</span><span class=\"pill teal in\" data-cue=\"la frecuencia\">Frecuencia ✓</span><span class=\"pill teal in\" data-cue=\"comisiones obligatorias\">Comisiones ✓</span></div><div class=\"note in\" data-cue=\"para comparar\" style=\"margin-top:30px\">El número para comparar</div>"
+  },
+  {
+   "title": "La frecuencia también <em class=\"c-navy\">cuenta</em>",
+   "say": "Y la frecuencia también cuenta. Un siete por ciento que se cobra una vez al año es un siete. Pero si se cobra cada mes, los intereses de un mes generan intereses al mes siguiente, y la TAE sube al siete coma veintitrés. Por eso dos préstamos con el mismo TIN pueden tener distinta TAE.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"una vez al año\"><span>TIN 7 % · pago anual</span><i class=\"navy grow\" style=\"--w:97%\">TAE 7,00 %</i></div><div class=\"b in\" data-cue=\"siete coma veintitrés\"><span>TIN 7 % · pago mensual</span><i class=\"teal grow\" style=\"--w:100%\">TAE 7,23 %</i></div></div><div class=\"note in\" data-cue=\"mismo tin\" style=\"margin-top:30px\">Mismo TIN, distinta TAE</div>"
+  },
+  {
+   "title": "Hagamos la <em class=\"c-orange\">cuenta</em>",
+   "say": "Vamos con los dos préstamos, a tres años. El A, al siete por ciento y sin comisiones, tiene una TAE del siete coma dos. El B, al seis por ciento, pero con una comisión de apertura del tres por ciento: trescientos euros que pagas al principio. Su TAE sube al ocho coma cuatro.",
+   "html": "<div class=\"row\" style=\"gap:24px\"><div class=\"card teal in\" data-cue=\"el a,\" style=\"min-width:430px\"><div class=\"lab\">A · TIN 7 % · sin comisión</div><div class=\"val\">TAE 7,23 %</div></div><div class=\"card orange in\" data-cue=\"ocho coma cuatro\" style=\"min-width:430px\"><div class=\"lab\">B · TIN 6 % + 3 % comisión</div><div class=\"val\">TAE 8,36 %</div></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill orange lg in\" data-cue=\"trescientos euros\">Comisión: 300 €</span></div>",
+   "sub": "10.000 € · 3 años · ejemplo ilustrativo"
+  },
+  {
+   "title": "Lo que pagas de <em class=\"c-orange\">verdad</em>",
+   "say": "En total, con el A pagas mil ciento dieciséis euros de intereses. Con el B, entre intereses y comisión, mil doscientos cincuenta y dos. El préstamo con el interés más bajo es el más caro.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"mil ciento dieciséis\"><span>Préstamo A</span><i class=\"teal grow\" style=\"--w:89%\">1.116 €</i></div><div class=\"b in\" data-cue=\"doscientos cincuenta y dos\"><span>Préstamo B</span><i class=\"orange grow\" style=\"--w:100%\">1.252 €</i></div></div><div class=\"note in\" data-cue=\"el préstamo con\" style=\"margin-top:30px\">Coste total en 3 años</div>"
+  },
+  {
+   "title": "Y la letra <em class=\"c-orange\">pequeña</em>",
+   "say": "Y pregunta siempre por los productos vinculados, como seguros que te obligan a contratar para darte un tipo mejor, porque pueden encarecerlo. Lo más claro de todo: pide el coste total del préstamo, en euros.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step teal in\" data-cue=\"pregunta siempre\"><div class=\"n\">1</div><div><div class=\"t\">Compara la TAE</div></div></div><div class=\"step orange in\" data-cue=\"productos vinculados\"><div class=\"n\">2</div><div><div class=\"t\">Ojo con los productos vinculados</div><div class=\"d\">Seguros obligatorios para mejorar el tipo</div></div></div><div class=\"step navy in\" data-cue=\"coste total\"><div class=\"n\">3</div><div><div class=\"t\">Pide el coste total en euros</div></div></div></div>"
+  },
+  {
+   "dark": true,
+   "say": "Para comparar préstamos, mira la TAE. Para decidir, mira el coste total.",
+   "html": "<div class=\"final in\" data-t=\"0\">Para comparar, mira la <em class=\"c-teal\">TAE</em>. Para decidir, mira el <em class=\"c-orange\">coste total</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo: 10.000 €, 36 meses.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

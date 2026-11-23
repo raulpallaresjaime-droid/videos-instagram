@@ -1,0 +1,9 @@
+¿Cuánto vale Nova Industrial? 📊 Parte 2
+
+Descontamos sus flujos al WACC (8,3 %), calculamos el valor terminal y pasamos del Enterprise Value al precio por acción: 34,8 €.
+
+Pero ojo: el 76 % del valor viene del valor terminal, y con ±1 punto de WACC el precio se mueve entre un −14 % y un +19 %. Por eso un DCF da un rango, no un número.
+
+Guárdalo para repasar 📌
+
+#finanzas #valoraciondeempresas #inversion #educacionfinanciera #finanzasafondo

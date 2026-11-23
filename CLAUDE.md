@@ -30,7 +30,9 @@ que pedirle que haga nada a mano.
    porque Metricool los descarga desde la URL pública).
 4. Programar cada vídeo en Metricool (ver "Metricool") y poner estado `programado` con el `plannerUrl`.
 5. Commit + push del calendario actualizado.
-6. Informe final corto para Raúl: qué se ha programado, enlaces de Metricool, temas nuevos
+6. Si alguna publicación del lote tiene campo `aviso` en el calendario, decírselo a Raúl en el informe
+   (quiere saberlo para ordenar su Drive).
+7. Informe final corto para Raúl: qué se ha programado, enlaces de Metricool, temas nuevos
    propuestos y cualquier dato que no se haya podido verificar.
 
 Si algo falla (ElevenLabs sin caracteres, Metricool rechaza el vídeo, push rechazado…), no

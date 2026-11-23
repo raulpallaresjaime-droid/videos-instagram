@@ -1,0 +1,54 @@
+{
+ "series": "nadie",
+ "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+ "title_post": "Lotería o invertir",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Diez euros a la semana en el Euromillones, durante treinta años. ¿Sabes cuánto tendrías si los hubieras invertido? Más de cincuenta mil euros.",
+   "html": "<div class=\"card  in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">Euromillones</div><div class=\"val\">10 €/semana</div></div><div class=\"q in\" data-cue=\"cincuenta mil\" style=\"\">Invertidos 30 años: <em class=\"c-teal\">+50.000 €</em></div>"
+  },
+  {
+   "dark": true,
+   "say": "Esto es lo que nadie te cuenta sobre la lotería.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">Lotería o <em class=\"c-teal\">invertir</em></div>"
+  },
+  {
+   "title": "Las <em class=\"c-orange\">probabilidades</em>",
+   "say": "Empecemos por las probabilidades. Para ganar el bote del Euromillones tienes que acertar cinco números y dos estrellas. La probabilidad es de una entre casi ciento cuarenta millones.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"cinco números\">5 números</span><span class=\"pill sand lg in\" data-cue=\"dos estrellas\">2 estrellas</span></div><div class=\"big c-orange in\" data-cue=\"una entre\" style=\"font-size:80px;text-align:center;margin-top:40px\">1 entre<br>139.838.160</div>"
+  },
+  {
+   "title": "Para que te hagas una <em class=\"c-navy\">idea</em>",
+   "say": "Para que te hagas una idea: si jugaras una apuesta en cada sorteo, dos a la semana, tardarías de media más de un millón de años en que te tocara.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"dos a la semana\">1 apuesta × 2 sorteos/semana</span></div><div class=\"big c-navy in\" data-cue=\"un millón de años\" style=\"font-size:90px;text-align:center;margin-top:40px\">+1.000.000<br>de años</div>"
+  },
+  {
+   "title": "Lo que <em class=\"c-orange\">pones</em>",
+   "say": "Ahora, los números de verdad. Cada apuesta cuesta dos euros con cincuenta. Cuatro apuestas a la semana son diez euros. Y en treinta años, habrás puesto quince mil seiscientos euros.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"dos euros con cincuenta\">2,50 € por apuesta</span><span class=\"pill  lg in\" data-cue=\"cuatro apuestas\">× 4 = 10 €/semana</span></div><div class=\"card orange in\" data-cue=\"quince mil seiscientos\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">En 30 años</div><div class=\"val\">15.600 €</div></div>"
+  },
+  {
+   "title": "Lo que podrías <em class=\"c-teal\">tener</em>",
+   "say": "Si esos diez euros a la semana los invirtieras, con una rentabilidad del siete por ciento anual, parecida a la media histórica de la bolsa mundial, en treinta años tendrías unos cincuenta mil euros. Y eso no depende de la suerte. Depende del tiempo.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"si esos diez\"><span>Lo que pones</span><i class=\"ink grow\" style=\"--w:31%\">15.600 €</i></div><div class=\"b in\" data-cue=\"cincuenta mil\"><span>Invertido al 7 %</span><i class=\"teal grow\" style=\"--w:100%\">≈ 50.700 €</i></div></div><div class=\"note in\" data-cue=\"depende del tiempo\" style=\"margin-top:30px\">No depende de la suerte, sino del tiempo</div>",
+   "sub": "aportaciones mensuales al 7 % anual, rentabilidad no garantizada."
+  },
+  {
+   "title": "¿Quién gana <em class=\"c-orange\">siempre</em>?",
+   "say": "¿Y sabes quién gana siempre? Quien organiza el juego. De cada euro que se apuesta, una buena parte nunca vuelve a los jugadores en forma de premios. Por eso, a la larga, el jugador medio siempre pierde. Y la probabilidad es la misma hayas jugado diez años o ninguno: el sorteo no tiene memoria.",
+   "html": "<div class=\"card  in\" data-cue=\"quien organiza\" style=\"width:100%\"><div class=\"lab\">Quien siempre gana</div><div class=\"txt\">El que organiza el juego</div></div><div class=\"note in\" data-cue=\"siempre pierde\" style=\"margin-top:30px\">A la larga, el jugador medio pierde</div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"no tiene memoria\">El sorteo no tiene memoria</span></div>"
+  },
+  {
+   "title": "Soñar no está <em class=\"c-navy\">prohibido</em>",
+   "say": "Ojo, jugar de vez en cuando por ilusión no es ningún drama. El problema es jugar todas las semanas como si fuera un plan para salir adelante. Porque el plan más fiable para ganar dinero no es el que más promete, sino el que más tiempo tiene.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-cue=\"por ilusión\" style=\"min-width:420px\"><div class=\"lab\">Por ilusión</div><div class=\"txt\">De vez en cuando, ✓</div></div><div class=\"card orange in\" data-cue=\"como si fuera un plan\" style=\"min-width:420px\"><div class=\"lab\">Como plan</div><div class=\"txt\">Cada semana, ✗</div></div></div><div class=\"note in\" data-cue=\"más tiempo tiene\" style=\"margin-top:30px\">El mejor plan es el que más tiempo tiene</div>"
+  },
+  {
+   "dark": true,
+   "say": "La lotería depende de la suerte. Invertir, del tiempo.",
+   "html": "<div class=\"final in\" data-t=\"0\">La lotería depende de la <em class=\"c-orange\">suerte</em>. Invertir, del <em class=\"c-teal\">tiempo</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Probabilidad: Euromillones (5 + 2). Ejemplo ilustrativo: aportaciones mensuales al 7 % anual, rentabilidad no garantizada.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

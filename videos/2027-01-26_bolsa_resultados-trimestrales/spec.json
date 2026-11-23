@@ -1,0 +1,54 @@
+{
+ "series": "bolsa",
+ "topic": "Resultados <span class=\"c-orange\">trimestrales</span>",
+ "title_post": "Cómo leer los resultados trimestrales",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Una empresa presenta resultados récord… y al día siguiente su acción cae un diez por ciento. ¿Cómo puede ser?",
+   "html": "<div class=\"card teal in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">Resultados</div><div class=\"val\">Récord ✓</div></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"cae un diez\">Acción: −10 %</span></div><div class=\"q in\" data-cue=\"cómo puede ser\" style=\"\">¿Cómo puede <em class=\"c-orange\">ser</em>?</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas desde cero: cómo leer los resultados trimestrales.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas desde cero</div><div class=\"hero sm in\" data-t=\"0.2\">Resultados <em class=\"c-orange\">trimestrales</em></div>"
+  },
+  {
+   "title": "Cada tres <em class=\"c-navy\">meses</em>",
+   "say": "Las empresas cotizadas publican sus resultados cada trimestre: cuánto han vendido, cuánto han ganado y cómo está su balance. Y la bolsa reacciona en segundos.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill navy lg in\" data-cue=\"cada trimestre\">T1</span><span class=\"pill navy lg in\" data-cue=\"cada trimestre\" data-d=\"0.2\">T2</span><span class=\"pill navy lg in\" data-cue=\"cada trimestre\" data-d=\"0.4\">T3</span><span class=\"pill navy lg in\" data-cue=\"cada trimestre\" data-d=\"0.6\">T4</span></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill sand in\" data-cue=\"cuánto han vendido\">Ventas</span><span class=\"pill sand in\" data-cue=\"cuánto han ganado\">Beneficio</span><span class=\"pill sand in\" data-cue=\"su balance\">Balance</span></div><div class=\"note in\" data-cue=\"en segundos\" style=\"margin-top:30px\">La bolsa reacciona en segundos</div>"
+  },
+  {
+   "title": "1 · Contra las <em class=\"c-orange\">expectativas</em>",
+   "say": "Lo primero que mira el mercado no es si la empresa gana mucho o poco, sino si gana más o menos de lo esperado. Los analistas publican sus previsiones, y la media se llama consenso. Si la empresa bate el consenso, suele subir. Si se queda corta, aunque sea un récord, suele bajar.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"consenso\"><span>Consenso</span><i class=\"navy grow\" style=\"--w:100%\">100</i></div><div class=\"b in\" data-cue=\"se queda corta\"><span>Real</span><i class=\"orange grow\" style=\"--w:95%\">95 · récord, pero por debajo</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill teal in\" data-cue=\"bate el consenso\">Bate el consenso → suele subir</span></div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "title": "El <em class=\"c-teal\">BPA</em>",
+   "say": "La cifra que verás en todos los titulares es el BPA, el beneficio por acción: el beneficio dividido entre el número de acciones. Es lo que se suele comparar con el consenso. Pero ojo: puede subir solo porque la empresa recompra sus propias acciones, sin que el negocio haya mejorado nada.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill  lg in\" data-cue=\"beneficio por acción\">BPA = beneficio ÷ nº de acciones</span></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill orange lg in\" data-cue=\"recompra\">Recompra acciones → BPA ↑</span></div><div class=\"note in\" data-cue=\"sin que el negocio\" style=\"margin-top:30px\">…sin que el negocio mejore</div>"
+  },
+  {
+   "title": "2 · Mismo trimestre, año <em class=\"c-navy\">anterior</em>",
+   "say": "Lo segundo: compara siempre con el mismo trimestre del año anterior. Muchas empresas venden mucho más en Navidad o en verano, así que compararlo con el trimestre justo anterior te puede engañar.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step teal in\" data-cue=\"mismo trimestre\"><div class=\"n\">✓</div><div><div class=\"t\">T4 2026 vs T4 2025</div><div class=\"d\">Mismo trimestre, año anterior</div></div></div><div class=\"step orange in\" data-cue=\"te puede engañar\"><div class=\"n\">✗</div><div><div class=\"t\">T4 vs T3</div><div class=\"d\">Navidad frente a otoño: engaña</div></div></div></div>"
+  },
+  {
+   "title": "3 · Márgenes y <em class=\"c-teal\">caja</em>",
+   "say": "Lo tercero: no te quedes en las ventas. Mira si los márgenes suben o bajan, y si el beneficio se convierte en caja. Vender más ganando menos por cada euro no es buena señal.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill teal lg in\" data-cue=\"las ventas\">Ventas ↑</span><span class=\"pill orange lg in\" data-cue=\"los márgenes\">Margen ↓</span></div><div class=\"note in\" data-cue=\"no es buena señal\" style=\"margin-top:30px\">Vender más ganando menos por cada euro: mala señal</div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill  lg in\" data-cue=\"se convierte en caja\">¿El beneficio se convierte en caja?</span></div>"
+  },
+  {
+   "title": "4 · Lo que <em class=\"c-navy\">viene</em>",
+   "say": "Y lo cuarto, que a veces es lo más importante: las previsiones de la propia empresa para los próximos meses, lo que se llama guidance. La bolsa mira hacia el futuro. Un buen trimestre con malas previsiones puede hundir la acción.",
+   "html": "<div class=\"card navy in\" data-cue=\"guidance\" style=\"width:100%\"><div class=\"lab\">Guidance</div><div class=\"txt\">Lo que la empresa espera para los próximos meses</div></div><div class=\"note in\" data-cue=\"mira hacia el futuro\" style=\"margin-top:30px\">La bolsa mira hacia el futuro</div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"malas previsiones\">Buen trimestre + malas previsiones = caída</span></div>"
+  },
+  {
+   "dark": true,
+   "say": "La bolsa no premia los buenos resultados. Premia los resultados mejores de lo esperado.",
+   "html": "<div class=\"final in\" data-t=\"0\">La bolsa no premia los buenos resultados. Premia los resultados <em class=\"c-teal\">mejores de lo esperado</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

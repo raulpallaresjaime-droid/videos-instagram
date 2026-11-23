@@ -1,0 +1,51 @@
+{
+ "series": "fondo",
+ "topic": "DCF <span class=\"c-teal\">II</span>",
+ "title_post": "DCF II",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "La semana pasada proyectamos la caja de Nova Industrial para cinco años. Ahora, la pregunta del millón: ¿cuánto vale la empresa? ¿Y cada acción?",
+   "html": "<div class=\"cols\" style=\"height:320px;\"><div class=\"c in\" data-t=\"0\" style=\"width:110px\"><b>111</b><i class=\"navy grow\" style=\"--h:78%\"></i><span>A1</span></div><div class=\"c in\" data-t=\"0\" style=\"width:110px\"><b>120</b><i class=\"navy grow\" style=\"--h:85%\"></i><span>A2</span></div><div class=\"c in\" data-t=\"0\" style=\"width:110px\"><b>128</b><i class=\"navy grow\" style=\"--h:90%\"></i><span>A3</span></div><div class=\"c in\" data-t=\"0\" style=\"width:110px\"><b>135</b><i class=\"navy grow\" style=\"--h:95%\"></i><span>A4</span></div><div class=\"c in\" data-t=\"0\" style=\"width:110px\"><b>142</b><i class=\"navy grow\" style=\"--h:100%\"></i><span>A5</span></div></div><div class=\"q in\" data-cue=\"la pregunta del millón\" style=\"margin-top:70px\">¿Cuánto <em class=\"c-teal\">vale</em>?</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas a fondo, segunda parte del DCF.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">DCF <em class=\"c-teal\">II</em></div>"
+  },
+  {
+   "title": "1 · Traer el dinero a <em class=\"c-navy\">hoy</em>",
+   "say": "Un euro dentro de cinco años vale menos que un euro hoy. Así que cada flujo se descuenta al WACC, el coste medio del dinero de la empresa, que para Nova es del ocho coma tres por ciento. Los cinco flujos, traídos a hoy, suman unos cuatrocientos noventa y nueve millones.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill  lg in\" data-cue=\"se descuenta\">÷ (1 + 8,3 %) ^ año</span></div><div class=\"card navy in\" data-cue=\"cuatrocientos noventa\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">Valor hoy de los 5 flujos</div><div class=\"val\">499 M€</div></div>",
+   "sub": "WACC de Nova: 8,3 %"
+  },
+  {
+   "title": "2 · El valor <em class=\"c-teal\">terminal</em>",
+   "say": "Pero la empresa no se acaba en el año cinco. Para todo lo que viene después se calcula el valor terminal: suponemos que, a partir de ahí, los flujos crecen un dos por ciento para siempre. Eso da unos dos mil trescientos millones en el año cinco, que traídos a hoy son unos mil quinientos cuarenta.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill  lg in\" data-cue=\"valor terminal\">FCF año 6 ÷ (WACC − g)</span></div><div class=\"row\" style=\"margin-top:24px\"><span class=\"pill sand lg in\" data-cue=\"para siempre\">g = 2 % para siempre</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"dos mil trescientos\"><span>En el año 5</span><i class=\"teal grow\" style=\"--w:100%\">2.299 M€</i></div><div class=\"b in\" data-cue=\"mil quinientos cuarenta\"><span>Traído a hoy</span><i class=\"teal grow\" style=\"--w:67%\">1.543 M€</i></div></div>"
+  },
+  {
+   "title": "3 · El <em class=\"c-navy\">Enterprise Value</em>",
+   "say": "Sumamos las dos partes y tenemos el Enterprise Value: unos dos mil cuarenta y dos millones. Y fíjate en algo: el setenta y seis por ciento del valor viene del valor terminal. De lo que pasará después del año cinco.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"sumamos\"><span>Flujos años 1 – 5</span><i class=\"navy grow\" style=\"--w:24%\">499</i></div><div class=\"b in\" data-cue=\"las dos partes\"><span>Valor terminal</span><i class=\"teal grow\" style=\"--w:76%\">1.543</i></div><div class=\"b in\" data-cue=\"dos mil cuarenta y dos\"><span>Enterprise Value</span><i class=\"navy grow\" style=\"--w:100%\">2.042 M€</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill orange lg in\" data-cue=\"setenta y seis\">76 % = valor terminal</span></div>"
+  },
+  {
+   "title": "4 · Del EV al <em class=\"c-teal\">precio por acción</em>",
+   "say": "Ahora le restamos la deuda neta, trescientos millones, y queda el valor para los accionistas: mil setecientos cuarenta y dos. Nova tiene cincuenta millones de acciones. Así que cada una vale unos treinta y cuatro euros con ochenta. Y si hubiera opciones sobre acciones o bonos convertibles, habría que contar también esas acciones nuevas.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"le restamos\"><span>Enterprise Value</span><i class=\"navy grow\" style=\"--w:100%\">2.042</i></div><div class=\"b in\" data-cue=\"trescientos millones\"><span>− Deuda neta</span><i class=\"orange grow short\" style=\"--w:15%\">300</i></div><div class=\"b in\" data-cue=\"setecientos cuarenta y dos\"><span>= Equity Value</span><i class=\"teal grow\" style=\"--w:85%\">1.742</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"cincuenta millones de acciones\">÷ 50 M acciones</span><span class=\"pill teal lg in\" data-cue=\"treinta y cuatro euros\">34,8 €/acción</span></div>",
+   "sub": "Millones de euros"
+  },
+  {
+   "title": "5 · La <em class=\"c-orange\">sensibilidad</em>",
+   "say": "Y ahora lo importante. Si el WACC fuera un punto más bajo, el valor subiría un diecinueve por ciento. Si fuera un punto más alto, bajaría un catorce. Por eso un DCF nunca da un número exacto, sino un rango.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"más bajo\"><span>WACC 7,3 %</span><i class=\"teal grow\" style=\"--w:100%\">42,7 € (+19 %)</i></div><div class=\"b in\" data-cue=\"ahora lo importante\"><span>WACC 8,3 %</span><i class=\"navy grow\" style=\"--w:82%\">34,8 €</i></div><div class=\"b in\" data-cue=\"más alto\"><span>WACC 9,3 %</span><i class=\"orange grow\" style=\"--w:68%\">29,1 € (−14 %)</i></div></div><div class=\"note in\" data-cue=\"un rango\" style=\"margin-top:30px\">Un rango, no un número</div>",
+   "sub": "Precio por acción"
+  },
+  {
+   "dark": true,
+   "say": "Un DCF no te da el precio exacto. Te dice de qué depende.",
+   "html": "<div class=\"final in\" data-t=\"0\">Un DCF no te da el precio exacto. Te dice <em class=\"c-teal\">de qué depende</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Empresa inventada. Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

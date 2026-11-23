@@ -1,0 +1,48 @@
+{
+ "series": "nadie",
+ "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+ "title_post": "Lo que de verdad te cuesta tu coche",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Un paquete de tabaco al día. Unos cinco euros. Parece poco, ¿verdad? Pues en treinta años te puede costar más de ciento setenta y cinco mil euros.",
+   "html": "<div class=\"big c-orange in\" data-t=\"0\" style=\"\">5 €/día</div><div class=\"q in\" data-cue=\"ciento setenta y cinco\" style=\"\">En 30 años: <em class=\"c-orange\">+175.000 €</em></div>"
+  },
+  {
+   "dark": true,
+   "say": "Esto es lo que nadie te cuenta sobre el coste de oportunidad: lo que de verdad te cuestan las cosas.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">Lo que de verdad te <em class=\"c-orange\">cuesta</em></div>"
+  },
+  {
+   "title": "El coste de <em class=\"c-teal\">oportunidad</em>",
+   "say": "Cada euro que gastas tiene dos precios. El que pagas hoy, y en lo que ese euro se podría haber convertido si lo hubieras invertido. Ese segundo precio se llama coste de oportunidad. Y casi nunca lo vemos.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-cue=\"el que pagas\" style=\"min-width:420px\"><div class=\"lab\">Precio 1</div><div class=\"txt\">Lo que pagas hoy</div></div><div class=\"card orange in\" data-cue=\"se podría haber\" style=\"min-width:420px\"><div class=\"lab\">Precio 2</div><div class=\"txt\">Lo que dejas de ganar</div></div></div><div class=\"note in\" data-cue=\"casi nunca\" style=\"margin-top:30px\">El que casi nunca vemos</div>"
+  },
+  {
+   "title": "1 · El <em class=\"c-orange\">tabaco</em>",
+   "say": "Vamos con los números. Un paquete al día son unos ciento cincuenta euros al mes. Si ese dinero lo invirtieras cada mes durante treinta años, con una rentabilidad del siete por ciento anual, parecida a la media histórica de la bolsa mundial, tendrías más de ciento setenta y cinco mil euros. Y solo habrías puesto cincuenta y cuatro mil.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"ciento cincuenta euros\">150 €/mes · 30 años</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"cincuenta y cuatro mil\"><span>Lo que pones</span><i class=\"ink grow\" style=\"--w:31%\">54.000 €</i></div><div class=\"b in\" data-cue=\"tendrías más\"><span>Lo que tendrías</span><i class=\"teal grow\" style=\"--w:100%\">175.000 €</i></div></div>"
+  },
+  {
+   "title": "2 · El <em class=\"c-navy\">coche</em>",
+   "say": "Ahora el coche. Imagina que dudas entre uno de treinta mil euros y otro de quince mil que te lleva igual de bien. La diferencia, quince mil euros, invertida durante treinta años al siete por ciento, se convierte en unos ciento catorce mil.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-cue=\"treinta mil euros\" style=\"min-width:400px\"><div class=\"lab\">Coche A</div><div class=\"val\">30.000 €</div></div><div class=\"card teal in\" data-cue=\"quince mil que\" style=\"min-width:400px\"><div class=\"lab\">Coche B</div><div class=\"val\">15.000 €</div></div></div><div class=\"col\" style=\"margin-top:30px\"><span class=\"pill  lg in\" data-cue=\"la diferencia\">Diferencia: 15.000 €</span><span class=\"arrow in\" data-cue=\"invertida\">↓ 30 años</span><span class=\"pill teal lg in\" data-cue=\"ciento catorce\">≈ 114.000 €</span></div>"
+  },
+  {
+   "title": "3 · Las <em class=\"c-orange\">suscripciones</em>",
+   "say": "Y lo más silencioso de todo: las suscripciones. Plataformas, el gimnasio que no usas, apps que ni recuerdas. Cincuenta euros al mes no se notan. Invertidos durante treinta años, son unos cincuenta y ocho mil euros.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand in\" data-cue=\"plataformas\">Plataformas</span><span class=\"pill sand in\" data-cue=\"gimnasio\">Gimnasio</span><span class=\"pill sand in\" data-cue=\"apps\">Apps</span></div><div class=\"col\" style=\"margin-top:30px\"><span class=\"pill  lg in\" data-cue=\"cincuenta euros al mes\">50 €/mes</span><span class=\"arrow in\" data-cue=\"invertidos\">↓ 30 años</span><span class=\"pill teal lg in\" data-cue=\"cincuenta y ocho\">≈ 58.000 €</span></div>"
+  },
+  {
+   "title": "No es dejar de <em class=\"c-teal\">vivir</em>",
+   "say": "Ojo, que la idea no es dejar de disfrutar. Si algo te hace feliz, adelante. La idea es saber lo que te cuesta de verdad, para decidir tú, y no por inercia. Porque gastar sin pensar sale mucho más caro de lo que parece. Y lo mismo vale para lo pequeño: el café de cada mañana, la comida a domicilio, las compras por impulso.",
+   "html": "<div class=\"card  in\" data-cue=\"saber lo que\" style=\"width:100%\"><div class=\"lab\">La pregunta</div><div class=\"txt\">¿Esto me compensa… <em style=\"color:#7CC4BF\">a 30 años vista</em>?</div></div><div class=\"note in\" data-cue=\"por inercia\" style=\"margin-top:30px\">Decidir tú, no por inercia</div>"
+  },
+  {
+   "dark": true,
+   "say": "Porque cada euro que gastas hoy es un euro que no trabaja para ti mañana.",
+   "html": "<div class=\"final in\" data-t=\"0\">Cada euro que gastas hoy es un euro que <em class=\"c-teal\">no trabaja para ti</em> mañana.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo: aportaciones mensuales al 7 % anual, rentabilidad no garantizada.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

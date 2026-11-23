@@ -1,0 +1,49 @@
+{
+ "series": "bolsa",
+ "topic": "El <span class=\"c-teal\">balance</span> II",
+ "title_post": "El balance II",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Una empresa puede tener beneficios… y aun así quebrar porque no puede pagar las facturas del mes que viene. Y el balance te avisa antes de que pase.",
+   "html": "<div class=\"q in\" data-t=\"0\" style=\"font-size:70px\">Beneficios…<br>y <em class=\"c-orange\">quiebra</em></div><div class=\"note in\" data-cue=\"te avisa\" style=\"margin-top:30px\">El balance te avisa antes</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, segunda parte del balance: qué mirar para saber si una empresa está sana.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas desde cero</div><div class=\"hero sm in\" data-t=\"0.2\">El balance <em class=\"c-teal\">II</em></div><div class=\"q in\" data-cue=\"qué mirar\" style=\"font-size:46px\">Qué mirar</div>"
+  },
+  {
+   "title": "Corto y <em class=\"c-navy\">largo plazo</em>",
+   "say": "En el balance, tanto lo que tienes como lo que debes se separa en corto y largo plazo. A corto plazo, lo que se convierte en dinero, o hay que pagar, en menos de un año. A largo plazo, todo lo demás.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-cue=\"en menos de un año\" style=\"min-width:420px\"><div class=\"lab\">Corto plazo</div><div class=\"txt\">Menos de un año</div></div><div class=\"card navy in\" data-cue=\"todo lo demás\" style=\"min-width:420px\"><div class=\"lab\">Largo plazo</div><div class=\"txt\">Todo lo demás</div></div></div>"
+  },
+  {
+   "title": "1 · ¿Puede pagar el <em class=\"c-teal\">mes que viene</em>?",
+   "say": "Lo primero: ¿puede pagar lo que vence pronto? Compara lo que tiene a corto plazo con lo que debe a corto plazo. Café Lumen tiene veinte mil euros a corto y debe diez mil: cubre sus pagos dos veces. Si tuviera menos de lo que debe, tendría un problema de liquidez.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"veinte mil\"><span>Tiene a corto</span><i class=\"teal grow\" style=\"--w:100%\">20.000 €</i></div><div class=\"b in\" data-cue=\"debe diez mil\"><span>Debe a corto</span><i class=\"orange grow\" style=\"--w:50%\">10.000 €</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill teal lg in\" data-cue=\"dos veces\">Liquidez: × 2</span></div>",
+   "sub": "Café Lumen"
+  },
+  {
+   "title": "2 · ¿Cuánta <em class=\"c-orange\">deuda</em> tiene?",
+   "say": "Lo segundo: cuánto debe frente a lo que han puesto sus dueños. Café Lumen debe cuarenta mil, y su patrimonio es de cuarenta mil: un euro de deuda por cada euro propio. Ni mucho, ni poco. Pero si debiera cinco veces su patrimonio, un mal año podría hundirla.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill  lg in\" data-cue=\"cuánto debe\">Deuda ÷ patrimonio</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"un euro de deuda\"><span>Café Lumen</span><i class=\"teal grow short\" style=\"--w:20%\">× 1</i></div><div class=\"b in\" data-cue=\"cinco veces\"><span>Muy endeudada</span><i class=\"orange grow\" style=\"--w:100%\">× 5</i></div></div>"
+  },
+  {
+   "title": "3 · ¿Qué hay <em class=\"c-navy\">dentro</em> del activo?",
+   "say": "Y lo tercero: mira qué hay dentro del activo. No es lo mismo tener dinero en el banco que un fondo de comercio, que es lo que una empresa pagó de más al comprar otra. Si esa compra sale mal, ese activo puede desaparecer de un plumazo.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-cue=\"dinero en el banco\" style=\"min-width:420px\"><div class=\"lab\">Caja</div><div class=\"txt\">Dinero real</div></div><div class=\"card orange in\" data-cue=\"fondo de comercio\" style=\"min-width:420px\"><div class=\"lab\">Fondo de comercio</div><div class=\"txt\">Puede evaporarse</div></div></div><div class=\"note in\" data-cue=\"pagó de más\" style=\"margin-top:30px\">Lo que se pagó de más al comprar otra empresa</div>"
+  },
+  {
+   "title": "Siempre en <em class=\"c-teal\">contexto</em>",
+   "say": "Eso sí, nunca mires un dato suelto. Compáralo con años anteriores y con empresas del mismo sector. Un supermercado y una eléctrica tienen balances muy distintos, y los dos pueden estar perfectamente sanos. Y fíjate en la tendencia: una empresa cuya deuda crece año tras año más rápido que su negocio te está enviando una señal.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"años anteriores\">Años anteriores</span><span class=\"pill sand lg in\" data-cue=\"mismo sector\">Mismo sector</span></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill navy in\" data-cue=\"un supermercado\">Supermercado</span><span class=\"pill teal in\" data-cue=\"una eléctrica\">Eléctrica</span></div>"
+  },
+  {
+   "dark": true,
+   "say": "Porque un buen negocio con un mal balance puede no llegar a final de año.",
+   "html": "<div class=\"final in\" data-t=\"0\">Un buen negocio con un mal balance puede <em class=\"c-orange\">no llegar</em> a final de año.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

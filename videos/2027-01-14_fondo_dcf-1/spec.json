@@ -1,0 +1,55 @@
+{
+ "series": "fondo",
+ "topic": "DCF <span class=\"c-teal\">I</span>",
+ "title_post": "DCF I",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "¿Cuánto vale una empresa? No lo que dice la bolsa hoy. Lo que vale de verdad. Hay un método que intenta calcularlo desde cero.",
+   "html": "<div class=\"q in\" data-t=\"0\" style=\"font-size:66px\">¿Cuánto <em class=\"c-teal\">vale</em><br>una empresa?</div><div class=\"note in\" data-cue=\"desde cero\" style=\"margin-top:30px\">Desde cero</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas a fondo, primera parte del DCF: el descuento de flujos de caja.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">DCF <em class=\"c-teal\">I</em></div><div class=\"q in\" data-cue=\"descuento de flujos\" style=\"font-size:46px\">Proyectar la <em class=\"c-teal\">caja</em></div>"
+  },
+  {
+   "title": "La <em class=\"c-navy\">idea</em>",
+   "say": "La idea es muy sencilla: una empresa vale todo el dinero que va a generar en el futuro, traído a valor de hoy. Así que lo primero es estimar cuánta caja libre le quedará cada año. Lo haremos con Nova Industrial, una empresa inventada.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill teal lg in\" data-cue=\"va a generar\">Caja futura</span><span class=\"arrow in\" data-cue=\"valor de hoy\">→</span><span class=\"pill navy lg in\" data-cue=\"valor de hoy\">Valor de hoy</span></div><div class=\"row\" style=\"margin-top:40px\"><div class=\"card  in\" data-cue=\"nova industrial\" style=\"width:100%\"><div class=\"lab\">Empresa inventada</div><div class=\"txt\">Nova Industrial</div></div></div>"
+  },
+  {
+   "title": "1 · Las <em class=\"c-navy\">hipótesis</em>",
+   "say": "Empezamos por las hipótesis. Nova vende mil millones de euros. Suponemos que crece un ocho por ciento el primer año, y cada vez menos, hasta un cuatro. Un margen EBITDA del veinte por ciento. Amortizaciones del cuatro por ciento de las ventas. Inversión, del cinco. Y un impuesto del veinticinco.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step navy in\" data-cue=\"mil millones\"><div class=\"n\">€</div><div><div class=\"t\">Ventas: 1.000 M€</div><div class=\"d\">Crecen del 8 % al 4 %</div></div></div><div class=\"step teal in\" data-cue=\"margen ebitda\"><div class=\"n\">%</div><div><div class=\"t\">Margen EBITDA: 20 %</div></div></div><div class=\"step ink in\" data-cue=\"amortizaciones\"><div class=\"n\">A</div><div><div class=\"t\">Amortizaciones: 4 % de ventas</div><div class=\"d\">Inversión (CAPEX): 5 %</div></div></div><div class=\"step orange in\" data-cue=\"un impuesto\"><div class=\"n\">T</div><div><div class=\"t\">Impuesto: 25 %</div></div></div></div>"
+  },
+  {
+   "title": "2 · De ventas a <em class=\"c-teal\">EBIT</em>",
+   "say": "Con eso, el primer año vende mil ochenta millones. El EBITDA, el veinte por ciento, son doscientos dieciséis. Le restamos las amortizaciones, cuarenta y tres, y llegamos al EBIT: ciento setenta y tres. Lo que gana el negocio con su actividad.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill navy lg in\" data-cue=\"mil ochenta\">Ventas año 1: 1.080 M€</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"doscientos dieciséis\"><span>EBITDA</span><i class=\"teal grow\" style=\"--w:100%\">216</i></div><div class=\"b in\" data-cue=\"cuarenta y tres\"><span>− Amortizaciones</span><i class=\"orange grow short\" style=\"--w:20%\">43</i></div><div class=\"b in\" data-cue=\"ciento setenta y tres\"><span>= EBIT</span><i class=\"teal grow\" style=\"--w:80%\">173</i></div></div>",
+   "sub": "Año 1 · millones de euros"
+  },
+  {
+   "title": "3 · De EBIT a <em class=\"c-teal\">caja libre</em>",
+   "say": "Ahora, de beneficio a caja. Al EBIT le quitamos los impuestos y queda el NOPAT: ciento treinta. Le sumamos las amortizaciones, que no son salida de dinero. Le restamos la inversión en activos, cincuenta y cuatro, y lo que crece el circulante, ocho. Resultado: ciento once millones de flujo de caja libre.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"nopat\"><span>NOPAT</span><i class=\"teal grow\" style=\"--w:100%\">130</i></div><div class=\"b in\" data-cue=\"le sumamos\"><span>+ Amortizaciones</span><i class=\"teal grow\" style=\"--w:33%\">43</i></div><div class=\"b in\" data-cue=\"cincuenta y cuatro\"><span>− CAPEX</span><i class=\"orange grow\" style=\"--w:42%\">54</i></div><div class=\"b in\" data-cue=\"ocho\"><span>− Circulante</span><i class=\"orange grow short\" style=\"--w:6%\">8</i></div><div class=\"b in\" data-cue=\"ciento once\"><span>= FCFF</span><i class=\"navy grow\" style=\"--w:85%\">111</i></div></div>",
+   "sub": "Año 1 · millones de euros"
+  },
+  {
+   "title": "Cinco años de <em class=\"c-navy\">flujos</em>",
+   "say": "Repetimos lo mismo cada año y obtenemos cinco flujos: ciento once, ciento veinte, ciento veintiocho, ciento treinta y cinco y ciento cuarenta y dos millones. Ese es el dinero que la empresa podrá repartir entre todos los que la financian.",
+   "html": "<div class=\"cols\" style=\"height:480px;\"><div class=\"c in\" data-cue=\"ciento once\" style=\"width:130px\"><b>111</b><i class=\"navy grow\" style=\"--h:78%\"></i><span>Año 1</span></div><div class=\"c in\" data-cue=\"ciento veinte\" style=\"width:130px\"><b>120</b><i class=\"navy grow\" style=\"--h:85%\"></i><span>Año 2</span></div><div class=\"c in\" data-cue=\"veintiocho\" style=\"width:130px\"><b>128</b><i class=\"navy grow\" style=\"--h:90%\"></i><span>Año 3</span></div><div class=\"c in\" data-cue=\"treinta y cinco\" style=\"width:130px\"><b>135</b><i class=\"navy grow\" style=\"--h:95%\"></i><span>Año 4</span></div><div class=\"c in\" data-cue=\"cuarenta y dos\" style=\"width:130px\"><b>142</b><i class=\"navy grow\" style=\"--h:100%\"></i><span>Año 5</span></div></div><div class=\"note in\" data-cue=\"repartir\" style=\"margin-top:70px\">FCFF en millones de euros</div>"
+  },
+  {
+   "title": "Los <em class=\"c-orange\">sanity checks</em>",
+   "say": "Antes de seguir, toca comprobar que todo tiene sentido. ¿La inversión cubre al menos el desgaste de los activos? ¿El crecimiento es coherente con lo que invierte? Un DCF con números imposibles da valoraciones imposibles.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step teal in\" data-cue=\"desgaste\"><div class=\"n\">✓</div><div><div class=\"t\">CAPEX ≥ amortizaciones</div><div class=\"d\">54 ≥ 43</div></div></div><div class=\"step teal in\" data-cue=\"coherente\"><div class=\"n\">✓</div><div><div class=\"t\">Crecimiento coherente con la inversión</div></div></div></div><div class=\"note in\" data-cue=\"imposibles\" style=\"margin-top:30px\">Números imposibles, valoración imposible</div>"
+  },
+  {
+   "dark": true,
+   "say": "Una empresa no vale lo que ganó. Vale lo que va a generar. En la segunda parte, calculamos cuánto vale Nova, y cada una de sus acciones.",
+   "html": "<div class=\"final in\" data-t=\"0\">Una empresa no vale lo que <em class=\"c-orange\">ganó</em>. Vale lo que va a <em class=\"c-teal\">generar</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Empresa inventada. Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

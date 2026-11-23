@@ -1,0 +1,50 @@
+{
+ "series": "bolsa",
+ "topic": "El <span class=\"c-teal\">flujo de caja</span>",
+ "title_post": "El flujo de caja",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Una empresa puede ganar dinero todos los años… y quedarse sin un euro en la cuenta. Parece imposible, pero pasa mucho más de lo que crees.",
+   "html": "<div class=\"q in\" data-t=\"0\" style=\"font-size:62px\">Gana dinero…<br>y se queda <em class=\"c-orange\">sin un euro</em></div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas desde cero: el estado de flujos de caja.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas desde cero</div><div class=\"hero sm in\" data-t=\"0.2\">El flujo de <em class=\"c-teal\">caja</em></div>"
+  },
+  {
+   "title": "Beneficio no es <em class=\"c-orange\">dinero</em>",
+   "say": "La cuenta de resultados apunta las ventas cuando se hacen, no cuando se cobran. Si Café Lumen sirve un catering de cinco mil euros a una empresa que paga a noventa días, hoy ya cuenta como beneficio. Pero el dinero todavía no está en la cuenta. Y si ese cliente no paga nunca, el beneficio se queda en el papel.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-cue=\"cuenta como beneficio\" style=\"min-width:420px\"><div class=\"lab\">Venta: 5.000 €</div><div class=\"txt\">✓ Ya es beneficio</div></div><div class=\"card orange in\" data-cue=\"todavía no está\" style=\"min-width:420px\"><div class=\"lab\">Cobro: en 90 días</div><div class=\"txt\">✗ Aún no hay dinero</div></div></div>",
+   "sub": "Café Lumen · ejemplo"
+  },
+  {
+   "title": "Las tres <em class=\"c-navy\">partes</em>",
+   "say": "El estado de flujos de caja cuenta el dinero que entra y sale de verdad, y lo separa en tres partes. La operativa: lo que genera el negocio del día a día. La de inversión: lo que se gasta en máquinas o en comprar otras empresas. Y la de financiación: préstamos, devoluciones y dividendos.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step teal in\" data-cue=\"la operativa\"><div class=\"n\">1</div><div><div class=\"t\">Operativa</div><div class=\"d\">El negocio del día a día</div></div></div><div class=\"step navy in\" data-cue=\"la de inversión\"><div class=\"n\">2</div><div><div class=\"t\">Inversión</div><div class=\"d\">Máquinas, otras empresas…</div></div></div><div class=\"step ink in\" data-cue=\"la de financiación\"><div class=\"n\">3</div><div><div class=\"t\">Financiación</div><div class=\"d\">Préstamos, devoluciones, dividendos</div></div></div></div>"
+  },
+  {
+   "title": "Lo que quieres <em class=\"c-teal\">ver</em>",
+   "say": "Lo ideal es una empresa cuyo negocio genera caja, que usa parte de esa caja para invertir, y que con lo que le sobra devuelve deuda o paga dividendos. Operativa positiva, inversión negativa y financiación negativa.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill teal lg in\" data-cue=\"operativa positiva\">Operativa +</span><span class=\"pill navy lg in\" data-cue=\"inversión negativa\">Inversión −</span><span class=\"pill ink lg in\" data-cue=\"financiación negativa\">Financiación −</span></div><div class=\"note in\" data-cue=\"devuelve deuda\" style=\"margin-top:30px\">El negocio se paga a sí mismo</div>"
+  },
+  {
+   "title": "La señal de <em class=\"c-orange\">alarma</em>",
+   "say": "La alarma salta al revés: cuando el negocio no genera caja y la empresa vive de pedir prestado o de emitir acciones nuevas. Puede aguantar un tiempo, pero si se cierra el grifo de la financiación, se acabó. Le ha pasado a muchas empresas que, sobre el papel, ganaban dinero.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill orange lg in\" data-cue=\"no genera caja\">Operativa −</span><span class=\"pill orange lg in\" data-cue=\"pedir prestado\">Financiación +</span></div><div class=\"note in\" data-cue=\"emitir acciones\" style=\"margin-top:30px\">Vive del dinero de otros</div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill  lg in\" data-cue=\"se cierra el grifo\">Se cierra el grifo → se acabó</span></div>"
+  },
+  {
+   "title": "El flujo de caja <em class=\"c-teal\">libre</em>",
+   "say": "Y de aquí sale el número favorito de muchos inversores: el flujo de caja libre. La caja que genera el negocio, menos lo que necesita invertir para mantenerse y crecer. Es el dinero que de verdad queda, y el más difícil de maquillar.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"la caja que genera\"><span>Caja operativa</span><i class=\"teal grow\" style=\"--w:100%\">100</i></div><div class=\"b in\" data-cue=\"necesita invertir\"><span>− Inversión</span><i class=\"orange grow\" style=\"--w:40%\">40</i></div><div class=\"b in\" data-cue=\"de verdad queda\"><span>= Caja libre</span><i class=\"navy grow\" style=\"--w:60%\">60</i></div></div><div class=\"note in\" data-cue=\"maquillar\" style=\"margin-top:30px\">El más difícil de maquillar</div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "dark": true,
+   "say": "Porque, como se dice en finanzas, el beneficio es una opinión, pero la caja es un hecho.",
+   "html": "<div class=\"final in\" data-t=\"0\">El beneficio es una <em class=\"c-orange\">opinión</em>. La caja es un <em class=\"c-teal\">hecho</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}
