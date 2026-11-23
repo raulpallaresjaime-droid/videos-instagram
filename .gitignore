@@ -4,3 +4,4 @@ engine/_page_*.html
 .lote*.log
 .render_*.log
 *.tmp.mp4
+.rerender.txt
