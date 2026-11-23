@@ -398,7 +398,7 @@ guardar("2027-01-26_bolsa_resultados-trimestrales", "bolsa", 'Resultados <span c
  esc('3 · Márgenes y <em class="c-teal">caja</em>', "Lo tercero: no te quedes en las ventas. Mira si los márgenes suben o bajan, y si el beneficio se convierte en caja. Vender más ganando menos por cada euro no es buena señal.",
      row(pill("Ventas ↑", "teal", c="las ventas", lg=True), pill("Margen ↓", "orange", c="los márgenes", lg=True)) + note("Vender más ganando menos por cada euro: mala señal", c="no es buena señal") + row(pill("¿El beneficio se convierte en caja?", "", c="se convierte en caja", lg=True), style="margin-top:30px")),
  esc('4 · Lo que <em class="c-navy">viene</em>', "Y lo cuarto, que a veces es lo más importante: las previsiones de la propia empresa para los próximos meses, lo que se llama guidance. La bolsa mira hacia el futuro. Un buen trimestre con malas previsiones puede hundir la acción.",
-     card("Guidance", "Lo que la empresa espera para los próximos meses", "navy", c="guidance") + note("La bolsa mira hacia el futuro", c="mira hacia el futuro") + row(pill("Buen trimestre + malas previsiones = caída", "orange", c="malas previsiones", lg=True), style="margin-top:30px")),
+     card("Guidance", "Lo que la empresa espera para los próximos meses", "navy", c="guidance") + note("La bolsa mira hacia el futuro", c="mira hacia el futuro") + row(pill("Buen trimestre + malas previsiones → caída", "orange", c="malas previsiones"), style="margin-top:30px")),
  final('La bolsa no premia los buenos resultados. Premia los resultados <em class="c-teal">mejores de lo esperado</em>.', "La bolsa no premia los buenos resultados. Premia los resultados mejores de lo esperado.", "Ejemplo ilustrativo."),
 ], f"""
 Resultados récord… y la acción cae un 10 % 🤯

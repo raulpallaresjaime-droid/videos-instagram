@@ -43,7 +43,7 @@
   {
    "title": "4 · Lo que <em class=\"c-navy\">viene</em>",
    "say": "Y lo cuarto, que a veces es lo más importante: las previsiones de la propia empresa para los próximos meses, lo que se llama guidance. La bolsa mira hacia el futuro. Un buen trimestre con malas previsiones puede hundir la acción.",
-   "html": "<div class=\"card navy in\" data-cue=\"guidance\" style=\"width:100%\"><div class=\"lab\">Guidance</div><div class=\"txt\">Lo que la empresa espera para los próximos meses</div></div><div class=\"note in\" data-cue=\"mira hacia el futuro\" style=\"margin-top:30px\">La bolsa mira hacia el futuro</div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"malas previsiones\">Buen trimestre + malas previsiones = caída</span></div>"
+   "html": "<div class=\"card navy in\" data-cue=\"guidance\" style=\"width:100%\"><div class=\"lab\">Guidance</div><div class=\"txt\">Lo que la empresa espera para los próximos meses</div></div><div class=\"note in\" data-cue=\"mira hacia el futuro\" style=\"margin-top:30px\">La bolsa mira hacia el futuro</div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange in\" data-cue=\"malas previsiones\">Buen trimestre + malas previsiones → caída</span></div>"
   },
   {
    "dark": true,
