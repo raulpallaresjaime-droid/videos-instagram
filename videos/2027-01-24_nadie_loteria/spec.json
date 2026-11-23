@@ -17,12 +17,12 @@
   {
    "title": "Las <em class=\"c-orange\">probabilidades</em>",
    "say": "Empecemos por las probabilidades. Para ganar el bote del Euromillones tienes que acertar cinco números y dos estrellas. La probabilidad es de una entre casi ciento cuarenta millones.",
-   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"cinco números\">5 números</span><span class=\"pill sand lg in\" data-cue=\"dos estrellas\">2 estrellas</span></div><div class=\"big c-orange in\" data-cue=\"una entre\" style=\"font-size:80px;text-align:center;margin-top:40px\">1 entre<br>139.838.160</div>"
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"cinco números\">5 números</span><span class=\"pill sand lg in\" data-cue=\"dos estrellas\">2 estrellas</span></div><div class=\"big c-orange in\" data-cue=\"la probabilidad\" style=\"font-size:80px;text-align:center;margin-top:40px\">1 entre<br>139.838.160</div>"
   },
   {
    "title": "Para que te hagas una <em class=\"c-navy\">idea</em>",
    "say": "Para que te hagas una idea: si jugaras una apuesta en cada sorteo, dos a la semana, tardarías de media más de un millón de años en que te tocara.",
-   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"dos a la semana\">1 apuesta × 2 sorteos/semana</span></div><div class=\"big c-navy in\" data-cue=\"un millón de años\" style=\"font-size:90px;text-align:center;margin-top:40px\">+1.000.000<br>de años</div>"
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"dos a la semana\">1 apuesta × 2 sorteos/semana</span></div><div class=\"big c-navy in\" data-cue=\"tardarías\" style=\"font-size:90px;text-align:center;margin-top:40px\">+1.000.000<br>de años</div>"
   },
   {
    "title": "Lo que <em class=\"c-orange\">pones</em>",
