@@ -167,105 +167,118 @@
    "serie": "nadie",
    "slug": "coste-oportunidad",
    "tema": "Lo que de verdad te cuesta tu coche (o el tabaco, o las suscripciones) si lo hubieras invertido: coste de oportunidad",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-03_nadie_coste-oportunidad"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-03_nadie_coste-oportunidad",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-2958328932511299373"
   },
   {
    "fecha": "2027-01-05",
    "serie": "bolsa",
    "slug": "balance-1",
    "tema": "El balance I: activos, pasivos y patrimonio neto (con Café Lumen)",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-05_bolsa_balance-1"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-05_bolsa_balance-1",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=721339233516474219"
   },
   {
    "fecha": "2027-01-07",
    "serie": "fondo",
    "slug": "duration-convexity",
    "tema": "Duration y convexity",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-07_fondo_duration-convexity"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-07_fondo_duration-convexity",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-3702235937638035975"
   },
   {
    "fecha": "2027-01-10",
    "serie": "nadie",
    "slug": "revolving",
    "tema": "La trampa del pago mínimo en las tarjetas revolving",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-10_nadie_revolving"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-10_nadie_revolving",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-3372721723555034843"
   },
   {
    "fecha": "2027-01-12",
    "serie": "bolsa",
    "slug": "balance-2",
    "tema": "El balance II",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-12_bolsa_balance-2"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-12_bolsa_balance-2",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=6225868399034974593"
   },
   {
    "fecha": "2027-01-14",
    "serie": "fondo",
    "slug": "dcf-1",
    "tema": "DCF I: proyectar el flujo de caja libre",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-14_fondo_dcf-1"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-14_fondo_dcf-1",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-8582979624755573388"
   },
   {
    "fecha": "2027-01-17",
    "serie": "nadie",
    "slug": "tin-tae",
    "tema": "TIN o TAE: por qué dos préstamos «al mismo interés» no cuestan lo mismo",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-17_nadie_tin-tae"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-17_nadie_tin-tae",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-3240696245343664751"
   },
   {
    "fecha": "2027-01-19",
    "serie": "bolsa",
    "slug": "flujo-caja",
    "tema": "El flujo de caja",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-19_bolsa_flujo-caja"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-19_bolsa_flujo-caja",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-7475063949242513448"
   },
   {
    "fecha": "2027-01-21",
    "serie": "fondo",
    "slug": "dcf-2",
    "tema": "DCF II: valor terminal, Equity Value y sensibilidad",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-21_fondo_dcf-2"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-21_fondo_dcf-2",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=5895411359145807542"
   },
   {
    "fecha": "2027-01-24",
    "serie": "nadie",
    "slug": "loteria",
    "tema": "Lotería o invertir: lo que gastas cada semana en Euromillones, invertido 30 años",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-24_nadie_loteria"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-24_nadie_loteria",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-4495472161215461704"
   },
   {
    "fecha": "2027-01-26",
    "serie": "bolsa",
    "slug": "resultados-trimestrales",
    "tema": "Cómo leer los resultados trimestrales",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-26_bolsa_resultados-trimestrales"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-26_bolsa_resultados-trimestrales",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=1175936509339979241"
   },
   {
    "fecha": "2027-01-28",
    "serie": "fondo",
    "slug": "ev-vs-equity",
    "tema": "Enterprise Value vs Equity Value",
-   "estado": "pendiente",
+   "estado": "programado",
    "carpeta": "videos/2027-01-28_fondo_ev-vs-equity",
-   "aviso": "La idea nueva «Del Enterprise Value al Equity Value» de la lista de Raúl es esta misma; no se ha duplicado. Avisar a Raúl."
+   "aviso": "La idea nueva «Del Enterprise Value al Equity Value» de la lista de Raúl es esta misma; no se ha duplicado. Avisar a Raúl.",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-6086776977363941321"
   },
   {
    "fecha": "2027-01-31",
    "serie": "nadie",
    "slug": "dividendos-reinvertidos",
    "tema": "Dividendos reinvertidos: el S&P 500 con y sin reinvertir",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-01-31_nadie_dividendos-reinvertidos"
+   "estado": "programado",
+   "carpeta": "videos/2027-01-31_nadie_dividendos-reinvertidos",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-3631428857444809335"
   },
   {
    "fecha": "2027-02-02",
