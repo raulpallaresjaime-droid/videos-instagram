@@ -355,6 +355,14 @@
    "carpeta": "videos/2027-02-25_fondo_ratios-deuda"
   },
   {
+   "fecha": "2027-02-28",
+   "serie": "nadie",
+   "slug": "buffett-despues-50",
+   "tema": "Buffett hizo casi toda su fortuna después de los 50: el interés compuesto con una historia real ⭐",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-02-28_nadie_buffett-despues-50"
+  },
+  {
    "fecha": "2027-03-02",
    "serie": "bolsa",
    "slug": "riesgo-renta-variable",
@@ -369,6 +377,334 @@
    "tema": "EBITDA, EBIT o FCF",
    "estado": "pendiente",
    "carpeta": "videos/2027-03-04_fondo_ebitda-ebit-fcf"
+  },
+  {
+   "fecha": "2027-03-07",
+   "serie": "nadie",
+   "slug": "intereses-hipoteca",
+   "tema": "Lo que pagas de intereses en tu hipoteca los primeros años ⭐",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-07_nadie_intereses-hipoteca"
+  },
+  {
+   "fecha": "2027-03-09",
+   "serie": "bolsa",
+   "slug": "per-multiplos",
+   "tema": "El PER y los múltiplos básicos: ¿cómo sabes si una acción está cara o barata? Con una sola división",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-09_bolsa_per-multiplos"
+  },
+  {
+   "fecha": "2027-03-11",
+   "serie": "fondo",
+   "slug": "lbo",
+   "tema": "Un LBO paso a paso: compra con deuda, amortización y salida, con IRR y MOIC ⭐",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-11_fondo_lbo"
+  },
+  {
+   "fecha": "2027-03-14",
+   "serie": "nadie",
+   "slug": "sueldo-vs-ipc",
+   "tema": "Si tu sueldo sube menos que el IPC, te lo están bajando",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-14_nadie_sueldo-vs-ipc"
+  },
+  {
+   "fecha": "2027-03-16",
+   "serie": "bolsa",
+   "slug": "ampliaciones-dilucion",
+   "tema": "Ampliaciones de capital y dilución: tus acciones siguen siendo las mismas… pero valen menos",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-16_bolsa_ampliaciones-dilucion"
+  },
+  {
+   "fecha": "2027-03-18",
+   "serie": "fondo",
+   "slug": "irr-moic-dpi-tvpi",
+   "tema": "IRR, MOIC, DPI y TVPI: cómo se mide la rentabilidad de un fondo de private equity",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-18_fondo_irr-moic-dpi-tvpi"
+  },
+  {
+   "fecha": "2027-03-21",
+   "serie": "nadie",
+   "slug": "efecto-disposicion",
+   "tema": "El efecto disposición: vendemos las que suben y nos quedamos con las que caen",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-21_nadie_efecto-disposicion"
+  },
+  {
+   "fecha": "2027-03-23",
+   "serie": "bolsa",
+   "slug": "opa",
+   "tema": "OPA: qué pasa con tus acciones (casos españoles como BBVA y Sabadell) ⭐",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-23_bolsa_opa"
+  },
+  {
+   "fecha": "2027-03-25",
+   "serie": "fondo",
+   "slug": "carry",
+   "tema": "El reparto del carry: hurdle rate, catch-up y carried interest",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-25_fondo_carry"
+  },
+  {
+   "fecha": "2027-03-28",
+   "serie": "nadie",
+   "slug": "anclaje",
+   "tema": "«Ya volverá a mi precio»: el anclaje, el sesgo que más dinero hace perder",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-28_nadie_anclaje"
+  },
+  {
+   "fecha": "2027-03-30",
+   "serie": "bolsa",
+   "slug": "opv-salir-bolsa",
+   "tema": "Salir a bolsa (OPV): por qué una empresa decide cotizar y por qué muchas caen después",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-03-30_bolsa_opv-salir-bolsa"
+  },
+  {
+   "fecha": "2027-04-01",
+   "serie": "fondo",
+   "slug": "accretion-dilution",
+   "tema": "Accretion / dilution en una fusión: ¿sube o baja el BPA del comprador?",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-01_fondo_accretion-dilution"
+  },
+  {
+   "fecha": "2027-04-04",
+   "serie": "nadie",
+   "slug": "comisiones-fondo-banco",
+   "tema": "Las comisiones ocultas del fondo de tu banco: cuánto te cuestan en 30 años",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-04_nadie_comisiones-fondo-banco"
+  },
+  {
+   "fecha": "2027-04-06",
+   "serie": "bolsa",
+   "slug": "trampa-dividendo-alto",
+   "tema": "La trampa del dividendo alto: un 12 % de dividendo no es una ganga, es una señal de alarma ⭐",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-06_bolsa_trampa-dividendo-alto"
+  },
+  {
+   "fecha": "2027-04-08",
+   "serie": "fondo",
+   "slug": "fusiones-destruyen-valor",
+   "tema": "Por qué la mayoría de fusiones destruyen valor: sinergias prometidas frente a reales",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-08_fondo_fusiones-destruyen-valor"
+  },
+  {
+   "fecha": "2027-04-11",
+   "serie": "nadie",
+   "slug": "como-ganan-bancos",
+   "tema": "Por qué tu banco te paga un 0 % y te presta al 8 %: cómo ganan dinero los bancos",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-11_nadie_como-ganan-bancos"
+  },
+  {
+   "fecha": "2027-04-13",
+   "serie": "bolsa",
+   "slug": "splits",
+   "tema": "Splits y contrasplits: Nvidia multiplicó sus acciones por 10… y nadie se hizo más rico",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-13_bolsa_splits"
+  },
+  {
+   "fecha": "2027-04-15",
+   "serie": "fondo",
+   "slug": "fases-ma",
+   "tema": "Las fases de una operación de M&A: NDA, CIM, LOI, due diligence, SPA y cierre",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-15_fondo_fases-ma"
+  },
+  {
+   "fecha": "2027-04-18",
+   "serie": "nadie",
+   "slug": "tarjetas-sin-comisiones",
+   "tema": "Las tarjetas «sin comisiones»: quién paga de verdad",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-18_nadie_tarjetas-sin-comisiones"
+  },
+  {
+   "fecha": "2027-04-20",
+   "serie": "bolsa",
+   "slug": "alcista-bajista-crash",
+   "tema": "Mercado alcista, bajista, corrección y crash: qué significa cada uno y cuánto suelen durar",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-20_bolsa_alcista-bajista-crash"
+  },
+  {
+   "fecha": "2027-04-22",
+   "serie": "fondo",
+   "slug": "trading-vs-transaction-comps",
+   "tema": "Trading comps vs transaction comps: por qué dan resultados distintos",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-22_fondo_trading-vs-transaction-comps"
+  },
+  {
+   "fecha": "2027-04-25",
+   "serie": "nadie",
+   "slug": "inflacion-estilo-vida",
+   "tema": "Inflación del estilo de vida: ganas más y sigues sin ahorrar",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-25_nadie_inflacion-estilo-vida"
+  },
+  {
+   "fecha": "2027-04-27",
+   "serie": "bolsa",
+   "slug": "poco-a-poco-o-de-golpe",
+   "tema": "Aportar poco a poco o todo de golpe: el dilema de quien tiene un dinero ahorrado",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-27_bolsa_poco-a-poco-o-de-golpe"
+  },
+  {
+   "fecha": "2027-04-29",
+   "serie": "fondo",
+   "slug": "capital-circulante",
+   "tema": "Capital circulante y ciclo de caja: por qué una empresa que crece puede quedarse sin dinero",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-04-29_fondo_capital-circulante"
+  },
+  {
+   "fecha": "2027-05-02",
+   "serie": "nadie",
+   "slug": "historias-gamestop",
+   "tema": "Historias épicas de la bolsa I: GameStop ⭐",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-02_nadie_historias-gamestop"
+  },
+  {
+   "fecha": "2027-05-04",
+   "serie": "bolsa",
+   "slug": "riesgo-divisa",
+   "tema": "Invertir en dólares, el riesgo divisa: tu acción sube un 10 % y tú ganas un 2 %",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-04_bolsa_riesgo-divisa"
+  },
+  {
+   "fecha": "2027-05-06",
+   "serie": "fondo",
+   "slug": "tipos-deuda-adquisicion",
+   "tema": "Tipos de deuda en una adquisición: senior, mezzanine y unitranche, con sus covenants",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-06_fondo_tipos-deuda-adquisicion"
+  },
+  {
+   "fecha": "2027-05-09",
+   "serie": "nadie",
+   "slug": "oro",
+   "tema": "Por qué el oro no genera dinero (y aun así todo el mundo lo compra)",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-09_nadie_oro"
+  },
+  {
+   "fecha": "2027-05-11",
+   "serie": "bolsa",
+   "slug": "elegir-broker",
+   "tema": "Cómo elegir un bróker: comisiones, custodia, regulación y fondo de garantía",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-11_bolsa_elegir-broker"
+  },
+  {
+   "fecha": "2027-05-13",
+   "serie": "fondo",
+   "slug": "earn-outs",
+   "tema": "Earn-outs: cómo se paga una empresa cuando comprador y vendedor no se ponen de acuerdo",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-13_fondo_earn-outs"
+  },
+  {
+   "fecha": "2027-05-16",
+   "serie": "nadie",
+   "slug": "comprar-o-alquilar",
+   "tema": "Comprar o alquilar vivienda: los números que casi nadie hace",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-16_nadie_comprar-o-alquilar"
+  },
+  {
+   "fecha": "2027-05-18",
+   "serie": "bolsa",
+   "slug": "fiscalidad-espana",
+   "tema": "Cómo tributa invertir en España: plusvalías, dividendos, regla de los dos meses y traspasos ⭐",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-18_bolsa_fiscalidad-espana"
+  },
+  {
+   "fecha": "2027-05-20",
+   "serie": "fondo",
+   "slug": "varianza-volatilidad",
+   "tema": "Varianza, covarianza y volatilidad",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-20_fondo_varianza-volatilidad"
+  },
+  {
+   "fecha": "2027-05-23",
+   "serie": "nadie",
+   "slug": "sesgo-retrospectivo",
+   "tema": "El sesgo retrospectivo: «si hubiera comprado Bitcoin en 2015…»",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-23_nadie_sesgo-retrospectivo"
+  },
+  {
+   "fecha": "2027-05-25",
+   "serie": "bolsa",
+   "slug": "primera-cartera",
+   "tema": "Construir tu primera cartera: acciones, bonos y liquidez según edad y objetivos (no es recomendación)",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-25_bolsa_primera-cartera"
+  },
+  {
+   "fecha": "2027-05-27",
+   "serie": "fondo",
+   "slug": "correlacion-r2",
+   "tema": "Correlación y R²",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-27_fondo_correlacion-r2"
+  },
+  {
+   "fecha": "2027-05-30",
+   "serie": "nadie",
+   "slug": "negociar-sueldo",
+   "tema": "Negociar tu sueldo: 2.000 € más al año al empezar, multiplicados por toda tu carrera ⭐",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-05-30_nadie_negociar-sueldo"
+  },
+  {
+   "fecha": "2027-06-03",
+   "serie": "fondo",
+   "slug": "markowitz",
+   "tema": "La frontera eficiente de Markowitz",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-06-03_fondo_markowitz"
+  },
+  {
+   "fecha": "2027-06-06",
+   "serie": "nadie",
+   "slug": "historias-tulipanes",
+   "tema": "Historias épicas de la bolsa II: la burbuja de los tulipanes ⭐",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-06-06_nadie_historias-tulipanes"
+  },
+  {
+   "fecha": "2027-06-10",
+   "serie": "fondo",
+   "slug": "capm-beta",
+   "tema": "CAPM y beta: de dónde sale el coste del equity del WACC",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-06-10_fondo_capm-beta"
+  },
+  {
+   "fecha": "2027-06-13",
+   "serie": "nadie",
+   "slug": "historias-ftx",
+   "tema": "Historias épicas de la bolsa III: la caída de FTX ⭐",
+   "estado": "pendiente",
+   "carpeta": "videos/2027-06-13_nadie_historias-ftx"
   }
  ]
 }
