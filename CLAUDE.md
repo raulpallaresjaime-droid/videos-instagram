@@ -123,6 +123,11 @@ carrusel con la explicación completa 👆») → «Guárdalo y compártelo con 
   `https://raw.githubusercontent.com/raulpallaresjaime-droid/videos-instagram/main/videos/<carpeta>/video.mp4`
   y portada `.../portada.jpg` en `videoThumbnailUrl`.
 - Tipo `REEL`, `showReelOnFeed: true`, fecha `<fecha>T10:00:00`, texto = `caption.txt`.
+- **Portada = un fotograma del propio vídeo** (como hace Raúl), nunca el primero (es oscuro y en el
+  perfil se ve negro) ni la portada oscura del título. `python3 engine/portada.py videos/<carpeta>`
+  elige la escena crema más visual ya completa, guarda `portada.jpg` e imprime los milisegundos:
+  pásalos en `videoCoverMilliseconds` (y no uses `videoThumbnailUrl`). Revisa la portada recortada a
+  3:4 (así se ve en el perfil); si sale a medio animar o poco visual, fija `"coverMs"` en el spec.
 - Revisión: crear la publicación con `createScheduledPost` y **`"draft": true`** (borrador con
   la fecha y la hora puestas). Raúl la revisa en Metricool y pulsa Programar. Así se hizo con las
   primeras y funciona. **Nunca** crear una publicación que se publique sola sin su revisión.

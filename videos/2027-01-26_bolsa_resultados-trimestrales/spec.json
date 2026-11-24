@@ -50,5 +50,6 @@
    "say": "La bolsa no premia los buenos resultados. Premia los resultados mejores de lo esperado.",
    "html": "<div class=\"final in\" data-t=\"0\">La bolsa no premia los buenos resultados. Premia los resultados <em class=\"c-teal\">mejores de lo esperado</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
   }
- ]
+ ],
+ "coverMs": 36800
 }
