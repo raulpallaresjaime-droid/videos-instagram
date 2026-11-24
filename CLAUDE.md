@@ -121,7 +121,7 @@ carrusel con la explicación completa 👆») → «Guárdalo y compártelo con 
 - Marca `_raulpallares`, `blogId` 8071218, Instagram, zona Europe/Madrid.
 - URL del vídeo (rama `main`):
   `https://raw.githubusercontent.com/raulpallaresjaime-droid/videos-instagram/main/videos/<carpeta>/video.mp4`
-  y portada `.../portada.jpg` en `videoThumbnailUrl`.
+  (la portada no se sube aparte: va como `videoCoverMilliseconds`, ver abajo).
 - Tipo `REEL`, `showReelOnFeed: true`, fecha `<fecha>T10:00:00`, texto = `caption.txt`.
 - **Portada = un fotograma del propio vídeo** (como hace Raúl), nunca el primero (es oscuro y en el
   perfil se ve negro) ni la portada oscura del título. `python3 engine/portada.py videos/<carpeta>`
