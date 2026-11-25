@@ -82,3 +82,8 @@ body{font-family:IN;color:var(--paper)}
 .tl .e::before{content:'';position:absolute;top:-14px;left:0;width:24px;height:24px;border-radius:50%;background:var(--amber)}
 .tl .e .d{font-family:TY;font-size:30px;color:var(--amber)}
 .tl .e .t{font-family:OS;font-size:38px;line-height:1.15;text-transform:uppercase;margin-top:10px;padding-right:30px}
+
+/* legibilidad sobre fotos */
+.ov{text-shadow:0 2px 18px rgba(0,0,0,.95),0 0 5px rgba(0,0,0,.7)}
+.box .val{white-space:nowrap}
+.majority span{right:auto;left:0}

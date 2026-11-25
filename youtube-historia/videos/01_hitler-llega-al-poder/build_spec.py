@@ -43,7 +43,7 @@ sc("Muchos alemanes no lo aceptan. Al acabar la guerra, ningún soldado enemigo 
         '<div class="who in" data-cue="traicionada">El mito que culpaba a políticos, socialistas y judíos de la derrota</div>'
         '<div class="stamp in" data-cue="era mentira" style="margin-top:60px">Falso</div></div>')
 sc("Mientras tanto nace la República de Weimar, la primera democracia de la historia de Alemania. Nace débil, en plena crisis, y odiada tanto por la extrema derecha como por la extrema izquierda.",
-   img='img/weimar.jpg', kb='in', cap='Weimar, febrero de 1919: Asamblea Nacional')
+   img='img/weimar.jpg', kb='in', cap='Weimar, 1919: diputados de la Asamblea Nacional')
 sc("En Múnich, un antiguo cabo del ejército, nacido en Austria, entra en 1919 en un pequeño partido de extrema derecha. Se llama Adolf Hitler. Descubre que tiene un talento especial: "
    "sabe hablar a las masas. En 1921 ya es el jefe de ese partido, que ahora se llama Partido Nacionalsocialista Obrero Alemán. El partido nazi.",
    img='img/burgerbrau.jpg', kb='right', cap='Mitin del partido nazi en Múnich, 1923',
@@ -60,19 +60,18 @@ sc("Hay billetes de millones y de billones de marcos. Algunos alemanes llegan a 
 # ---------- PUTSCH Y CÁRCEL ----------
 sc("Hitler cree que ha llegado su momento. La noche del 8 de noviembre de 1923 irrumpe con sus hombres en una cervecería de Múnich y proclama una revolución nacional. "
    "Al día siguiente marcha con unos dos mil seguidores hacia el centro de la ciudad. La policía abre fuego. Mueren cuatro policías y dieciséis nazis. El golpe fracasa.",
-   img='img/putsch.jpg', kb='left', cap='Múnich, 9 de noviembre de 1923',
+   img='img/putsch.jpg', kb='left', shade=True, cap='Múnich, noviembre de 1923: golpistas armados',
    html='<div class="ov right"><div class="date in" data-t="0.2">8-9 de noviembre de 1923</div><div class="h2 in" data-t="0.4">El golpe de<br>la cervecería</div>'
         '<div class="stamp in" data-cue="el golpe fracasa" style="margin-top:40px">Fracasa</div></div>')
 sc("Hitler es detenido y juzgado por alta traición. Pero el juicio se convierte en su escaparate: durante semanas, los periódicos de toda Alemania publican sus discursos. "
    "El tribunal le condena a 5 años de cárcel, la pena mínima. Y en diciembre de 1924 ya está en la calle, tras menos de un año entre rejas.",
-   img='img/juicio.jpg', kb='in', cap='Múnich, 1924: los acusados del juicio',
+   img='img/juicio.jpg', kb='in', cap='Múnich, 1924: el juicio a Hitler y Ludendorff',
    html='<div class="ov right low"><div class="row"><div class="box in" data-cue="5 anos"><div class="lab">Condena</div><div class="val">5 años</div></div>'
         '<div class="box in" data-cue="menos de un ano"><div class="lab">Cumple</div><div class="val red">&lt; 1 año</div></div></div></div>')
 sc("Su celda en la prisión de Landsberg es casi una habitación de hotel. Recibe visitas, regalos y periódicos. Allí dicta Mi lucha, el libro en el que deja por escrito su odio a los judíos "
    "y su sueño de conquistar espacio vital en el Este.",
    img='img/landsberg.jpg', kb='right', cap='Prisión de Landsberg, 1924')
 sc("Y saca una lección que lo cambiará todo: el poder no se toma por la fuerza. Se conquista desde dentro, usando las reglas de la propia democracia. A través de las urnas.",
-   img='img/meinkampf.jpg', side='right', kb='still',
    html='<div class="ov left"><div class="q in" data-cue="el poder no se toma">El poder no se toma por la fuerza.</div>'
         '<div class="h3 amber in" data-cue="a traves de las urnas" style="margin-top:40px">Se conquista en las urnas</div></div>')
 
@@ -140,15 +139,14 @@ sc("Con la oposición perseguida y las calles llenas de matones de las SA, se ce
    html=chart(4, '43,9', majority=True))
 sc("Ese mismo mes, el 22 de marzo de 1933, abre sus puertas Dachau, cerca de Múnich. Es uno de los primeros campos de concentración. Sus primeros presos son opositores políticos. "
    "Solo es el principio de lo que vendrá.",
-   img='img/dachau.jpg', kb='in', cap='Dachau, mayo de 1933: presos en trabajos forzados',
+   img='img/dachau.jpg', kb='in', shade=True, cap='Dachau, 1933: presos de camino al rancho',
    html='<div class="ov left"><div class="date in" data-t="0.2">22 de marzo de 1933</div><div class="h2 in" data-cue="dachau">Dachau</div></div>')
 sc("Y el 23 de marzo llega el golpe definitivo: la Ley Habilitante. Permite al gobierno de Hitler aprobar leyes sin pasar por el Parlamento, incluso leyes que van contra la Constitución. "
    "Para aprobarla, hacen falta dos tercios de los votos.",
-   img='img/habilitante.jpg', kb='right', cap='Berlín, 23 de marzo de 1933: Hitler defiende la ley',
+   img='img/kroll.jpg', kb='in', shade=True, cap='Berlín, 23 de marzo de 1933: Hitler defiende la ley',
    html='<div class="ov left"><div class="date in" data-t="0.2">23 de marzo de 1933</div><div class="h2 in" data-cue="ley habilitante">Ley<br>Habilitante</div></div>')
 sc("La votación se celebra en la Ópera Kroll, con el edificio rodeado por hombres de las SA y de las SS. Los diputados comunistas están detenidos o han huido. "
    "Los demás partidos ceden entre promesas y miedo. Resultado: 444 votos a favor y 94 en contra. Solo los socialdemócratas votan que no. El Parlamento acaba de votar su propia desaparición.",
-   img='img/kroll.jpg', kb='in', shade=True, cap='Ópera Kroll, Berlín',
    html='<div class="ov center"><div class="row"><div class="box in" data-cue="444"><div class="lab">A favor</div><div class="val">444</div></div>'
         '<div class="box in" data-cue="94 en contra"><div class="lab">En contra</div><div class="val red">94</div></div></div>'
         '<div class="h3 amber in" data-cue="su propia desaparicion" style="margin-top:50px">El Parlamento vota su propio final</div></div>')
