@@ -130,8 +130,10 @@
   },
   {
    "say": "En noviembre de 1938 llega un punto de inflexión: la Noche de los cristales rotos. Los nazis queman más de 250 sinagogas y destrozan unos 7.000 negocios, casas y escuelas judías.",
+   "img": "img/kristall.jpg",
+   "kb": "in",
+   "cap": "Magdeburgo, noviembre de 1938: un comercio judío destrozado",
    "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">9-10 de noviembre de 1938</div><div class=\"h2 in tw\" data-t=\"0.6\">La Noche de los<br>cristales rotos</div></div>",
-   "bg": "img/deportacion.jpg",
    "mood": "tension"
   },
   {
