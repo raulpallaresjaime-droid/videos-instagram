@@ -141,3 +141,41 @@ Carpeta `VIDEOS CONTENIDO INSTAGRAM` (id `1-42fjlTA8RPqkQVa5F-3-JirXvTaDQh6`) co
 `SERIE DE BOLSA`, `LO QUE NADIE TE CUENTA`, `FINANZAS A FONDO`. El conector de Drive solo sube
 archivos de hasta ~3 MB, así que los vídeos viven en GitHub; a Drive solo se suben archivos
 pequeños si hace falta (portadas, guiones).
+
+---
+
+# Canal de YouTube «Sombras del 39» (@Sombras.del.39)
+
+Documentales de 9-11 min, sin cara, sobre la Segunda Guerra Mundial y el nazismo (campos, Holocausto, batallas).
+Todo vive en `youtube-historia/` (motor, música, efectos, logos) y `youtube-historia/calendario.json` es la fuente
+de verdad (`pendiente` → `hecho` → `programado`). Detalle técnico en `youtube-historia/README.md`.
+
+## Tarea semanal (domingo)
+Dejar **los episodios de la semana siguiente** (martes y jueves 16:00 Europe/Madrid durante el primer mes; después
+solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. Nunca publicar sin su revisión.
+1. `npm ci` si no hay `node_modules/`.
+2. Para cada episodio `pendiente` de la semana siguiente (tema en `calendario.json`; si falta, elegir uno coherente
+   con la serie y decirlo en el informe): carpeta `youtube-historia/videos/NN_slug/` copiando la estructura del
+   episodio anterior (`build_spec.py`, `build_desc.py`).
+   - Investigar y **verificar todas las cifras** con búsqueda web (USHMM, Memorial de Auschwitz, Bundestag,
+     Britannica, DHM…). Si las fuentes discrepan, usar formulaciones prudentes («unos», «más de», «miles»).
+   - Guion de 7.500-9.000 caracteres (~9-11 min a 13,8 car/s), 30-36 escenas, gancho con dato en la escena 0,
+     título «Capítulo N» en la 1, cierre en melancolía y anuncio del siguiente capítulo.
+   - Fotos: `engine/bundesarchiv.py search/get` (rápido, alta resolución; su servidor `bundesbildarchiv.init-ag.de`
+     a veces corta la conexión: elegir otra). Wikimedia (`engine/commons.py`) limita mucho: lanzarlo al principio en
+     segundo plano y usar `fallback` en el spec. **Nada de cadáveres ni imágenes explícitas**, y nada de símbolos
+     nazis en la miniatura. Revisar siempre las fotos con una hoja de contactos antes de usarlas.
+   - Nombres con letras no españolas (ł, ż, ś…): sin ellas en `say` y en los títulos (la tipografía no las tiene).
+   - `node youtube-historia/engine/tts.js <carpeta>` (voz Salva `hyKxCTlAqtnW188CgltM`, `eleven_v4`).
+   - Revisar con `render.js <carpeta> --preview t1,t2,…` (un fotograma por escena) y corregir solapes/huecos.
+   - `node youtube-historia/engine/render.js <carpeta>` (~30 min, mezcla voz + música + tecleo) y
+     `node youtube-historia/engine/miniatura.js <carpeta>`; `python3 build_desc.py`.
+   - Comprimir para GitHub (<100 MB): `ffmpeg -i video.mp4 -c:v libx264 -preset slow -crf 27 -c:a aac -b:a 160k -movflags +faststart youtube.mp4`.
+3. `git add` + commit + push (Metricool descarga `youtube.mp4` y `miniatura.jpg` de raw.githubusercontent.com).
+4. Metricool (`blogId` 8071218; plan gratuito: el YouTube de la marca _raulpallares es Sombras del 39):
+   comprobar con `getScheduledPosts` que no hay ya vídeo ese día; `createScheduledPost` con `"draft": true`,
+   `providers: [{"network":"youtube"}]`, `videoThumbnailUrl` = miniatura, texto = descripción, y
+   `youtubeData: {title, type:"video", privacy:"public", tags, category:"EDUCATION", madeForKids:false, isAiGeneratedContent:false}`.
+5. Estado `programado` + `plannerUrl` en `calendario.json`, commit + push.
+6. Informe corto para Raúl: qué se ha dejado en borrador, enlaces, temas nuevos y lo que no se haya podido verificar.
+   Saldo de ElevenLabs compartido con Instagram (cada episodio ≈ 8.000-9.000 caracteres): si no llega, avisar.
