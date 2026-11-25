@@ -1,0 +1,318 @@
+{
+ "total": 656.9200000000001,
+ "scenes": [
+  {
+   "start": 0,
+   "end": 22.07,
+   "mood": "tension"
+  },
+  {
+   "start": 22.07,
+   "end": 33.51,
+   "mood": "tension"
+  },
+  {
+   "start": 33.51,
+   "end": 55.35,
+   "mood": "inquietud"
+  },
+  {
+   "start": 55.35,
+   "end": 80.31,
+   "mood": "inquietud"
+  },
+  {
+   "start": 80.31,
+   "end": 92.87,
+   "mood": "inquietud"
+  },
+  {
+   "start": 92.87,
+   "end": 117.47,
+   "mood": "inquietud"
+  },
+  {
+   "start": 117.47,
+   "end": 137.75,
+   "mood": "inquietud"
+  },
+  {
+   "start": 137.75,
+   "end": 147.67,
+   "mood": "inquietud"
+  },
+  {
+   "start": 147.67,
+   "end": 170.47,
+   "mood": "tension"
+  },
+  {
+   "start": 170.47,
+   "end": 192.55,
+   "mood": "inquietud"
+  },
+  {
+   "start": 192.55,
+   "end": 208.23,
+   "mood": "inquietud"
+  },
+  {
+   "start": 208.23,
+   "end": 220.55,
+   "mood": "inquietud"
+  },
+  {
+   "start": 220.55,
+   "end": 240.39,
+   "mood": "inquietud"
+  },
+  {
+   "start": 240.39,
+   "end": 252.63,
+   "mood": "inquietud"
+  },
+  {
+   "start": 252.63,
+   "end": 266.19,
+   "mood": "inquietud"
+  },
+  {
+   "start": 266.19,
+   "end": 290.15,
+   "mood": "inquietud"
+  },
+  {
+   "start": 290.15,
+   "end": 305.03,
+   "mood": "inquietud"
+  },
+  {
+   "start": 305.03,
+   "end": 320.47,
+   "mood": "inquietud"
+  },
+  {
+   "start": 320.47,
+   "end": 338.55,
+   "mood": "inquietud"
+  },
+  {
+   "start": 338.55,
+   "end": 360.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 360.71,
+   "end": 378.31,
+   "mood": "inquietud"
+  },
+  {
+   "start": 378.31,
+   "end": 394.47,
+   "mood": "tension"
+  },
+  {
+   "start": 394.47,
+   "end": 406.07,
+   "mood": "tension"
+  },
+  {
+   "start": 406.07,
+   "end": 424.79,
+   "mood": "tension"
+  },
+  {
+   "start": 424.79,
+   "end": 440.47,
+   "mood": "tension"
+  },
+  {
+   "start": 440.47,
+   "end": 456.55,
+   "mood": "tension"
+  },
+  {
+   "start": 456.55,
+   "end": 477.35,
+   "mood": "tension"
+  },
+  {
+   "start": 477.35,
+   "end": 492.55,
+   "mood": "tension"
+  },
+  {
+   "start": 492.55,
+   "end": 507.99,
+   "mood": "tension"
+  },
+  {
+   "start": 507.99,
+   "end": 535.03,
+   "mood": "tension"
+  },
+  {
+   "start": 535.03,
+   "end": 555.59,
+   "mood": "inquietud"
+  },
+  {
+   "start": 555.59,
+   "end": 581.27,
+   "mood": "tension"
+  },
+  {
+   "start": 581.27,
+   "end": 595.67,
+   "mood": "tension"
+  },
+  {
+   "start": 595.67,
+   "end": 614.47,
+   "mood": "tension"
+  },
+  {
+   "start": 614.47,
+   "end": 638.23,
+   "mood": "melancolia"
+  },
+  {
+   "start": 638.23,
+   "end": 656.92,
+   "mood": "melancolia"
+  }
+ ],
+ "typing": [
+  {
+   "t": 22.57,
+   "text": "Capítulo 1",
+   "cps": 18
+  },
+  {
+   "t": 23.276,
+   "text": "Cómo Hitlerllegó al poder",
+   "cps": 18
+  },
+  {
+   "t": 32.08,
+   "text": "1918 — 1934",
+   "cps": 18
+  },
+  {
+   "t": 113.04,
+   "text": "NSDAP",
+   "cps": 18
+  },
+  {
+   "t": 137.95,
+   "text": "Noviembre de 1923",
+   "cps": 18
+  },
+  {
+   "t": 147.87,
+   "text": "8-9 de noviembre de 1923",
+   "cps": 18
+  },
+  {
+   "t": 149.353,
+   "text": "El golpe dela cervecería",
+   "cps": 18
+  },
+  {
+   "t": 305.63,
+   "text": "Presidente del Reich",
+   "cps": 18
+  },
+  {
+   "t": 320.67,
+   "text": "Elecciones presidenciales · abril de 1932",
+   "cps": 18
+  },
+  {
+   "t": 378.51,
+   "text": "Enero de 1933",
+   "cps": 18
+  },
+  {
+   "t": 406.27,
+   "text": "30 de enero de 1933",
+   "cps": 18
+  },
+  {
+   "t": 411.04,
+   "text": "Canciller",
+   "cps": 18
+  },
+  {
+   "t": 424.99,
+   "text": "27 de febrero de 1933",
+   "cps": 18
+  },
+  {
+   "t": 428.96,
+   "text": "Arde elReichstag",
+   "cps": 18
+  },
+  {
+   "t": 477.55,
+   "text": "22 de marzo de 1933",
+   "cps": 18
+  },
+  {
+   "t": 482.4,
+   "text": "Dachau",
+   "cps": 18
+  },
+  {
+   "t": 492.75,
+   "text": "23 de marzo de 1933",
+   "cps": 18
+  },
+  {
+   "t": 496.24,
+   "text": "LeyHabilitante",
+   "cps": 18
+  },
+  {
+   "t": 508.19,
+   "text": "23 de marzo de 1933 · Ópera Kroll",
+   "cps": 18
+  },
+  {
+   "t": 556.19,
+   "text": "30 de junio de 1934",
+   "cps": 18
+  },
+  {
+   "t": 572.96,
+   "text": "La Noche delos cuchillos largos",
+   "cps": 18
+  },
+  {
+   "t": 581.47,
+   "text": "2 de agosto de 1934",
+   "cps": 18
+  },
+  {
+   "t": 594.36,
+   "text": "Führer",
+   "cps": 18
+  },
+  {
+   "t": 638.43,
+   "text": "Próximo capítulo",
+   "cps": 18
+  },
+  {
+   "t": 639.469,
+   "text": "De Dachau a Auschwitz",
+   "cps": 18
+  }
+ ],
+ "hits": [
+  75.36,
+  169.44,
+  451.76,
+  579.68
+ ]
+}

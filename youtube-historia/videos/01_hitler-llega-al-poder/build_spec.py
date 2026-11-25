@@ -28,8 +28,8 @@ sc("Adolf Hitler nunca ganó la mayoría absoluta en unas elecciones libres. Ni 
         '<div class="h3 in" data-cue="18 meses">18 meses para<br>el poder absoluto</div></div>')
 sc("¿Cómo es posible que una de las democracias más modernas de Europa acabara en manos de un dictador? Esta es la historia de cómo Hitler llegó al poder. Paso a paso.",
    img='img/reichstag.jpg', kb='out', shade=True,
-   html='<div class="ov center"><div class="tag in" data-cue="esta es la historia">Capítulo 1</div>'
-        '<div class="h1 in" data-cue="esta es la historia" data-d="0.2">Cómo Hitler<br>llegó al poder</div>'
+   html='<div class="ov center"><div class="tag in" data-t="0.5">Capítulo 1</div>'
+        '<div class="h1 in" data-t="0.6">Cómo Hitler<br>llegó al poder</div>'
         '<div class="date in" data-cue="paso a paso" style="margin-top:30px">1918 — 1934</div></div>')
 
 # ---------- 1918-1923 ----------
@@ -78,7 +78,7 @@ sc("Y saca una lección que lo cambiará todo: el poder no se toma por la fuerza
 # ---------- 1924-1932 ----------
 sc("Pero al principio, las urnas no le quieren. Entre 1924 y 1929, la economía se recupera gracias a los créditos de Estados Unidos, y Alemania vive sus años dorados. "
    "En las elecciones de 1928, el partido nazi saca un ridículo 2,6 % de los votos.",
-   html=chart(0, '2,6'))
+   html=chart(0, 'pero al principio'))
 sc("Entonces, en octubre de 1929, se hunde la Bolsa de Nueva York. Los bancos estadounidenses reclaman sus préstamos y la crisis golpea a Alemania como a casi ningún otro país.",
    img='img/wallstreet.jpg', kb='in', cap='Nueva York, 24 de octubre de 1929')
 sc("El paro pasa de menos de 1,3 millones de personas en 1929 a más de 6 millones a principios de 1932. Casi uno de cada cuatro trabajadores alemanes no tiene empleo.",
@@ -90,7 +90,7 @@ sc("Y aquí Hitler encuentra su oportunidad. Promete trabajo, orden y orgullo. C
    "Su jefe de propaganda, Joseph Goebbels, inunda el país de carteles, mítines y desfiles. Hitler llega a recorrer Alemania en avión para dar varios discursos en un mismo día, algo nunca visto.",
    img='img/mitin.jpg', kb='right', cap='Berlín, abril de 1932: mitin nazi en el Lustgarten')
 sc("En septiembre de 1930, el resultado es un terremoto: los nazis pasan del 2,6 al 18,3 %, y de 12 a 107 diputados. Ya son la segunda fuerza del Parlamento.",
-   html=chart(1, '18,3'))
+   html=chart(1, 'septiembre de 1930'))
 sc("El Parlamento queda bloqueado. Ningún gobierno consigue una mayoría estable, y el país se gobierna a golpe de decretos firmados por el presidente: "
    "el mariscal Paul von Hindenburg, héroe de la Primera Guerra Mundial, que ya tiene más de 80 años.",
    img='img/hindenburg.jpg', side='right', kb='in', fy=0.3,
@@ -104,10 +104,10 @@ sc("En 1932, Hitler se atreve a presentarse a las elecciones a presidente contra
         '<div class="box in" data-cue="casi un 37"><div class="lab">Hitler</div><div class="val red">36,8 %</div></div></div></div>')
 sc("Y en julio de 1932 llega su gran triunfo. El partido nazi saca el 37,3 % de los votos y 230 diputados. Es, con diferencia, el partido más votado de Alemania. "
    "Hitler exige que le nombren canciller. Hindenburg se niega: desprecia a ese cabo bohemio, como le llama.",
-   html=chart(2, '37,3', majority=True))
+   html=chart(2, 'julio de 1932', majority=True))
 sc("En noviembre hay nuevas elecciones. Y ocurre algo que casi nadie recuerda: los nazis bajan. Pierden unos dos millones de votos y se quedan en el 33,1 %. "
    "El partido está endeudado y agotado. Algunos creen que Hitler ya ha tocado techo.",
-   html=chart(3, '33,1', majority=True))
+   html=chart(3, 'nuevas elecciones', majority=True))
 
 # ---------- ENERO 1933 ----------
 sc("Pero lo que no le dan las urnas, se lo darán los despachos. El ex canciller Franz von Papen y otros políticos conservadores convencen a Hindenburg de un plan: "
@@ -136,7 +136,7 @@ sc("Al día siguiente, Hindenburg firma un decreto de emergencia que suspende lo
         '<div class="stamp in" data-cue="detenidos" style="margin-top:40px">Suspendidas</div></div>')
 sc("Con la oposición perseguida y las calles llenas de matones de las SA, se celebran las elecciones del 5 de marzo de 1933. Y aun así, los nazis no consiguen la mayoría: se quedan en el 43,9 %. "
    "Es su mejor resultado. Nunca pasarán de ahí en unas elecciones con varios partidos.",
-   html=chart(4, '43,9', majority=True))
+   html=chart(4, '5 de marzo', majority=True))
 sc("Ese mismo mes, el 22 de marzo de 1933, abre sus puertas Dachau, cerca de Múnich. Es uno de los primeros campos de concentración. Sus primeros presos son opositores políticos. "
    "Solo es el principio de lo que vendrá.",
    img='img/dachau.jpg', kb='in', shade=True, cap='Dachau, 1933: presos de camino al rancho',
@@ -147,7 +147,7 @@ sc("Y el 23 de marzo llega el golpe definitivo: la Ley Habilitante. Permite al g
    html='<div class="ov left"><div class="date in" data-t="0.2">23 de marzo de 1933</div><div class="h2 in" data-cue="ley habilitante">Ley<br>Habilitante</div></div>')
 sc("La votación se celebra en la Ópera Kroll, con el edificio rodeado por hombres de las SA y de las SS. Los diputados comunistas están detenidos o han huido. "
    "Los demás partidos ceden entre promesas y miedo. Resultado: 444 votos a favor y 94 en contra. Solo los socialdemócratas votan que no. El Parlamento acaba de votar su propia desaparición.",
-   html='<div class="ov center"><div class="row"><div class="box in" data-cue="444"><div class="lab">A favor</div><div class="val">444</div></div>'
+   html='<div class="ov center"><div class="date in" data-t="0.2">23 de marzo de 1933 · Ópera Kroll</div><div class="h2 in" data-t="0.3" style="margin-bottom:50px">La votación</div><div class="row"><div class="box in" data-cue="444"><div class="lab">A favor</div><div class="val">444</div></div>'
         '<div class="box in" data-cue="94 en contra"><div class="lab">En contra</div><div class="val red">94</div></div></div>'
         '<div class="h3 amber in" data-cue="su propia desaparicion" style="margin-top:50px">El Parlamento vota su propio final</div></div>')
 sc("A partir de ahí, todo va muy rápido. En mayo, los sindicatos son disueltos. El resto de partidos son prohibidos o se disuelven. "
@@ -185,6 +185,16 @@ sc("Lo que vino después, la guerra, los campos de concentración y el Holocaust
         '<div class="rule in" data-t="0.6"></div><div class="h3 dim in" data-cue="suscribete">Suscríbete para no perdértelo</div>'
         '<div class="who in" data-cue="suscribete" data-d="1.5" style="font-size:24px;margin-top:80px">Fuentes: USHMM, Bundestag, Britannica, Deutsches Historisches Museum. '
         'Imágenes: Bundesarchiv, NARA, Biblioteca Nacional de Francia y Wikimedia Commons (créditos en la descripción).</div></div>')
+
+# ---------- ambiente, fondos y máquina de escribir ----------
+MOOD = {**{i: 'tension' for i in (0, 1, 8, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33)}, **{i: 'melancolia' for i in (34, 35)}}
+BG = {3: 'img/versalles.jpg', 11: 'img/landsberg.jpg', 12: 'img/weimar.jpg', 16: 'img/mitin.jpg', 19: 'img/cartel.jpg',
+      20: 'img/parados.jpg', 26: 'img/antorchas.jpg', 29: 'img/kroll.jpg', 30: 'img/gabinete.jpg', 35: 'img/reichstag.jpg'}
+TW = (1, 8, 23, 24, 27, 28, 31, 32, 35)  # títulos que se teclean
+for i, sc_ in enumerate(S):
+    sc_['mood'] = MOOD.get(i, 'inquietud')
+    if i in BG and 'img' not in sc_: sc_['bg'] = BG[i]
+    if i in TW: sc_['html'] = sc_['html'].replace('class="h1 in"', 'class="h1 in tw"').replace('class="h2 in"', 'class="h2 in tw"')
 
 spec = dict(title='Cómo Hitler llegó al poder', brand='Archivo 39·45', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
             voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=3, scenes=S,
