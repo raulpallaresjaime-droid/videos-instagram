@@ -12,28 +12,27 @@ const css = `@font-face{font-family:OS;font-weight:700;src:url(${F}/oswald/files
 const grain = `<svg class="grain" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>`;
 const img = n => `file://${R}/youtube-historia/videos/01_hitler-llega-al-poder/img/${n}.jpg`;
 const P = {
-  // A: sello de archivo con 39·45
+  // A: sello circular
   perfil_A: [800, 800, `<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center">
-    <div style="width:620px;height:620px;border-radius:50%;border:14px solid #d4a843;display:flex;flex-direction:column;align-items:center;justify-content:center">
-    <div style="font-family:TY;font-size:54px;color:#d4a843;letter-spacing:6px">ARCHIVO</div>
-    <div style="font-family:OS;font-weight:700;font-size:210px;line-height:1;letter-spacing:4px">39<span style="color:#c0392b">·</span>45</div>
-    <div style="width:300px;height:6px;background:#d4a843;margin-top:18px"></div></div></div>`],
-  // B: foto de archivo (Reichstag en llamas) con iniciales
-  perfil_B: [800, 800, `<div class="ph" style="background-image:url(${img('incendio')})"></div><div class="vig"></div>
+    <div style="width:640px;height:640px;border-radius:50%;border:14px solid #d4a843;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(circle,#1d1a15 0%,#0d0c0a 70%)">
+    <div style="font-family:TY;font-size:62px;color:#d4a843;letter-spacing:5px">SOMBRAS</div>
+    <div style="font-family:TY;font-size:40px;color:#d4a843;letter-spacing:10px;margin-top:2px">DEL</div>
+    <div style="font-family:OS;font-weight:700;font-size:290px;line-height:.9;color:#ebe3cf;text-shadow:18px 14px 0 rgba(0,0,0,.65)">39</div>
+    <div style="width:240px;height:8px;background:#c0392b;margin-top:14px"></div></div></div>`],
+  // B: foto del Reichstag en llamas
+  perfil_B: [800, 800, `<div class="ph" style="background-image:url(${img('incendio')});filter:grayscale(1) contrast(1.2) brightness(.38)"></div><div class="vig"></div>
     <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">
-    <div style="font-family:OS;font-weight:700;font-size:250px;line-height:.95;letter-spacing:6px;text-shadow:0 6px 30px #000">39·45</div>
-    <div style="font-family:TY;font-size:60px;color:#d4a843;letter-spacing:8px;margin-top:10px">ARCHIVO</div></div>`],
-  // C: carpeta clasificada / sello rojo
-  perfil_C: [800, 800, `<div style="position:absolute;inset:70px;background:#c9b48a;border-radius:10px;box-shadow:0 20px 60px #000;transform:rotate(-4deg)">
-    <div style="position:absolute;left:60px;top:70px;font-family:TY;font-size:46px;color:#3a2e1c">EXPEDIENTE N.º</div>
-    <div style="position:absolute;left:60px;top:130px;font-family:OS;font-weight:700;font-size:190px;color:#2a2116;line-height:1">39·45</div>
-    <div style="position:absolute;right:40px;bottom:70px;font-family:OS;font-weight:700;font-size:78px;letter-spacing:6px;color:#b02a1e;border:9px solid #b02a1e;padding:4px 22px;transform:rotate(-12deg)">ARCHIVO</div></div>`],
+    <div style="font-family:TY;font-size:66px;color:#d4a843;letter-spacing:6px;text-shadow:0 4px 20px #000">SOMBRAS DEL</div>
+    <div style="font-family:OS;font-weight:700;font-size:330px;line-height:.92;color:#ebe3cf;text-shadow:0 10px 40px #000">39</div>
+    <div style="width:260px;height:8px;background:#c0392b;margin-top:10px"></div></div>`],
   // Banner: zona segura central 1546x423
   banner: [2560, 1440, `<div class="ph" style="background-image:url(${img('antorchas')});background-position:50% 40%"></div><div class="vig"></div>
     <div style="position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center">
-    <div style="font-family:TY;font-size:56px;color:#d4a843;letter-spacing:10px">ARCHIVO</div>
-    <div style="font-family:OS;font-weight:700;font-size:200px;line-height:1;letter-spacing:8px;text-shadow:0 8px 40px #000">39<span style="color:#c0392b">·</span>45</div>
-    <div style="font-family:PF;font-style:italic;font-weight:700;font-size:50px;margin-top:14px;text-shadow:0 4px 20px #000">La Segunda Guerra Mundial, contada con documentos reales</div>
+    <div style="display:flex;align-items:center;gap:34px">
+      <div style="font-family:TY;font-size:92px;color:#d4a843;letter-spacing:8px;text-shadow:0 6px 30px #000">SOMBRAS DEL</div>
+      <div style="font-family:OS;font-weight:700;font-size:210px;line-height:1;color:#ebe3cf;text-shadow:0 8px 40px #000">39</div></div>
+    <div style="width:300px;height:7px;background:#c0392b;margin:6px 0 22px"></div>
+    <div style="font-family:PF;font-style:italic;font-weight:700;font-size:50px;text-shadow:0 4px 20px #000">La Segunda Guerra Mundial, contada con documentos reales</div>
     <div style="font-family:OS;font-weight:500;font-size:40px;letter-spacing:6px;color:#0d0c0a;background:#d4a843;padding:6px 26px;margin-top:26px">NUEVO CAPÍTULO CADA SEMANA</div></div>`],
 };
 (async () => {

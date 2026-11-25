@@ -196,7 +196,7 @@ for i, sc_ in enumerate(S):
     if i in BG and 'img' not in sc_: sc_['bg'] = BG[i]
     if i in TW: sc_['html'] = sc_['html'].replace('class="h1 in"', 'class="h1 in tw"').replace('class="h2 in"', 'class="h2 in tw"')
 
-spec = dict(title='Cómo Hitler llegó al poder', brand='Archivo 39·45', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
+spec = dict(title='Cómo Hitler llegó al poder', brand='Sombras del 39', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
             voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=3, scenes=S,
             thumb=dict(img='img/hitler.jpg', fy=0.25, l1='Nunca ganó<br>la mayoría', l2='43,9 %', l3='Cómo llegó al poder'))
 here = os.path.dirname(os.path.abspath(__file__))

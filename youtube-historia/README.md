@@ -1,7 +1,7 @@
 # Canal de YouTube de historia · Segunda Guerra Mundial
 
 Documentales de unos 10-12 min en español, sin cara, con la voz «Salva - The Spanish Narrator» de ElevenLabs
-(`hyKxCTlAqtnW188CgltM`, modelo `eleven_v4`, estabilidad 0,5, similitud 0,75). Nombre provisional: **Archivo 39·45**.
+(`hyKxCTlAqtnW188CgltM`, modelo `eleven_v4`, estabilidad 0,5, similitud 0,75). Nombre del canal: **Sombras del 39**.
 Raúl revisa cada vídeo antes de publicarlo.
 
 ## Producir un episodio
