@@ -1,0 +1,84 @@
+/* Estilo documental para YouTube (1920×1080) */
+@font-face{font-family:OS;font-weight:500;src:url(../../node_modules/@fontsource/oswald/files/oswald-latin-500-normal.woff2)}
+@font-face{font-family:OS;font-weight:700;src:url(../../node_modules/@fontsource/oswald/files/oswald-latin-700-normal.woff2)}
+@font-face{font-family:PF;font-weight:700;src:url(../../node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff2)}
+@font-face{font-family:PF;font-weight:700;font-style:italic;src:url(../../node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-italic.woff2)}
+@font-face{font-family:TY;font-weight:400;src:url(../../node_modules/@fontsource/special-elite/files/special-elite-latin-400-normal.woff2)}
+@font-face{font-family:IN;font-weight:400;src:url(../../node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2)}
+@font-face{font-family:IN;font-weight:600;src:url(../../node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2)}
+@font-face{font-family:MO;font-weight:500;src:url(../../node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-500-normal.woff2)}
+
+:root{--bg:#0d0c0a;--paper:#ebe3cf;--dim:#a39b88;--red:#c0392b;--amber:#d4a843;--line:rgba(235,227,207,.22)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
+body{font-family:IN;color:var(--paper)}
+.scene{position:absolute;inset:0;background:var(--bg);opacity:0;overflow:hidden}
+.scene.paper{background:radial-gradient(ellipse at 50% 40%,#1c1a16 0%,#0d0c0a 75%)}
+
+/* foto de archivo */
+.ph{position:absolute;inset:0;overflow:hidden}
+.ph img{position:absolute;left:50%;top:50%;transform-origin:50% 50%;
+ filter:grayscale(1) contrast(1.12) brightness(.92) sepia(.18)}
+.ph.blur img{filter:grayscale(1) blur(28px) brightness(.45)}
+.side-right .ph.main{left:auto;right:0;width:56%}
+.side-left .ph.main{right:auto;left:0;width:56%}
+.side-right .ph.main::after,.side-left .ph.main::after{content:'';position:absolute;inset:0}
+.side-right .ph.main::after{background:linear-gradient(90deg,var(--bg) 0%,rgba(13,12,10,0) 38%)}
+.side-left .ph.main::after{background:linear-gradient(270deg,var(--bg) 0%,rgba(13,12,10,0) 38%)}
+.vig{position:absolute;inset:0;pointer-events:none;
+ background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 45%,rgba(0,0,0,.72) 100%)}
+.shade{position:absolute;inset:0;background:rgba(10,9,7,.55)}
+.grain{position:fixed;inset:-60px;z-index:999;pointer-events:none;opacity:.13;mix-blend-mode:overlay}
+.flick{position:fixed;inset:0;z-index:998;pointer-events:none;background:#000}
+
+/* pie de foto */
+.cap{position:absolute;left:80px;bottom:64px;font-family:TY;font-size:30px;color:var(--paper);
+ background:rgba(13,12,10,.72);padding:12px 22px;border-left:4px solid var(--amber);letter-spacing:.5px}
+.brand{position:fixed;right:56px;top:44px;z-index:1000;font-family:OS;font-weight:500;font-size:24px;letter-spacing:5px;
+ color:rgba(235,227,207,.55);text-transform:uppercase}
+
+/* capas de texto */
+.ov{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:0 140px}
+.ov.center{align-items:center;text-align:center}
+.ov.left{align-items:flex-start;width:52%}
+.ov.right{align-items:flex-end;text-align:right;left:auto;right:0;width:52%}
+.ov.low{justify-content:flex-end;padding-bottom:150px}
+.date{font-family:TY;font-size:44px;color:var(--amber);letter-spacing:2px;margin-bottom:18px}
+.h1{font-family:OS;font-weight:700;font-size:118px;line-height:1.02;text-transform:uppercase;letter-spacing:2px}
+.h2{font-family:OS;font-weight:700;font-size:78px;line-height:1.06;text-transform:uppercase;letter-spacing:1px}
+.h3{font-family:OS;font-weight:500;font-size:52px;line-height:1.15;text-transform:uppercase;letter-spacing:1px}
+.q{font-family:PF;font-style:italic;font-weight:700;font-size:64px;line-height:1.2;max-width:1400px}
+.who{font-family:TY;font-size:32px;color:var(--dim);margin-top:26px}
+.txt{font-size:40px;line-height:1.4;max-width:1100px;color:var(--paper)}
+.big{font-family:OS;font-weight:700;font-size:210px;line-height:1;letter-spacing:2px}
+.mono{font-family:MO;font-weight:500}
+.red{color:var(--red)}.amber{color:var(--amber)}.dim{color:var(--dim)}
+.rule{width:140px;height:5px;background:var(--amber);margin:26px 0}
+.center .rule{margin:26px auto}
+.tag{display:inline-block;font-family:OS;font-weight:500;font-size:30px;letter-spacing:4px;text-transform:uppercase;
+ color:var(--bg);background:var(--amber);padding:6px 18px;margin-bottom:24px}
+.stamp{display:inline-block;font-family:OS;font-weight:700;font-size:64px;letter-spacing:6px;color:var(--red);
+ border:7px solid var(--red);padding:6px 28px;transform:rotate(-6deg);text-transform:uppercase;opacity:.92}
+.row{display:flex;gap:60px;align-items:flex-end}
+.box{background:rgba(13,12,10,.78);padding:34px 44px;border-top:5px solid var(--amber)}
+.box .lab{font-family:OS;font-size:30px;letter-spacing:3px;text-transform:uppercase;color:var(--dim)}
+.box .val{font-family:OS;font-weight:700;font-size:96px;line-height:1.05}
+
+/* gráfico de elecciones */
+.chart{display:flex;align-items:flex-end;gap:56px;height:600px;padding:0 20px;border-bottom:3px solid var(--line)}
+.chart .c{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;width:190px;height:100%}
+.chart .c b{font-family:OS;font-weight:700;font-size:58px;margin-bottom:12px}
+.chart .c i{display:block;width:150px;background:var(--dim)}
+.chart .c.hi i{background:var(--red)}
+.chart .c.hi b{color:var(--red)}
+.chart .c span{position:absolute;margin-top:0}
+.chart .yr{font-family:TY;font-size:30px;color:var(--dim);height:0;overflow:visible;white-space:nowrap;transform:translateY(22px)}
+.majority{position:absolute;left:0;right:0;border-top:3px dashed var(--amber)}
+.majority span{position:absolute;right:0;top:-46px;font-family:OS;font-size:30px;letter-spacing:2px;color:var(--amber)}
+
+/* línea de tiempo */
+.tl{display:flex;gap:0;align-items:flex-start;width:1600px;border-top:4px solid var(--line);padding-top:0}
+.tl .e{flex:1;position:relative;padding-top:40px}
+.tl .e::before{content:'';position:absolute;top:-14px;left:0;width:24px;height:24px;border-radius:50%;background:var(--amber)}
+.tl .e .d{font-family:TY;font-size:30px;color:var(--amber)}
+.tl .e .t{font-family:OS;font-size:38px;line-height:1.15;text-transform:uppercase;margin-top:10px;padding-right:30px}
