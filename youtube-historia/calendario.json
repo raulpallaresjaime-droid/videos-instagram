@@ -1,15 +1,70 @@
 {
  "canal": "Sombras del 39 (@Sombras.del.39)",
- "metricool": {"blogId": 8071218, "nota": "Plan gratuito: el YouTube de la marca _raulpallares es ahora Sombras del 39"},
+ "metricool": {
+  "blogId": 8071218,
+  "nota": "Plan gratuito: el YouTube de la marca _raulpallares es ahora Sombras del 39"
+ },
  "horario": "Primer mes: martes y jueves 16:00 Europe/Madrid. Después: martes 16:00.",
  "publicaciones": [
-  {"fecha": "2026-12-01", "hora": "16:00", "episodio": 1, "carpeta": "01_hitler-llega-al-poder", "tema": "Cómo Hitler llegó al poder", "estado": "programado", "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-540799659121161172"},
-  {"fecha": "2026-12-03", "hora": "16:00", "episodio": 2, "tema": "De Dachau a Auschwitz: cómo nació el sistema de campos", "estado": "pendiente"},
-  {"fecha": "2026-12-08", "hora": "16:00", "episodio": 3, "tema": "Auschwitz: cómo funcionaba el mayor campo de exterminio nazi", "estado": "pendiente"},
-  {"fecha": "2026-12-10", "hora": "16:00", "episodio": 4, "tema": "La Noche de los cristales rotos (1938)", "estado": "pendiente"},
-  {"fecha": "2026-12-15", "hora": "16:00", "episodio": 5, "tema": "Los españoles de Mauthausen", "estado": "pendiente"},
-  {"fecha": "2026-12-17", "hora": "16:00", "episodio": 6, "tema": "1 de septiembre de 1939: el día que empezó la guerra", "estado": "pendiente"},
-  {"fecha": "2026-12-22", "hora": "16:00", "episodio": 7, "tema": "Toda la Segunda Guerra Mundial en 20 minutos", "estado": "pendiente"},
-  {"fecha": "2026-12-29", "hora": "16:00", "episodio": 8, "tema": "Operación Barbarroja: el mayor error de Hitler", "estado": "pendiente"}
+  {
+   "fecha": "2026-12-01",
+   "hora": "16:00",
+   "episodio": 1,
+   "carpeta": "01_hitler-llega-al-poder",
+   "tema": "Cómo Hitler llegó al poder",
+   "estado": "programado",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-540799659121161172"
+  },
+  {
+   "fecha": "2026-12-03",
+   "hora": "16:00",
+   "episodio": 2,
+   "tema": "De Dachau a Auschwitz",
+   "estado": "programado",
+   "carpeta": "02_de-dachau-a-auschwitz",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-6844359128481577063"
+  },
+  {
+   "fecha": "2026-12-08",
+   "hora": "16:00",
+   "episodio": 3,
+   "tema": "Auschwitz: cómo funcionaba el mayor campo de exterminio nazi",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-10",
+   "hora": "16:00",
+   "episodio": 4,
+   "tema": "La Noche de los cristales rotos (1938)",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-15",
+   "hora": "16:00",
+   "episodio": 5,
+   "tema": "Los españoles de Mauthausen",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-17",
+   "hora": "16:00",
+   "episodio": 6,
+   "tema": "1 de septiembre de 1939: el día que empezó la guerra",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-22",
+   "hora": "16:00",
+   "episodio": 7,
+   "tema": "Toda la Segunda Guerra Mundial en 20 minutos",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-29",
+   "hora": "16:00",
+   "episodio": 8,
+   "tema": "Operación Barbarroja: el mayor error de Hitler",
+   "estado": "pendiente"
+  }
  ]
 }

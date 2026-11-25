@@ -36,7 +36,7 @@ desc = f"""El 22 de marzo de 1933 llegaron a Dachau unos 200 presos políticos. 
 - Estudios sobre la deportación de republicanos españoles a Mauthausen (las cifras varían según la fuente)
 Algunas cifras de víctimas son estimaciones y varían ligeramente según la fuente.
 
-🖼️ Imágenes: Bundesarchiv, archivo federal alemán (licencia CC BY-SA 3.0 DE), y Wikimedia Commons (Álbum de Auschwitz, dominio público).
+🖼️ Imágenes: Bundesarchiv, archivo federal alemán (licencia CC BY-SA 3.0 DE), y Wikimedia Commons.
 {chr(10).join(cred.values())}
 
 Contenido histórico y educativo. Este canal no hace apología de ninguna ideología: contamos la historia para que no se repita.
