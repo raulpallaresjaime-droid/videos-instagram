@@ -15,10 +15,18 @@ cap = """0:00 Nunca ganó la mayoría
 9:15 La Noche de los cuchillos largos
 9:41 Führer: el poder absoluto
 10:14 Conclusión"""
-cred = []
+import json, re
+spec = json.load(open(os.path.join(here, 'spec.json')))
+usadas = {os.path.basename(x) for sc in spec['scenes'] for x in (sc.get('img'), sc.get('bg')) if x}
+cred = {}
 for l in open(os.path.join(here, 'img', 'creditos.txt')):
     n, t, lic, art = (l.rstrip('\n').split('\t') + ['', '', '', ''])[:4]
-    cred.append(f"- {t.replace('File:', '')} ({lic}{', ' + art if art else ''})")
+    if n not in usadas: continue
+    t = t.replace('File:', '').encode('latin-1', 'backslashreplace').decode('unicode_escape') if '\\u' in t else t.replace('File:', '')
+    t = re.sub(r' \(\)', '', t)
+    art = '' if 'Unknown' in art else art.split(' (')[0]
+    cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
+cred = list(cred.values())
 desc = f"""Adolf Hitler nunca ganó la mayoría absoluta en unas elecciones libres. Su mejor resultado fue un 43,9 %. Y aun así, en solo 18 meses pasó de canciller vigilado a dictador absoluto de Alemania. Esta es la historia, paso a paso, de cómo una democracia se desmontó desde dentro.
 
 📌 Capítulo 1 de la serie sobre el nazismo y la Segunda Guerra Mundial. Próximo capítulo: de Dachau a Auschwitz.
@@ -34,7 +42,7 @@ desc = f"""Adolf Hitler nunca ganó la mayoría absoluta en unas elecciones libr
 - Dimsdale, Horsewood y Van Riel: Unemployment in interwar Germany (Universidad de Oxford)
 Algunas cifras (víctimas, porcentajes) varían ligeramente según la fuente.
 
-🖼️ Imágenes: Bundesarchiv (licencia CC BY-SA 3.0 DE), National Archives (NARA), Biblioteca Nacional de Francia y Wikimedia Commons.
+🖼️ Imágenes: Bundesarchiv, archivo federal alemán (licencia CC BY-SA 3.0 DE), y Wikimedia Commons.
 {chr(10).join(cred)}
 
 Contenido histórico y educativo. Este canal no hace apología de ninguna ideología: contamos la historia para que no se repita.
