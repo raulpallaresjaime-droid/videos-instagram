@@ -172,7 +172,9 @@ solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. N
      `node youtube-historia/engine/miniatura.js <carpeta>`; `python3 build_desc.py`.
    - Comprimir para GitHub (<100 MB): `ffmpeg -i video.mp4 -c:v libx264 -preset slow -crf 27 -c:a aac -b:a 160k -movflags +faststart youtube.mp4`.
 3. `git add` + commit + push (Metricool descarga `youtube.mp4` y `miniatura.jpg` de raw.githubusercontent.com).
-4. Metricool (`blogId` 8071218; plan gratuito: el YouTube de la marca _raulpallares es Sombras del 39):
+4. Metricool (`blogId` 8071218; plan gratuito: el YouTube de la marca _raulpallares es Sombras del 39). Si la sesión
+   no tiene las herramientas de Metricool, enviar carpeta + fecha + hora de cada vídeo con `send_message` a la sesión
+   `session_011oL6uVdD4Dku2QrjEGuJmH`, que crea los borradores:
    comprobar con `getScheduledPosts` que no hay ya vídeo ese día; `createScheduledPost` con `"draft": true`,
    `providers: [{"network":"youtube"}]`, `videoThumbnailUrl` = miniatura, texto = descripción, y
    `youtubeData: {title, type:"video", privacy:"public", tags, category:"EDUCATION", madeForKids:false, isAiGeneratedContent:false}`.
