@@ -1,0 +1,335 @@
+{
+ "total": 570.64,
+ "scenes": [
+  {
+   "start": 0,
+   "end": 24.95,
+   "mood": "tension"
+  },
+  {
+   "start": 24.95,
+   "end": 36.79,
+   "mood": "inquietud"
+  },
+  {
+   "start": 36.79,
+   "end": 55.83,
+   "mood": "inquietud"
+  },
+  {
+   "start": 55.83,
+   "end": 80.39,
+   "mood": "inquietud"
+  },
+  {
+   "start": 80.39,
+   "end": 90.31,
+   "mood": "inquietud"
+  },
+  {
+   "start": 90.31,
+   "end": 110.47,
+   "mood": "inquietud"
+  },
+  {
+   "start": 110.47,
+   "end": 125.59,
+   "mood": "tension"
+  },
+  {
+   "start": 125.59,
+   "end": 143.59,
+   "mood": "tension"
+  },
+  {
+   "start": 143.59,
+   "end": 155.83,
+   "mood": "inquietud"
+  },
+  {
+   "start": 155.83,
+   "end": 176.07,
+   "mood": "inquietud"
+  },
+  {
+   "start": 176.07,
+   "end": 198.95,
+   "mood": "inquietud"
+  },
+  {
+   "start": 198.95,
+   "end": 207.11,
+   "mood": "inquietud"
+  },
+  {
+   "start": 207.11,
+   "end": 235.19,
+   "mood": "inquietud"
+  },
+  {
+   "start": 235.19,
+   "end": 252.31,
+   "mood": "inquietud"
+  },
+  {
+   "start": 252.31,
+   "end": 269.91,
+   "mood": "melancolia"
+  },
+  {
+   "start": 269.91,
+   "end": 279.67,
+   "mood": "inquietud"
+  },
+  {
+   "start": 279.67,
+   "end": 294.31,
+   "mood": "tension"
+  },
+  {
+   "start": 294.31,
+   "end": 315.11,
+   "mood": "tension"
+  },
+  {
+   "start": 315.11,
+   "end": 328.95,
+   "mood": "tension"
+  },
+  {
+   "start": 328.95,
+   "end": 352.87,
+   "mood": "tension"
+  },
+  {
+   "start": 352.87,
+   "end": 360.55,
+   "mood": "tension"
+  },
+  {
+   "start": 360.55,
+   "end": 376.87,
+   "mood": "tension"
+  },
+  {
+   "start": 376.87,
+   "end": 386.35,
+   "mood": "tension"
+  },
+  {
+   "start": 386.35,
+   "end": 410.71,
+   "mood": "tension"
+  },
+  {
+   "start": 410.71,
+   "end": 430.71,
+   "mood": "tension"
+  },
+  {
+   "start": 430.71,
+   "end": 449.75,
+   "mood": "tension"
+  },
+  {
+   "start": 449.75,
+   "end": 471.59,
+   "mood": "tension"
+  },
+  {
+   "start": 471.59,
+   "end": 487.03,
+   "mood": "tension"
+  },
+  {
+   "start": 487.03,
+   "end": 499.03,
+   "mood": "tension"
+  },
+  {
+   "start": 499.03,
+   "end": 517.91,
+   "mood": "melancolia"
+  },
+  {
+   "start": 517.91,
+   "end": 532.15,
+   "mood": "melancolia"
+  },
+  {
+   "start": 532.15,
+   "end": 551.91,
+   "mood": "melancolia"
+  },
+  {
+   "start": 551.91,
+   "end": 570.64,
+   "mood": "melancolia"
+  }
+ ],
+ "typing": [
+  {
+   "t": 0,
+   "text": "22 de marzo de 1933 · Dachau",
+   "cps": 18
+  },
+  {
+   "t": 25.45,
+   "text": "Capítulo 2",
+   "cps": 18
+  },
+  {
+   "t": 31.36,
+   "text": "1933 — 1945",
+   "cps": 18
+  },
+  {
+   "t": 74.56,
+   "text": "Los campossalvajes",
+   "cps": 18
+  },
+  {
+   "t": 90.51,
+   "text": "20 de marzo de 1933",
+   "cps": 18
+  },
+  {
+   "t": 110.67,
+   "text": "22 de marzo de 1933",
+   "cps": 18
+  },
+  {
+   "t": 111.876,
+   "text": "Dachau",
+   "cps": 18
+  },
+  {
+   "t": 125.79,
+   "text": "Theodor Eicke · comandante de Dachau",
+   "cps": 18
+  },
+  {
+   "t": 156.23,
+   "text": "1934",
+   "cps": 18
+  },
+  {
+   "t": 235.39,
+   "text": "Mauthausen · Austria",
+   "cps": 18
+  },
+  {
+   "t": 250.8,
+   "text": "La escalerade la muerte",
+   "cps": 18
+  },
+  {
+   "t": 252.51,
+   "text": "Mauthausen · agosto de 1940",
+   "cps": 18
+  },
+  {
+   "t": 259.68,
+   "text": "Los españolesde Mauthausen",
+   "cps": 18
+  },
+  {
+   "t": 279.87,
+   "text": "9-10 de noviembre de 1938",
+   "cps": 18
+  },
+  {
+   "t": 281.409,
+   "text": "La Noche de loscristales rotos",
+   "cps": 18
+  },
+  {
+   "t": 315.31,
+   "text": "1 de septiembre de 1939",
+   "cps": 18
+  },
+  {
+   "t": 329.15,
+   "text": "14 de junio de 1940",
+   "cps": 18
+  },
+  {
+   "t": 337.36,
+   "text": "Auschwitz",
+   "cps": 18
+  },
+  {
+   "t": 353.37,
+   "text": "ARBEIT MACHT FREI",
+   "cps": 18
+  },
+  {
+   "t": 360.75,
+   "text": "Septiembre de 1941 · Bloque 11",
+   "cps": 18
+  },
+  {
+   "t": 362.567,
+   "text": "Zyklon B",
+   "cps": 18
+  },
+  {
+   "t": 377.07,
+   "text": "Octubre de 1941",
+   "cps": 18
+  },
+  {
+   "t": 430.91,
+   "text": "20 de enero de 1942",
+   "cps": 18
+  },
+  {
+   "t": 432.116,
+   "text": "Conferenciade Wannsee",
+   "cps": 18
+  },
+  {
+   "t": 450.35,
+   "text": "La selección",
+   "cps": 18
+  },
+  {
+   "t": 487.23,
+   "text": "Enero de 1945",
+   "cps": 18
+  },
+  {
+   "t": 499.23,
+   "text": "27 de enero de 1945",
+   "cps": 18
+  },
+  {
+   "t": 500.436,
+   "text": "Liberaciónde Auschwitz",
+   "cps": 18
+  },
+  {
+   "t": 518.11,
+   "text": "29 de abril de 1945 · Dachau",
+   "cps": 18
+  },
+  {
+   "t": 546.6,
+   "text": "27 de enero · Día Internacional en Memoria de las Víctimas del Holocausto",
+   "cps": 18
+  },
+  {
+   "t": 552.11,
+   "text": "Próximo capítulo",
+   "cps": 18
+  },
+  {
+   "t": 553.149,
+   "text": "Auschwitz por dentro",
+   "cps": 18
+  }
+ ],
+ "hits": [
+  359.92
+ ]
+}
