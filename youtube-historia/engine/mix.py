@@ -65,7 +65,8 @@ space = load(os.path.join(sfxdir, 'espacio.wav')); boom = load(os.path.join(sfxd
 fx = np.zeros((n, 2), np.float32)
 def put(x, t, g):
     i = int(t * SR)
-    if i >= n: return
+    if i < 0: x, i = x[-i:], 0   # un tecleo en el segundo 0 con desfase negativo
+    if i >= n or not len(x): return
     m = min(len(x), n - i); fx[i:i + m] += x[:m] * g
 for e in ev['typing']:
     for j, ch in enumerate(e['text']):
