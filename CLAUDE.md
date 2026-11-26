@@ -105,6 +105,9 @@ node engine/render.js videos/<carpeta>   # → video.mp4 (1080×1920, 30 fps) + 
 - La clave de ElevenLabs la inyecta el proxy del entorno `videos-instagram`; no hay variable de entorno.
 - Antes de generar la voz, revisar el guion: cada carácter cuesta (plan Creator, 131.000/mes).
   Saldo: `curl -s https://api.elevenlabs.io/v1/user/subscription`.
+- **El saldo se renueva el día 3 de cada mes y es compartido con YouTube.** En cada informe decir a Raúl cuántos
+  caracteres quedan y, si a pocos días de la renovación sobran, proponerle adelantar vídeos de Instagram para
+  aprovecharlos (así no faltan después en meses con mucho YouTube).
 - `audio.mp3` y `align.json` se suben al repo: así se puede volver a renderizar (por ejemplo,
   para corregir un texto en pantalla) sin volver a pagar la voz.
 
