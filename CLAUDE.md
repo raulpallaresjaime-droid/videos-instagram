@@ -146,12 +146,12 @@ pequeños si hace falta (portadas, guiones).
 
 # Canal de YouTube «Sombras del 39» (@Sombras.del.39)
 
-Documentales de 9-11 min, sin cara, sobre la Segunda Guerra Mundial y el nazismo (campos, Holocausto, batallas).
+Documentales sin cara (diciembre 2026: ~10 min; **desde enero 2027: mini documentales de 15-20 min**, 1 por semana), sobre la Segunda Guerra Mundial y el nazismo (campos, Holocausto, batallas).
 Todo vive en `youtube-historia/` (motor, música, efectos, logos) y `youtube-historia/calendario.json` es la fuente
 de verdad (`pendiente` → `hecho` → `programado`). Detalle técnico en `youtube-historia/README.md`.
 
 ## Tarea semanal (domingo)
-Dejar **los episodios de la semana siguiente** (martes y jueves 16:00 Europe/Madrid durante el primer mes; después
+Dejar **los episodios de la semana siguiente** (martes y jueves 16:00 Europe/Madrid en diciembre 2026; desde enero
 solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. Nunca publicar sin su revisión.
 1. `npm ci` si no hay `node_modules/`.
 2. Para cada episodio `pendiente` de la semana siguiente (tema en `calendario.json`; si falta, elegir uno coherente
@@ -159,7 +159,8 @@ solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. N
    episodio anterior (`build_spec.py`, `build_desc.py`).
    - Investigar y **verificar todas las cifras** con búsqueda web (USHMM, Memorial de Auschwitz, Bundestag,
      Britannica, DHM…). Si las fuentes discrepan, usar formulaciones prudentes («unos», «más de», «miles»).
-   - Guion de 7.500-9.000 caracteres (~9-11 min a 13,8 car/s), 30-36 escenas, gancho con dato en la escena 0,
+   - Guion: diciembre 8.500-9.500 caracteres (~10-11 min); **desde enero 12.500-16.500 caracteres (15-20 min), 50-65 escenas**
+     (a 13,8 car/s). Escenas de 15-25 s, gancho con dato en la escena 0,
      título «Capítulo N» en la 1, cierre en melancolía y anuncio del siguiente capítulo.
    - Fotos: `engine/bundesarchiv.py search/get` (rápido, alta resolución; su servidor `bundesbildarchiv.init-ag.de`
      a veces corta la conexión: elegir otra). Wikimedia (`engine/commons.py`) limita mucho: lanzarlo al principio en

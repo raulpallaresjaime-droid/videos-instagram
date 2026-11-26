@@ -4,7 +4,7 @@
   "blogId": 8071218,
   "nota": "Plan gratuito: el YouTube de la marca _raulpallares es ahora Sombras del 39"
  },
- "horario": "Primer mes: martes y jueves 16:00 Europe/Madrid. Después: martes 16:00.",
+ "horario": "Diciembre 2026: martes y jueves 16:00 Europe/Madrid (~10 min). Desde enero 2027: 1 por semana, martes 16:00, mini documentales de 15-20 min.",
  "publicaciones": [
   {
    "fecha": "2026-12-01",
@@ -66,5 +66,6 @@
    "tema": "Operación Barbarroja: el mayor error de Hitler",
    "estado": "pendiente"
   }
- ]
+ ],
+ "nota_presupuesto": "Episodios 3-8 de diciembre producidos antes del 3/12 con el saldo sobrante de noviembre de ElevenLabs."
 }
