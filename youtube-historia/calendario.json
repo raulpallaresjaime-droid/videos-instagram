@@ -28,15 +28,19 @@
    "fecha": "2026-12-08",
    "hora": "16:00",
    "episodio": 3,
-   "tema": "Auschwitz: cómo funcionaba el mayor campo de exterminio nazi",
-   "estado": "pendiente"
+   "tema": "Auschwitz por dentro: cómo funcionaba el mayor campo de exterminio nazi",
+   "estado": "hecho",
+   "carpeta": "03_auschwitz",
+   "duracion": "19:02"
   },
   {
    "fecha": "2026-12-10",
    "hora": "16:00",
    "episodio": 4,
    "tema": "La Noche de los cristales rotos (1938)",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "carpeta": "04_noche-cristales-rotos",
+   "duracion": "15:57"
   },
   {
    "fecha": "2026-12-15",
