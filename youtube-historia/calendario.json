@@ -29,18 +29,20 @@
    "hora": "16:00",
    "episodio": 3,
    "tema": "Auschwitz por dentro: cómo funcionaba el mayor campo de exterminio nazi",
-   "estado": "hecho",
+   "estado": "programado",
    "carpeta": "03_auschwitz",
-   "duracion": "19:02"
+   "duracion": "19:02",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4609418732876285663"
   },
   {
    "fecha": "2026-12-10",
    "hora": "16:00",
    "episodio": 4,
    "tema": "La Noche de los cristales rotos (1938)",
-   "estado": "hecho",
+   "estado": "programado",
    "carpeta": "04_noche-cristales-rotos",
-   "duracion": "15:57"
+   "duracion": "15:57",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4039147293749692253"
   },
   {
    "fecha": "2026-12-15",
