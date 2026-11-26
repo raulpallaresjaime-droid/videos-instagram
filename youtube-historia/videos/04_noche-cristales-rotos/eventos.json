@@ -1,0 +1,629 @@
+{
+ "total": 956.7199999999999,
+ "scenes": [
+  {
+   "start": 0,
+   "end": 26.63,
+   "mood": "tension"
+  },
+  {
+   "start": 26.63,
+   "end": 38.39,
+   "mood": "tension"
+  },
+  {
+   "start": 38.39,
+   "end": 53.91,
+   "mood": "inquietud"
+  },
+  {
+   "start": 53.91,
+   "end": 68.79,
+   "mood": "inquietud"
+  },
+  {
+   "start": 68.79,
+   "end": 85.27,
+   "mood": "inquietud"
+  },
+  {
+   "start": 85.27,
+   "end": 101.59,
+   "mood": "inquietud"
+  },
+  {
+   "start": 101.59,
+   "end": 121.27,
+   "mood": "inquietud"
+  },
+  {
+   "start": 121.27,
+   "end": 136.55,
+   "mood": "tension"
+  },
+  {
+   "start": 136.55,
+   "end": 153.75,
+   "mood": "tension"
+  },
+  {
+   "start": 153.75,
+   "end": 164.79,
+   "mood": "inquietud"
+  },
+  {
+   "start": 164.79,
+   "end": 182.79,
+   "mood": "melancolia"
+  },
+  {
+   "start": 182.79,
+   "end": 198.55,
+   "mood": "inquietud"
+  },
+  {
+   "start": 198.55,
+   "end": 208.63,
+   "mood": "inquietud"
+  },
+  {
+   "start": 208.63,
+   "end": 223.27,
+   "mood": "inquietud"
+  },
+  {
+   "start": 223.27,
+   "end": 239.67,
+   "mood": "tension"
+  },
+  {
+   "start": 239.67,
+   "end": 256.07,
+   "mood": "tension"
+  },
+  {
+   "start": 256.07,
+   "end": 272.63,
+   "mood": "melancolia"
+  },
+  {
+   "start": 272.63,
+   "end": 287.11,
+   "mood": "tension"
+  },
+  {
+   "start": 287.11,
+   "end": 303.35,
+   "mood": "tension"
+  },
+  {
+   "start": 303.35,
+   "end": 311.35,
+   "mood": "tension"
+  },
+  {
+   "start": 311.35,
+   "end": 327.67,
+   "mood": "tension"
+  },
+  {
+   "start": 327.67,
+   "end": 340.87,
+   "mood": "tension"
+  },
+  {
+   "start": 340.87,
+   "end": 357.91,
+   "mood": "inquietud"
+  },
+  {
+   "start": 357.91,
+   "end": 373.79,
+   "mood": "tension"
+  },
+  {
+   "start": 373.79,
+   "end": 387.91,
+   "mood": "tension"
+  },
+  {
+   "start": 387.91,
+   "end": 401.59,
+   "mood": "tension"
+  },
+  {
+   "start": 401.59,
+   "end": 418.95,
+   "mood": "tension"
+  },
+  {
+   "start": 418.95,
+   "end": 428.55,
+   "mood": "tension"
+  },
+  {
+   "start": 428.55,
+   "end": 443.67,
+   "mood": "tension"
+  },
+  {
+   "start": 443.67,
+   "end": 456.47,
+   "mood": "tension"
+  },
+  {
+   "start": 456.47,
+   "end": 469.51,
+   "mood": "tension"
+  },
+  {
+   "start": 469.51,
+   "end": 488.39,
+   "mood": "tension"
+  },
+  {
+   "start": 488.39,
+   "end": 505.11,
+   "mood": "melancolia"
+  },
+  {
+   "start": 505.11,
+   "end": 519.43,
+   "mood": "tension"
+  },
+  {
+   "start": 519.43,
+   "end": 533.35,
+   "mood": "tension"
+  },
+  {
+   "start": 533.35,
+   "end": 544.07,
+   "mood": "melancolia"
+  },
+  {
+   "start": 544.07,
+   "end": 559.83,
+   "mood": "tension"
+  },
+  {
+   "start": 559.83,
+   "end": 573.51,
+   "mood": "melancolia"
+  },
+  {
+   "start": 573.51,
+   "end": 589.43,
+   "mood": "tension"
+  },
+  {
+   "start": 589.43,
+   "end": 604.39,
+   "mood": "tension"
+  },
+  {
+   "start": 604.39,
+   "end": 619.83,
+   "mood": "tension"
+  },
+  {
+   "start": 619.83,
+   "end": 629.75,
+   "mood": "melancolia"
+  },
+  {
+   "start": 629.75,
+   "end": 645.99,
+   "mood": "melancolia"
+  },
+  {
+   "start": 645.99,
+   "end": 658.47,
+   "mood": "melancolia"
+  },
+  {
+   "start": 658.47,
+   "end": 675.35,
+   "mood": "melancolia"
+  },
+  {
+   "start": 675.35,
+   "end": 690.71,
+   "mood": "melancolia"
+  },
+  {
+   "start": 690.71,
+   "end": 698.63,
+   "mood": "melancolia"
+  },
+  {
+   "start": 698.63,
+   "end": 716.79,
+   "mood": "melancolia"
+  },
+  {
+   "start": 716.79,
+   "end": 733.243,
+   "mood": "melancolia"
+  },
+  {
+   "start": 733.243,
+   "end": 747.67,
+   "mood": "melancolia"
+  },
+  {
+   "start": 747.67,
+   "end": 765.19,
+   "mood": "melancolia"
+  },
+  {
+   "start": 765.19,
+   "end": 775.11,
+   "mood": "melancolia"
+  },
+  {
+   "start": 775.11,
+   "end": 793.19,
+   "mood": "melancolia"
+  },
+  {
+   "start": 793.19,
+   "end": 808.63,
+   "mood": "melancolia"
+  },
+  {
+   "start": 808.63,
+   "end": 828.23,
+   "mood": "melancolia"
+  },
+  {
+   "start": 828.23,
+   "end": 842.15,
+   "mood": "melancolia"
+  },
+  {
+   "start": 842.15,
+   "end": 858.31,
+   "mood": "melancolia"
+  },
+  {
+   "start": 858.31,
+   "end": 874.23,
+   "mood": "inquietud"
+  },
+  {
+   "start": 874.23,
+   "end": 888.71,
+   "mood": "tension"
+  },
+  {
+   "start": 888.71,
+   "end": 902.15,
+   "mood": "melancolia"
+  },
+  {
+   "start": 902.15,
+   "end": 919.67,
+   "mood": "melancolia"
+  },
+  {
+   "start": 919.67,
+   "end": 936.07,
+   "mood": "melancolia"
+  },
+  {
+   "start": 936.07,
+   "end": 956.72,
+   "mood": "melancolia"
+  }
+ ],
+ "typing": [
+  {
+   "t": 0,
+   "text": "9-10 de noviembre de 1938",
+   "cps": 18
+  },
+  {
+   "t": 27.03,
+   "text": "Capítulo 4",
+   "cps": 18
+  },
+  {
+   "t": 33.44,
+   "text": "Noviembre de 1938",
+   "cps": 18
+  },
+  {
+   "t": 38.59,
+   "text": "Enero de 1933",
+   "cps": 18
+  },
+  {
+   "t": 54.51,
+   "text": "«El enemigo»",
+   "cps": 18
+  },
+  {
+   "t": 68.99,
+   "text": "1 de abril de 1933",
+   "cps": 18
+  },
+  {
+   "t": 75.68,
+   "text": "Boicot",
+   "cps": 18
+  },
+  {
+   "t": 85.47,
+   "text": "Septiembre de 1935",
+   "cps": 18
+  },
+  {
+   "t": 94.48,
+   "text": "Leyes deNúremberg",
+   "cps": 18
+  },
+  {
+   "t": 101.79,
+   "text": "1933-1937",
+   "cps": 18
+  },
+  {
+   "t": 121.47,
+   "text": "Marzo de 1938",
+   "cps": 18
+  },
+  {
+   "t": 128.88,
+   "text": "Anexiónde Austria",
+   "cps": 18
+  },
+  {
+   "t": 150.4,
+   "text": "Un ensayogeneral",
+   "cps": 18
+  },
+  {
+   "t": 153.95,
+   "text": "Abril de 1938",
+   "cps": 18
+  },
+  {
+   "t": 156,
+   "text": "Declarar todoel patrimonio",
+   "cps": 18
+  },
+  {
+   "t": 164.99,
+   "text": "Julio de 1938 · Évian",
+   "cps": 18
+  },
+  {
+   "t": 186,
+   "text": "«Nadielos quiere»",
+   "cps": 18
+  },
+  {
+   "t": 198.75,
+   "text": "Octubre de 1938",
+   "cps": 18
+  },
+  {
+   "t": 208.83,
+   "text": "Octubre de 1938",
+   "cps": 18
+  },
+  {
+   "t": 212.32,
+   "text": "El detonante",
+   "cps": 18
+  },
+  {
+   "t": 223.47,
+   "text": "27-29 de octubre de 1938",
+   "cps": 18
+  },
+  {
+   "t": 247.92,
+   "text": "Tierrade nadie",
+   "cps": 18
+  },
+  {
+   "t": 276.16,
+   "text": "17 años · París",
+   "cps": 18
+  },
+  {
+   "t": 287.31,
+   "text": "7 de noviembre de 1938",
+   "cps": 18
+  },
+  {
+   "t": 303.55,
+   "text": "París · 8 de noviembre",
+   "cps": 18
+  },
+  {
+   "t": 304.922,
+   "text": "No intentahuir",
+   "cps": 18
+  },
+  {
+   "t": 327.87,
+   "text": "9 de noviembre de 1938 · tarde",
+   "cps": 18
+  },
+  {
+   "t": 337.44,
+   "text": "Muerevom Rath",
+   "cps": 18
+  },
+  {
+   "t": 341.07,
+   "text": "9 de noviembre",
+   "cps": 18
+  },
+  {
+   "t": 347.68,
+   "text": "Aniversariodel golpede 1923",
+   "cps": 18
+  },
+  {
+   "t": 368.88,
+   "text": "En voz baja",
+   "cps": 18
+  },
+  {
+   "t": 373.99,
+   "text": "9 de noviembre · hacia las 22:00",
+   "cps": 18
+  },
+  {
+   "t": 388.51,
+   "text": "Llamadasa toda Alemania",
+   "cps": 18
+  },
+  {
+   "t": 401.79,
+   "text": "10 de noviembre · 1:20 h · Heydrich",
+   "cps": 18
+  },
+  {
+   "t": 409.36,
+   "text": "1. No dañar propiedades alemanas",
+   "cps": 18
+  },
+  {
+   "t": 412,
+   "text": "2. No saquear",
+   "cps": 18
+  },
+  {
+   "t": 413.48,
+   "text": "3. Detener a tantos judíos como quepan",
+   "cps": 18
+  },
+  {
+   "t": 422.4,
+   "text": "No apagarel fuego",
+   "cps": 18
+  },
+  {
+   "t": 429.15,
+   "text": "La noche",
+   "cps": 18
+  },
+  {
+   "t": 443.92,
+   "text": "Primero,las sinagogas",
+   "cps": 18
+  },
+  {
+   "t": 488.69,
+   "text": "Una excepción",
+   "cps": 18
+  },
+  {
+   "t": 516.16,
+   "text": "Acerascubiertasde cristales",
+   "cps": 18
+  },
+  {
+   "t": 533.95,
+   "text": "Nadie se para. Nadie ayuda.",
+   "cps": 18
+  },
+  {
+   "t": 544.67,
+   "text": "Dentrode las casas",
+   "cps": 18
+  },
+  {
+   "t": 573.71,
+   "text": "10/11/1938 · Baden-Baden",
+   "cps": 18
+  },
+  {
+   "t": 585.76,
+   "text": "El desfile",
+   "cps": 18
+  },
+  {
+   "t": 627.52,
+   "text": "Cientosmueren",
+   "cps": 18
+  },
+  {
+   "t": 640.96,
+   "text": "AbandonarAlemania",
+   "cps": 18
+  },
+  {
+   "t": 646.19,
+   "text": "12 de noviembre de 1938",
+   "cps": 18
+  },
+  {
+   "t": 698.83,
+   "text": "Noviembre-diciembre de 1938",
+   "cps": 18
+  },
+  {
+   "t": 733.843,
+   "text": "Palabras,no puertas",
+   "cps": 18
+  },
+  {
+   "t": 747.87,
+   "text": "2 de diciembre de 1938 · Harwich",
+   "cps": 18
+  },
+  {
+   "t": 761.6,
+   "text": "Kindertransport",
+   "cps": 18
+  },
+  {
+   "t": 775.31,
+   "text": "Mayo de 1939",
+   "cps": 18
+  },
+  {
+   "t": 782.16,
+   "text": "MS St. Louis",
+   "cps": 18
+  },
+  {
+   "t": 834.56,
+   "text": "1961 · Jerusalén · juicio a Eichmann",
+   "cps": 18
+  },
+  {
+   "t": 874.43,
+   "text": "30 de enero de 1939 · Reichstag",
+   "cps": 18
+  },
+  {
+   "t": 888.96,
+   "text": "Siete mesesdespués",
+   "cps": 18
+  },
+  {
+   "t": 936.27,
+   "text": "Próximo capítulo",
+   "cps": 18
+  },
+  {
+   "t": 937.309,
+   "text": "Los españolesde Mauthausen",
+   "cps": 18
+  }
+ ],
+ "hits": [
+  400,
+  673.68,
+  789.2,
+  789.88,
+  791.04
+ ]
+}

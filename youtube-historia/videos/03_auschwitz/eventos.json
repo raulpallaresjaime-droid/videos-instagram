@@ -1,0 +1,627 @@
+{
+ "total": 1141.76,
+ "scenes": [
+  {
+   "start": 0,
+   "end": 19.35,
+   "mood": "tension"
+  },
+  {
+   "start": 19.35,
+   "end": 27.99,
+   "mood": "inquietud"
+  },
+  {
+   "start": 27.99,
+   "end": 43.35,
+   "mood": "inquietud"
+  },
+  {
+   "start": 43.35,
+   "end": 61.51,
+   "mood": "inquietud"
+  },
+  {
+   "start": 61.51,
+   "end": 76.07,
+   "mood": "inquietud"
+  },
+  {
+   "start": 76.07,
+   "end": 90.87,
+   "mood": "inquietud"
+  },
+  {
+   "start": 90.87,
+   "end": 110.95,
+   "mood": "inquietud"
+  },
+  {
+   "start": 110.95,
+   "end": 124.07,
+   "mood": "inquietud"
+  },
+  {
+   "start": 124.07,
+   "end": 136.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 136.71,
+   "end": 150.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 150.71,
+   "end": 166.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 166.71,
+   "end": 191.03,
+   "mood": "inquietud"
+  },
+  {
+   "start": 191.03,
+   "end": 209.19,
+   "mood": "tension"
+  },
+  {
+   "start": 209.19,
+   "end": 229.91,
+   "mood": "tension"
+  },
+  {
+   "start": 229.91,
+   "end": 241.67,
+   "mood": "tension"
+  },
+  {
+   "start": 241.67,
+   "end": 265.35,
+   "mood": "inquietud"
+  },
+  {
+   "start": 265.35,
+   "end": 277.59,
+   "mood": "inquietud"
+  },
+  {
+   "start": 277.59,
+   "end": 294.87,
+   "mood": "inquietud"
+  },
+  {
+   "start": 294.87,
+   "end": 314.47,
+   "mood": "inquietud"
+  },
+  {
+   "start": 314.47,
+   "end": 336.47,
+   "mood": "inquietud"
+  },
+  {
+   "start": 336.47,
+   "end": 354.55,
+   "mood": "inquietud"
+  },
+  {
+   "start": 354.55,
+   "end": 374.63,
+   "mood": "inquietud"
+  },
+  {
+   "start": 374.63,
+   "end": 396.39,
+   "mood": "tension"
+  },
+  {
+   "start": 396.39,
+   "end": 421.99,
+   "mood": "tension"
+  },
+  {
+   "start": 421.99,
+   "end": 435.19,
+   "mood": "tension"
+  },
+  {
+   "start": 435.19,
+   "end": 464.63,
+   "mood": "tension"
+  },
+  {
+   "start": 464.63,
+   "end": 480.71,
+   "mood": "melancolia"
+  },
+  {
+   "start": 480.71,
+   "end": 496.47,
+   "mood": "inquietud"
+  },
+  {
+   "start": 496.47,
+   "end": 509.03,
+   "mood": "inquietud"
+  },
+  {
+   "start": 509.03,
+   "end": 527.03,
+   "mood": "inquietud"
+  },
+  {
+   "start": 527.03,
+   "end": 543.03,
+   "mood": "inquietud"
+  },
+  {
+   "start": 543.03,
+   "end": 565.75,
+   "mood": "melancolia"
+  },
+  {
+   "start": 565.75,
+   "end": 580.95,
+   "mood": "inquietud"
+  },
+  {
+   "start": 580.95,
+   "end": 605.43,
+   "mood": "melancolia"
+  },
+  {
+   "start": 605.43,
+   "end": 619.03,
+   "mood": "melancolia"
+  },
+  {
+   "start": 619.03,
+   "end": 633.11,
+   "mood": "melancolia"
+  },
+  {
+   "start": 633.11,
+   "end": 648.55,
+   "mood": "melancolia"
+  },
+  {
+   "start": 648.55,
+   "end": 669.59,
+   "mood": "melancolia"
+  },
+  {
+   "start": 669.59,
+   "end": 683.75,
+   "mood": "melancolia"
+  },
+  {
+   "start": 683.75,
+   "end": 703.59,
+   "mood": "tension"
+  },
+  {
+   "start": 703.59,
+   "end": 721.35,
+   "mood": "tension"
+  },
+  {
+   "start": 721.35,
+   "end": 736.55,
+   "mood": "tension"
+  },
+  {
+   "start": 736.55,
+   "end": 753.91,
+   "mood": "tension"
+  },
+  {
+   "start": 753.91,
+   "end": 767.35,
+   "mood": "tension"
+  },
+  {
+   "start": 767.35,
+   "end": 779.67,
+   "mood": "tension"
+  },
+  {
+   "start": 779.67,
+   "end": 797.03,
+   "mood": "melancolia"
+  },
+  {
+   "start": 797.03,
+   "end": 813.35,
+   "mood": "melancolia"
+  },
+  {
+   "start": 813.35,
+   "end": 827.59,
+   "mood": "melancolia"
+  },
+  {
+   "start": 827.59,
+   "end": 847.03,
+   "mood": "melancolia"
+  },
+  {
+   "start": 847.03,
+   "end": 863.75,
+   "mood": "melancolia"
+  },
+  {
+   "start": 863.75,
+   "end": 885.51,
+   "mood": "melancolia"
+  },
+  {
+   "start": 885.51,
+   "end": 900.47,
+   "mood": "melancolia"
+  },
+  {
+   "start": 900.47,
+   "end": 919.19,
+   "mood": "melancolia"
+  },
+  {
+   "start": 919.19,
+   "end": 935.03,
+   "mood": "melancolia"
+  },
+  {
+   "start": 935.03,
+   "end": 957.67,
+   "mood": "melancolia"
+  },
+  {
+   "start": 957.67,
+   "end": 974.55,
+   "mood": "melancolia"
+  },
+  {
+   "start": 974.55,
+   "end": 987.91,
+   "mood": "melancolia"
+  },
+  {
+   "start": 987.91,
+   "end": 1005.83,
+   "mood": "inquietud"
+  },
+  {
+   "start": 1005.83,
+   "end": 1023.91,
+   "mood": "inquietud"
+  },
+  {
+   "start": 1023.91,
+   "end": 1039.75,
+   "mood": "inquietud"
+  },
+  {
+   "start": 1039.75,
+   "end": 1064.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 1064.71,
+   "end": 1089.91,
+   "mood": "inquietud"
+  },
+  {
+   "start": 1089.91,
+   "end": 1104.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 1104.71,
+   "end": 1119.11,
+   "mood": "inquietud"
+  },
+  {
+   "start": 1119.11,
+   "end": 1141.76,
+   "mood": "inquietud"
+  }
+ ],
+ "typing": [
+  {
+   "t": 19.75,
+   "text": "Capítulo 3",
+   "cps": 18
+  },
+  {
+   "t": 26.16,
+   "text": "1940 — 1945",
+   "cps": 18
+  },
+  {
+   "t": 28.19,
+   "text": "Septiembre de 1939",
+   "cps": 18
+  },
+  {
+   "t": 40.96,
+   "text": "Oswiecim= Auschwitz",
+   "cps": 18
+  },
+  {
+   "t": 43.55,
+   "text": "Abril de 1940",
+   "cps": 18
+  },
+  {
+   "t": 62.11,
+   "text": "Un nudoferroviario",
+   "cps": 18
+  },
+  {
+   "t": 76.27,
+   "text": "Mayo de 1940",
+   "cps": 18
+  },
+  {
+   "t": 91.07,
+   "text": "14 de junio de 1940",
+   "cps": 18
+  },
+  {
+   "t": 124.67,
+   "text": "ARBEIT MACHT FREI",
+   "cps": 18
+  },
+  {
+   "t": 154.64,
+   "text": "El recuento",
+   "cps": 18
+  },
+  {
+   "t": 167.01,
+   "text": "Auschwitz I",
+   "cps": 18
+  },
+  {
+   "t": 170.64,
+   "text": "Bloque 11",
+   "cps": 18
+  },
+  {
+   "t": 191.23,
+   "text": "19 de septiembre de 1940",
+   "cps": 18
+  },
+  {
+   "t": 230.11,
+   "text": "22 de junio de 1941",
+   "cps": 18
+  },
+  {
+   "t": 236.48,
+   "text": "Prisionerossoviéticos",
+   "cps": 18
+  },
+  {
+   "t": 241.87,
+   "text": "Septiembre de 1941 · Bloque 11",
+   "cps": 18
+  },
+  {
+   "t": 259.6,
+   "text": "Zyklon B",
+   "cps": 18
+  },
+  {
+   "t": 265.55,
+   "text": "Octubre de 1941",
+   "cps": 18
+  },
+  {
+   "t": 274.08,
+   "text": "Birkenau",
+   "cps": 18
+  },
+  {
+   "t": 336.67,
+   "text": "20 de enero de 1942 · Wannsee",
+   "cps": 18
+  },
+  {
+   "t": 343.76,
+   "text": "«La solución final»",
+   "cps": 18
+  },
+  {
+   "t": 354.75,
+   "text": "Primavera de 1942",
+   "cps": 18
+  },
+  {
+   "t": 432.88,
+   "text": "Nadie les ha dicho adónde van",
+   "cps": 18
+  },
+  {
+   "t": 435.79,
+   "text": "La selección",
+   "cps": 18
+  },
+  {
+   "t": 498.64,
+   "text": "Sin número. Sin nombre. Sin ficha.",
+   "cps": 18
+  },
+  {
+   "t": 509.63,
+   "text": "Sonderkommando",
+   "cps": 18
+  },
+  {
+   "t": 538,
+   "text": "«Canadá»",
+   "cps": 18
+  },
+  {
+   "t": 605.73,
+   "text": "IG Farben",
+   "cps": 18
+  },
+  {
+   "t": 617.44,
+   "text": "Buna",
+   "cps": 18
+  },
+  {
+   "t": 619.23,
+   "text": "Octubre de 1942",
+   "cps": 18
+  },
+  {
+   "t": 648.75,
+   "text": "Monowitz · febrero de 1944",
+   "cps": 18
+  },
+  {
+   "t": 669.79,
+   "text": "Mayo de 1943",
+   "cps": 18
+  },
+  {
+   "t": 684.35,
+   "text": "Cobayashumanas",
+   "cps": 18
+  },
+  {
+   "t": 703.79,
+   "text": "Febrero de 1943",
+   "cps": 18
+  },
+  {
+   "t": 721.55,
+   "text": "Mulfingen · Alemania",
+   "cps": 18
+  },
+  {
+   "t": 743.2,
+   "text": "2-3 de agosto de 1944",
+   "cps": 18
+  },
+  {
+   "t": 754.11,
+   "text": "Marzo de 1944",
+   "cps": 18
+  },
+  {
+   "t": 763.72,
+   "text": "Alemaniaocupa Hungría",
+   "cps": 18
+  },
+  {
+   "t": 770.76,
+   "text": "La víaentra enel campo",
+   "cps": 18
+  },
+  {
+   "t": 779.87,
+   "text": "15 de mayo - 9 de julio de 1944",
+   "cps": 18
+  },
+  {
+   "t": 813.55,
+   "text": "Gueto de Lodz",
+   "cps": 18
+  },
+  {
+   "t": 827.79,
+   "text": "Septiembre de 1944",
+   "cps": 18
+  },
+  {
+   "t": 847.23,
+   "text": "Abril de 1944",
+   "cps": 18
+  },
+  {
+   "t": 864.35,
+   "text": "El informeVrba-Wetzler",
+   "cps": 18
+  },
+  {
+   "t": 885.71,
+   "text": "7 de octubre de 1944",
+   "cps": 18
+  },
+  {
+   "t": 890.64,
+   "text": "La revuelta",
+   "cps": 18
+  },
+  {
+   "t": 919.39,
+   "text": "Noviembre de 1944",
+   "cps": 18
+  },
+  {
+   "t": 920.484,
+   "text": "Borrarlas pruebas",
+   "cps": 18
+  },
+  {
+   "t": 935.23,
+   "text": "17-21 de enero de 1945",
+   "cps": 18
+  },
+  {
+   "t": 948.4,
+   "text": "Las marchasde la muerte",
+   "cps": 18
+  },
+  {
+   "t": 957.87,
+   "text": "27 de enero de 1945",
+   "cps": 18
+  },
+  {
+   "t": 959.076,
+   "text": "La liberación",
+   "cps": 18
+  },
+  {
+   "t": 984.64,
+   "text": "Las pruebasseguían allí",
+   "cps": 18
+  },
+  {
+   "t": 1047.04,
+   "text": "Detenido en marzo de 1946",
+   "cps": 18
+  },
+  {
+   "t": 1057.44,
+   "text": "Ahorcado en Auschwitz · 1947",
+   "cps": 18
+  },
+  {
+   "t": 1105.52,
+   "text": "27 de enero",
+   "cps": 18
+  },
+  {
+   "t": 1119.31,
+   "text": "Próximo capítulo",
+   "cps": 18
+  },
+  {
+   "t": 1120.349,
+   "text": "La Noche de loscristales rotos",
+   "cps": 18
+  }
+ ],
+ "hits": [
+  133.92,
+  493.867,
+  696.16
+ ]
+}

@@ -1,0 +1,318 @@
+# Genera spec.json del episodio 4 (mini documental 15-20 min). Uso: python3 build_spec.py
+import json, os
+here = os.path.dirname(os.path.abspath(__file__))
+has = lambda n: os.path.exists(os.path.join(here, 'img', n + '.jpg'))
+
+S = []
+def sc(say, mood='inquietud', **kw):
+    if 'img' in kw and not has(kw['img']):
+        fb = kw.pop('fallback', 'sinagoga_quemada'); kw.pop('img'); kw.pop('side', None); kw.pop('kb', None); kw.pop('cap', None)
+        kw['bg'] = f'img/{fb}.jpg'
+    elif 'img' in kw:
+        kw['img'] = f"img/{kw['img']}.jpg"; kw.pop('fallback', None)
+    if 'bg' in kw and not kw['bg'].startswith('img/'): kw['bg'] = f"img/{kw['bg']}.jpg"
+    S.append(dict(say=say, mood=mood, **kw))
+
+def timeline(items, title=None, extra=''):
+    ev = ''.join(f'<div class="e in" data-cue="{c}"><div class="d">{d}</div><div class="t">{t}</div></div>' for d, t, c in items)
+    head = f'<div class="h3 dim in" data-t="0" style="margin-bottom:80px">{title}</div>' if title else ''
+    return f'<div class="ov center">{head}<div class="tl">{ev}</div>{extra}</div>'
+
+def lista(title, items, cls='h3'):
+    rows = ''.join(f'<div class="{cls} in" data-cue="{c}" style="margin:10px 0">{t}</div>' for t, c in items)
+    return f'<div class="ov center"><div class="date in" data-t="0.2" style="margin-bottom:30px">{title}</div>{rows}</div>'
+
+T, I, M = 'tension', 'inquietud', 'melancolia'
+
+# ======================= GANCHO =======================
+sc("En una sola noche, en toda Alemania y Austria, ardieron o fueron destrozadas más de 1.400 sinagogas y casas de oración. Unos 7.500 comercios judíos acabaron con los escaparates rotos. "
+   "Al menos 91 personas fueron asesinadas, y unos 30.000 hombres acabaron en campos de concentración. No pasó en secreto. Pasó en la calle, delante de todo el mundo.", T,
+   bg='sinagoga_quemada',
+   html='<div class="ov center"><div class="date in" data-t="0">9-10 de noviembre de 1938</div><div class="row" style="margin-top:30px;gap:50px">'
+        '<div class="box in" data-cue="1.400"><div class="lab">Sinagogas y casas de oración</div><div class="val">+1.400</div></div>'
+        '<div class="box in" data-cue="7.500"><div class="lab">Comercios destrozados</div><div class="val">≈ 7.500</div></div></div>'
+        '<div class="row" style="margin-top:40px;gap:50px"><div class="box in" data-cue="al menos 91" style="border-color:var(--red)"><div class="lab">Asesinados</div><div class="val red">91+</div></div>'
+        '<div class="box in" data-cue="30.000" style="border-color:var(--red)"><div class="lab">Enviados a campos</div><div class="val red">≈ 30.000</div></div></div></div>')
+sc("La historia la recuerda con un nombre que suena casi bonito: la Noche de los cristales rotos. Pero fue un pogromo. El día en que el odio salió a la calle.", T,
+   img='tienda_magdeburgo', kb='in', shade=True,
+   html='<div class="ov center"><div class="tag in" data-t="0.4">Capítulo 4</div>'
+        '<div class="h1 in" data-t="0.6">La Noche de los<br>cristales rotos</div>'
+        '<div class="date in" data-cue="fue un pogromo" style="margin-top:30px">Noviembre de 1938</div></div>')
+
+# ======================= ANTES =======================
+sc("Para entender cómo se llegó a esa noche, hay que volver cinco años atrás. En enero de 1933, cuando Hitler llega al poder, en Alemania viven algo más de medio millón de judíos. "
+   "Menos del uno por ciento de la población.", I,
+   img='hitler', side='right', kb='in', fy=0.3,
+   html='<div class="ov left"><div class="date in" data-t="0.2">Enero de 1933</div><div class="big in" data-cue="medio millon" style="font-size:150px">≈ 500.000</div>'
+        '<div class="h3 in" data-cue="medio millon" data-d="0.3">judíos en Alemania</div><div class="h2 amber in" data-cue="menos del uno por ciento" style="margin-top:30px">&lt; 1 % de la población</div></div>')
+sc("Eran médicos, comerciantes, abogados, obreros, profesores. Muchos habían luchado por Alemania en la Primera Guerra Mundial. Se sentían tan alemanes como cualquiera. "
+   "Pero para los nazis eran el enemigo.", I,
+   img='viena_templo', kb='in', cap='Viena, marzo de 1938: interior del Stadttempel, la gran sinagoga de la ciudad',
+   html='<div class="ov left low"><div class="h2 in tw" data-t="0.6">«El enemigo»</div></div>', shade=True)
+sc("El primero de abril de 1933, apenas dos meses después de llegar al poder, los nazis organizan un boicot a los comercios judíos. Hombres de las SA se plantan ante las puertas con carteles: alemanes, no compréis a los judíos.", I,
+   img='boicot', kb='right', cap='Berlín, 1 de abril de 1933: boicot ante los almacenes Tietz',
+   html='<div class="ov right"><div class="date in" data-t="0.2">1 de abril de 1933</div><div class="h1 in tw" data-cue="boicot">Boicot</div></div>', shade=True)
+sc("Después llegan las leyes. Los judíos son expulsados de la función pública. Y en septiembre de 1935 se aprueban las leyes de Núremberg: les quitan la ciudadanía plena y prohíben los matrimonios entre judíos y no judíos.", I,
+   img='boicot_camion', kb='left', cap='1933: camiones con carteles del boicot a los comercios judíos',
+   html='<div class="ov left"><div class="date in" data-t="0.2">Septiembre de 1935</div><div class="h2 in tw" data-cue="leyes de nuremberg">Leyes de<br>Núremberg</div>'
+        '<div class="h3 in" data-cue="ciudadania plena" style="margin-top:20px">Sin ciudadanía plena</div><div class="h3 red in" data-cue="prohiben los matrimonios">Matrimonios prohibidos</div></div>', shade=True)
+sc("Paso a paso, la vida se vuelve imposible: les cierran profesiones, les echan de clubes y asociaciones, aparecen carteles de prohibido a los judíos en pueblos y piscinas. "
+   "Decenas de miles se marchan. Pero la mayoría se queda, convencida de que aquello no puede durar.", I,
+   bg='boicot',
+   html=lista('1933-1937', [('Expulsados de la función pública', 'paso a paso'), ('Profesiones cerradas', 'les cierran profesiones'), ('Fuera de clubes y asociaciones', 'les echan de clubes'),
+                            ('«Prohibido a los judíos»', 'prohibido a los judios'), ('<span class="amber">Muchos se quedan: «esto no puede durar»</span>', 'la mayoria se queda')]))
+
+# ======================= 1938 =======================
+sc("Y entonces llega 1938, el año en que todo se acelera. En marzo, Alemania se anexiona Austria. En Viena, donde viven unos 180.000 judíos, la violencia estalla en cuestión de horas.", T,
+   img='viena_templo2', side='right', kb='up', fy=0.4,
+   html='<div class="ov left"><div class="date in" data-t="0.2">Marzo de 1938</div><div class="h2 in tw" data-cue="se anexiona austria">Anexión<br>de Austria</div>'
+        '<div class="h3 dim in" data-cue="la violencia estalla" style="margin-top:30px">Viena: la violencia estalla</div></div>')
+sc("Vecinos y nazis austriacos obligan a judíos, muchos de ellos ancianos, a fregar de rodillas las aceras mientras la multitud se ríe. Las SS registran las instituciones de la comunidad judía. Fue un ensayo general de lo que vendría en noviembre.", T,
+   img='viena_templo', kb='left', cap='Viena, marzo de 1938: registro de las SS en la comunidad judía',
+   html='<div class="ov right low"><div class="h2 in tw" data-cue="un ensayo general">Un ensayo<br>general</div></div>', shade=True)
+sc("En abril, los judíos tienen que declarar todo su patrimonio a partir de 5.000 marcos. El régimen quiere saber exactamente cuánto tienen. Pronto se entenderá para qué.", I,
+   bg='boicot_camion',
+   html='<div class="ov center"><div class="date in" data-t="0.2">Abril de 1938</div><div class="h2 in tw" data-cue="declarar todo su patrimonio">Declarar todo<br>el patrimonio</div>'
+        '<div class="h3 amber in" data-cue="para que" style="margin-top:40px">¿Para qué?</div></div>')
+sc("En julio, delegados de 32 países se reúnen en Évian, en Francia, para hablar de los refugiados judíos que huyen de Alemania y Austria. Todos lamentan la situación. "
+   "Casi ninguno abre sus fronteras. Solo la República Dominicana se ofrece a acoger a un número importante.", M,
+   bg='deportacion',
+   html='<div class="ov center"><div class="date in" data-t="0.2">Julio de 1938 · Évian</div><div class="big in" data-cue="32 paises" style="font-size:170px">32 países</div>'
+        '<div class="h3 red in" data-cue="casi ninguno abre" style="margin-top:20px">Casi ninguno abre sus fronteras</div>'
+        '<div class="h3 amber in" data-cue="republica dominicana" style="margin-top:20px">Excepción: República Dominicana</div></div>')
+sc("El mensaje que recibe Berlín es claro: nadie los quiere. Ese verano, las autoridades nazis derriban la gran sinagoga de Múnich. Y en agosto, la de Núremberg, mientras el dirigente nazi Julius Streicher arenga a la multitud.", I,
+   img='streicher', kb='in', cap='Núremberg, 10 de agosto de 1938: Streicher habla antes del derribo de la sinagoga',
+   html='<div class="ov left"><div class="h2 in tw" data-cue="nadie los quiere">«Nadie<br>los quiere»</div></div>', shade=True)
+sc("En octubre, los pasaportes de los judíos alemanes se marcan con una J roja. Así, ningún país podía tener dudas de quién llamaba a su puerta.", I,
+   bg='streicher',
+   html='<div class="ov center"><div class="date in" data-t="0.2">Octubre de 1938</div>'
+        '<div class="in" data-cue="una j roja" style="width:300px;height:300px;border:8px solid var(--red);display:flex;align-items:center;justify-content:center;margin-top:20px">'
+        '<div style="font-family:PF;font-weight:700;font-size:240px;color:var(--red);line-height:1">J</div></div>'
+        '<div class="h3 in" data-cue="pasaportes" style="margin-top:30px">Pasaportes marcados</div></div>')
+
+# ======================= POLENAKTION =======================
+sc("Y a finales de octubre de 1938 llega el detonante. Polonia anuncia que retirará el pasaporte a los polacos que llevan años viviendo fuera. Muchos de ellos son judíos que viven en Alemania desde hace décadas.", I,
+   img='polonia', kb='right', cap='Judíos detenidos y transportados en camión por la policía alemana (Polonia, 1939)',
+   html='<div class="ov left"><div class="date in" data-t="0.2">Octubre de 1938</div><div class="h2 in tw" data-cue="el detonante">El detonante</div></div>', shade=True)
+sc("Antes de que se queden sin papeles, Alemania actúa. Entre el 27 y el 29 de octubre, la policía detiene por sorpresa a unos 17.000 judíos con pasaporte polaco. Familias enteras, sacadas de sus casas de madrugada, con lo puesto.", T,
+   bg='vagon',
+   html='<div class="ov center"><div class="date in" data-t="0.2">27-29 de octubre de 1938</div><div class="big in" data-cue="17.000"><span data-count="17000">0</span></div>'
+        '<div class="h3 in" data-cue="17.000" data-d="0.3">judíos expulsados</div><div class="h3 red in" data-cue="con lo puesto" style="margin-top:30px">Con lo puesto</div></div>')
+sc("Los meten en trenes y los llevan a la frontera polaca. Polonia no quiere dejarlos entrar. Durante días quedan atrapados en tierra de nadie, bajo la lluvia, sin comida. "
+   "Miles acaban en un campo improvisado junto al pueblo fronterizo de Zbaszyn.", T,
+   img='vagon', kb='in',
+   html='<div class="ov right low"><div class="h2 in tw" data-cue="tierra de nadie">Tierra<br>de nadie</div><div class="h3 dim in" data-cue="zbaszyn">Zbaszyn, frontera polaca</div></div>', shade=True)
+sc("Entre ellos está una familia de Hannover: los Grynszpan. El padre, Sendel, llevaba en Alemania desde 1911. Su hija Berta escribe una postal a su hermano pequeño, que vive en París: estamos aquí sin un céntimo, ayúdanos.", M,
+   bg='deportacion',
+   html='<div class="ov center"><div class="h3 dim in" data-t="0.2">Hannover → frontera polaca</div><div class="h1 in" data-cue="los grynszpan">Los Grynszpan</div>'
+        '<div class="q in" data-cue="ayudanos" style="margin-top:40px;font-size:54px">«Estamos aquí sin un céntimo… ayúdanos.»</div></div>')
+
+# ======================= PARÍS =======================
+sc("Ese hermano se llama Herschel Grynszpan. Tiene 17 años. Vive en París sin papeles, escondido en casa de unos tíos. Cuando recibe la postal y lee lo que le ha pasado a su familia, toma una decisión.", T,
+   img='grynszpan', side='right', kb='in', fy=0.35,
+   html='<div class="ov left"><div class="h1 in" data-cue="herschel grynszpan">Herschel<br>Grynszpan</div>'
+        '<div class="date in" data-cue="17 anos" style="margin-top:20px">17 años · París</div></div>')
+sc("El 7 de noviembre de 1938 compra un revólver y va a la embajada alemana. Pide ver a un diplomático. Lo recibe un joven funcionario, Ernst vom Rath. Herschel dispara cinco veces. Dos balas le alcanzan.", T,
+   img='vomrath', side='left', kb='in', fy=0.3,
+   html='<div class="ov right"><div class="date in" data-t="0.2">7 de noviembre de 1938</div><div class="h2 in" data-cue="ernst vom rath">Ernst<br>vom Rath</div>'
+        '<div class="h3 dim in" data-cue="joven funcionario">Diplomático de la embajada alemana</div><div class="h2 red in" data-cue="cinco veces" style="margin-top:30px">5 disparos</div></div>')
+sc("Herschel no intenta huir. Se deja detener por la policía francesa y dice que lo ha hecho para vengar a su pueblo y a su familia.", T,
+   img='grynszpan_policia', side='right', kb='in', fy=0.3,
+   html='<div class="ov left"><div class="date in" data-t="0.2">París · 8 de noviembre</div><div class="h2 in tw" data-cue="no intenta huir">No intenta<br>huir</div>'
+        '<div class="h3 amber in" data-cue="vengar a su pueblo" style="margin-top:30px">«Para vengar a mi pueblo»</div></div>')
+sc("En Berlín, el ministro de Propaganda, Joseph Goebbels, ve la oportunidad que llevaba tiempo esperando. La prensa nazi presenta el atentado como un ataque de toda la judería mundial contra Alemania. Y Hitler envía a París a sus médicos personales.", T,
+   img='goebbels', side='right', kb='in', fy=0.3,
+   html='<div class="ov left"><div class="h1 in" data-cue="joseph goebbels">Joseph<br>Goebbels</div><div class="h3 dim in" data-cue="ministro de propaganda">Ministro de Propaganda</div>'
+        '<div class="h3 red in" data-cue="la oportunidad" style="margin-top:30px">La oportunidad que esperaba</div></div>')
+sc("La noche del 8 de noviembre ya hay ataques a sinagogas y comercios judíos en algunas zonas de Hesse. Y el 9 de noviembre por la tarde, Ernst vom Rath muere en el hospital. Tenía 29 años.", T,
+   bg='vomrath',
+   html='<div class="ov center"><div class="date in" data-t="0.2">9 de noviembre de 1938 · tarde</div><div class="h1 in tw" data-cue="muere en el hospital">Muere<br>vom Rath</div></div>')
+
+# ======================= 9 DE NOVIEMBRE =======================
+sc("Y aquí la fecha importa. El 9 de noviembre era el día más sagrado del calendario nazi: el aniversario del golpe de Estado fallido de Hitler en Múnich, en 1923. Esa noche, como cada año, los veteranos del partido se reúnen en la ciudad.", I,
+   img='munich', kb='up', cap='Múnich, 9 de noviembre de 1933: aniversario del golpe de 1923',
+   html='<div class="ov left"><div class="date in" data-t="0.2">9 de noviembre</div><div class="h2 in tw" data-cue="el aniversario">Aniversario<br>del golpe<br>de 1923</div></div>', shade=True)
+sc("Hitler y Goebbels cenan con los viejos camaradas en el antiguo ayuntamiento de Múnich. Hacia las nueve de la noche llega la noticia de la muerte de vom Rath. Testigos vieron a los dos hablar en voz baja. Después, Hitler se marcha sin pronunciar su discurso.", T,
+   img='burgerbrau', kb='in', cap='Múnich: una reunión de veteranos nazis',
+   html='<div class="ov right"><div class="h2 in tw" data-cue="hablar en voz baja">En voz baja</div>'
+        '<div class="h3 amber in" data-cue="sin pronunciar su discurso" style="margin-top:30px">Hitler se va sin hablar</div></div>', shade=True)
+sc("Entonces Goebbels se levanta. Pasadas las diez de la noche, da un discurso incendiario. Cuenta que ya ha habido manifestaciones contra los judíos, y deja caer que el partido no las organizará, pero tampoco las impedirá.", T,
+   bg='goebbels',
+   html='<div class="ov center"><div class="date in" data-t="0.2">9 de noviembre · hacia las 22:00</div>'
+        '<div class="q in" data-cue="tampoco las impedira" style="margin-top:30px">«El partido no las organizará…<br>pero tampoco las impedirá.»</div></div>')
+sc("Todos los presentes entienden el mensaje. Los jefes del partido y de las SA corren a los teléfonos y llaman a sus ciudades. La orden baja por toda la cadena de mando: atacad. Pero que parezca espontáneo.", T,
+   bg='burgerbrau',
+   html='<div class="ov center"><div class="h2 in tw" data-cue="corren a los telefonos">Llamadas<br>a toda Alemania</div>'
+        '<div class="stamp in" data-cue="que parezca espontaneo" style="margin-top:50px">Que parezca espontáneo</div></div>')
+sc("Pasada la una de la madrugada, Reinhard Heydrich, jefe de la policía de seguridad, envía instrucciones por teletipo. No dañar propiedades ni vidas alemanas. No saquear. Y detener a tantos judíos como quepan en las cárceles, sobre todo hombres sanos y ricos.", T,
+   bg='antorchas',
+   html='<div class="ov center"><div class="date in" data-t="0.2">10 de noviembre · 1:20 h · Heydrich</div>' +
+        ''.join(f'<div class="h3 in tw" data-cue="{c}" style="margin-top:14px;font-family:TY;text-transform:none">{t}</div>' for t, c in
+                [('1. No dañar propiedades alemanas', 'no danar'), ('2. No saquear', 'no saquear'), ('3. Detener a tantos judíos como quepan', 'detener a tantos')]) + '</div>')
+sc("Y a los bomberos se les da una orden terrible: no apagar los incendios de las sinagogas. Solo impedir que el fuego pase a los edificios de al lado.", T,
+   img='sinagoga_danada', kb='in', cap='Una sinagoga destruida en noviembre de 1938',
+   html='<div class="ov left"><div class="h2 red in tw" data-cue="no apagar">No apagar<br>el fuego</div>'
+        '<div class="h3 dim in" data-cue="edificios de al lado" style="margin-top:30px">Solo proteger los edificios vecinos</div></div>', shade=True)
+
+# ======================= LA NOCHE =======================
+sc("Lo que pasa en las horas siguientes se repite en cientos de ciudades y pueblos. Hombres de las SA y de las SS, muchos vestidos de paisano para que parezca una reacción del pueblo, salen a la calle con hachas, martillos y bidones de gasolina.", T,
+   bg='antorchas',
+   html='<div class="ov center"><div class="h1 in tw" data-cue="salen a la calle">La noche</div>'
+        '<div class="row" style="margin-top:40px;gap:60px"><div class="h3 dim in" data-cue="hachas">Hachas</div><div class="h3 dim in" data-cue="martillos">Martillos</div><div class="h3 red in" data-cue="gasolina">Gasolina</div></div></div>')
+sc("Primero, las sinagogas. Rompen las puertas, destrozan los bancos, tiran los rollos de la Torá a la calle y los pisotean. Después rocían todo con gasolina y le prenden fuego.", T,
+   img='sinagoga_interior', kb='in', cap='Interior de una sinagoga destrozada en noviembre de 1938',
+   html='<div class="ov left"><div class="h2 in tw" data-cue="primero, las sinagogas">Primero,<br>las sinagogas</div></div>', shade=True)
+sc("En muchos lugares, los vecinos salen a mirar. Algunos aplauden. Otros se unen. Muchos callan. Y los bomberos, con las mangueras preparadas, ven arder el edificio sin intervenir.", T,
+   img='sinagoga_quemada', kb='up', cap='Una sinagoga tras el incendio, noviembre de 1938',
+   html='<div class="ov right"><div class="h3 in" data-cue="algunos aplauden">Algunos aplauden</div><div class="h3 in" data-cue="otros se unen">Otros se unen</div>'
+        '<div class="h2 amber in" data-cue="muchos callan" style="margin-top:20px">Muchos callan</div></div>', shade=True)
+sc("En Berlín arde, entre otras, la gran sinagoga de la calle Fasanenstrasse. En Viena, más de 40 sinagogas y casas de oración son destruidas en una sola noche. En total, en todo el Reich, más de 1.400 templos y casas de oración quedan dañados o destruidos.", T,
+   bg='sinagoga_quemada',
+   html='<div class="ov center"><div class="row" style="gap:60px"><div class="box in" data-cue="en berlin"><div class="lab">Berlín</div><div class="val" style="font-size:54px">Fasanenstrasse</div></div>'
+        '<div class="box in" data-cue="en viena"><div class="lab">Viena</div><div class="val" style="font-size:54px">+40 templos</div></div></div>'
+        '<div class="big red in" data-cue="mas de 1.400" style="margin-top:40px">+1.400</div><div class="h3 in" data-cue="mas de 1.400" data-d="0.3">sinagogas y casas de oración</div></div>')
+sc("Hubo excepciones. En Berlín, el jefe de una comisaría de barrio, Wilhelm Krützfeld, echó a los asaltantes de la Nueva Sinagoga y llamó a los bomberos, que apagaron el fuego. El edificio se salvó aquella noche. Krützfeld solo recibió una reprimenda.", M,
+   bg='viena_templo2',
+   html='<div class="ov center"><div class="tag in" data-t="0.3">Una excepción</div><div class="h1 in" data-cue="wilhelm krutzfeld">Wilhelm Krützfeld</div>'
+        '<div class="h3 amber in" data-cue="apagaron el fuego" style="margin-top:30px">Hizo apagar el fuego de la Nueva Sinagoga</div></div>')
+sc("Después vienen los comercios. Escaparates reventados a pedradas y a martillazos, mercancías tiradas a la calle. A la mañana siguiente, las aceras de las ciudades amanecen cubiertas de cristales. De ahí viene el nombre.", T,
+   img='tienda_magdeburgo', kb='right', cap='Magdeburgo, 10 de noviembre de 1938: una tienda judía destrozada',
+   html='<div class="ov left"><div class="h2 in tw" data-cue="cubiertas de cristales">Aceras<br>cubiertas<br>de cristales</div></div>', shade=True)
+sc("Unos 7.500 comercios judíos son destrozados y saqueados, a pesar de la orden de no saquear. Esta es una tienda de ropa en Magdeburgo, la mañana siguiente. Los transeúntes pasan por delante como si nada.", T,
+   img='kristall', kb='in', cap='Magdeburgo, noviembre de 1938: comercio judío destrozado',
+   html='<div class="ov right"><div class="big in" data-cue="7.500">7.500</div><div class="h3 in" data-cue="7.500" data-d="0.3">comercios destrozados</div></div>', shade=True)
+sc("Y en esta otra fotografía, en otra ciudad, la gente camina ante los escaparates rotos de la tienda de un tal Lichtenstein. Nadie se para. Nadie ayuda.", M,
+   img='tienda_rota', kb='left', fy=0.4, cap='Noviembre de 1938: escaparates rotos de un comercio judío',
+   html='<div class="ov left low"><div class="h3 in tw" data-t="0.6">Nadie se para. Nadie ayuda.</div></div>', shade=True)
+sc("Pero lo peor ocurre dentro de las casas. Los asaltantes entran en viviendas de familias judías, rompen muebles, rajan cuadros, tiran los pianos por la ventana. Golpean a hombres, mujeres y ancianos delante de sus hijos.", T,
+   bg='tienda_rota',
+   html='<div class="ov center"><div class="h2 in tw" data-cue="dentro de las casas">Dentro<br>de las casas</div>'
+        '<div class="h3 red in" data-cue="delante de sus hijos" style="margin-top:40px">Delante de sus hijos</div></div>')
+sc("Las cifras oficiales hablaron de 91 judíos asesinados aquella noche. Pero los historiadores calculan que, contando los suicidios y los que murieron después en los campos, las víctimas mortales fueron cientos.", M,
+   bg='sinagoga_danada',
+   html='<div class="ov center"><div class="h3 dim in" data-t="0.2">Cifra oficial</div><div class="big in" data-cue="91 judios">91</div>'
+        '<div class="h3 red in" data-cue="fueron cientos" style="margin-top:30px">En realidad, cientos</div></div>')
+
+# ======================= DETENCIONES =======================
+sc("El 10 de noviembre, a plena luz del día, empiezan las detenciones en masa. En Baden-Baden, en el sur de Alemania, la policía y las SS reúnen a decenas de hombres judíos y los hacen desfilar por las calles de la ciudad, a la vista de los vecinos.", T,
+   img='badenbaden', kb='in', fy=0.4, cap='Baden-Baden, 10 de noviembre de 1938: hombres judíos detenidos, escoltados por las SS y la policía',
+   html='<div class="ov right"><div class="date in" data-t="0.2">10/11/1938 · Baden-Baden</div><div class="h2 in tw" data-cue="desfilar por las calles">El desfile</div></div>', shade=True)
+sc("Los llevan a la sinagoga. Allí los obligan a cantar canciones nazis y a leer en voz alta fragmentos de Mein Kampf. Esa misma tarde, la sinagoga de Baden-Baden arde. Muchos de esos hombres acaban en Dachau.", T,
+   img='badenbaden', kb='left', fx=0.6, shade=True,
+   html='<div class="ov center"><div class="h3 in" data-cue="a la sinagoga">Llevados a la sinagoga</div>'
+        '<div class="h3 amber in" data-cue="leer en voz alta" style="margin-top:20px">Obligados a leer Mein Kampf</div>'
+        '<div class="h2 red in" data-cue="acaban en dachau" style="margin-top:40px">Destino: Dachau</div></div>')
+sc("En todo el país, unos 30.000 hombres judíos son detenidos y enviados a tres campos de concentración: Dachau, Buchenwald y Sachsenhausen. Por primera vez, los nazis encierran en masa a personas solo por ser judías.", T,
+   bg='dachau1',
+   html='<div class="ov center"><div class="big red in" data-cue="30.000"><span data-count="30000">0</span></div><div class="h3 in" data-cue="30.000" data-d="0.3">hombres judíos detenidos</div>'
+        '<div class="row" style="margin-top:40px;gap:50px"><div class="h2 in" data-cue="dachau, buchenwald">Dachau</div><div class="h2 in" data-cue="buchenwald">Buchenwald</div><div class="h2 in" data-cue="sachsenhausen">Sachsenhausen</div></div></div>')
+sc("En los campos les rapan la cabeza, los tienen horas de pie en el patio, con frío, y les pegan sin motivo. Cientos mueren en pocas semanas.", M,
+   img='sachsenhausen', kb='left', cap='Presos formados en el campo de Sachsenhausen',
+   html='<div class="ov right low"><div class="h2 red in tw" data-cue="cientos mueren">Cientos<br>mueren</div></div>', shade=True)
+sc("Pero el objetivo, todavía, no es matarlos a todos. Es aterrorizarlos para que se vayan. La mayoría sale en libertad en las semanas siguientes con una condición: abandonar Alemania lo antes posible y dejar atrás casi todo lo que tienen.", M,
+   img='eicke', kb='in', cap='Dachau, 1933: presos a punto de ser liberados',
+   html='<div class="ov left"><div class="h3 dim in" data-t="0.3">La condición para salir</div><div class="h2 in tw" data-cue="abandonar alemania">Abandonar<br>Alemania</div></div>', shade=True)
+
+# ======================= LA FACTURA =======================
+sc("Dos días después, el 12 de noviembre, Hermann Göring reúne en Berlín a más de cien altos cargos del partido, del Gobierno y de las aseguradoras. Hay que decidir quién paga los destrozos.", M,
+   img='goring', side='right', kb='in', fy=0.3,
+   html='<div class="ov left"><div class="date in" data-t="0.2">12 de noviembre de 1938</div><div class="h1 in" data-cue="hermann goring">Göring</div>'
+        '<div class="h3 amber in" data-cue="quien paga" style="margin-top:30px">¿Quién paga los destrozos?</div></div>')
+sc("La respuesta es tan cínica que cuesta creerla: los judíos. Tendrán que reparar sus comercios con su propio dinero. Y las indemnizaciones de los seguros, unos 225 millones de marcos, no irán a las víctimas: se las queda el Estado.", M,
+   bg='tienda_magdeburgo',
+   html='<div class="ov center"><div class="q in" data-cue="los judios">«Pagarán los judíos»</div>'
+        '<div class="box in" data-cue="225 millones" style="margin-top:50px"><div class="lab">Indemnizaciones de los seguros</div><div class="val">225 millones RM</div></div>'
+        '<div class="stamp in" data-cue="se las queda el estado" style="margin-top:40px">Para el Estado</div></div>')
+sc("Pero aún hay más. Göring impone a los judíos alemanes una multa colectiva de mil millones de marcos, como castigo por la muerte de vom Rath. Para cobrarla usan las declaraciones de patrimonio de abril. Ahora sí se entiende para qué eran.", M,
+   bg='goring',
+   html='<div class="ov center"><div class="h3 dim in" data-t="0.2">«Multa de expiación»</div><div class="big red in" data-cue="mil millones" style="font-size:170px">1.000.000.000</div>'
+        '<div class="h3 in" data-cue="mil millones" data-d="0.3">Reichsmarks</div><div class="h3 amber in" data-cue="para que eran" style="margin-top:30px">Calculada con las declaraciones de abril</div></div>')
+sc("Al terminar la reunión, Göring suelta una frase que quedó en las actas: no me gustaría ser judío en Alemania.", M,
+   bg='goring',
+   html='<div class="ov center"><div class="q in" data-cue="no me gustaria">«No me gustaría ser judío en Alemania.»</div><div class="who in" data-cue="no me gustaria" data-d="1">— Hermann Göring, 12 de noviembre de 1938</div></div>')
+sc("En los días y semanas siguientes llegan nuevas prohibiciones. Los judíos ya no pueden tener comercios ni talleres. Los niños judíos son expulsados de las escuelas alemanas. Se les prohíbe ir al cine, al teatro, a los conciertos. Hasta el carné de conducir les retiran.", M,
+   bg='boicot',
+   html=lista('Noviembre-diciembre de 1938', [('Fuera de la economía: sin comercios ni talleres', 'comercios ni talleres'), ('Niños expulsados de las escuelas', 'escuelas'),
+                                              ('Prohibido el cine, el teatro, los conciertos', 'al cine'), ('Sin carné de conducir', 'carne de conducir')]))
+
+# ======================= EL MUNDO =======================
+sc("¿Y el resto del mundo? La prensa internacional cuenta lo ocurrido con todo detalle. En Estados Unidos, el presidente Roosevelt llama a consultas a su embajador en Berlín y dice que casi no puede creer que algo así ocurra en una civilización del siglo veinte.", M,
+   bg='sinagoga_quemada',
+   html='<div class="ov center"><div class="h2 in" data-cue="presidente roosevelt">Franklin D. Roosevelt</div>'
+        '<div class="h3 dim in" data-cue="su embajador" style="margin-top:20px">Llama a consultas a su embajador</div>'
+        '<div class="q in" data-cue="casi no puede creer" style="margin-top:40px;font-size:52px">«Apenas podía creer que algo así ocurriera en una civilización del siglo XX.»</div></div>')
+sc("Pero las palabras no se convierten en puertas abiertas. Estados Unidos no amplía sus cupos de inmigración. Y en 1939 el Congreso no llega a aprobar una propuesta para acoger a 20.000 niños refugiados.", M,
+   bg='deportacion',
+   html='<div class="ov center"><div class="h2 in tw" data-cue="puertas abiertas">Palabras,<br>no puertas</div>'
+        '<div class="h3 red in" data-cue="20.000 ninos" style="margin-top:40px">No se aprueba acoger a 20.000 niños</div></div>')
+sc("El Reino Unido sí da un paso. Acepta acoger a niños judíos sin sus padres. El 2 de diciembre de 1938, apenas tres semanas después del pogromo, llega al puerto de Harwich el primer barco del Kindertransport, con unos 200 niños de Berlín.", M,
+   bg='deportacion',
+   html='<div class="ov center"><div class="date in" data-t="0.2">2 de diciembre de 1938 · Harwich</div><div class="h1 in tw" data-cue="kindertransport">Kindertransport</div>'
+        '<div class="h3 in" data-cue="unos 200 ninos" style="margin-top:30px">Primer barco: unos 200 niños</div></div>')
+sc("En total, unos 10.000 niños escaparon así al Reino Unido. Se despidieron de sus padres en un andén. La mayoría nunca volvió a verlos.", M,
+   bg='viena_templo2',
+   html='<div class="ov center"><div class="big in" data-cue="unos 10.000"><span data-count="10000">0</span></div><div class="h3 in" data-cue="unos 10.000" data-d="0.3">niños salvados</div>'
+        '<div class="h3 red in" data-cue="nunca volvio a verlos" style="margin-top:40px">La mayoría nunca volvió a ver a sus padres</div></div>')
+sc("Para los adultos, salir era cada vez más difícil. En mayo de 1939, el barco Saint Louis zarpa de Hamburgo con 937 pasajeros, casi todos judíos, rumbo a Cuba. Ni Cuba, ni Estados Unidos, ni Canadá los dejan desembarcar.", M,
+   bg='boicot',
+   html='<div class="ov center"><div class="date in" data-t="0.2">Mayo de 1939</div><div class="h1 in tw" data-cue="saint louis">MS St. Louis</div>'
+        '<div class="h3 in" data-cue="937 pasajeros" style="margin-top:20px">937 pasajeros</div>'
+        '<div class="row" style="margin-top:30px;gap:40px"><div class="stamp in" data-cue="ni cuba">Cuba</div><div class="stamp in" data-cue="ni estados unidos">EE. UU.</div><div class="stamp in" data-cue="ni canada">Canadá</div></div></div>')
+sc("El barco tiene que volver a Europa. Varios países europeos reparten a los pasajeros. Pero cuando Alemania invade esos países, muchos vuelven a quedar atrapados. 254 de ellos murieron en el Holocausto.", M,
+   bg='puerta_birkenau',
+   html='<div class="ov center"><div class="h3 dim in" data-t="0.2">Pasajeros del St. Louis asesinados después</div><div class="big red in" data-cue="254">254</div></div>')
+
+# ======================= GRYNSZPAN Y EL NOMBRE =======================
+sc("¿Y Herschel Grynszpan? Cuando Alemania ocupó Francia en 1940, fue entregado a la Gestapo. Los nazis querían usarlo en un gran juicio de propaganda, pero el juicio nunca se celebró. Su rastro se pierde en algún momento de la guerra. Lo más probable es que muriera bajo custodia alemana.", M,
+   img='grynszpan', kb='in', fy=0.35, shade=True,
+   html='<div class="ov left"><div class="h2 in" data-cue="y herschel grynszpan">Herschel<br>Grynszpan</div><div class="h3 dim in" data-cue="entregado a la gestapo" style="margin-top:20px">1940: entregado a la Gestapo</div>'
+        '<div class="h3 red in" data-cue="su rastro se pierde" style="margin-top:20px">Su rastro se pierde</div></div>')
+sc("Sus padres y su hermana, los de la postal, consiguieron llegar a la Unión Soviética y sobrevivieron. En 1961, su padre Sendel declaró como testigo en el juicio contra Adolf Eichmann en Jerusalén.", M,
+   bg='deportacion',
+   html='<div class="ov center"><div class="h2 in" data-cue="sobrevivieron">Su familia sobrevivió</div>'
+        '<div class="date in" data-cue="en 1961" style="margin-top:30px">1961 · Jerusalén · juicio a Eichmann</div></div>')
+sc("Y el nombre. La expresión Noche de los cristales rotos viene del alemán Kristallnacht. Hoy muchos historiadores, y la propia Alemania, prefieren hablar de los pogromos de noviembre. Porque aquella noche no se rompieron solo cristales.", M,
+   bg='tienda_magdeburgo',
+   html='<div class="ov center"><div class="row" style="gap:80px;align-items:center"><div class="box in" data-cue="kristallnacht"><div class="lab">Nombre popular</div><div class="val dim" style="font-size:66px">Kristallnacht</div></div>'
+        '<div class="box in" data-cue="pogromos de noviembre" style="border-color:var(--red)"><div class="lab">Nombre preciso</div><div class="val red" style="font-size:66px">Pogromos de noviembre</div></div></div>'
+        '<div class="q in" data-cue="no se rompieron solo cristales" style="margin-top:60px">No se rompieron solo cristales.</div></div>')
+
+# ======================= EL CAMINO =======================
+sc("Aquel noviembre marca un antes y un después. Hasta entonces, la persecución había sido sobre todo legal y económica. A partir de ahí, la violencia contra los judíos es abierta, organizada por el Estado y casi nadie la frena.", I,
+   bg='sinagoga_danada',
+   html=timeline([('1933', 'Boicot', 'hasta entonces'), ('1935', 'Leyes de Núremberg', 'legal y economica'), ('Nov. 1938', 'Violencia abierta', 'la violencia contra'),
+                  ('1941-1945', 'Exterminio', 'casi nadie la frena')], 'Un antes y un después'))
+sc("El 30 de enero de 1939, Hitler habla en el Reichstag. Y hace lo que él llama una profecía: si estalla otra guerra mundial, el resultado será la aniquilación de la raza judía en Europa.", T,
+   bg='hitler',
+   html='<div class="ov center"><div class="date in" data-t="0.2">30 de enero de 1939 · Reichstag</div>'
+        '<div class="q in" data-cue="la aniquilacion" style="margin-top:30px">«…la aniquilación de la raza judía en Europa.»</div><div class="who in" data-cue="la aniquilacion" data-d="1">— Adolf Hitler</div></div>')
+sc("Siete meses después empezó la guerra. Y muchos de los judíos que no pudieron salir de Alemania en aquellos meses acabaron, pocos años más tarde, en los guetos del este y en los trenes hacia Auschwitz.", M,
+   img='lodz_anciano', side='right', kb='in', fy=0.3,
+   html='<div class="ov left"><div class="h2 in tw" data-cue="siete meses despues">Siete meses<br>después</div><div class="h3 red in" data-cue="trenes hacia auschwitz" style="margin-top:30px">Guetos y trenes hacia Auschwitz</div></div>')
+
+# ======================= CIERRE =======================
+sc("Hoy, en Alemania, el 9 de noviembre es una fecha incómoda. Es el día en que ardieron las sinagogas en 1938. Y también el día en que cayó el muro de Berlín, en 1989. La misma fecha para lo peor y para lo mejor de un país.", M,
+   bg='viena_templo',
+   html='<div class="ov center"><div class="h1 in" data-t="0.3">9 de noviembre</div><div class="row" style="margin-top:50px;gap:80px">'
+        '<div class="box in" data-cue="en 1938" style="border-color:var(--red)"><div class="lab">1938</div><div class="val red" style="font-size:60px">Arden las sinagogas</div></div>'
+        '<div class="box in" data-cue="en 1989"><div class="lab">1989</div><div class="val" style="font-size:60px">Cae el muro</div></div></div></div>')
+sc("Aquella noche no la hicieron solo los nazis de uniforme. La hicieron posible los que aplaudieron, los que miraron hacia otro lado y los que pensaron que no iba con ellos. Porque el odio casi nunca llega de golpe. Llega cuando se le deja pasar.", M,
+   img='tienda_rota', kb='out', shade=True,
+   html='<div class="ov center"><div class="h3 in" data-cue="los que aplaudieron">Los que aplaudieron</div><div class="h3 in" data-cue="miraron hacia otro lado">Los que miraron hacia otro lado</div>'
+        '<div class="h3 in" data-cue="no iba con ellos">Los que pensaron que no iba con ellos</div>'
+        '<div class="q in" data-cue="se le deja pasar" style="margin-top:50px">El odio llega cuando se le deja pasar.</div></div>')
+sc("En el próximo capítulo conoceremos una historia que nos toca muy de cerca: la de los miles de republicanos españoles que acabaron en el campo de Mauthausen. Si no quieres perdértelo, suscríbete. "
+   "Y cuéntame en los comentarios: ¿conocías la historia de Herschel Grynszpan?", M,
+   bg='sinagoga_quemada',
+   html='<div class="ov center"><div class="tag in" data-t="0.2">Próximo capítulo</div><div class="h2 in tw" data-t="0.4">Los españoles<br>de Mauthausen</div>'
+        '<div class="rule in" data-t="0.6"></div><div class="h3 dim in" data-cue="suscribete">Suscríbete para no perdértelo</div>'
+        '<div class="who in" data-cue="suscribete" data-d="1.5" style="font-size:24px;margin-top:80px">Fuentes: USHMM, Bundeszentrale für politische Bildung, Museo Histórico Alemán (DHM), Britannica. '
+        'Imágenes: Bundesarchiv (créditos en la descripción).</div></div>')
+
+spec = dict(title='La Noche de los cristales rotos', brand='Sombras del 39', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
+            voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=4, scenes=S,
+            thumb=dict(img='img/sinagoga_quemada.jpg', fy=0.4, l1='La noche que<br>ardió Alemania', l2='1938', l3='Noche de los cristales rotos'))
+json.dump(spec, open(os.path.join(here, 'spec.json'), 'w'), ensure_ascii=False, indent=1)
+txt = ' '.join(s['say'] for s in S)
+print(len(S), 'escenas ·', len(txt), 'caracteres · ~%.1f min' % (len(txt) / 13.8 / 60), '· sin foto:', [i for i, s in enumerate(S) if 'img' not in s and 'bg' not in s])
+open(os.path.join(here, 'guion.txt'), 'w').write('\n\n'.join(s['say'] for s in S) + '\n')

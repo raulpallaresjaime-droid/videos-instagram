@@ -53,7 +53,9 @@ fi = int(1.5 * SR); music[:fi] *= np.linspace(0, 1, fi)[:, None]
 fo = int(4 * SR); music[-fo:] *= np.linspace(1, 0, fo)[:, None]
 # bajar la música mientras habla el narrador (envolvente suave)
 act = np.repeat(speech.astype(np.float32), fr)[:n]; act = np.pad(act, (0, n - len(act)))
-k = int(0.35 * SR); act = np.convolve(act, np.ones(k) / k, mode='same')
+k = int(0.35 * SR)  # media móvil centrada (equivale a np.convolve mode='same', pero con sumas acumuladas: O(n))
+cs = np.concatenate(([0.0], np.cumsum(act, dtype=np.float64))); lo = np.clip(np.arange(n) - k // 2, 0, n); hi = np.clip(np.arange(n) - k // 2 + k, 0, n)
+act = ((cs[hi] - cs[lo]) / k).astype(np.float32)
 lvl = spec.get('music_db', [-17, -23])  # [sin voz, con voz] respecto a la voz
 gain = db(lvl[0]) + (db(lvl[1]) - db(lvl[0])) * np.clip(act, 0, 1)
 music *= (vref * gain)[:, None]
