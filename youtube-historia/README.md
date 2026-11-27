@@ -71,6 +71,16 @@ Para todo capítulo nuevo (y al rehacer las imágenes de los capítulos 3-8, reu
 - Rutas: primero en la carpeta del episodio y, si no existen, en `youtube-historia/` (`personas/…`).
 - Prueba: `videos/_prueba_imagenes/` (rótulo + escena de 3 imágenes + imagen desenfocada, voz falsa).
 
+### Licencias: criterio para EE. UU. (YouTube)
+
+- Solo material con licencia clara también en EE. UU.: dominio público estadounidense (NARA, Signal Corps, USHMM cuando lo
+  cede), Polonia + URAA, CC BY-SA/CC0 con autor identificable, Bundesarchiv (CC BY-SA 3.0 DE). Revisar la ficha de Commons
+  («Licensing») antes de usar una foto.
+- **Fuera**: lo que solo es dominio público en la UE o en su país sin etiqueta de EE. UU. (fotos de Ana Frank, Westerbork,
+  fotos soviéticas/rusas sueltas), y cualquier cosa con derechos discutidos.
+- **Excepción aprobada por Raúl**: el **Álbum de Auschwitz** (Yad Vashem) y las **filmaciones soviéticas de la liberación
+  de Auschwitz** (prueba n.º 228 de Núremberg, copia de NARA) se pueden usar.
+
 ### Biblioteca de retratos (`personas/`)
 
 - `personas/<nombre>.jpg` + `personas/creditos.txt` + `personas/personas.json` (`name`, `role` y `fx`/`fy` de la cara
