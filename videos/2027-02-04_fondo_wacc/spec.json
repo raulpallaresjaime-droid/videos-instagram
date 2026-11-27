@@ -33,7 +33,7 @@
   {
    "title": "3 · Los <em class=\"c-orange\">pesos</em>",
    "say": "Ahora, los pesos. Imagina un negocio de cien mil euros: setenta y cinco mil los ponen los socios y veinticinco mil los presta el banco. El equity pesa un setenta y cinco por ciento y la deuda, un veinticinco.",
-   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"setenta y cinco mil\"><span>Socios (equity)</span><i class=\"teal grow\" style=\"--w:100%\">75.000 € · 75 %</i></div><div class=\"b in\" data-cue=\"veinticinco mil\"><span>Banco (deuda)</span><i class=\"navy grow\" style=\"--w:33%\">25.000 € · 25 %</i></div></div>",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"setenta y cinco mil\"><span>Socios · 75 %</span><i class=\"teal grow\" style=\"--w:100%\">75.000 €</i></div><div class=\"b in\" data-cue=\"veinticinco mil\"><span>Banco · 25 %</span><i class=\"navy grow\" style=\"--w:33%\">25.000 €</i></div></div>",
    "sub": "Ejemplo ilustrativo"
   },
   {
