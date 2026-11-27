@@ -8,3 +8,6 @@ engine/_page_*.html
 youtube-historia/videos/*/_clips_cache/
 youtube-historia/videos/*/video_mudo.mp4
 youtube-historia/videos/*/mezcla.wav
+youtube-historia/videos/*/_part_*.mp4
+youtube-historia/videos/*/_parts.txt
+youtube-historia/videos/*/_page*.html
