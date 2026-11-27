@@ -38,6 +38,12 @@ que pedirle que haga nada a mano.
 Si algo falla (ElevenLabs sin caracteres, Metricool rechaza el vídeo, push rechazado…), no
 inventar ni publicar nada a medias: dejar el estado como estaba y explicarlo en el informe.
 
+## Norma de Raúl sobre la duración (Instagram y YouTube)
+**Nunca acortar un vídeo para ahorrar créditos de ElevenLabs.** La duración la marca el contenido: cada vídeo dura
+lo que necesite para contar toda la información relevante (puede ser más corto o más largo que la horquilla si el
+tema lo pide). Si el saldo no llega para todos los vídeos previstos a su duración correcta, se hacen **menos vídeos**
+y se avisa a Raúl (o se le pregunta antes), nunca se comprimen los guiones para que quepan más.
+
 ## Guion
 
 - Español de España, tuteando, frases cortas, tono cercano y didáctico. Ejemplos con números
