@@ -69,7 +69,9 @@
    "hora": "16:00",
    "episodio": 7,
    "tema": "Toda la Segunda Guerra Mundial en 20 minutos",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "carpeta": "07_segunda-guerra-20-minutos",
+   "duracion": "17:07"
   },
   {
    "fecha": "2026-12-29",

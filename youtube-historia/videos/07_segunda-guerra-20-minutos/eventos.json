@@ -1,0 +1,636 @@
+{
+ "total": 1027.44,
+ "scenes": [
+  {
+   "start": 0,
+   "end": 21.35,
+   "mood": "tension"
+  },
+  {
+   "start": 21.35,
+   "end": 35.27,
+   "mood": "melancolia"
+  },
+  {
+   "start": 35.27,
+   "end": 53.19,
+   "mood": "inquietud"
+  },
+  {
+   "start": 53.19,
+   "end": 67.27,
+   "mood": "tension"
+  },
+  {
+   "start": 67.27,
+   "end": 85.35,
+   "mood": "tension"
+  },
+  {
+   "start": 85.35,
+   "end": 99.35,
+   "mood": "inquietud"
+  },
+  {
+   "start": 99.35,
+   "end": 119.03,
+   "mood": "tension"
+  },
+  {
+   "start": 119.03,
+   "end": 136.87,
+   "mood": "tension"
+  },
+  {
+   "start": 136.87,
+   "end": 155.03,
+   "mood": "inquietud"
+  },
+  {
+   "start": 155.03,
+   "end": 170.63,
+   "mood": "tension"
+  },
+  {
+   "start": 170.63,
+   "end": 183.67,
+   "mood": "melancolia"
+  },
+  {
+   "start": 183.67,
+   "end": 200.15,
+   "mood": "tension"
+  },
+  {
+   "start": 200.15,
+   "end": 215.67,
+   "mood": "inquietud"
+  },
+  {
+   "start": 215.67,
+   "end": 234.07,
+   "mood": "melancolia"
+  },
+  {
+   "start": 234.07,
+   "end": 254.95,
+   "mood": "inquietud"
+  },
+  {
+   "start": 254.95,
+   "end": 269.75,
+   "mood": "inquietud"
+  },
+  {
+   "start": 269.75,
+   "end": 286.79,
+   "mood": "inquietud"
+  },
+  {
+   "start": 286.79,
+   "end": 304.39,
+   "mood": "inquietud"
+  },
+  {
+   "start": 304.39,
+   "end": 322.71,
+   "mood": "tension"
+  },
+  {
+   "start": 322.71,
+   "end": 335.91,
+   "mood": "melancolia"
+  },
+  {
+   "start": 335.91,
+   "end": 350.79,
+   "mood": "melancolia"
+  },
+  {
+   "start": 350.79,
+   "end": 367.51,
+   "mood": "melancolia"
+  },
+  {
+   "start": 367.51,
+   "end": 385.35,
+   "mood": "tension"
+  },
+  {
+   "start": 385.35,
+   "end": 402.15,
+   "mood": "melancolia"
+  },
+  {
+   "start": 402.15,
+   "end": 424.31,
+   "mood": "melancolia"
+  },
+  {
+   "start": 424.31,
+   "end": 439.75,
+   "mood": "inquietud"
+  },
+  {
+   "start": 439.75,
+   "end": 458.63,
+   "mood": "tension"
+  },
+  {
+   "start": 458.63,
+   "end": 477.27,
+   "mood": "tension"
+  },
+  {
+   "start": 477.27,
+   "end": 497.19,
+   "mood": "tension"
+  },
+  {
+   "start": 497.19,
+   "end": 514.39,
+   "mood": "tension"
+  },
+  {
+   "start": 514.39,
+   "end": 531.19,
+   "mood": "tension"
+  },
+  {
+   "start": 531.19,
+   "end": 546.39,
+   "mood": "tension"
+  },
+  {
+   "start": 546.39,
+   "end": 562.95,
+   "mood": "tension"
+  },
+  {
+   "start": 562.95,
+   "end": 581.67,
+   "mood": "melancolia"
+  },
+  {
+   "start": 581.67,
+   "end": 605.35,
+   "mood": "inquietud"
+  },
+  {
+   "start": 605.35,
+   "end": 621.75,
+   "mood": "inquietud"
+  },
+  {
+   "start": 621.75,
+   "end": 641.11,
+   "mood": "tension"
+  },
+  {
+   "start": 641.11,
+   "end": 657.91,
+   "mood": "inquietud"
+  },
+  {
+   "start": 657.91,
+   "end": 674.07,
+   "mood": "melancolia"
+  },
+  {
+   "start": 674.07,
+   "end": 691.03,
+   "mood": "tension"
+  },
+  {
+   "start": 691.03,
+   "end": 708.55,
+   "mood": "tension"
+  },
+  {
+   "start": 708.55,
+   "end": 724.23,
+   "mood": "tension"
+  },
+  {
+   "start": 724.23,
+   "end": 745.27,
+   "mood": "inquietud"
+  },
+  {
+   "start": 745.27,
+   "end": 764.95,
+   "mood": "tension"
+  },
+  {
+   "start": 764.95,
+   "end": 780.15,
+   "mood": "inquietud"
+  },
+  {
+   "start": 780.15,
+   "end": 799.43,
+   "mood": "tension"
+  },
+  {
+   "start": 799.43,
+   "end": 816.87,
+   "mood": "melancolia"
+  },
+  {
+   "start": 816.87,
+   "end": 828.31,
+   "mood": "inquietud"
+  },
+  {
+   "start": 828.31,
+   "end": 845.83,
+   "mood": "tension"
+  },
+  {
+   "start": 845.83,
+   "end": 860.79,
+   "mood": "inquietud"
+  },
+  {
+   "start": 860.79,
+   "end": 874.55,
+   "mood": "tension"
+  },
+  {
+   "start": 874.55,
+   "end": 893.99,
+   "mood": "melancolia"
+  },
+  {
+   "start": 893.99,
+   "end": 908.95,
+   "mood": "melancolia"
+  },
+  {
+   "start": 908.95,
+   "end": 924.95,
+   "mood": "melancolia"
+  },
+  {
+   "start": 924.95,
+   "end": 938.87,
+   "mood": "melancolia"
+  },
+  {
+   "start": 938.87,
+   "end": 953.43,
+   "mood": "melancolia"
+  },
+  {
+   "start": 953.43,
+   "end": 973.27,
+   "mood": "inquietud"
+  },
+  {
+   "start": 973.27,
+   "end": 991.75,
+   "mood": "melancolia"
+  },
+  {
+   "start": 991.75,
+   "end": 1008.23,
+   "mood": "melancolia"
+  },
+  {
+   "start": 1008.23,
+   "end": 1027.44,
+   "mood": "melancolia"
+  }
+ ],
+ "typing": [
+  {
+   "t": 21.75,
+   "text": "Capítulo 7",
+   "cps": 18
+  },
+  {
+   "t": 33.56,
+   "text": "En 20 minutos",
+   "cps": 18
+  },
+  {
+   "t": 35.47,
+   "text": "1933-1939",
+   "cps": 18
+  },
+  {
+   "t": 53.39,
+   "text": "23 de agosto de 1939",
+   "cps": 18
+  },
+  {
+   "t": 57.04,
+   "text": "Hitler y Stalin",
+   "cps": 18
+  },
+  {
+   "t": 86.64,
+   "text": "«La guerrade broma»",
+   "cps": 18
+  },
+  {
+   "t": 129.2,
+   "text": "Las Ardenas",
+   "cps": 18
+  },
+  {
+   "t": 155.23,
+   "text": "14 de junio de 1940",
+   "cps": 18
+  },
+  {
+   "t": 157.44,
+   "text": "París cae",
+   "cps": 18
+  },
+  {
+   "t": 177.76,
+   "text": "Hitleren París",
+   "cps": 18
+  },
+  {
+   "t": 194.92,
+   "text": "La batallade Inglaterra",
+   "cps": 18
+  },
+  {
+   "t": 216.27,
+   "text": "El Blitz",
+   "cps": 18
+  },
+  {
+   "t": 234.27,
+   "text": "23 de octubre de 1940",
+   "cps": 18
+  },
+  {
+   "t": 240.613,
+   "text": "Hendaya",
+   "cps": 18
+  },
+  {
+   "t": 255.15,
+   "text": "10 de junio de 1940",
+   "cps": 18
+  },
+  {
+   "t": 260.12,
+   "text": "Italia entraen la guerra",
+   "cps": 18
+  },
+  {
+   "t": 304.59,
+   "text": "22 de junio de 1941",
+   "cps": 18
+  },
+  {
+   "t": 314,
+   "text": "Barbarroja",
+   "cps": 18
+  },
+  {
+   "t": 328.84,
+   "text": "Millones deprisioneros",
+   "cps": 18
+  },
+  {
+   "t": 342.04,
+   "text": "División Azul",
+   "cps": 18
+  },
+  {
+   "t": 368.88,
+   "text": "Moscú resiste",
+   "cps": 18
+  },
+  {
+   "t": 396.64,
+   "text": "Einsatzgruppen",
+   "cps": 18
+  },
+  {
+   "t": 406.48,
+   "text": "20 de enero de 1942 · Wannsee",
+   "cps": 18
+  },
+  {
+   "t": 411.44,
+   "text": "«La solución final»",
+   "cps": 18
+  },
+  {
+   "t": 424.51,
+   "text": "Asia",
+   "cps": 18
+  },
+  {
+   "t": 429.76,
+   "text": "Japón invade China",
+   "cps": 18
+  },
+  {
+   "t": 439.95,
+   "text": "7 de diciembre de 1941",
+   "cps": 18
+  },
+  {
+   "t": 456.8,
+   "text": "Pearl Harbor",
+   "cps": 18
+  },
+  {
+   "t": 497.39,
+   "text": "Junio de 1942",
+   "cps": 18
+  },
+  {
+   "t": 501.12,
+   "text": "Midway",
+   "cps": 18
+  },
+  {
+   "t": 525.52,
+   "text": "Stalingrado",
+   "cps": 18
+  },
+  {
+   "t": 542,
+   "text": "«La guerrade las ratas»",
+   "cps": 18
+  },
+  {
+   "t": 546.59,
+   "text": "19 de noviembre de 1942",
+   "cps": 18
+  },
+  {
+   "t": 550.4,
+   "text": "El cerco",
+   "cps": 18
+  },
+  {
+   "t": 621.95,
+   "text": "Julio de 1943",
+   "cps": 18
+  },
+  {
+   "t": 626.08,
+   "text": "Kursk",
+   "cps": 18
+  },
+  {
+   "t": 659.36,
+   "text": "Las ciudades alemanas",
+   "cps": 18
+  },
+  {
+   "t": 674.27,
+   "text": "6 de junio de 1944",
+   "cps": 18
+  },
+  {
+   "t": 679.68,
+   "text": "El Día D",
+   "cps": 18
+  },
+  {
+   "t": 692,
+   "text": "Omaha",
+   "cps": 18
+  },
+  {
+   "t": 708.75,
+   "text": "22 de junio de 1944",
+   "cps": 18
+  },
+  {
+   "t": 711.72,
+   "text": "Bagration",
+   "cps": 18
+  },
+  {
+   "t": 724.43,
+   "text": "24-25 de agosto de 1944",
+   "cps": 18
+  },
+  {
+   "t": 727.76,
+   "text": "París, liberada",
+   "cps": 18
+  },
+  {
+   "t": 745.47,
+   "text": "20 de julio de 1944",
+   "cps": 18
+  },
+  {
+   "t": 752.88,
+   "text": "Stauffenberg",
+   "cps": 18
+  },
+  {
+   "t": 765.15,
+   "text": "Diciembre de 1944",
+   "cps": 18
+  },
+  {
+   "t": 768.64,
+   "text": "Las Ardenas, otra vez",
+   "cps": 18
+  },
+  {
+   "t": 785.48,
+   "text": "Leyte",
+   "cps": 18
+  },
+  {
+   "t": 817.07,
+   "text": "Febrero de 1945",
+   "cps": 18
+  },
+  {
+   "t": 820.84,
+   "text": "Yalta",
+   "cps": 18
+  },
+  {
+   "t": 856.44,
+   "text": "8 de mayo de 1945",
+   "cps": 18
+  },
+  {
+   "t": 846.43,
+   "text": "Rendiciónincondicional",
+   "cps": 18
+  },
+  {
+   "t": 863.28,
+   "text": "Iwo Jima",
+   "cps": 18
+  },
+  {
+   "t": 864.12,
+   "text": "Okinawa",
+   "cps": 18
+  },
+  {
+   "t": 874.75,
+   "text": "6 y 9 de agosto de 1945",
+   "cps": 18
+  },
+  {
+   "t": 879.88,
+   "text": "Hiroshima",
+   "cps": 18
+  },
+  {
+   "t": 885.72,
+   "text": "Nagasaki",
+   "cps": 18
+  },
+  {
+   "t": 894.19,
+   "text": "15 de agosto de 1945",
+   "cps": 18
+  },
+  {
+   "t": 901.44,
+   "text": "Hirohitohabla por radio",
+   "cps": 18
+  },
+  {
+   "t": 909.15,
+   "text": "2 de septiembre de 1945",
+   "cps": 18
+  },
+  {
+   "t": 912.8,
+   "text": "USS Missouri",
+   "cps": 18
+  },
+  {
+   "t": 969.28,
+   "text": "El telón de acero",
+   "cps": 18
+  },
+  {
+   "t": 1008.43,
+   "text": "Próximo capítulo",
+   "cps": 18
+  },
+  {
+   "t": 1009.469,
+   "text": "Operación Barbarroja:el mayor error de Hitler",
+   "cps": 18
+  }
+ ],
+ "hits": [
+  58.96,
+  554.16
+ ]
+}
