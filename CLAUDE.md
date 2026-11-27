@@ -184,4 +184,5 @@ solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. N
    `youtubeData: {title, type:"video", privacy:"public", tags, category:"EDUCATION", madeForKids:false, isAiGeneratedContent:false}`.
 5. Estado `programado` + `plannerUrl` en `calendario.json`, commit + push.
 6. Informe corto para Raúl: qué se ha dejado en borrador, enlaces, temas nuevos y lo que no se haya podido verificar.
-   Saldo de ElevenLabs compartido con Instagram (cada episodio ≈ 8.000-9.000 caracteres): si no llega, avisar.
+   Saldo de ElevenLabs compartido con Instagram. Con `eleven_v4` cada carácter de guion consume ~0,5 créditos
+   (un episodio de 15-20 min ≈ 7.000 créditos). Decir siempre el saldo que queda; si no llega, avisar.
