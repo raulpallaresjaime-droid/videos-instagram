@@ -4,7 +4,7 @@
   "blogId": 8071218,
   "nota": "Plan gratuito: el YouTube de la marca _raulpallares es ahora Sombras del 39"
  },
- "horario": "Diciembre 2026: martes y jueves 16:00 Europe/Madrid (~10 min). Desde enero 2027: 1 por semana, martes 16:00, mini documentales de 15-20 min.",
+ "horario": "Diciembre 2026: martes y jueves 16:00 Europe/Madrid. Desde enero 2027: 1 por semana, martes 16:00, mini documentales de 15-20 min.",
  "publicaciones": [
   {
    "fecha": "2026-12-01",
@@ -75,7 +75,7 @@
    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=5539716042497672790"
   },
   {
-   "fecha": "2026-12-29",
+   "fecha": "2026-12-24",
    "hora": "16:00",
    "episodio": 8,
    "tema": "Operación Barbarroja: el mayor error de Hitler",
@@ -83,6 +83,20 @@
    "carpeta": "08_operacion-barbarroja",
    "duracion": "16:08",
    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4469811646449404920"
+  },
+  {
+   "fecha": "2026-12-29",
+   "hora": "16:00",
+   "episodio": 9,
+   "tema": "Stalingrado: la batalla que cambió la guerra",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-31",
+   "hora": "16:00",
+   "episodio": 10,
+   "tema": "Pearl Harbor: el día que Estados Unidos entró en la guerra",
+   "estado": "pendiente"
   }
  ],
  "nota_presupuesto": "Episodios 3-8 de diciembre producidos antes del 3/12 con el saldo sobrante de noviembre de ElevenLabs."
