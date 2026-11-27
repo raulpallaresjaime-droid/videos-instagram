@@ -366,24 +366,27 @@
    "serie": "bolsa",
    "slug": "ciclicos-defensivos",
    "tema": "Cíclicos vs defensivos",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-23_bolsa_ciclicos-defensivos"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-23_bolsa_ciclicos-defensivos",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=2915566592534398436"
   },
   {
    "fecha": "2027-02-25",
    "serie": "fondo",
    "slug": "ratios-deuda",
    "tema": "Ratios de deuda: ¿puede una empresa pagar lo que debe?",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-25_fondo_ratios-deuda"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-25_fondo_ratios-deuda",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=1786181776771010496"
   },
   {
    "fecha": "2027-02-28",
    "serie": "nadie",
    "slug": "buffett-despues-50",
    "tema": "Buffett hizo casi toda su fortuna después de los 50: el interés compuesto con una historia real ⭐",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-28_nadie_buffett-despues-50"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-28_nadie_buffett-despues-50",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=3335655358256203031"
   },
   {
    "fecha": "2027-03-02",
