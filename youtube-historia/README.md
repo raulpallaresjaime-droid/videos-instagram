@@ -34,9 +34,9 @@ Para todo capítulo nuevo (y al rehacer las imágenes de los capítulos 3-8, reu
 1. **Caras.** Cada vez que se nombra a una persona relevante (verdugos y también víctimas y supervivientes con nombre),
    en ese momento aparece su cara (retrato o clip) con un **rótulo de identificación**: nombre y cargo
    («Rudolf Höss · comandante de Auschwitz»). Retratos reutilizables en `personas/` (ver abajo).
-2. **Más imágenes, ninguna repetida.** Cambio de imagen cada 6-10 s: una escena de 20 s lleva 2-3 imágenes o clips
-   (`imgs`). Cada foto o clip se usa **una sola vez por capítulo** (también los fondos `bg`): el render avisa con
-   `REPETIDA: …` y hay que corregirlo antes del render final.
+2. **Más imágenes, sin repetir para rellenar.** Cambio de imagen cada 6-10 s: una escena de 20 s lleva 2-3 imágenes o
+   clips (`imgs`). Una foto o clip solo se repite cuando se vuelve a hablar de ese sitio, hecho o persona (aunque sea
+   minutos después), nunca para rellenar. El render avisa con `REPETIDA: …` (también los fondos `bg`): revisar cada aviso.
 3. **Imágenes con peso**: caras de presos, niños, familias en los andenes (Álbum de Auschwitz), zapatos, maletas, pelo,
    gafas, barracones, alambradas, supervivientes en la liberación, Núremberg, documentos y órdenes firmadas… Las
    banales (fachadas, paisajes, grupos anónimos) solo de apoyo y en minoría. Revisar con hoja de contactos y sustituir las flojas.
@@ -77,7 +77,7 @@ Para todo capítulo nuevo (y al rehacer las imágenes de los capítulos 3-8, reu
   para encuadrar). Solo licencias libres: Bundesarchiv (`engine/bundesarchiv.py search "Name Porträt"` / `get`, CC BY-SA 3.0 DE),
   Wikimedia Commons (dominio público: fotos de NARA, de los juicios, del Álbum Höcker…). Para descargar un archivo de
   Commons sin gastar API: `curl -A 'HistoriaDocBot/1.0' "$(python3 engine/commons.py vurl 'File:…')"`.
-- Como cada foto va una sola vez por capítulo, guardar **varios retratos** de los personajes que salen mucho
+- Para no repetir la misma cara cada vez que sale alguien, guardar **varios retratos** de los personajes que salen mucho
   (`hitler.jpg`, `hitler_1938.jpg`, `hitler_bunker.jpg`…) y añadir a la biblioteca cada retrato nuevo que se use.
 - El cargo del rótulo se adapta al momento del relato (Höss en 1940 = «comandante de Auschwitz»).
 

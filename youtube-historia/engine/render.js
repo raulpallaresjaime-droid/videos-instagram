@@ -94,9 +94,9 @@ scenes.forEach((s, i) => {
   });
   s.layers = items;
 });
-if (!part) { // regla: cada foto o clip, una sola vez por capítulo
+if (!part) { // regla: no repetir imágenes para rellenar (solo si se vuelve a hablar de ese sitio, hecho o persona)
   const rep = Object.entries(usage).filter(([, v]) => v.length > 1);
-  rep.forEach(([k, v]) => console.warn(`  REPETIDA: ${k} en las escenas ${v.join(', ')}`));
+  rep.forEach(([k, v]) => console.warn(`  REPETIDA: ${k} en las escenas ${v.join(', ')} (solo vale si se vuelve a hablar de ello)`));
 }
 
 function sceneHTML(s, i) {

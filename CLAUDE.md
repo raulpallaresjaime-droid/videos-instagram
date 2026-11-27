@@ -179,7 +179,8 @@ solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. N
      `youtube-historia/README.md`: (1) cada vez que se nombra a una persona relevante (verdugos, víctimas, supervivientes)
      aparece **su cara con rótulo** `who: {name, role}` («Rudolf Höss · comandante de Auschwitz»), con retratos de la
      biblioteca `youtube-historia/personas/`; (2) **cambio de imagen cada 6-10 s** (`imgs: [...]`, 2-3 por escena de 20 s) y
-     **cada foto o clip una sola vez por capítulo** (el render avisa `REPETIDA`); (3) imágenes con peso (presos, niños,
+     **nada de repetir imágenes para rellenar**: una foto o clip solo se repite cuando se vuelve a hablar de ese sitio,
+     hecho o persona (aunque sea minutos después); el render avisa `REPETIDA` y hay que revisar cada aviso; (3) imágenes con peso (presos, niños,
      familias en los andenes, zapatos, maletas, barracones, liberación, Núremberg, documentos), las banales en minoría;
      revisar con hoja de contactos y sustituir las flojas; (4) lo más explícito solo si es imprescindible, con `blur`, breve,
      nunca en el primer minuto ni en la miniatura y con contexto; nada de sangre ni ejecuciones.
@@ -189,6 +190,10 @@ solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. N
      ejecuciones) ni propaganda nazi sin contexto. Flujo: `commons.py vsearch "texto"` → `commons.py vurl "File:…"` →
      `clip.py sheet <url> <inicio> <dur> hoja.jpg 10` (elegir tramo mirando la hoja) → `clip.py <url> <inicio> <dur>
      clips/x.mp4` (lee solo ese tramo, ≤20 s, 1920×1080, sin audio, apunta el crédito). Detalle en `youtube-historia/README.md`.
+   - **Títulos y miniaturas que enganchen** (norma de Raúl): el título NO resume el vídeo, es un gancho que da ganas de
+     hacer clic (curiosidad, dato impactante, pregunta), siempre veraz y sin sensacionalismo falso. La miniatura lo
+     complementa sin repetirlo: la cara de un personaje, un dato enorme, contraste fuerte, pocas palabras; nunca
+     símbolos nazis ni nada explícito. Proponer título + 1 alternativa + idea de miniatura y esperar el visto bueno.
    - Nombres con letras no españolas (ł, ż, ś…): sin ellas en `say` y en los títulos (la tipografía no las tiene).
    - `node youtube-historia/engine/tts.js <carpeta>` (voz Salva `hyKxCTlAqtnW188CgltM`, `eleven_v4`).
    - Revisar con `render.js <carpeta> --preview t1,t2,…` (un fotograma por escena) y corregir solapes/huecos.
