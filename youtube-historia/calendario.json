@@ -76,7 +76,9 @@
    "hora": "16:00",
    "episodio": 8,
    "tema": "Operación Barbarroja: el mayor error de Hitler",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "carpeta": "08_operacion-barbarroja",
+   "duracion": "16:08"
   }
  ],
  "nota_presupuesto": "Episodios 3-8 de diciembre producidos antes del 3/12 con el saldo sobrante de noviembre de ElevenLabs."

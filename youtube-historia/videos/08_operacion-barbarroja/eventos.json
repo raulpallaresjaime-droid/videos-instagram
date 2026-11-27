@@ -1,0 +1,541 @@
+{
+ "total": 968.0800000000002,
+ "scenes": [
+  {
+   "start": 0,
+   "end": 21.91,
+   "mood": "tension"
+  },
+  {
+   "start": 21.91,
+   "end": 40.63,
+   "mood": "melancolia"
+  },
+  {
+   "start": 40.63,
+   "end": 57.35,
+   "mood": "inquietud"
+  },
+  {
+   "start": 57.35,
+   "end": 72.15,
+   "mood": "tension"
+  },
+  {
+   "start": 72.15,
+   "end": 90.15,
+   "mood": "inquietud"
+  },
+  {
+   "start": 90.15,
+   "end": 107.99,
+   "mood": "tension"
+  },
+  {
+   "start": 107.99,
+   "end": 125.11,
+   "mood": "inquietud"
+  },
+  {
+   "start": 125.11,
+   "end": 146.23,
+   "mood": "inquietud"
+  },
+  {
+   "start": 146.23,
+   "end": 162.31,
+   "mood": "tension"
+  },
+  {
+   "start": 162.31,
+   "end": 182.79,
+   "mood": "melancolia"
+  },
+  {
+   "start": 182.79,
+   "end": 198.95,
+   "mood": "tension"
+  },
+  {
+   "start": 198.95,
+   "end": 216.79,
+   "mood": "inquietud"
+  },
+  {
+   "start": 216.79,
+   "end": 236.47,
+   "mood": "tension"
+  },
+  {
+   "start": 236.47,
+   "end": 255.51,
+   "mood": "tension"
+  },
+  {
+   "start": 255.51,
+   "end": 269.35,
+   "mood": "inquietud"
+  },
+  {
+   "start": 269.35,
+   "end": 291.59,
+   "mood": "tension"
+  },
+  {
+   "start": 291.59,
+   "end": 313.67,
+   "mood": "inquietud"
+  },
+  {
+   "start": 313.67,
+   "end": 334.47,
+   "mood": "inquietud"
+  },
+  {
+   "start": 334.47,
+   "end": 352.39,
+   "mood": "tension"
+  },
+  {
+   "start": 352.39,
+   "end": 368.47,
+   "mood": "inquietud"
+  },
+  {
+   "start": 368.47,
+   "end": 384.87,
+   "mood": "tension"
+  },
+  {
+   "start": 384.87,
+   "end": 400.91,
+   "mood": "melancolia"
+  },
+  {
+   "start": 400.91,
+   "end": 423.27,
+   "mood": "melancolia"
+  },
+  {
+   "start": 423.27,
+   "end": 439.75,
+   "mood": "tension"
+  },
+  {
+   "start": 439.75,
+   "end": 457.03,
+   "mood": "inquietud"
+  },
+  {
+   "start": 457.03,
+   "end": 472.15,
+   "mood": "inquietud"
+  },
+  {
+   "start": 472.15,
+   "end": 488.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 488.71,
+   "end": 505.99,
+   "mood": "tension"
+  },
+  {
+   "start": 505.99,
+   "end": 524.23,
+   "mood": "tension"
+  },
+  {
+   "start": 524.23,
+   "end": 543.19,
+   "mood": "melancolia"
+  },
+  {
+   "start": 543.19,
+   "end": 564.39,
+   "mood": "melancolia"
+  },
+  {
+   "start": 564.39,
+   "end": 578.23,
+   "mood": "tension"
+  },
+  {
+   "start": 578.23,
+   "end": 600.71,
+   "mood": "melancolia"
+  },
+  {
+   "start": 600.71,
+   "end": 616.87,
+   "mood": "inquietud"
+  },
+  {
+   "start": 616.87,
+   "end": 634.31,
+   "mood": "tension"
+  },
+  {
+   "start": 634.31,
+   "end": 652.39,
+   "mood": "tension"
+  },
+  {
+   "start": 652.39,
+   "end": 669.19,
+   "mood": "inquietud"
+  },
+  {
+   "start": 669.19,
+   "end": 685.51,
+   "mood": "inquietud"
+  },
+  {
+   "start": 685.51,
+   "end": 700.47,
+   "mood": "inquietud"
+  },
+  {
+   "start": 700.47,
+   "end": 718.71,
+   "mood": "tension"
+  },
+  {
+   "start": 718.71,
+   "end": 735.59,
+   "mood": "melancolia"
+  },
+  {
+   "start": 735.59,
+   "end": 754.07,
+   "mood": "melancolia"
+  },
+  {
+   "start": 754.07,
+   "end": 771.51,
+   "mood": "inquietud"
+  },
+  {
+   "start": 771.51,
+   "end": 790.71,
+   "mood": "tension"
+  },
+  {
+   "start": 790.71,
+   "end": 811.59,
+   "mood": "tension"
+  },
+  {
+   "start": 811.59,
+   "end": 826.15,
+   "mood": "tension"
+  },
+  {
+   "start": 826.15,
+   "end": 845.59,
+   "mood": "melancolia"
+  },
+  {
+   "start": 845.59,
+   "end": 864.39,
+   "mood": "melancolia"
+  },
+  {
+   "start": 864.39,
+   "end": 877.35,
+   "mood": "inquietud"
+  },
+  {
+   "start": 877.35,
+   "end": 896.15,
+   "mood": "inquietud"
+  },
+  {
+   "start": 896.15,
+   "end": 913.19,
+   "mood": "melancolia"
+  },
+  {
+   "start": 913.19,
+   "end": 930.23,
+   "mood": "melancolia"
+  },
+  {
+   "start": 930.23,
+   "end": 948.71,
+   "mood": "melancolia"
+  },
+  {
+   "start": 948.71,
+   "end": 968.08,
+   "mood": "melancolia"
+  }
+ ],
+ "typing": [
+  {
+   "t": 0,
+   "text": "22 de junio de 1941",
+   "cps": 18
+  },
+  {
+   "t": 22.31,
+   "text": "Capítulo 8",
+   "cps": 18
+  },
+  {
+   "t": 38.56,
+   "text": "El mayor error de Hitler",
+   "cps": 18
+  },
+  {
+   "t": 53.32,
+   "text": "«Espaciovital»",
+   "cps": 18
+  },
+  {
+   "t": 70.04,
+   "text": "Guerra deexterminio",
+   "cps": 18
+  },
+  {
+   "t": 72.35,
+   "text": "Agosto de 1939",
+   "cps": 18
+  },
+  {
+   "t": 80.08,
+   "text": "El pacto",
+   "cps": 18
+  },
+  {
+   "t": 101.04,
+   "text": "18 de diciembre de 1940",
+   "cps": 18
+  },
+  {
+   "t": 102.92,
+   "text": "Directiva n.º 21",
+   "cps": 18
+  },
+  {
+   "t": 162.51,
+   "text": "Mayo de 1941",
+   "cps": 18
+  },
+  {
+   "t": 164.24,
+   "text": "El plan del hambre",
+   "cps": 18
+  },
+  {
+   "t": 182.99,
+   "text": "6 de junio de 1941",
+   "cps": 18
+  },
+  {
+   "t": 199.55,
+   "text": "Stalin fueavisado",
+   "cps": 18
+  },
+  {
+   "t": 217.39,
+   "text": "No quiso creerlo",
+   "cps": 18
+  },
+  {
+   "t": 291.79,
+   "text": "22 de junio · mediodía · Radio Moscú",
+   "cps": 18
+  },
+  {
+   "t": 313.87,
+   "text": "3 de julio de 1941",
+   "cps": 18
+  },
+  {
+   "t": 336.08,
+   "text": "Un desastre total",
+   "cps": 18
+  },
+  {
+   "t": 360,
+   "text": "Cientos de milesde caballos",
+   "cps": 18
+  },
+  {
+   "t": 368.84,
+   "text": "La fortalezade Brest",
+   "cps": 18
+  },
+  {
+   "t": 388.76,
+   "text": "Cientos de milesde prisioneros",
+   "cps": 18
+  },
+  {
+   "t": 423.47,
+   "text": "Julio de 1941",
+   "cps": 18
+  },
+  {
+   "t": 425.36,
+   "text": "Smolensk",
+   "cps": 18
+  },
+  {
+   "t": 457.63,
+   "text": "Más grande.Más resistente.",
+   "cps": 18
+  },
+  {
+   "t": 491.52,
+   "text": "Una decisiónpolémica",
+   "cps": 18
+  },
+  {
+   "t": 506.19,
+   "text": "Septiembre de 1941",
+   "cps": 18
+  },
+  {
+   "t": 510.48,
+   "text": "Kiev",
+   "cps": 18
+  },
+  {
+   "t": 524.43,
+   "text": "29-30 de septiembre de 1941",
+   "cps": 18
+  },
+  {
+   "t": 528.24,
+   "text": "Babi Yar",
+   "cps": 18
+  },
+  {
+   "t": 545.92,
+   "text": "Einsatzgruppen",
+   "cps": 18
+  },
+  {
+   "t": 564.59,
+   "text": "8 de septiembre de 1941",
+   "cps": 18
+  },
+  {
+   "t": 569.6,
+   "text": "Leningrado",
+   "cps": 18
+  },
+  {
+   "t": 604.56,
+   "text": "División Azul",
+   "cps": 18
+  },
+  {
+   "t": 617.07,
+   "text": "2 de octubre de 1941",
+   "cps": 18
+  },
+  {
+   "t": 622.6,
+   "text": "Operación Tifón",
+   "cps": 18
+  },
+  {
+   "t": 635.44,
+   "text": "Pánicoen Moscú",
+   "cps": 18
+  },
+  {
+   "t": 656.32,
+   "text": "Rasputitsa",
+   "cps": 18
+  },
+  {
+   "t": 680,
+   "text": "La guerra rápidahabía fracasado",
+   "cps": 18
+  },
+  {
+   "t": 685.71,
+   "text": "7 de noviembre de 1941",
+   "cps": 18
+  },
+  {
+   "t": 690.96,
+   "text": "Desfile enla Plaza Roja",
+   "cps": 18
+  },
+  {
+   "t": 737.68,
+   "text": "Congelaciones",
+   "cps": 18
+  },
+  {
+   "t": 754.67,
+   "text": "Un asen la manga",
+   "cps": 18
+  },
+  {
+   "t": 771.71,
+   "text": "5 de diciembre de 1941",
+   "cps": 18
+  },
+  {
+   "t": 780.16,
+   "text": "La contra-ofensiva",
+   "cps": 18
+  },
+  {
+   "t": 816.56,
+   "text": "Hitler tomael mando",
+   "cps": 18
+  },
+  {
+   "t": 847.44,
+   "text": "Pérdidas soviéticas:millones",
+   "cps": 18
+  },
+  {
+   "t": 867.84,
+   "text": "1 · El frente que le destruyó",
+   "cps": 18
+  },
+  {
+   "t": 877.6,
+   "text": "2 · Su proveedor, su enemigo",
+   "cps": 18
+  },
+  {
+   "t": 883.04,
+   "text": "3 · Una guerra imposible",
+   "cps": 18
+  },
+  {
+   "t": 896.75,
+   "text": "La consecuenciamás terrible",
+   "cps": 18
+  },
+  {
+   "t": 926,
+   "text": "La misma historia",
+   "cps": 18
+  },
+  {
+   "t": 948.91,
+   "text": "Próximo capítulo",
+   "cps": 18
+  },
+  {
+   "t": 949.949,
+   "text": "Stalingrado",
+   "cps": 18
+  }
+ ],
+ "hits": [
+  186.64,
+  820.56
+ ]
+}
