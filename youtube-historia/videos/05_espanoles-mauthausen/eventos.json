@@ -1,0 +1,665 @@
+{
+ "total": 972.7999999999998,
+ "scenes": [
+  {
+   "start": 0,
+   "end": 22.71,
+   "mood": "tension"
+  },
+  {
+   "start": 22.71,
+   "end": 29.83,
+   "mood": "melancolia"
+  },
+  {
+   "start": 29.83,
+   "end": 44.31,
+   "mood": "inquietud"
+  },
+  {
+   "start": 44.31,
+   "end": 61.11,
+   "mood": "tension"
+  },
+  {
+   "start": 61.11,
+   "end": 79.11,
+   "mood": "tension"
+  },
+  {
+   "start": 79.11,
+   "end": 94.23,
+   "mood": "melancolia"
+  },
+  {
+   "start": 94.23,
+   "end": 112.47,
+   "mood": "melancolia"
+  },
+  {
+   "start": 112.47,
+   "end": 127.19,
+   "mood": "inquietud"
+  },
+  {
+   "start": 127.19,
+   "end": 142.95,
+   "mood": "inquietud"
+  },
+  {
+   "start": 142.95,
+   "end": 155.43,
+   "mood": "inquietud"
+  },
+  {
+   "start": 155.43,
+   "end": 168.63,
+   "mood": "tension"
+  },
+  {
+   "start": 168.63,
+   "end": 181.27,
+   "mood": "tension"
+  },
+  {
+   "start": 181.27,
+   "end": 193.99,
+   "mood": "inquietud"
+  },
+  {
+   "start": 193.99,
+   "end": 207.67,
+   "mood": "tension"
+  },
+  {
+   "start": 207.67,
+   "end": 218.39,
+   "mood": "tension"
+  },
+  {
+   "start": 218.39,
+   "end": 235.83,
+   "mood": "tension"
+  },
+  {
+   "start": 235.83,
+   "end": 250.47,
+   "mood": "tension"
+  },
+  {
+   "start": 250.47,
+   "end": 265.91,
+   "mood": "melancolia"
+  },
+  {
+   "start": 265.91,
+   "end": 282.55,
+   "mood": "melancolia"
+  },
+  {
+   "start": 282.55,
+   "end": 297.35,
+   "mood": "inquietud"
+  },
+  {
+   "start": 297.35,
+   "end": 312.79,
+   "mood": "inquietud"
+  },
+  {
+   "start": 312.79,
+   "end": 326.47,
+   "mood": "inquietud"
+  },
+  {
+   "start": 326.47,
+   "end": 341.59,
+   "mood": "inquietud"
+  },
+  {
+   "start": 341.59,
+   "end": 350.79,
+   "mood": "melancolia"
+  },
+  {
+   "start": 350.79,
+   "end": 364.23,
+   "mood": "inquietud"
+  },
+  {
+   "start": 364.23,
+   "end": 378.71,
+   "mood": "tension"
+  },
+  {
+   "start": 378.71,
+   "end": 394.63,
+   "mood": "tension"
+  },
+  {
+   "start": 394.63,
+   "end": 404.47,
+   "mood": "tension"
+  },
+  {
+   "start": 404.47,
+   "end": 424.07,
+   "mood": "tension"
+  },
+  {
+   "start": 424.07,
+   "end": 433.27,
+   "mood": "melancolia"
+  },
+  {
+   "start": 433.27,
+   "end": 450.23,
+   "mood": "tension"
+  },
+  {
+   "start": 450.23,
+   "end": 463.75,
+   "mood": "inquietud"
+  },
+  {
+   "start": 463.75,
+   "end": 479.51,
+   "mood": "tension"
+  },
+  {
+   "start": 479.51,
+   "end": 494.31,
+   "mood": "tension"
+  },
+  {
+   "start": 494.31,
+   "end": 511.43,
+   "mood": "tension"
+  },
+  {
+   "start": 511.43,
+   "end": 521.03,
+   "mood": "inquietud"
+  },
+  {
+   "start": 521.03,
+   "end": 534.79,
+   "mood": "tension"
+  },
+  {
+   "start": 534.79,
+   "end": 553.91,
+   "mood": "melancolia"
+  },
+  {
+   "start": 553.91,
+   "end": 569.27,
+   "mood": "tension"
+  },
+  {
+   "start": 569.27,
+   "end": 580.07,
+   "mood": "melancolia"
+  },
+  {
+   "start": 580.07,
+   "end": 593.19,
+   "mood": "inquietud"
+  },
+  {
+   "start": 593.19,
+   "end": 606.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 606.71,
+   "end": 621.67,
+   "mood": "inquietud"
+  },
+  {
+   "start": 621.67,
+   "end": 635.75,
+   "mood": "inquietud"
+  },
+  {
+   "start": 635.75,
+   "end": 649.59,
+   "mood": "inquietud"
+  },
+  {
+   "start": 649.59,
+   "end": 664.07,
+   "mood": "tension"
+  },
+  {
+   "start": 664.07,
+   "end": 680.95,
+   "mood": "tension"
+  },
+  {
+   "start": 680.95,
+   "end": 692.95,
+   "mood": "melancolia"
+  },
+  {
+   "start": 692.95,
+   "end": 708.15,
+   "mood": "tension"
+  },
+  {
+   "start": 708.15,
+   "end": 723.11,
+   "mood": "tension"
+  },
+  {
+   "start": 723.11,
+   "end": 736.39,
+   "mood": "melancolia"
+  },
+  {
+   "start": 736.39,
+   "end": 746.95,
+   "mood": "melancolia"
+  },
+  {
+   "start": 746.95,
+   "end": 757.91,
+   "mood": "melancolia"
+  },
+  {
+   "start": 757.91,
+   "end": 777.27,
+   "mood": "tension"
+  },
+  {
+   "start": 777.27,
+   "end": 789.67,
+   "mood": "tension"
+  },
+  {
+   "start": 789.67,
+   "end": 802.87,
+   "mood": "tension"
+  },
+  {
+   "start": 802.87,
+   "end": 815.35,
+   "mood": "melancolia"
+  },
+  {
+   "start": 815.35,
+   "end": 831.19,
+   "mood": "tension"
+  },
+  {
+   "start": 831.19,
+   "end": 847.35,
+   "mood": "melancolia"
+  },
+  {
+   "start": 847.35,
+   "end": 856.71,
+   "mood": "melancolia"
+  },
+  {
+   "start": 856.71,
+   "end": 868.15,
+   "mood": "melancolia"
+  },
+  {
+   "start": 868.15,
+   "end": 882.23,
+   "mood": "melancolia"
+  },
+  {
+   "start": 882.23,
+   "end": 897.59,
+   "mood": "melancolia"
+  },
+  {
+   "start": 897.59,
+   "end": 908.87,
+   "mood": "melancolia"
+  },
+  {
+   "start": 908.87,
+   "end": 923.03,
+   "mood": "melancolia"
+  },
+  {
+   "start": 923.03,
+   "end": 934.55,
+   "mood": "melancolia"
+  },
+  {
+   "start": 934.55,
+   "end": 949.03,
+   "mood": "melancolia"
+  },
+  {
+   "start": 949.03,
+   "end": 972.8,
+   "mood": "melancolia"
+  }
+ ],
+ "typing": [
+  {
+   "t": 0,
+   "text": "Mauthausen · 1940-1945",
+   "cps": 18
+  },
+  {
+   "t": 23.11,
+   "text": "Capítulo 5",
+   "cps": 18
+  },
+  {
+   "t": 28.24,
+   "text": "Los olvidados",
+   "cps": 18
+  },
+  {
+   "t": 30.03,
+   "text": "Enero de 1939",
+   "cps": 18
+  },
+  {
+   "t": 41.52,
+   "text": "CaeBarcelona",
+   "cps": 18
+  },
+  {
+   "t": 46.48,
+   "text": "La Retirada",
+   "cps": 18
+  },
+  {
+   "t": 61.31,
+   "text": "Febrero de 1939 · Argelès-sur-Mer",
+   "cps": 18
+  },
+  {
+   "t": 68.92,
+   "text": "Campos en la playa",
+   "cps": 18
+  },
+  {
+   "t": 79.71,
+   "text": "Agujerosen la arena",
+   "cps": 18
+  },
+  {
+   "t": 105.92,
+   "text": "Collioure · 22 de febrero de 1939",
+   "cps": 18
+  },
+  {
+   "t": 112.67,
+   "text": "1 de abril de 1939",
+   "cps": 18
+  },
+  {
+   "t": 116.16,
+   "text": "Fin de laGuerra Civil",
+   "cps": 18
+  },
+  {
+   "t": 127.39,
+   "text": "Las opciones",
+   "cps": 18
+  },
+  {
+   "t": 143.55,
+   "text": "LegiónExtranjera",
+   "cps": 18
+  },
+  {
+   "t": 155.63,
+   "text": "Mayo-junio de 1940",
+   "cps": 18
+  },
+  {
+   "t": 164.32,
+   "text": "Franciase derrumba",
+   "cps": 18
+  },
+  {
+   "t": 171.92,
+   "text": "Prisionerosde guerra",
+   "cps": 18
+  },
+  {
+   "t": 192.64,
+   "text": "Nadielos quería",
+   "cps": 18
+  },
+  {
+   "t": 194.19,
+   "text": "Verano de 1940",
+   "cps": 18
+  },
+  {
+   "t": 207.87,
+   "text": "6 de agosto de 1940",
+   "cps": 18
+  },
+  {
+   "t": 211.92,
+   "text": "Los primeros",
+   "cps": 18
+  },
+  {
+   "t": 218.59,
+   "text": "20 de agosto de 1940 · Angulema",
+   "cps": 18
+  },
+  {
+   "t": 249.2,
+   "text": "Mauthausen",
+   "cps": 18
+  },
+  {
+   "t": 251.07,
+   "text": "Bajan los hombres",
+   "cps": 18
+  },
+  {
+   "t": 285.12,
+   "text": "Nadapor ellos",
+   "cps": 18
+  },
+  {
+   "t": 297.55,
+   "text": "Septiembre de 1940 · Berlín",
+   "cps": 18
+  },
+  {
+   "t": 326.67,
+   "text": "Octubre de 1940",
+   "cps": 18
+  },
+  {
+   "t": 333.48,
+   "text": "Himmleren España",
+   "cps": 18
+  },
+  {
+   "t": 346.8,
+   "text": "Mientras tanto, en Mauthausen…",
+   "cps": 18
+  },
+  {
+   "t": 350.99,
+   "text": "Agosto de 1938 · Junto a Linz",
+   "cps": 18
+  },
+  {
+   "t": 363.2,
+   "text": "Por elgranito",
+   "cps": 18
+  },
+  {
+   "t": 367.36,
+   "text": "WienerGraben",
+   "cps": 18
+  },
+  {
+   "t": 378.91,
+   "text": "Enero de 1941",
+   "cps": 18
+  },
+  {
+   "t": 424.67,
+   "text": "Azul:apátridas",
+   "cps": 18
+  },
+  {
+   "t": 435.56,
+   "text": "El recuento",
+   "cps": 18
+  },
+  {
+   "t": 455.08,
+   "text": "Ellos lolevantaron",
+   "cps": 18
+  },
+  {
+   "t": 466.32,
+   "text": "Una muertelenta",
+   "cps": 18
+  },
+  {
+   "t": 496.32,
+   "text": "La escalerade la muerte",
+   "cps": 18
+  },
+  {
+   "t": 519.44,
+   "text": "Como quien inspecciona una fábrica",
+   "cps": 18
+  },
+  {
+   "t": 569.87,
+   "text": "Unos meses",
+   "cps": 18
+  },
+  {
+   "t": 592,
+   "text": "Seorganizaron",
+   "cps": 18
+  },
+  {
+   "t": 631.8,
+   "text": "Enero de 1941 · 20 años",
+   "cps": 18
+  },
+  {
+   "t": 638.4,
+   "text": "El laboratoriode las SS",
+   "cps": 18
+  },
+  {
+   "t": 681.75,
+   "text": "Las imágenes que las SS querían ocultar",
+   "cps": 18
+  },
+  {
+   "t": 693.15,
+   "text": "Abril-mayo de 1945",
+   "cps": 18
+  },
+  {
+   "t": 696.08,
+   "text": "El Reichse hunde",
+   "cps": 18
+  },
+  {
+   "t": 708.75,
+   "text": "Marchasdesde el este",
+   "cps": 18
+  },
+  {
+   "t": 723.31,
+   "text": "5 de mayo de 1945",
+   "cps": 18
+  },
+  {
+   "t": 728.4,
+   "text": "Libres",
+   "cps": 18
+  },
+  {
+   "t": 747.55,
+   "text": "Ahora era élquien documentaba",
+   "cps": 18
+  },
+  {
+   "t": 777.47,
+   "text": "Enero de 1946 · Núremberg",
+   "cps": 18
+  },
+  {
+   "t": 786.8,
+   "text": "El únicoespañol",
+   "cps": 18
+  },
+  {
+   "t": 790.27,
+   "text": "Las fotos,en la sala",
+   "cps": 18
+  },
+  {
+   "t": 815.55,
+   "text": "1946 · Dachau",
+   "cps": 18
+  },
+  {
+   "t": 819.84,
+   "text": "El juicio deMauthausen",
+   "cps": 18
+  },
+  {
+   "t": 837.12,
+   "text": "No podíanvolver",
+   "cps": 18
+  },
+  {
+   "t": 849.52,
+   "text": "Barcelona, 1920 · París, 1951",
+   "cps": 18
+  },
+  {
+   "t": 857.31,
+   "text": "Décadasde silencio",
+   "cps": 18
+  },
+  {
+   "t": 868.75,
+   "text": "Ellos guardaronla memoria",
+   "cps": 18
+  },
+  {
+   "t": 882.43,
+   "text": "9 de agosto de 2019 · BOE",
+   "cps": 18
+  },
+  {
+   "t": 914.8,
+   "text": "Mayo de 2025 · 80 años de la liberación",
+   "cps": 18
+  },
+  {
+   "t": 949.23,
+   "text": "Próximo capítulo",
+   "cps": 18
+  },
+  {
+   "t": 950.269,
+   "text": "1 de septiembre de 1939",
+   "cps": 18
+  }
+ ],
+ "hits": [
+  278.08
+ ]
+}

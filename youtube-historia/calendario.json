@@ -49,16 +49,19 @@
    "hora": "16:00",
    "episodio": 5,
    "tema": "Los españoles de Mauthausen",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "carpeta": "05_espanoles-mauthausen",
+   "duracion": "16:13"
   },
   {
    "fecha": "2026-12-17",
    "hora": "16:00",
    "episodio": 6,
    "tema": "1 de septiembre de 1939: el día que empezó la guerra",
-   "estado": "hecho",
+   "estado": "programado",
    "carpeta": "06_1-septiembre-1939",
-   "duracion": "15:56"
+   "duracion": "15:56",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-709990893383235455"
   },
   {
    "fecha": "2026-12-22",

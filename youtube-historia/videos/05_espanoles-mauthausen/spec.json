@@ -1,0 +1,530 @@
+{
+ "title": "Los españoles de Mauthausen",
+ "brand": "Sombras del 39",
+ "voice": "hyKxCTlAqtnW188CgltM",
+ "model": "eleven_v4",
+ "voice_settings": {
+  "stability": 0.5,
+  "similarity_boost": 0.75
+ },
+ "tail": 4,
+ "scenes": [
+  {
+   "say": "En un campo de concentración nazi de Austria, entre 1940 y 1945, murieron más de 4.400 españoles. No eran judíos. No eran soldados alemanes. Eran republicanos que habían perdido una guerra en su país y que, al cruzar la frontera, creyeron que lo peor había pasado. Se equivocaban.",
+   "mood": "tension",
+   "img": "img/escalera.jpg",
+   "kb": "up",
+   "fy": 0.4,
+   "shade": true,
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0\">Mauthausen · 1940-1945</div><div class=\"big red in\" data-cue=\"mas de 4.400\" style=\"margin-top:30px\">+4.400</div><div class=\"h3 in\" data-cue=\"mas de 4.400\" data-d=\"0.3\">españoles muertos</div><div class=\"h2 amber in\" data-cue=\"eran republicanos\" style=\"margin-top:40px\">Republicanos españoles</div></div>"
+  },
+  {
+   "say": "Esta es la historia de los españoles de Mauthausen. Los hombres a los que su propio país dio por perdidos.",
+   "mood": "melancolia",
+   "img": "img/cantera3.jpg",
+   "kb": "in",
+   "shade": true,
+   "html": "<div class=\"ov center\"><div class=\"tag in\" data-t=\"0.4\">Capítulo 5</div><div class=\"h1 in\" data-t=\"0.6\">Los españoles<br>de Mauthausen</div><div class=\"date in\" data-cue=\"dio por perdidos\" style=\"margin-top:30px\">Los olvidados</div></div>"
+  },
+  {
+   "say": "Para entender cómo llegaron allí, hay que volver a enero de 1939. La Guerra Civil española está a punto de terminar. Las tropas de Franco avanzan sobre Cataluña y Barcelona cae el 26 de enero.",
+   "mood": "inquietud",
+   "img": "img/retirada3.jpg",
+   "kb": "right",
+   "cap": "Guerra Civil española: tropas a caballo entran en una ciudad",
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">Enero de 1939</div><div class=\"h2 in tw\" data-cue=\"barcelona cae\">Cae<br>Barcelona</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Lo que viene después es una de las mayores huidas de la historia de Europa. En pocas semanas, cerca de medio millón de personas cruzan los Pirineos hacia Francia. Soldados, mujeres, niños, ancianos. A pie, en pleno invierno.",
+   "mood": "tension",
+   "img": "img/retirada.jpg",
+   "kb": "in",
+   "cap": "1939: refugiados españoles en la frontera con Francia",
+   "html": "<div class=\"ov right\"><div class=\"h1 in tw\" data-cue=\"mayores huidas\">La Retirada</div><div class=\"big in\" data-cue=\"medio millon\" style=\"font-size:120px;margin-top:20px\">≈ 500.000</div><div class=\"h3 in\" data-cue=\"medio millon\" data-d=\"0.3\">personas cruzan a Francia</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Francia no estaba preparada, o no quiso estarlo. A muchos de los que llegan los encierran en campos improvisados en la playa, como el de Argelès-sur-Mer: arena, alambradas y el viento del mar. Sin barracones, sin agua potable, casi sin comida.",
+   "mood": "tension",
+   "bg": "img/retirada.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Febrero de 1939 · Argelès-sur-Mer</div><div class=\"h2 in tw\" data-cue=\"en la playa\">Campos en la playa</div><div class=\"row\" style=\"margin-top:40px;gap:50px\"><div class=\"h3 dim in\" data-cue=\"arena\">Arena</div><div class=\"h3 dim in\" data-cue=\"alambradas\">Alambradas</div><div class=\"h3 red in\" data-cue=\"casi sin comida\">Casi sin comida</div></div></div>"
+  },
+  {
+   "say": "Los refugiados duermen en agujeros cavados en la arena. Las enfermedades se extienden. En los primeros meses mueren miles de personas. Para muchos de ellos, aquel fue el primer campo. No sería el último.",
+   "mood": "melancolia",
+   "bg": "img/retirada2.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"agujeros cavados\">Agujeros<br>en la arena</div><div class=\"q in\" data-cue=\"no seria el ultimo\" style=\"margin-top:50px\">El primer campo. No sería el último.</div></div>"
+  },
+  {
+   "say": "Entre los que cruzaron la frontera aquel invierno iba el poeta Antonio Machado, enfermo, con su madre anciana. Llegaron al pueblo costero de Collioure. Machado murió allí el 22 de febrero de 1939, menos de un mes después de salir de España.",
+   "mood": "melancolia",
+   "bg": "img/retirada.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-cue=\"antonio machado\">Antonio Machado</div><div class=\"date in\" data-cue=\"22 de febrero\" style=\"margin-top:30px\">Collioure · 22 de febrero de 1939</div></div>"
+  },
+  {
+   "say": "El 1 de abril de 1939, Franco da la guerra por terminada. Para los republicanos que están en Francia, volver es arriesgarse a la cárcel o al pelotón de fusilamiento. Así que la mayoría se queda.",
+   "mood": "inquietud",
+   "bg": "img/retirada3.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">1 de abril de 1939</div><div class=\"h2 in tw\" data-cue=\"da la guerra por terminada\">Fin de la<br>Guerra Civil</div><div class=\"h3 red in\" data-cue=\"la carcel\" style=\"margin-top:40px\">Volver: cárcel o pelotón</div></div>"
+  },
+  {
+   "say": "Francia les da pocas opciones: volver a España, emigrar si alguien los acoge, o trabajar para el Estado francés. Decenas de miles acaban en las compañías de trabajadores extranjeros, levantando fortificaciones cerca de la frontera alemana.",
+   "mood": "inquietud",
+   "bg": "img/junio1940.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\" style=\"margin-bottom:30px\">Las opciones</div><div class=\"h3 in\" data-cue=\"volver a espana\" style=\"margin:10px 0\">Volver a la España de Franco</div><div class=\"h3 in\" data-cue=\"emigrar\" style=\"margin:10px 0\">Emigrar, si alguien los acoge</div><div class=\"h3 in\" data-cue=\"companias de trabajadores\" style=\"margin:10px 0\"><span class=\"amber\">Compañías de trabajadores extranjeros</span></div><div class=\"h3 in\" data-cue=\"fortificaciones\" style=\"margin:10px 0\">Fortificaciones junto a Alemania</div></div>"
+  },
+  {
+   "say": "Otros se alistan en la Legión Extranjera o en los regimientos de voluntarios. Han perdido una guerra contra el fascismo en España. Ahora están dispuestos a luchar contra él en Francia.",
+   "mood": "inquietud",
+   "bg": "img/retirada2.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"legion extranjera\">Legión<br>Extranjera</div><div class=\"h3 amber in\" data-cue=\"dispuestos a luchar\" style=\"margin-top:40px\">Otra vez contra el fascismo</div></div>"
+  },
+  {
+   "say": "Y la guerra llega. En mayo de 1940, Alemania ataca Francia. En apenas seis semanas, el ejército francés se derrumba. El 22 de junio, Francia firma el armisticio.",
+   "mood": "tension",
+   "img": "img/prisioneros_fr2.jpg",
+   "kb": "in",
+   "cap": "Francia, 1940: un gendarme alemán controla a soldados prisioneros",
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">Mayo-junio de 1940</div><div class=\"h2 in tw\" data-cue=\"se derrumba\">Francia<br>se derrumba</div><div class=\"h3 dim in\" data-cue=\"22 de junio\" style=\"margin-top:30px\">22 de junio: armisticio</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Miles de españoles de las compañías de trabajadores caen prisioneros junto a los soldados franceses. Los alemanes los meten en columnas interminables y los llevan a campos de prisioneros de guerra, los Stalag.",
+   "mood": "tension",
+   "img": "img/prisioneros_fr.jpg",
+   "kb": "right",
+   "cap": "Norte de Francia, 1940: columna de prisioneros",
+   "html": "<div class=\"ov right\"><div class=\"h2 in tw\" data-cue=\"caen prisioneros\">Prisioneros<br>de guerra</div><div class=\"h3 dim in\" data-cue=\"los stalag\" style=\"margin-top:30px\">Destino: los Stalag</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Un prisionero de guerra tiene derechos. La Convención de Ginebra lo protege. Pero estos prisioneros eran distintos. No eran franceses. Y el país del que venían no los quería.",
+   "mood": "inquietud",
+   "img": "img/junio1940.jpg",
+   "kb": "in",
+   "cap": "Junio de 1940: soldados prisioneros descansan",
+   "html": "<div class=\"ov left low\"><div class=\"h2 in tw\" data-cue=\"no los queria\">Nadie<br>los quería</div></div>",
+   "shade": true
+  },
+  {
+   "say": "En el verano de 1940, la Gestapo empieza a buscar a los españoles en los Stalag. Los separan del resto. Los franceses se quedan en el campo de prisioneros. Los españoles suben a los trenes.",
+   "mood": "tension",
+   "bg": "img/prisioneros_fr.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Verano de 1940</div><div class=\"row\" style=\"margin-top:40px;gap:70px\"><div class=\"box in\" data-cue=\"los franceses\"><div class=\"lab\">Franceses</div><div class=\"val\" style=\"font-size:56px\">Stalag</div></div><div class=\"box in\" data-cue=\"los espanoles suben\" style=\"border-color:var(--red)\"><div class=\"lab\">Españoles</div><div class=\"val red\" style=\"font-size:56px\">Trenes</div></div></div></div>"
+  },
+  {
+   "say": "El 6 de agosto de 1940 llega a Mauthausen el primer gran grupo: casi cuatrocientos republicanos españoles. Son los primeros de miles.",
+   "mood": "tension",
+   "bg": "img/llegada.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">6 de agosto de 1940</div><div class=\"h1 in tw\" data-cue=\"primer gran grupo\">Los primeros</div><div class=\"h3 in\" data-cue=\"casi cuatrocientos\" style=\"margin-top:30px\">Casi 400 republicanos</div></div>"
+  },
+  {
+   "say": "Pocos días después ocurre algo todavía más extraño. El 20 de agosto sale de Angulema, en el oeste de Francia, un tren con 927 refugiados españoles. Esta vez no son soldados: son familias enteras, con mujeres y niños.",
+   "mood": "tension",
+   "bg": "img/retirada.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">20 de agosto de 1940 · Angulema</div><div class=\"big in\" data-cue=\"927\">927</div><div class=\"h3 in\" data-cue=\"familias enteras\" style=\"margin-top:20px\">Familias enteras: hombres, mujeres y niños</div></div>"
+  },
+  {
+   "say": "Les dicen que los llevan a otro lugar de Francia, o quizá a España. Viajan cuatro días encerrados en vagones de ganado. El 24 de agosto, el tren se detiene en una pequeña estación de Austria. Mauthausen.",
+   "mood": "tension",
+   "img": "img/llegada_gusen.jpg",
+   "kb": "in",
+   "cap": "Llegada de nuevos presos al campo (foto de las SS)",
+   "html": "<div class=\"ov right\"><div class=\"h3 dim in\" data-t=\"0.3\">Cuatro días en vagones de ganado</div><div class=\"h1 in tw\" data-cue=\"mauthausen\">Mauthausen</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Allí las SS hacen bajar a todos los hombres y a los chicos de más de trece años. Más de cuatrocientos. Los niños más pequeños y las mujeres ven por la ventanilla cómo se llevan a sus padres, a sus maridos, a sus hijos.",
+   "mood": "melancolia",
+   "bg": "img/llegada_gusen.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"todos los hombres\">Bajan los hombres</div><div class=\"h3 in\" data-cue=\"mas de trece anos\" style=\"margin-top:20px\">Y los chicos de más de 13 años</div><div class=\"h3 red in\" data-cue=\"por la ventanilla\" style=\"margin-top:40px\">Las familias, separadas en el andén</div></div>"
+  },
+  {
+   "say": "El tren sigue su viaje con las mujeres y los niños. Su destino final es la frontera española: los entregan a la España de Franco. El convoy de los 927 fue el primer tren de civiles deportados desde Europa occidental a un campo nazi.",
+   "mood": "melancolia",
+   "bg": "img/retirada3.jpg",
+   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"la espana de franco\">Mujeres y niños: devueltos a la España de Franco</div><div class=\"stamp in\" data-cue=\"primer tren de civiles\" style=\"margin-top:50px\">Primer convoy de civiles</div></div>"
+  },
+  {
+   "say": "¿Y qué hizo el Gobierno de Franco? Nada por ellos. Para el régimen, aquellos hombres eran rojos, enemigos derrotados. No los reclamó. En la práctica, quedaron como apátridas: hombres sin país.",
+   "mood": "inquietud",
+   "img": "img/serrano1.jpg",
+   "kb": "in",
+   "cap": "Berlín, 1940: el ministro Ramón Serrano Suñer (centro) con jerarcas nazis",
+   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"nada por ellos\">Nada<br>por ellos</div><div class=\"h3 amber in\" data-cue=\"sin pais\" style=\"margin-top:30px\">Hombres sin país</div></div>",
+   "shade": true
+  },
+  {
+   "say": "En septiembre de 1940, el cuñado de Franco y ministro, Ramón Serrano Suñer, viaja a Berlín para negociar la entrada de España en la guerra. Muchos republicanos lo acusaron después de haber sellado allí el destino de los deportados.",
+   "mood": "inquietud",
+   "bg": "img/serrano1.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Septiembre de 1940 · Berlín</div><div class=\"h1 in\" data-cue=\"ramon serrano suner\">Serrano Suñer</div><div class=\"h3 dim in\" data-cue=\"la entrada de espana\" style=\"margin-top:20px\">Negocia la entrada de España en la guerra</div></div>"
+  },
+  {
+   "say": "Los historiadores no han encontrado una orden escrita de Madrid. Pero sí está documentado que la policía franquista colaboraba con la alemana, y que el régimen nunca movió un dedo para sacar a esos españoles de los campos.",
+   "mood": "inquietud",
+   "bg": "img/hendaya.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-cue=\"una orden escrita\">Sin orden escrita conocida</div><div class=\"h3 in\" data-cue=\"colaboraba\" style=\"margin-top:20px\">Colaboración policial con Alemania</div><div class=\"h2 red in\" data-cue=\"nunca movio un dedo\" style=\"margin-top:40px\">Ni un dedo por ellos</div></div>"
+  },
+  {
+   "say": "En octubre de 1940, Hitler y Franco se reúnen en Hendaya. Y esos mismos días, Heinrich Himmler, el jefe de las SS y de todos los campos de concentración, visita España. Franco lo recibe en Madrid.",
+   "mood": "inquietud",
+   "img": "img/franco_himmler.jpg",
+   "kb": "in",
+   "fy": 0.35,
+   "cap": "España, octubre de 1940: Himmler (en el centro) con Franco y Serrano Suñer",
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">Octubre de 1940</div><div class=\"h2 in tw\" data-cue=\"himmler\">Himmler<br>en España</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Mientras en Madrid se recibía con honores al jefe de las SS, miles de españoles picaban piedra en una cantera de Austria para esas mismas SS.",
+   "mood": "melancolia",
+   "img": "img/himmler_mauth.jpg",
+   "kb": "left",
+   "cap": "Himmler en una visita al campo de Mauthausen (foto de las SS)",
+   "html": "<div class=\"ov right low\"><div class=\"h3 in tw\" data-cue=\"picaban piedra\">Mientras tanto, en Mauthausen…</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Mauthausen estaba junto al Danubio, cerca de la ciudad austriaca de Linz. Las SS lo abrieron en 1938, justo después de anexionarse Austria. ¿Por qué allí? Por el granito.",
+   "mood": "inquietud",
+   "img": "img/ss_muro.jpg",
+   "kb": "in",
+   "cap": "Guardias de las SS sobre el muro del campo de Mauthausen",
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">Agosto de 1938 · Junto a Linz</div><div class=\"h2 in tw\" data-cue=\"por el granito\">Por el<br>granito</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Junto al campo había una enorme cantera, el Wiener Graben. Una empresa de las propias SS vendía su piedra para las grandes obras del Reich. Los presos eran la mano de obra. Gratis, y reemplazable.",
+   "mood": "tension",
+   "img": "img/cantera3.jpg",
+   "kb": "in",
+   "cap": "La cantera Wiener Graben, junto al campo de Mauthausen (foto de las SS, 1941-1942)",
+   "html": "<div class=\"ov right\"><div class=\"h2 in tw\" data-cue=\"wiener graben\">Wiener<br>Graben</div><div class=\"h3 red in\" data-cue=\"y reemplazable\" style=\"margin-top:30px\">Mano de obra gratis y reemplazable</div></div>",
+   "shade": true
+  },
+  {
+   "say": "En enero de 1941, los nazis clasificaron sus campos por niveles de dureza. Mauthausen, con su campo vecino de Gusen, fue el único que recibió el nivel tres, el más duro. Era el campo para los que no debían volver.",
+   "mood": "tension",
+   "bg": "img/cantera1.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Enero de 1941</div><div class=\"row\" style=\"gap:50px;margin-top:30px\"><div class=\"box in\" data-cue=\"clasificaron\"><div class=\"lab\">Nivel I</div><div class=\"val dim\" style=\"font-size:60px\">Dachau…</div></div><div class=\"box in\" data-cue=\"niveles de dureza\"><div class=\"lab\">Nivel II</div><div class=\"val dim\" style=\"font-size:60px\">Buchenwald…</div></div><div class=\"box in\" data-cue=\"nivel tres\" style=\"border-color:var(--red)\"><div class=\"lab\">Nivel III</div><div class=\"val red\" style=\"font-size:60px\">Mauthausen</div></div></div><div class=\"q in\" data-cue=\"no debian volver\" style=\"margin-top:50px\">El campo para no volver</div></div>"
+  },
+  {
+   "say": "Por el complejo de Mauthausen pasaron unas 190.000 personas de toda Europa. Al menos 90.000 murieron allí. Casi la mitad.",
+   "mood": "tension",
+   "bg": "img/appellplatz.jpg",
+   "html": "<div class=\"ov center\"><div class=\"row\" style=\"gap:80px\"><div><div class=\"big in\" data-cue=\"190.000\"><span data-count=\"190000\">0</span></div><div class=\"h3 in\" data-cue=\"190.000\" data-d=\"0.3\">presos</div></div><div><div class=\"big red in\" data-cue=\"al menos 90.000\">90.000+</div><div class=\"h3 in\" data-cue=\"al menos 90.000\" data-d=\"0.3\">muertos</div></div></div><div class=\"h3 dim in\" data-cue=\"casi la mitad\" style=\"margin-top:40px\">Fuente: Memorial de Mauthausen</div></div>"
+  },
+  {
+   "say": "Al llegar, a los españoles les quitaban todo. La ropa, los papeles, el nombre. Les rapaban la cabeza y les daban un número. Y en el uniforme, un triángulo azul con una letra S. Spanier. Rotspanier, españoles rojos, como los llamaban las SS.",
+   "mood": "tension",
+   "img": "img/llegada.jpg",
+   "kb": "in",
+   "cap": "Mauthausen: nuevos presos ante el muro del campo (foto de las SS)",
+   "html": "<div class=\"ov right\"><div class=\"h3 dim in\" data-cue=\"un numero\">Un número en vez de un nombre</div><div class=\"in\" data-cue=\"triangulo azul\" style=\"margin-top:30px;width:0;height:0;border-left:110px solid transparent;border-right:110px solid transparent;border-top:190px solid #2f5d9a;position:relative\"><div style=\"position:absolute;top:-170px;left:-30px;font-family:PF;font-weight:700;font-size:90px;color:#ebe3cf\">S</div></div><div class=\"h2 in\" data-cue=\"rotspanier\" style=\"margin-top:30px\">«Rotspanier»</div></div>",
+   "shade": true
+  },
+  {
+   "say": "El triángulo azul se usaba para los apátridas. Era el reconocimiento oficial de lo que ya eran: hombres que no le importaban a nadie.",
+   "mood": "melancolia",
+   "bg": "img/llegada.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"para los apatridas\">Azul:<br>apátridas</div><div class=\"q in\" data-cue=\"no le importaban a nadie\" style=\"margin-top:50px\">Hombres que no le importaban a nadie.</div></div>"
+  },
+  {
+   "say": "El día empezaba antes del amanecer con el recuento en la gran plaza del campo. Miles de hombres formados, inmóviles, a veces durante horas, bajo la lluvia o la nieve. Si las cuentas no salían, se volvía a empezar. Muchos caían allí mismo.",
+   "mood": "tension",
+   "img": "img/appellplatz.jpg",
+   "kb": "in",
+   "cap": "Presos castigados con ejercicios en la plaza de recuento de Mauthausen (foto de las SS)",
+   "html": "<div class=\"ov right\"><div class=\"h2 in tw\" data-cue=\"el recuento\">El recuento</div><div class=\"h3 dim in\" data-cue=\"durante horas\" style=\"margin-top:30px\">Horas inmóviles, con lluvia o nieve</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Los primeros españoles llegaron a un campo a medio construir. Y fueron ellos quienes lo levantaron. Muchos de los muros de granito que hoy ven los visitantes en Mauthausen los cortaron y los cargaron manos españolas.",
+   "mood": "inquietud",
+   "img": "img/gusen_obras.jpg",
+   "kb": "right",
+   "cap": "Construcción del campo de Gusen, 1940-1943 (foto de las SS)",
+   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"quienes lo levantaron\">Ellos lo<br>levantaron</div></div>",
+   "shade": true
+  },
+  {
+   "say": "El trabajo en la cantera era una condena a muerte lenta. De sol a sol, con frío o con calor, mal vestidos, con un trozo de pan y una sopa aguada. Los kapos y los guardias de las SS golpeaban a cualquiera que se parara.",
+   "mood": "tension",
+   "img": "img/cantera5.jpg",
+   "kb": "in",
+   "cap": "La cantera Wiener Graben (foto de las SS, 1941-1942)",
+   "html": "<div class=\"ov right\"><div class=\"h2 in tw\" data-cue=\"muerte lenta\">Una muerte<br>lenta</div><div class=\"h3 dim in\" data-cue=\"un trozo de pan\" style=\"margin-top:30px\">Pan y sopa aguada</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Y luego estaba la escalera. Unos 186 escalones irregulares que unían el fondo de la cantera con el campo. Los presos tenían que subirlos una y otra vez cargando a la espalda bloques de granito de muchos kilos.",
+   "mood": "tension",
+   "img": "img/escalera.jpg",
+   "kb": "up",
+   "fy": 0.5,
+   "cap": "Presos subiendo la escalera de la cantera (foto de las SS)",
+   "html": "<div class=\"ov left\"><div class=\"h1 in\" data-cue=\"la escalera\">La escalera</div><div class=\"big in\" data-cue=\"186 escalones\" style=\"font-size:150px\">186</div><div class=\"h3 in\" data-cue=\"186 escalones\" data-d=\"0.3\">escalones</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Los supervivientes la llamaron la escalera de la muerte. Si uno caía, arrastraba a los de detrás. A veces los guardias empujaban a los presos al vacío desde lo alto del precipicio. Con una crueldad infinita, lo llamaban el muro de los paracaidistas.",
+   "mood": "tension",
+   "img": "img/cantera_v.jpg",
+   "kb": "up",
+   "cap": "Paredes de la cantera Wiener Graben",
+   "html": "<div class=\"ov right\"><div class=\"h2 red in tw\" data-cue=\"la escalera de la muerte\">La escalera<br>de la muerte</div><div class=\"h3 dim in\" data-cue=\"el muro de los paracaidistas\" style=\"margin-top:40px\">«El muro de los paracaidistas»</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Himmler visitó la cantera en varias ocasiones. Las fotos de las propias SS lo muestran sonriente, señalando la obra, como quien inspecciona una fábrica.",
+   "mood": "inquietud",
+   "img": "img/himmler_cantera.jpg",
+   "kb": "in",
+   "fy": 0.3,
+   "cap": "Himmler inspecciona la cantera de Mauthausen (foto de las SS)",
+   "html": "<div class=\"ov left low\"><div class=\"h3 in tw\" data-cue=\"como quien inspecciona\">Como quien inspecciona una fábrica</div></div>",
+   "shade": true
+  },
+  {
+   "say": "A unos cinco kilómetros estaba Gusen, el campo vecino. Si Mauthausen era el infierno, decían los presos, Gusen era el infierno del infierno. Allí enviaron a la mayoría de los españoles.",
+   "mood": "tension",
+   "img": "img/gusen_torre.jpg",
+   "kb": "up",
+   "cap": "Barracones y torre de vigilancia del campo de Gusen (foto de las SS)",
+   "html": "<div class=\"ov left\"><div class=\"h1 in\" data-cue=\"gusen\">Gusen</div><div class=\"q in\" data-cue=\"el infierno del infierno\" style=\"margin-top:30px;font-size:54px\">«El infierno<br>del infierno»</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Las cifras son terribles. De los españoles muertos en el complejo, la gran mayoría, cerca de 4.000, murieron en Gusen. Sobre todo en 1941 y 1942, cuando el hambre, el frío y las palizas mataban cada día a decenas de hombres.",
+   "mood": "melancolia",
+   "bg": "img/gusen_torre.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0.2\">Españoles muertos, según la lista oficial</div><div class=\"row\" style=\"gap:70px;margin-top:30px\"><div class=\"box in\" data-cue=\"cerca de 4.000\" style=\"border-color:var(--red)\"><div class=\"lab\">Gusen</div><div class=\"val red\">≈ 4.000</div></div><div class=\"box in\" data-cue=\"cerca de 4.000\" data-d=\"0.6\"><div class=\"lab\">Mauthausen</div><div class=\"val\">≈ 370</div></div></div><div class=\"h3 amber in\" data-cue=\"1941 y 1942\" style=\"margin-top:40px\">Sobre todo en 1941 y 1942</div></div>"
+  },
+  {
+   "say": "En Gusen, los presos que ya no podían trabajar eran asesinados. Con palizas, con duchas de agua helada en pleno invierno, o enviándolos al castillo de Hartheim, cerca de Linz, donde los nazis gaseaban a enfermos y discapacitados.",
+   "mood": "tension",
+   "img": "img/tuneles.jpg",
+   "kb": "in",
+   "cap": "Entradas de galerías en la cantera (foto de las SS)",
+   "html": "<div class=\"ov right\"><div class=\"h3 in\" data-cue=\"con palizas\">Palizas</div><div class=\"h3 in\" data-cue=\"agua helada\">Duchas de agua helada</div><div class=\"h2 red in\" data-cue=\"castillo de hartheim\" style=\"margin-top:20px\">Castillo de Hartheim</div></div>",
+   "shade": true
+  },
+  {
+   "say": "En Gusen, muchos recién llegados no aguantaban más que unos meses. Los presos aprendieron a contar el tiempo de otra manera: no en años, sino en inviernos.",
+   "mood": "melancolia",
+   "bg": "img/gusen_obras.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"unos meses\">Unos meses</div><div class=\"q in\" data-cue=\"en inviernos\" style=\"margin-top:40px\">El tiempo se contaba en inviernos.</div></div>"
+  },
+  {
+   "say": "Y sin embargo, muchos sobrevivieron. Los españoles tenían algo que otros grupos no tenían: llegaron juntos, habían luchado juntos y compartían una misma causa. Se organizaron.",
+   "mood": "inquietud",
+   "img": "img/jovenes.jpg",
+   "kb": "in",
+   "cap": "Presos jóvenes en la plaza de recuento de Mauthausen (foto de las SS)",
+   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"se organizaron\">Se<br>organizaron</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Compartían el pan con los más débiles. Colocaban a compañeros en trabajos menos duros: la cocina, la lavandería, los talleres. Un puesto bajo techo podía ser la diferencia entre vivir y morir.",
+   "mood": "inquietud",
+   "img": "img/lavanderia.jpg",
+   "kb": "right",
+   "cap": "Presos ante la barraca de la lavandería de Mauthausen (foto de las SS)",
+   "html": "<div class=\"ov right\"><div class=\"h3 in\" data-cue=\"compartian el pan\">Compartir el pan</div><div class=\"h3 in\" data-cue=\"la cocina\">Cocina, lavandería, talleres</div><div class=\"h2 amber in\" data-cue=\"entre vivir y morir\" style=\"margin-top:30px\">Bajo techo = vivir</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Un grupo de chicos españoles, algunos de apenas quince o dieciséis años, fue enviado a trabajar a una cantera privada del pueblo. Aquellos chavales, los Poschacher, tendrían un papel clave en una de las historias más asombrosas del campo.",
+   "mood": "inquietud",
+   "bg": "img/jovenes.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-cue=\"los poschacher\">Los Poschacher</div><div class=\"h3 in\" data-cue=\"quince o dieciseis\" style=\"margin-top:30px\">Chicos de 15 y 16 años</div></div>"
+  },
+  {
+   "say": "Esa historia es la de Francisco Boix. Un joven fotógrafo de Barcelona que había hecho fotos para la prensa republicana durante la guerra. Llegó a Mauthausen en enero de 1941. Tenía veinte años.",
+   "mood": "inquietud",
+   "img": "img/boix.jpg",
+   "side": "right",
+   "kb": "in",
+   "fy": 0.3,
+   "html": "<div class=\"ov left\"><div class=\"h1 in\" data-cue=\"francisco boix\">Francisco<br>Boix</div><div class=\"date in\" data-cue=\"enero de 1941\" style=\"margin-top:30px\">Enero de 1941 · 20 años</div></div>"
+  },
+  {
+   "say": "Como sabía de fotografía, lo destinaron al servicio de identificación del campo, el laboratorio donde las SS revelaban sus propias fotos. Fotos de presos al llegar, de visitas oficiales, de muertos.",
+   "mood": "inquietud",
+   "img": "img/ricken.jpg",
+   "kb": "in",
+   "cap": "Paul Ricken, fotógrafo de las SS en el servicio de identificación de Mauthausen",
+   "html": "<div class=\"ov right\"><div class=\"h2 in tw\" data-cue=\"servicio de identificacion\">El laboratorio<br>de las SS</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Las SS fotografiaban todo, como si estuvieran orgullosas de lo que hacían. Boix comprendió que aquellas imágenes eran una prueba. Si algún día se juzgaba lo ocurrido en Mauthausen, alguien tendría que enseñarlas.",
+   "mood": "tension",
+   "bg": "img/ricken.jpg",
+   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"eran una prueba\">Aquellas fotos eran una prueba.</div></div>"
+  },
+  {
+   "say": "Con otros presos españoles empezó a robar negativos y copias, y a esconderlos. Los chicos de la cantera Poschacher, que salían cada día del campo, los sacaron poco a poco. Una vecina austriaca de Mauthausen, Anna Pointner, los guardó en su casa hasta el final de la guerra.",
+   "mood": "tension",
+   "bg": "img/cantera6.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"robar negativos\">1. Roban negativos</div><div class=\"h3 in\" data-cue=\"los sacaron poco a poco\">2. Los chicos los sacan del campo</div><div class=\"h3 amber in\" data-cue=\"anna pointner\">3. Anna Pointner los esconde</div></div>"
+  },
+  {
+   "say": "Si los hubieran descubierto, los habrían matado a todos. Algunas de las fotos que estás viendo en este vídeo son precisamente imágenes de las SS de Mauthausen, las que el régimen quería ocultar.",
+   "mood": "melancolia",
+   "img": "img/cantera2.jpg",
+   "kb": "in",
+   "html": "<div class=\"ov left low\"><div class=\"h3 in tw\" data-t=\"0.8\">Las imágenes que las SS querían ocultar</div></div>",
+   "shade": true
+  },
+  {
+   "say": "En la primavera de 1945, el Reich se hunde. A finales de abril, con el Ejército Rojo y los americanos cada vez más cerca, el comandante del campo, Franz Ziereis, y la mayoría de las SS huyen.",
+   "mood": "tension",
+   "bg": "img/ss_muro.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Abril-mayo de 1945</div><div class=\"h2 in tw\" data-cue=\"el reich se hunde\">El Reich<br>se hunde</div><div class=\"h3 amber in\" data-cue=\"franz ziereis\" style=\"margin-top:30px\">Huye el comandante Franz Ziereis</div></div>"
+  },
+  {
+   "say": "En los últimos meses, el campo se llena de presos evacuados de otros campos. Llegan columnas de hombres agotados desde el este. Las barracas, preparadas para unos cientos, acogen a miles. El hambre es total.",
+   "mood": "tension",
+   "bg": "img/gusen_torre.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"evacuados de otros campos\">Marchas<br>desde el este</div><div class=\"h3 red in\" data-cue=\"el hambre es total\" style=\"margin-top:40px\">Hambre total</div></div>"
+  },
+  {
+   "say": "El 5 de mayo de 1945 llega a Mauthausen una patrulla de la undécima División Acorazada del ejército de Estados Unidos. Los presos les esperan con una enorme pancarta colgada en la entrada.",
+   "mood": "melancolia",
+   "img": "img/liberacion2.jpg",
+   "kb": "in",
+   "fy": 0.6,
+   "cap": "Mauthausen, 6 de mayo de 1945: los presos reciben a los soldados de la 11.ª División Acorazada (Ejército de EE. UU.)",
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">5 de mayo de 1945</div><div class=\"h1 in tw\" data-cue=\"undecima division\">Libres</div></div>",
+   "shade": true
+  },
+  {
+   "say": "Estaba escrita en español, con letras más grandes que en los otros idiomas. Decía: los españoles antifascistas saludan a las fuerzas libertadoras.",
+   "mood": "melancolia",
+   "img": "img/liberacion2.jpg",
+   "kb": "up",
+   "fy": 0.15,
+   "shade": true,
+   "cap": "La pancarta de los presos españoles en la entrada de Mauthausen, mayo de 1945",
+   "html": "<div class=\"ov center low\"><div class=\"q in\" data-cue=\"los espanoles antifascistas\" style=\"font-size:64px\">«Los españoles antifascistas<br>saludan a las fuerzas libertadoras»</div><div class=\"who in\" data-cue=\"los espanoles antifascistas\" data-d=\"2\">— Pancarta de los presos españoles, mayo de 1945</div></div>"
+  },
+  {
+   "say": "Boix recuperó sus negativos y siguió haciendo fotos: los presos liberados, los barracones, los guardias detenidos. Ahora era él quien documentaba.",
+   "mood": "melancolia",
+   "html": "<div class=\"ov right low\"><div class=\"h2 in tw\" data-cue=\"ahora era el\">Ahora era él<br>quien documentaba</div></div>",
+   "shade": true,
+   "bg": "img/appellplatz.jpg"
+  },
+  {
+   "say": "¿Y el comandante Ziereis? Semanas después de la liberación, los americanos lo localizaron escondido. Recibió varios disparos cuando intentaba huir y murió el 24 de mayo, después de ser interrogado. Boix fotografió aquel interrogatorio. Ziereis nunca llegó a ser juzgado.",
+   "mood": "tension",
+   "bg": "img/ss_muro.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-cue=\"el comandante ziereis\">Franz Ziereis</div><div class=\"h3 in\" data-cue=\"varios disparos\" style=\"margin-top:30px\">Herido al intentar huir</div><div class=\"h3 red in\" data-cue=\"nunca llego a ser juzgado\" style=\"margin-top:20px\">Nunca fue juzgado</div></div>"
+  },
+  {
+   "say": "En enero de 1946, Francisco Boix se sienta en el estrado del tribunal de Núremberg, ante los principales dirigentes nazis. Es el único español que declara en aquel juicio.",
+   "mood": "tension",
+   "img": "img/boix.jpg",
+   "kb": "in",
+   "fy": 0.3,
+   "shade": true,
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">Enero de 1946 · Núremberg</div><div class=\"h2 in tw\" data-cue=\"el unico espanol\">El único<br>español</div></div>"
+  },
+  {
+   "say": "Mientras habla, en la sala se proyectan las fotos que él había sacado del campo. Gracias a ellas, el tribunal puede ver a altos cargos nazis visitando Mauthausen, sonrientes, al lado de los presos.",
+   "mood": "tension",
+   "bg": "img/himmler_cantera.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"se proyectan las fotos\">Las fotos,<br>en la sala</div><div class=\"h3 amber in\" data-cue=\"visitando mauthausen\" style=\"margin-top:30px\">Altos cargos nazis, en el campo</div></div>"
+  },
+  {
+   "say": "Las imágenes de Boix sirvieron para desmontar las mentiras de quienes decían no saber nada de los campos. Un fotógrafo republicano, sin patria, ayudó a juzgar al Tercer Reich.",
+   "mood": "melancolia",
+   "bg": "img/cantera3.jpg",
+   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"ayudo a juzgar\">Un fotógrafo sin patria<br>ayudó a juzgar al Tercer Reich.</div></div>"
+  },
+  {
+   "say": "Meses después, Boix volvió a declarar, esta vez en el juicio contra decenas de guardias y responsables de Mauthausen, celebrado por un tribunal militar americano en el antiguo campo de Dachau. Muchos de los acusados fueron condenados a muerte.",
+   "mood": "tension",
+   "bg": "img/ss_muro.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">1946 · Dachau</div><div class=\"h2 in tw\" data-cue=\"contra decenas de guardias\">El juicio de<br>Mauthausen</div><div class=\"h3 amber in\" data-cue=\"condenados a muerte\" style=\"margin-top:30px\">Boix vuelve a declarar</div></div>"
+  },
+  {
+   "say": "Para los supervivientes españoles, la guerra no terminó en 1945. No podían volver a casa. España seguía en manos de Franco, el mismo régimen que los había abandonado. La mayoría se quedó en Francia, en el exilio.",
+   "mood": "melancolia",
+   "img": "img/retirada.jpg",
+   "kb": "out",
+   "shade": true,
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"no podian volver\">No podían<br>volver</div><div class=\"h3 dim in\" data-cue=\"en el exilio\" style=\"margin-top:40px\">Exilio en Francia</div></div>"
+  },
+  {
+   "say": "Francisco Boix murió en París en 1951. Tenía solo treinta años. Su salud nunca se recuperó del campo.",
+   "mood": "melancolia",
+   "bg": "img/ricken.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-t=\"0.3\">Francisco Boix</div><div class=\"date in\" data-cue=\"en 1951\" style=\"margin-top:30px\">Barcelona, 1920 · París, 1951</div></div>"
+  },
+  {
+   "say": "Durante décadas, en España casi nadie habló de ellos. No aparecían en los libros de texto. Sus familias, muchas veces, no sabían ni dónde ni cuándo habían muerto.",
+   "mood": "melancolia",
+   "bg": "img/gusen_torre.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"casi nadie hablo\">Décadas<br>de silencio</div></div>"
+  },
+  {
+   "say": "Fueron los propios supervivientes quienes mantuvieron viva la memoria. Escribieron libros, dieron charlas en institutos, volvieron una y otra vez a Mauthausen cada mes de mayo. Uno a uno, se fueron marchando.",
+   "mood": "melancolia",
+   "bg": "img/cantera6.jpg",
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"mantuvieron viva la memoria\">Ellos guardaron<br>la memoria</div><div class=\"h3 dim in\" data-cue=\"cada mes de mayo\" style=\"margin-top:40px\">Cada mes de mayo, de vuelta a Mauthausen</div></div>"
+  },
+  {
+   "say": "Hasta que en agosto de 2019, el Boletín Oficial del Estado publicó, por primera vez, la lista con los nombres de 4.427 españoles muertos en Mauthausen y Gusen. Casi ochenta años después.",
+   "mood": "melancolia",
+   "bg": "img/cantera1.jpg",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">9 de agosto de 2019 · BOE</div><div class=\"big in\" data-cue=\"4.427\">4.427</div><div class=\"h3 in\" data-cue=\"4.427\" data-d=\"0.3\">nombres de españoles muertos</div><div class=\"h3 amber in\" data-cue=\"casi ochenta anos\" style=\"margin-top:30px\">Casi 80 años después</div></div>"
+  },
+  {
+   "say": "En total, según los registros del campo, unos 7.500 españoles pasaron por Mauthausen y sus subcampos. Casi seis de cada diez nunca salieron de allí.",
+   "mood": "melancolia",
+   "bg": "img/appellplatz.jpg",
+   "html": "<div class=\"ov center\"><div class=\"row\" style=\"gap:80px\"><div><div class=\"big in\" data-cue=\"unos 7.500\">≈ 7.500</div><div class=\"h3 in\" data-cue=\"unos 7.500\" data-d=\"0.3\">españoles internados</div></div><div><div class=\"big red in\" data-cue=\"seis de cada diez\">6 de 10</div><div class=\"h3 in\" data-cue=\"seis de cada diez\" data-d=\"0.3\">murieron</div></div></div></div>"
+  },
+  {
+   "say": "Hoy, en el antiguo campo de Mauthausen, hay un monumento a los republicanos españoles. Y en mayo de 2025, en el ochenta aniversario de la liberación, los Reyes de España rindieron homenaje allí a las víctimas.",
+   "mood": "melancolia",
+   "img": "img/cantera1.jpg",
+   "kb": "in",
+   "shade": true,
+   "html": "<div class=\"ov left\"><div class=\"h3 in\" data-cue=\"un monumento\">Monumento a los republicanos españoles</div><div class=\"date in\" data-cue=\"en mayo de 2025\" style=\"margin-top:30px\">Mayo de 2025 · 80 años de la liberación</div></div>"
+  },
+  {
+   "say": "Los españoles de Mauthausen perdieron dos veces. Perdieron una guerra en su país y otra en el exilio. Y después perdieron algo peor: el recuerdo.",
+   "mood": "melancolia",
+   "img": "img/escalera.jpg",
+   "kb": "out",
+   "shade": true,
+   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"perdieron una guerra\">Perdieron una guerra en su país</div><div class=\"h3 in\" data-cue=\"otra en el exilio\">Y otra en el exilio</div><div class=\"h2 red in\" data-cue=\"el recuerdo\" style=\"margin-top:40px\">Y después, el recuerdo</div></div>"
+  },
+  {
+   "say": "Por eso hay que contar su historia. Porque cada uno de esos 4.427 nombres fue una persona con una familia que lo esperó. Y porque el olvido es la última victoria de quienes los mataron.",
+   "mood": "melancolia",
+   "img": "img/cantera5.jpg",
+   "kb": "out",
+   "shade": true,
+   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"el olvido es la ultima victoria\">El olvido es la última victoria<br>de quienes los mataron.</div></div>"
+  },
+  {
+   "say": "En el próximo capítulo volvemos al principio de todo: el 1 de septiembre de 1939, el día que empezó la Segunda Guerra Mundial. Si no quieres perdértelo, suscríbete. Y cuéntame en los comentarios: ¿conocías la historia de los españoles de Mauthausen? ¿Tenía tu familia a alguien allí?",
+   "mood": "melancolia",
+   "bg": "img/cantera3.jpg",
+   "html": "<div class=\"ov center\"><div class=\"tag in\" data-t=\"0.2\">Próximo capítulo</div><div class=\"h2 in tw\" data-t=\"0.4\">1 de septiembre de 1939</div><div class=\"rule in\" data-t=\"0.6\"></div><div class=\"h3 dim in\" data-cue=\"suscribete\">Suscríbete para no perdértelo</div><div class=\"who in\" data-cue=\"suscribete\" data-d=\"1.5\" style=\"font-size:24px;margin-top:80px\">Fuentes: Memorial de Mauthausen, BOE (9/8/2019), Ministerio de Memoria Democrática, USHMM. Imágenes: Bundesarchiv y Wikimedia Commons (créditos en la descripción).</div></div>"
+  }
+ ],
+ "thumb": {
+  "img": "img/escalera.jpg",
+  "fy": 0.45,
+  "l1": "Los españoles<br>olvidados",
+  "l2": "4.427",
+  "l3": "Mauthausen 1940-1945"
+ }
+}
