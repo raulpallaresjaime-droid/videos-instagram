@@ -1,0 +1,49 @@
+{
+ "series": "nadie",
+ "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+ "title_post": "No invertir solo en tu país",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Si hubieras invertido en la bolsa japonesa en su máximo de 1989, ¿cuánto habrías tardado en recuperar tu dinero? Treinta y cuatro años.",
+   "html": "<div class=\"card  in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">Bolsa japonesa · máximo de 1989</div><div class=\"txt\">¿Cuánto tardas en recuperarlo?</div></div><div class=\"big c-orange in\" data-cue=\"treinta y cuatro\" style=\"text-align:center;margin-top:40px\">34 años</div>"
+  },
+  {
+   "dark": true,
+   "say": "Esto es lo que nadie te cuenta sobre invertir solo en tu país.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">No inviertas solo en <em class=\"c-orange\">tu país</em></div>"
+  },
+  {
+   "title": "Japón, <em class=\"c-orange\">1989</em>",
+   "say": "El 29 de diciembre de 1989, el Nikkei, el principal índice de la bolsa japonesa, cerró en casi treinta y nueve mil puntos. Japón parecía imparable. Después llegó el pinchazo: el índice llegó a caer más de un ochenta por ciento, y no volvió a superar aquel máximo hasta febrero de 2024.",
+   "html": "<div class=\"cols\" style=\"height:480px;\"><div class=\"c in\" data-cue=\"29 de diciembre\" style=\"width:200px\"><b>38.916</b><i class=\"navy grow\" style=\"--h:100%\"></i><span>dic 1989</span></div><div class=\"c in\" data-cue=\"ochenta por ciento\" style=\"width:200px\"><b>7.055</b><i class=\"orange grow\" style=\"--h:18%\"></i><span>mar 2009</span></div><div class=\"c in\" data-cue=\"febrero de 2024\" style=\"width:200px\"><b>39.099</b><i class=\"teal grow\" style=\"--h:100%\"></i><span>feb 2024</span></div></div><div class=\"note in\" data-cue=\"pinchazo\" style=\"margin-top:70px\">Nikkei 225 · cierre</div>"
+  },
+  {
+   "title": "España, <em class=\"c-orange\">2007</em>",
+   "say": "Y no hace falta irse tan lejos. El IBEX 35 marcó su máximo en noviembre de 2007, cerca de los dieciséis mil puntos. No lo superó hasta octubre de 2025: dieciocho años después. Eso sí, hablamos del índice sin dividendos. Con ellos, la espera habría sido bastante más corta.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill navy lg in\" data-cue=\"noviembre de 2007\">Nov 2007: 15.946</span><span class=\"pill teal lg in\" data-cue=\"octubre de 2025\">Oct 2025: 16.000</span></div><div class=\"big c-orange in\" data-cue=\"dieciocho años\" style=\"text-align:center;margin-top:30px\">18 años</div><div class=\"note in\" data-cue=\"sin dividendos\" style=\"margin-top:30px\">Índice sin dividendos</div>"
+  },
+  {
+   "title": "El sesgo <em class=\"c-navy\">local</em>",
+   "say": "Aun así, casi todo el mundo invierte sobre todo en su propio país. Se llama sesgo local: nos fiamos más de las empresas que conocemos. Pero España pesa menos del uno por ciento de la bolsa mundial.",
+   "html": "<div class=\"card navy in\" data-cue=\"sesgo local\" style=\"width:100%\"><div class=\"lab\">Sesgo local · home bias</div><div class=\"txt\">Invertimos en lo que conocemos</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill orange lg in\" data-cue=\"menos del uno por ciento\">España: < 1 % de la bolsa mundial</span></div>"
+  },
+  {
+   "title": "Comprar el <em class=\"c-teal\">mundo</em>",
+   "say": "Por eso, en vez de apostarlo todo a un país, muchos inversores compran el mundo entero con un fondo indexado global. Si a un país le va mal durante una década, otros lo compensan. Así, tu dinero no depende de lo que haga una sola economía, una sola moneda o un solo gobierno.",
+   "html": "<div class=\"card teal in\" data-cue=\"el mundo entero\" style=\"width:100%\"><div class=\"lab\">Fondo indexado global</div><div class=\"txt\">Miles de empresas, decenas de países</div></div><div class=\"note in\" data-cue=\"otros lo compensan\" style=\"margin-top:30px\">Si a un país le va mal, otros lo compensan</div>"
+  },
+  {
+   "title": "Pero <em class=\"c-orange\">ojo</em>",
+   "say": "Eso no significa que invertir en tu país sea mala idea. Significa no poner todos los huevos en la misma cesta. Y fíjate en que hoy el riesgo es justo el contrario: la bolsa de Estados Unidos ya pesa más del sesenta por ciento del índice mundial.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill  lg in\" data-cue=\"misma cesta\">No todos los huevos en la misma cesta</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"estados unidos\"><span>EE. UU.</span><i class=\"navy grow\" style=\"--w:100%\">> 60 %</i></div><div class=\"b in\" data-cue=\"índice mundial\"><span>Resto del mundo</span><i class=\"teal grow\" style=\"--w:60%\">< 40 %</i></div></div>",
+   "sub": "Peso aproximado en el índice mundial"
+  },
+  {
+   "dark": true,
+   "say": "Tu país puede tener una década perdida. Que la tenga el mundo entero es mucho menos probable.",
+   "html": "<div class=\"final in\" data-t=\"0\">Tu país puede tener una década perdida. El mundo entero, es <em class=\"c-teal\">mucho menos probable</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Datos: Nikkei 225 e IBEX 35, índices de precios; pesos aproximados.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

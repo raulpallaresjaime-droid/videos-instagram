@@ -172,3 +172,125 @@ Un solo comparable «raro» puede inflar la valoración más de un 25 %.
 Guárdalo para repasar 📌
 
 #finanzas #valoraciondeempresas #inversion #educacionfinanciera #finanzasafondo""")
+
+# ───────────── Dom 14 feb · nadie · hipoteca o invertir
+guardar("2027-02-14_nadie_hipoteca-o-invertir", "nadie", NADIE, "¿Amortizar la hipoteca o invertir?", [
+ hook("Te sobran diez mil euros. ¿Los usas para amortizar la hipoteca o los inviertes? Es la duda de casi todas las familias. Y la respuesta tiene más matices de lo que parece.",
+      card("Te sobran", "10.000 €", "", t=0, val=True) + row(pill("¿Amortizar?", "navy", c="amortizar la hipoteca", lg=True), pill("¿Invertir?", "teal", c="los inviertes", lg=True), style="margin-top:30px")),
+ portada("nadie", '¿Amortizar o <em class="c-teal">invertir</em>?', "Esto es lo que nadie te cuenta sobre amortizar la hipoteca o invertir."),
+ esc('La cuenta <em class="c-navy">rápida</em>', "La cuenta rápida es comparar dos números. Amortizar te da una rentabilidad segura: el interés que dejas de pagar. Si tu hipoteca está al tres por ciento, amortizar es como ganar un tres por ciento sin riesgo. Invertir puede dar más, pero no está garantizado.",
+     bars(("Amortizar", "navy", 43, "3 % seguro", "sin riesgo"), ("Invertir", "teal", 100, "¿7 %? sin garantía", "no está garantizado")), sub="Ejemplo ilustrativo"),
+ esc('Hagamos la <em class="c-orange">cuenta</em>', "Con esos diez mil euros, a veinte años vista: amortizar al tres por ciento equivale a tener unos dieciocho mil. Invertirlos, si la bolsa diera un siete de media, unos treinta y ocho mil. Sobre el papel, gana invertir. Pero esa es solo la mitad de la historia.",
+     bars(("Amortizar al 3 %", "navy", 47, "≈ 18.000 €", "dieciocho mil"), ("Invertir al 7 %", "teal", 100, "≈ 38.700 €", "treinta y ocho mil")) + note("Solo la mitad de la historia", c="la mitad"), sub="10.000 € · 20 años · ejemplo ilustrativo"),
+ esc('Lo que no sale en la <em class="c-orange">cuenta</em>', "Porque la cuenta rápida se deja cosas. Lo que ahorras al amortizar es seguro y no paga impuestos. Lo que ganas invirtiendo sí paga, y la inversión puede caer un treinta por ciento justo cuando más la necesitas.",
+     row(card("Amortizar", "Seguro y sin impuestos", "navy", c="es seguro", style="min-width:420px"), card("Invertir", "Paga impuestos y puede caer", "orange", c="sí paga", style="min-width:420px"), style="gap:30px") + row(pill("−30 % justo cuando lo necesitas", "orange", c="treinta por ciento", lg=True), style="margin-top:40px")),
+ esc('Cuándo suele tener sentido <em class="c-navy">amortizar</em>', "Amortizar suele tener más sentido si tu hipoteca tiene un tipo alto, si es variable y te quita el sueño, o si vivir sin deudas vale mucho para ti. Y siempre después de pagar otras deudas más caras, como tarjetas o préstamos personales.",
+     steps(("1", "Tipo de interés alto", None, "navy", "tipo alto"), ("2", "Variable y te quita el sueño", None, "navy", "te quita el sueño"), ("3", "Vivir sin deudas vale mucho para ti", None, "navy", "sin deudas"), ("!", "Antes: deudas más caras", "Tarjetas, préstamos personales", "orange", "más caras"))),
+ esc('Cuándo suele tener sentido <em class="c-teal">invertir</em>', "Invertir suele tener más sentido si tu hipoteca está a un tipo bajo, si tienes muchos años por delante, y si aguantas ver tu inversión en rojo sin vender. Y siempre con un colchón de emergencia aparte.",
+     steps(("1", "Tipo de interés bajo", None, "teal", "tipo bajo"), ("2", "Muchos años por delante", None, "teal", "muchos años"), ("3", "Aguantas ver números rojos", None, "teal", "en rojo"), ("✓", "Con un colchón de emergencia aparte", None, "ink", "colchón"))),
+ esc('Y no es todo o <em class="c-orange">nada</em>', "Y no tiene por qué ser todo o nada. Mucha gente hace las dos cosas: una parte a amortizar y otra a invertir. Y si amortizas, pregunta si te conviene reducir la cuota o el plazo: reducir el plazo suele ahorrar más intereses.",
+     row(pill("Una parte → amortizar", "navy", c="una parte", lg=True), pill("Otra → invertir", "teal", c="otra a invertir", lg=True)) + card("Si amortizas", "Reducir plazo suele ahorrar más intereses", "", c="reducir el plazo", style="margin-top:40px;width:100%")),
+ final('No es solo una cuenta: es cuánto <em class="c-orange">riesgo</em> puedes soportar.', "Porque no es solo una cuenta. Es cuánto riesgo puedes soportar.", "Ejemplo ilustrativo; rentabilidades no garantizadas."),
+], """
+Te sobran 10.000 €: ¿amortizas la hipoteca o inviertes? 🏠
+
+Amortizar al 3 % es como ganar un 3 % seguro y sin impuestos. Invertir puede dar más, pero paga impuestos y puede caer justo cuando lo necesitas. La respuesta depende de tu tipo de interés, de tus años por delante… y de cuánto riesgo soportas.
+
+Y no tiene por qué ser todo o nada.
+
+Guárdalo y compártelo con quien tenga esta duda 📌
+
+Contenido educativo, no es recomendación de inversión.
+
+#finanzaspersonales #hipoteca #inversion #educacionfinanciera #loquenadietecuenta""")
+
+# ───────────── Mar 16 feb · bolsa · value vs growth
+guardar("2027-02-16_bolsa_value-vs-growth", "bolsa", 'Value <span class="k">vs</span> <span class="c-teal">growth</span>', "Value vs growth", [
+ hook("Hay inversores que solo compran empresas baratas, y otros que pagan lo que haga falta por las que más crecen. ¿Quién gana a largo plazo? Depende mucho de la década que mires.",
+      row(card("Value", "Comprar barato", "navy", t=0, style="min-width:400px"), card("Growth", "Comprar crecimiento", "teal", t=0, style="min-width:400px"), style="gap:30px") + q('¿Quién <em class="c-orange">gana</em>?', c="quién gana")),
+ portada("bolsa", 'Value vs <em class="c-teal">growth</em>', "Hoy, en finanzas desde cero: value frente a growth."),
+ esc('Value: comprar <em class="c-navy">barato</em>', "El value, o inversión en valor, busca empresas que cotizan baratas respecto a lo que ganan o a lo que tienen. Suelen ser negocios maduros, que crecen poco y reparten dividendos: bancos, energéticas, aseguradoras. La idea es comprar un euro pagando setenta céntimos.",
+     row(pill("Bancos", "sand", c="bancos"), pill("Energéticas", "sand", c="energéticas"), pill("Aseguradoras", "sand", c="aseguradoras")) + card("La idea", "Comprar 1 € pagando 0,70 €", "navy", c="setenta céntimos", style="margin-top:40px;width:100%")),
+ esc('Growth: comprar <em class="c-teal">crecimiento</em>', "El growth, o inversión en crecimiento, busca empresas que aumentan ventas y beneficios muy rápido, aunque coticen caras. Las tecnológicas, por ejemplo. Aquí pagas mucho hoy por lo que esperas que ganen mañana.",
+     card("Growth", "Ventas y beneficios que crecen muy rápido", "teal", c="muy rápido") + row(pill("Pagas hoy por lo que ganará mañana", "", c="pagas mucho", lg=True), style="margin-top:40px")),
+ esc('Cómo <em class="c-navy">distinguirlos</em>', "Una forma sencilla de distinguirlos es el PER. Una empresa value puede cotizar a diez veces su beneficio. Una growth, a cuarenta. Un PER de cuarenta significa que, si el beneficio no creciera nada, tardarías cuarenta años en recuperar lo pagado. Por eso el growth necesita crecer, y mucho.",
+     bars(("Value", "navy", 25, "PER 10", "diez veces"), ("Growth", "teal", 100, "PER 40", "a cuarenta")) + note("PER 40 = 40 años de beneficios si no crece", c="cuarenta años"), sub="Ejemplo ilustrativo"),
+ esc('¿Quién <em class="c-orange">gana</em>?', "Durante buena parte del siglo veinte, las acciones baratas lo hicieron mejor que las caras: lo documentaron Eugene Fama y Kenneth French en los años noventa. Pero en la década de 2010, el growth arrasó, empujado por las grandes tecnológicas. Y en 2022, con la subida de los tipos de interés, el value volvió a ganar.",
+     steps(("XX", "Siglo XX: gana el value", "Fama y French", "navy", "siglo veinte"), ("10s", "Años 2010: gana el growth", "Grandes tecnológicas", "teal", "década de 2010"), ("22", "2022: vuelve el value", "Subida de tipos", "navy", "en 2022"))),
+ esc('La trampa de cada <em class="c-orange">estilo</em>', "Cada estilo tiene su trampa. En el value, la trampa de valor: algo barato que lo es porque el negocio se está muriendo. En el growth, pagar tanto que, aunque la empresa crezca, la acción no suba. Ni lo barato es siempre una ganga, ni lo caro siempre un error.",
+     row(card("Trampa del value", "Barato porque se muere", "orange", c="trampa de valor", style="min-width:420px"), card("Trampa del growth", "Pagar demasiado", "orange", c="pagar tanto", style="min-width:420px"), style="gap:30px")),
+ esc('¿Hay que <em class="c-teal">elegir</em>?', "¿Hay que elegir? No necesariamente. Un fondo indexado global ya lleva de los dos. Lo importante es saber qué estás comprando y por qué.",
+     card("Fondo indexado global", "Value + growth", "teal", c="indexado global") + note("Sabe qué compras y por qué", c="por qué")),
+ final('No importa si una acción es barata o cara, sino si <em class="c-teal">vale más</em> de lo que pagas por ella.', "Lo que importa no es si una acción es barata o cara, sino si vale más de lo que pagas por ella.", "Fama y French (1992). Ejemplos ilustrativos."),
+], f"""
+¿Comprar barato o comprar crecimiento? 🤔
+
+🔸 Value → empresas baratas respecto a lo que ganan (bancos, energéticas…)
+🔹 Growth → empresas que crecen muy rápido, aunque coticen caras (tecnológicas)
+
+Cada uno ha tenido sus décadas: el value ganó buena parte del siglo XX, el growth arrasó en los años 2010 y en 2022 volvió el value. Y cada uno tiene su trampa.
+
+Guárdalo y compártelo con quien esté eligiendo su estilo de inversión 📌
+
+{HB} #valueinvesting""")
+
+# ───────────── Jue 18 feb · fondo · ROE, ROA, ROCE, ROIC
+guardar("2027-02-18_fondo_roe-roa-roce-roic", "fondo", 'ROE, ROA, ROCE <span class="k">y</span> <span class="c-teal">ROIC</span>', "ROE, ROA, ROCE y ROIC", [
+ hook("Dos empresas tienen el mismo ROE: un veinte por ciento. Una es un gran negocio. La otra, una bomba de relojería. ¿Cómo las distingues?",
+      row(card("Empresa A", "ROE 20 %", "teal", t=0, val=True, style="min-width:400px"), card("Empresa B", "ROE 20 %", "orange", t=0, val=True, style="min-width:400px"), style="gap:30px") + q('¿Cómo las <em class="c-orange">distingues</em>?', c="cómo las distingues")),
+ portada("fondo", 'ROE, ROA, ROCE y <em class="c-teal">ROIC</em>', "Hoy, en finanzas a fondo: ROE, ROA, ROCE y ROIC."),
+ esc('Empecemos por un <em class="c-navy">piso</em>', "Imagina que compras un piso de doscientos mil euros poniendo cincuenta mil tuyos, y el resto con una hipoteca al tres por ciento. Lo alquilas y te deja diez mil euros al año. El piso rinde un cinco por ciento. Pero, después de pagar cuatro mil quinientos de intereses, tu dinero rinde un once.",
+     bars(("Piso", "navy", 100, "200.000 €", "doscientos mil"), ("Tu dinero", "teal", 25, "50.000 €", "cincuenta mil tuyos")) + row(pill("El piso rinde 5 %", "navy", c="rinde un cinco", lg=True), pill("Tu dinero rinde 11 %", "teal", c="rinde un once", lg=True), style="margin-top:40px"), sub="Ejemplo ilustrativo"),
+ esc('1 · <em class="c-teal">ROE</em>', "Eso es el ROE: lo que gana el accionista sobre el dinero que ha puesto. El once por ciento del piso. Y fíjate: la hipoteca lo ha inflado. Con deuda, el ROE sube… pero el riesgo también.",
+     card("ROE", "Beneficio ÷ dinero del accionista", "teal", c="lo que gana el accionista") + row(pill("Deuda ↑ → ROE ↑ … y riesgo ↑", "orange", c="el riesgo también", lg=True), style="margin-top:40px")),
+ esc('2 · <em class="c-navy">ROA</em>', "El ROA mide lo que rinde todo lo que tiene la empresa, se haya pagado como se haya pagado. Es el cinco por ciento del piso. No se deja engañar por la deuda.",
+     card("ROA", "Beneficio ÷ todos los activos", "navy", c="todo lo que tiene") + note("No se deja engañar por la deuda", c="no se deja engañar")),
+ esc('3 · ROCE y <em class="c-teal">ROIC</em>', "El ROCE mide lo que rinde el negocio, antes de impuestos, sobre el capital que usa. Y el ROIC, lo mismo después de impuestos, sobre el dinero invertido en el negocio. El ROIC es el más importante: si es mayor que el WACC, la empresa crea valor. Si es menor, lo destruye.",
+     row(card("ROCE", "Antes de impuestos", "navy", c="el roce", style="min-width:420px"), card("ROIC", "Después de impuestos", "teal", c="y el roic", style="min-width:420px"), style="gap:30px") +
+     steps(("✓", "ROIC > WACC", "Crea valor", "teal", "crea valor"), ("✗", "ROIC < WACC", "Destruye valor", "orange", "lo destruye"), style="margin-top:30px")),
+ esc('Mismo ROE, dos <em class="c-orange">historias</em>', "Volvamos al principio. La empresa A tiene un ROE del veinte por ciento con poca deuda: su negocio es muy rentable. La empresa B llega al mismo veinte, pero con cinco veces más deuda que capital propio. Si llega un año malo, la primera aguanta. La segunda puede romperse.",
+     bars(("A · deuda", "teal", 20, "× 1", "poca deuda"), ("B · deuda", "orange", 100, "× 5", "cinco veces")) + row(pill("A aguanta", "teal", c="la primera aguanta", lg=True), pill("B puede romperse", "orange", c="puede romperse", lg=True), style="margin-top:40px"), sub="Ejemplo ilustrativo"),
+ esc('Para no <em class="c-navy">olvidarlo</em>', "Para no olvidarlo: el ROE, para el accionista. El ROA, para todo lo que tiene la empresa. El ROCE y el ROIC, para saber si el negocio en sí es bueno. Y siempre, mirar cuánta deuda hay detrás.",
+     steps(("E", "ROE", "Para el accionista", "teal", "el roe"), ("A", "ROA", "Todo lo que tiene la empresa", "navy", "el roa"), ("I", "ROCE · ROIC", "¿El negocio en sí es bueno?", "ink", "el negocio en sí"))),
+ final('El ROE te dice cuánto gana el <em class="c-teal">accionista</em>. El ROIC, si el negocio <em class="c-orange">merece la pena</em>.', "El ROE te dice cuánto gana el accionista. El ROIC, si el negocio merece la pena.", "Ejemplo ilustrativo."),
+], """
+ROE, ROA, ROCE y ROIC: ¿cuál miras tú? 📊
+
+Los cuatro miden cuánto rinde una empresa, pero cada uno sobre un dinero distinto. Imagina un piso de 200.000 € comprado con 50.000 tuyos: el piso rinde un 5 %, pero tu dinero un 11 %. ¿La diferencia? La hipoteca.
+
+🔸 ROE → lo que gana el accionista
+🔹 ROA → lo que rinde todo lo que tiene la empresa
+🔸 ROCE y ROIC → si el negocio en sí es bueno
+
+Guárdalo para repasar 📌
+
+#finanzas #analisisfundamental #inversion #educacionfinanciera #finanzasafondo""")
+
+# ───────────── Dom 21 feb · nadie · no invertir solo en tu país
+guardar("2027-02-21_nadie_no-solo-tu-pais", "nadie", NADIE, "No invertir solo en tu país", [
+ hook("Si hubieras invertido en la bolsa japonesa en su máximo de 1989, ¿cuánto habrías tardado en recuperar tu dinero? Treinta y cuatro años.",
+      card("Bolsa japonesa · máximo de 1989", "¿Cuánto tardas en recuperarlo?", "", t=0) + big("34 años", c="treinta y cuatro", cls="c-orange", style="text-align:center;margin-top:40px")),
+ portada("nadie", 'No inviertas solo en <em class="c-orange">tu país</em>', "Esto es lo que nadie te cuenta sobre invertir solo en tu país."),
+ esc('Japón, <em class="c-orange">1989</em>', "El 29 de diciembre de 1989, el Nikkei, el principal índice de la bolsa japonesa, cerró en casi treinta y nueve mil puntos. Japón parecía imparable. Después llegó el pinchazo: el índice llegó a caer más de un ochenta por ciento, y no volvió a superar aquel máximo hasta febrero de 2024.",
+     cols(("38.916", "navy", 100, "dic 1989", "29 de diciembre"), ("7.055", "orange", 18, "mar 2009", "ochenta por ciento"), ("39.099", "teal", 100, "feb 2024", "febrero de 2024"), h=480, w=200) + note("Nikkei 225 · cierre", c="pinchazo", style="margin-top:70px")),
+ esc('España, <em class="c-orange">2007</em>', "Y no hace falta irse tan lejos. El IBEX 35 marcó su máximo en noviembre de 2007, cerca de los dieciséis mil puntos. No lo superó hasta octubre de 2025: dieciocho años después. Eso sí, hablamos del índice sin dividendos. Con ellos, la espera habría sido bastante más corta.",
+     row(pill("Nov 2007: 15.946", "navy", c="noviembre de 2007", lg=True), pill("Oct 2025: 16.000", "teal", c="octubre de 2025", lg=True)) + big("18 años", c="dieciocho años", cls="c-orange", style="text-align:center;margin-top:30px") + note("Índice sin dividendos", c="sin dividendos")),
+ esc('El sesgo <em class="c-navy">local</em>', "Aun así, casi todo el mundo invierte sobre todo en su propio país. Se llama sesgo local: nos fiamos más de las empresas que conocemos. Pero España pesa menos del uno por ciento de la bolsa mundial.",
+     card("Sesgo local · home bias", "Invertimos en lo que conocemos", "navy", c="sesgo local") + row(pill("España: < 1 % de la bolsa mundial", "orange", c="menos del uno por ciento", lg=True), style="margin-top:40px")),
+ esc('Comprar el <em class="c-teal">mundo</em>', "Por eso, en vez de apostarlo todo a un país, muchos inversores compran el mundo entero con un fondo indexado global. Si a un país le va mal durante una década, otros lo compensan. Así, tu dinero no depende de lo que haga una sola economía, una sola moneda o un solo gobierno.",
+     card("Fondo indexado global", "Miles de empresas, decenas de países", "teal", c="el mundo entero") + note("Si a un país le va mal, otros lo compensan", c="otros lo compensan")),
+ esc('Pero <em class="c-orange">ojo</em>', "Eso no significa que invertir en tu país sea mala idea. Significa no poner todos los huevos en la misma cesta. Y fíjate en que hoy el riesgo es justo el contrario: la bolsa de Estados Unidos ya pesa más del sesenta por ciento del índice mundial.",
+     row(pill("No todos los huevos en la misma cesta", "", c="misma cesta", lg=True)) + bars(("EE. UU.", "navy", 100, "> 60 %", "estados unidos"), ("Resto del mundo", "teal", 60, "< 40 %", "índice mundial"), style="margin-top:40px"), sub="Peso aproximado en el índice mundial"),
+ final('Tu país puede tener una década perdida. El mundo entero, es <em class="c-teal">mucho menos probable</em>.', "Tu país puede tener una década perdida. Que la tenga el mundo entero es mucho menos probable.", "Datos: Nikkei 225 e IBEX 35, índices de precios; pesos aproximados."),
+], """
+Si invertiste en Japón en el máximo de 1989, tardaste 34 años en recuperar tu dinero 😳
+
+Y en España, el IBEX 35 tardó 18 años en superar su máximo de 2007 (sin contar dividendos). Aun así, casi todo el mundo invierte sobre todo en su propio país.
+
+No se trata de no invertir en tu país, sino de no poner todos los huevos en la misma cesta.
+
+Guárdalo y compártelo con quien solo invierta en el IBEX 📌
+
+Contenido educativo, no es recomendación de inversión.
+
+#finanzaspersonales #bolsa #diversificacion #educacionfinanciera #loquenadietecuenta""")

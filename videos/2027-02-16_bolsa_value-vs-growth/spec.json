@@ -1,0 +1,54 @@
+{
+ "series": "bolsa",
+ "topic": "Value <span class=\"k\">vs</span> <span class=\"c-teal\">growth</span>",
+ "title_post": "Value vs growth",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Hay inversores que solo compran empresas baratas, y otros que pagan lo que haga falta por las que más crecen. ¿Quién gana a largo plazo? Depende mucho de la década que mires.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-t=\"0\" style=\"min-width:400px\"><div class=\"lab\">Value</div><div class=\"txt\">Comprar barato</div></div><div class=\"card teal in\" data-t=\"0\" style=\"min-width:400px\"><div class=\"lab\">Growth</div><div class=\"txt\">Comprar crecimiento</div></div></div><div class=\"q in\" data-cue=\"quién gana\" style=\"\">¿Quién <em class=\"c-orange\">gana</em>?</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas desde cero: value frente a growth.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas desde cero</div><div class=\"hero sm in\" data-t=\"0.2\">Value vs <em class=\"c-teal\">growth</em></div>"
+  },
+  {
+   "title": "Value: comprar <em class=\"c-navy\">barato</em>",
+   "say": "El value, o inversión en valor, busca empresas que cotizan baratas respecto a lo que ganan o a lo que tienen. Suelen ser negocios maduros, que crecen poco y reparten dividendos: bancos, energéticas, aseguradoras. La idea es comprar un euro pagando setenta céntimos.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand in\" data-cue=\"bancos\">Bancos</span><span class=\"pill sand in\" data-cue=\"energéticas\">Energéticas</span><span class=\"pill sand in\" data-cue=\"aseguradoras\">Aseguradoras</span></div><div class=\"card navy in\" data-cue=\"setenta céntimos\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">La idea</div><div class=\"txt\">Comprar 1 € pagando 0,70 €</div></div>"
+  },
+  {
+   "title": "Growth: comprar <em class=\"c-teal\">crecimiento</em>",
+   "say": "El growth, o inversión en crecimiento, busca empresas que aumentan ventas y beneficios muy rápido, aunque coticen caras. Las tecnológicas, por ejemplo. Aquí pagas mucho hoy por lo que esperas que ganen mañana.",
+   "html": "<div class=\"card teal in\" data-cue=\"muy rápido\" style=\"width:100%\"><div class=\"lab\">Growth</div><div class=\"txt\">Ventas y beneficios que crecen muy rápido</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"pagas mucho\">Pagas hoy por lo que ganará mañana</span></div>"
+  },
+  {
+   "title": "Cómo <em class=\"c-navy\">distinguirlos</em>",
+   "say": "Una forma sencilla de distinguirlos es el PER. Una empresa value puede cotizar a diez veces su beneficio. Una growth, a cuarenta. Un PER de cuarenta significa que, si el beneficio no creciera nada, tardarías cuarenta años en recuperar lo pagado. Por eso el growth necesita crecer, y mucho.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"diez veces\"><span>Value</span><i class=\"navy grow\" style=\"--w:25%\">PER 10</i></div><div class=\"b in\" data-cue=\"a cuarenta\"><span>Growth</span><i class=\"teal grow\" style=\"--w:100%\">PER 40</i></div></div><div class=\"note in\" data-cue=\"cuarenta años\" style=\"margin-top:30px\">PER 40 = 40 años de beneficios si no crece</div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "title": "¿Quién <em class=\"c-orange\">gana</em>?",
+   "say": "Durante buena parte del siglo veinte, las acciones baratas lo hicieron mejor que las caras: lo documentaron Eugene Fama y Kenneth French en los años noventa. Pero en la década de 2010, el growth arrasó, empujado por las grandes tecnológicas. Y en 2022, con la subida de los tipos de interés, el value volvió a ganar.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step navy in\" data-cue=\"siglo veinte\"><div class=\"n\">XX</div><div><div class=\"t\">Siglo XX: gana el value</div><div class=\"d\">Fama y French</div></div></div><div class=\"step teal in\" data-cue=\"década de 2010\"><div class=\"n\">10s</div><div><div class=\"t\">Años 2010: gana el growth</div><div class=\"d\">Grandes tecnológicas</div></div></div><div class=\"step navy in\" data-cue=\"en 2022\"><div class=\"n\">22</div><div><div class=\"t\">2022: vuelve el value</div><div class=\"d\">Subida de tipos</div></div></div></div>"
+  },
+  {
+   "title": "La trampa de cada <em class=\"c-orange\">estilo</em>",
+   "say": "Cada estilo tiene su trampa. En el value, la trampa de valor: algo barato que lo es porque el negocio se está muriendo. En el growth, pagar tanto que, aunque la empresa crezca, la acción no suba. Ni lo barato es siempre una ganga, ni lo caro siempre un error.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card orange in\" data-cue=\"trampa de valor\" style=\"min-width:420px\"><div class=\"lab\">Trampa del value</div><div class=\"txt\">Barato porque se muere</div></div><div class=\"card orange in\" data-cue=\"pagar tanto\" style=\"min-width:420px\"><div class=\"lab\">Trampa del growth</div><div class=\"txt\">Pagar demasiado</div></div></div>"
+  },
+  {
+   "title": "¿Hay que <em class=\"c-teal\">elegir</em>?",
+   "say": "¿Hay que elegir? No necesariamente. Un fondo indexado global ya lleva de los dos. Lo importante es saber qué estás comprando y por qué.",
+   "html": "<div class=\"card teal in\" data-cue=\"indexado global\" style=\"width:100%\"><div class=\"lab\">Fondo indexado global</div><div class=\"txt\">Value + growth</div></div><div class=\"note in\" data-cue=\"por qué\" style=\"margin-top:30px\">Sabe qué compras y por qué</div>"
+  },
+  {
+   "dark": true,
+   "say": "Lo que importa no es si una acción es barata o cara, sino si vale más de lo que pagas por ella.",
+   "html": "<div class=\"final in\" data-t=\"0\">No importa si una acción es barata o cara, sino si <em class=\"c-teal\">vale más</em> de lo que pagas por ella.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Fama y French (1992). Ejemplos ilustrativos.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

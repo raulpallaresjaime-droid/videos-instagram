@@ -1,0 +1,55 @@
+{
+ "series": "fondo",
+ "topic": "ROE, ROA, ROCE <span class=\"k\">y</span> <span class=\"c-teal\">ROIC</span>",
+ "title_post": "ROE, ROA, ROCE y ROIC",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Dos empresas tienen el mismo ROE: un veinte por ciento. Una es un gran negocio. La otra, una bomba de relojería. ¿Cómo las distingues?",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-t=\"0\" style=\"min-width:400px\"><div class=\"lab\">Empresa A</div><div class=\"val\">ROE 20 %</div></div><div class=\"card orange in\" data-t=\"0\" style=\"min-width:400px\"><div class=\"lab\">Empresa B</div><div class=\"val\">ROE 20 %</div></div></div><div class=\"q in\" data-cue=\"cómo las distingues\" style=\"\">¿Cómo las <em class=\"c-orange\">distingues</em>?</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas a fondo: ROE, ROA, ROCE y ROIC.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">ROE, ROA, ROCE y <em class=\"c-teal\">ROIC</em></div>"
+  },
+  {
+   "title": "Empecemos por un <em class=\"c-navy\">piso</em>",
+   "say": "Imagina que compras un piso de doscientos mil euros poniendo cincuenta mil tuyos, y el resto con una hipoteca al tres por ciento. Lo alquilas y te deja diez mil euros al año. El piso rinde un cinco por ciento. Pero, después de pagar cuatro mil quinientos de intereses, tu dinero rinde un once.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"doscientos mil\"><span>Piso</span><i class=\"navy grow\" style=\"--w:100%\">200.000 €</i></div><div class=\"b in\" data-cue=\"cincuenta mil tuyos\"><span>Tu dinero</span><i class=\"teal grow\" style=\"--w:25%\">50.000 €</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill navy lg in\" data-cue=\"rinde un cinco\">El piso rinde 5 %</span><span class=\"pill teal lg in\" data-cue=\"rinde un once\">Tu dinero rinde 11 %</span></div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "title": "1 · <em class=\"c-teal\">ROE</em>",
+   "say": "Eso es el ROE: lo que gana el accionista sobre el dinero que ha puesto. El once por ciento del piso. Y fíjate: la hipoteca lo ha inflado. Con deuda, el ROE sube… pero el riesgo también.",
+   "html": "<div class=\"card teal in\" data-cue=\"lo que gana el accionista\" style=\"width:100%\"><div class=\"lab\">ROE</div><div class=\"txt\">Beneficio ÷ dinero del accionista</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill orange lg in\" data-cue=\"el riesgo también\">Deuda ↑ → ROE ↑ … y riesgo ↑</span></div>"
+  },
+  {
+   "title": "2 · <em class=\"c-navy\">ROA</em>",
+   "say": "El ROA mide lo que rinde todo lo que tiene la empresa, se haya pagado como se haya pagado. Es el cinco por ciento del piso. No se deja engañar por la deuda.",
+   "html": "<div class=\"card navy in\" data-cue=\"todo lo que tiene\" style=\"width:100%\"><div class=\"lab\">ROA</div><div class=\"txt\">Beneficio ÷ todos los activos</div></div><div class=\"note in\" data-cue=\"no se deja engañar\" style=\"margin-top:30px\">No se deja engañar por la deuda</div>"
+  },
+  {
+   "title": "3 · ROCE y <em class=\"c-teal\">ROIC</em>",
+   "say": "El ROCE mide lo que rinde el negocio, antes de impuestos, sobre el capital que usa. Y el ROIC, lo mismo después de impuestos, sobre el dinero invertido en el negocio. El ROIC es el más importante: si es mayor que el WACC, la empresa crea valor. Si es menor, lo destruye.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-cue=\"el roce\" style=\"min-width:420px\"><div class=\"lab\">ROCE</div><div class=\"txt\">Antes de impuestos</div></div><div class=\"card teal in\" data-cue=\"y el roic\" style=\"min-width:420px\"><div class=\"lab\">ROIC</div><div class=\"txt\">Después de impuestos</div></div></div><div class=\"steps\" style=\"margin-top:30px\"><div class=\"step teal in\" data-cue=\"crea valor\"><div class=\"n\">✓</div><div><div class=\"t\">ROIC > WACC</div><div class=\"d\">Crea valor</div></div></div><div class=\"step orange in\" data-cue=\"lo destruye\"><div class=\"n\">✗</div><div><div class=\"t\">ROIC < WACC</div><div class=\"d\">Destruye valor</div></div></div></div>"
+  },
+  {
+   "title": "Mismo ROE, dos <em class=\"c-orange\">historias</em>",
+   "say": "Volvamos al principio. La empresa A tiene un ROE del veinte por ciento con poca deuda: su negocio es muy rentable. La empresa B llega al mismo veinte, pero con cinco veces más deuda que capital propio. Si llega un año malo, la primera aguanta. La segunda puede romperse.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"poca deuda\"><span>A · deuda</span><i class=\"teal grow short\" style=\"--w:20%\">× 1</i></div><div class=\"b in\" data-cue=\"cinco veces\"><span>B · deuda</span><i class=\"orange grow\" style=\"--w:100%\">× 5</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill teal lg in\" data-cue=\"la primera aguanta\">A aguanta</span><span class=\"pill orange lg in\" data-cue=\"puede romperse\">B puede romperse</span></div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "title": "Para no <em class=\"c-navy\">olvidarlo</em>",
+   "say": "Para no olvidarlo: el ROE, para el accionista. El ROA, para todo lo que tiene la empresa. El ROCE y el ROIC, para saber si el negocio en sí es bueno. Y siempre, mirar cuánta deuda hay detrás.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step teal in\" data-cue=\"el roe\"><div class=\"n\">E</div><div><div class=\"t\">ROE</div><div class=\"d\">Para el accionista</div></div></div><div class=\"step navy in\" data-cue=\"el roa\"><div class=\"n\">A</div><div><div class=\"t\">ROA</div><div class=\"d\">Todo lo que tiene la empresa</div></div></div><div class=\"step ink in\" data-cue=\"el negocio en sí\"><div class=\"n\">I</div><div><div class=\"t\">ROCE · ROIC</div><div class=\"d\">¿El negocio en sí es bueno?</div></div></div></div>"
+  },
+  {
+   "dark": true,
+   "say": "El ROE te dice cuánto gana el accionista. El ROIC, si el negocio merece la pena.",
+   "html": "<div class=\"final in\" data-t=\"0\">El ROE te dice cuánto gana el <em class=\"c-teal\">accionista</em>. El ROIC, si el negocio <em class=\"c-orange\">merece la pena</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}
