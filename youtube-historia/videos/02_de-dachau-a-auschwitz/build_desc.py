@@ -22,7 +22,7 @@ for l in open(os.path.join(here, 'img', 'creditos.txt')):
     t = re.sub(r' \(\)', '', t).replace('\\/', '/')
     art = '' if 'Unknown' in art else art.split(' (')[0]
     cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
-titulo = 'De Dachau a Auschwitz: cómo nacieron los campos de concentración nazis | Documental'
+titulo = 'Dachau: el primer campo de concentración nazi'
 desc = f"""El 22 de marzo de 1933 llegaron a Dachau unos 200 presos políticos. Doce años después, solo en Auschwitz habían sido asesinadas más de 1,1 millones de personas. Así nació, paso a paso, el sistema de campos nazi: de las primeras detenciones sin juicio a los centros de exterminio.
 
 📌 Capítulo 2 de la serie sobre el nazismo y la Segunda Guerra Mundial. Anterior: cómo Hitler llegó al poder. Próximo: Auschwitz por dentro.

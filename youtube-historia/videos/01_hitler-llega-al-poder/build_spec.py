@@ -198,7 +198,7 @@ for i, sc_ in enumerate(S):
 
 spec = dict(title='Cómo Hitler llegó al poder', brand='Sombras del 39', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
             voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=3, scenes=S,
-            thumb=dict(img='img/hitler.jpg', fy=0.25, l1='Nunca ganó<br>la mayoría', l2='43,9 %', l3='Cómo llegó al poder'))
+            thumb={'img': 'img/hitler.jpg', 'fy': 0.25, 'l1': 'Nunca ganó<br>la mayoría', 'l2': '43,9 %'})
 here = os.path.dirname(os.path.abspath(__file__))
 json.dump(spec, open(os.path.join(here, 'spec.json'), 'w'), ensure_ascii=False, indent=1)
 txt = ' '.join(s['say'] for s in S)

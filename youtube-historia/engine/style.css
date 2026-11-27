@@ -95,7 +95,7 @@ body{font-family:IN;color:var(--paper)}
 
 /* capas de imagen (imgs: [...]) */
 .layer{position:absolute;inset:0}
-.layer.blurred .ph img{filter:grayscale(1) contrast(1.1) brightness(.75) sepia(.18) blur(var(--blur,26px))}
+.layer.blurred .ph img{filter:grayscale(1) contrast(1.1) brightness(.75) sepia(.18) blur(var(--blur,12px))}
 .lcap{opacity:0}
 /* rótulo de identificación: nombre + cargo */
 .idl{position:absolute;left:80px;bottom:150px;z-index:5;opacity:0;display:flex;flex-direction:column;gap:6px;

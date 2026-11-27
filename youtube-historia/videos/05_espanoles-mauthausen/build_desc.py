@@ -24,7 +24,7 @@ for l in open(os.path.join(here, 'img', 'creditos.txt')):
     if t.startswith('Bundesarchiv'): t = t.split(' (')[0]  # solo la signatura: la descripción no puede pasar de 5.000 caracteres
     art = '' if 'Unknown' in art else art.split(' (')[0]
     cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
-titulo = 'Los españoles de Mauthausen: los republicanos olvidados en un campo nazi | Documental'
+titulo = '4.427 españoles murieron en un campo nazi. Casi nadie los recuerda'
 desc = f"""Unos 7.500 republicanos españoles pasaron por el campo de concentración nazi de Mauthausen y sus subcampos, y más de 4.400 murieron allí, la mayoría en Gusen. Habían perdido la Guerra Civil, cruzado a Francia en la Retirada de 1939 y caído prisioneros en 1940. El régimen de Franco no los reclamó. Esta es su historia: el convoy de los 927, la escalera de la muerte, la solidaridad que salvó vidas y el fotógrafo Francisco Boix, que sacó a escondidas las fotos de las SS y declaró en Núremberg.
 
 📌 Capítulo 5 de la serie sobre el nazismo y la Segunda Guerra Mundial. Anterior: La Noche de los cristales rotos. Próximo: 1 de septiembre de 1939, el día que empezó la guerra.

@@ -23,7 +23,7 @@ for l in open(os.path.join(here, 'img', 'creditos.txt')):
     if t.startswith('Bundesarchiv'): t = t.split(' (')[0]  # solo la signatura: la descripción no puede pasar de 5.000 caracteres
     art = '' if 'Unknown' in art else art.split(' (')[0]
     cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
-titulo = 'La Noche de los cristales rotos (1938): el día que el odio salió a la calle | Documental'
+titulo = 'La noche que anunció el Holocausto'
 desc = f"""En la noche del 9 al 10 de noviembre de 1938 ardieron o fueron destrozadas más de 1.400 sinagogas y casas de oración en Alemania y Austria, unos 7.500 comercios judíos acabaron con los escaparates rotos y unos 30.000 hombres fueron enviados a campos de concentración. Así fue el pogromo de noviembre: el disparo de Herschel Grynszpan en París, el discurso de Goebbels, las órdenes de Heydrich y la factura que se obligó a pagar a las víctimas.
 
 📌 Capítulo 4 de la serie sobre el nazismo y la Segunda Guerra Mundial. Anterior: Auschwitz por dentro. Próximo: Los españoles de Mauthausen.

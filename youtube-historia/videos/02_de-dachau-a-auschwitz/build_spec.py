@@ -202,7 +202,7 @@ for i, s_ in enumerate(S): s_['mood'] = MOOD.get(i, 'inquietud')
 
 spec = dict(title='De Dachau a Auschwitz', brand='Sombras del 39', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
             voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=4, scenes=S,
-            thumb=dict(img='img/dachau1.jpg', fy=0.45, l1='Así empezó<br>el horror', l2='1933', l3='De Dachau a Auschwitz'))
+            thumb={'img': 'img/dachau1.jpg', 'fy': 0.45, 'face': {'img': 'img/himmler.jpg', 'fy': 0.3, 'w': 42}, 'l1': 'Dachau', 'l2': '1933'})
 json.dump(spec, open(os.path.join(here, 'spec.json'), 'w'), ensure_ascii=False, indent=1)
 txt = ' '.join(s['say'] for s in S)
 print(len(S), 'escenas ·', len(txt), 'caracteres · ~%.1f min' % (len(txt) / 13.8 / 60), '· sin foto:', [i for i, s in enumerate(S) if 'img' not in s and 'bg' not in s])

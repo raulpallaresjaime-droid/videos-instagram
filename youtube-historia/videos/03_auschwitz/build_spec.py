@@ -429,7 +429,7 @@ for i in sorted(MERGE, reverse=True):
 
 spec = dict(title='Auschwitz por dentro', brand='Sombras del 39', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
             voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=4, scenes=S,
-            thumb=dict(img='img/puerta_birkenau.jpg', fy=0.45, l1='Así funcionaba<br>Auschwitz', l2='1,1 M', l3='Auschwitz por dentro'))
+            thumb={'img': 'img/lib_ninos.jpg', 'fy': 0.35, 'l1': 'Auschwitz', 'l2': 'por dentro', 'l2size': 118})
 json.dump(spec, open(os.path.join(here, 'spec.json'), 'w'), ensure_ascii=False, indent=1)
 txt = ' '.join(s['say'] for s in S)
 print(len(S), 'escenas ·', len(txt), 'caracteres · ~%.1f min' % (len(txt) / 13.8 / 60), '· sin foto:', [i for i, s in enumerate(S) if 'img' not in s and 'bg' not in s])

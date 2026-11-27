@@ -285,7 +285,7 @@ sc("En el próximo capítulo nos quedamos en el momento que lo cambió todo: la 
 thumb_img = 'dday' if has('dday') else 'stalingrado_vista'
 spec = dict(title='Toda la Segunda Guerra Mundial en 20 minutos', brand='Sombras del 39', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
             voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=4, scenes=S,
-            thumb=dict(img=f'img/{thumb_img}.jpg', fy=0.45, l1='Toda la<br>Segunda Guerra', l2='20 MIN', l3='1939 · 1945'))
+            thumb={'img': 'img/dday.jpg', 'fy': 0.45, 'l1': 'En 6 años', 'l2': '60 millones', 'l2size': 118, 'l3': 'de muertos'})
 json.dump(spec, open(os.path.join(here, 'spec.json'), 'w'), ensure_ascii=False, indent=1)
 txt = ' '.join(s['say'] for s in S)
 print(len(S), 'escenas ·', len(txt), 'caracteres · ~%.1f min' % (len(txt) / 13.8 / 60), '· sin foto:', [i for i, s in enumerate(S) if 'img' not in s and 'bg' not in s])

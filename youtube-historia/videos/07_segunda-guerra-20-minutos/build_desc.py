@@ -24,7 +24,7 @@ for l in open(os.path.join(here, 'img', 'creditos.txt')):
     if t.startswith('Bundesarchiv'): t = t.split(' (')[0]  # solo la signatura: la descripción no puede pasar de 5.000 caracteres
     art = '' if 'Unknown' in art else art.split(' (')[0]
     cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
-titulo = 'Toda la Segunda Guerra Mundial en 20 minutos | Documental'
+titulo = 'Más de 60 millones de muertos en 6 años: toda la guerra en 20 minutos'
 desc = f"""Seis años y un día: del 1 de septiembre de 1939 al 2 de septiembre de 1945. En este documental te cuento toda la Segunda Guerra Mundial en unos 20 minutos: la invasión de Polonia, la caída de Francia, la batalla de Inglaterra, Hendaya, la Operación Barbarroja, el Holocausto, Pearl Harbor, Midway, Stalingrado, El Alamein, Kursk, el Día D, la liberación de París con los españoles de la Nueve, la caída de Berlín, Hiroshima y Nagasaki.
 
 📌 Capítulo 7 de la serie sobre el nazismo y la Segunda Guerra Mundial. Anterior: 1 de septiembre de 1939. Próximo: Operación Barbarroja, el mayor error de Hitler.

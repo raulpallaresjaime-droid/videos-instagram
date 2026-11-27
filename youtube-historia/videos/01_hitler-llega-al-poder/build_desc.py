@@ -1,7 +1,7 @@
 # Genera descripcion.txt (título, descripción con capítulos, fuentes y créditos de imágenes, etiquetas)
 import os
 here = os.path.dirname(os.path.abspath(__file__))
-titulo = 'Cómo Hitler llegó al poder sin ganar nunca la mayoría | Documental'
+titulo = '¿Cómo llegó Hitler al poder sin ganar nunca unas elecciones por mayoría?'
 cap = """0:00 Nunca ganó la mayoría
 0:33 Versalles y el mito de la puñalada
 1:57 1923: la hiperinflación

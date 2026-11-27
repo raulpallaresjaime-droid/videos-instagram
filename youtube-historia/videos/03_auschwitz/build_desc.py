@@ -39,7 +39,7 @@ for carpeta, rel in [(os.path.join(here, 'img'), 'img'), (os.path.join(here, 'cl
         art = '' if 'Unknown' in art else art.split(' (')[0]
         lic = 'dominio público' if 'público' in lic.lower() or 'public' in lic.lower() else '' if 'ver licencia' in lic else lic
         cred[t] = f"- {t}" + (f" ({lic}{', ' + art if art else ''})" if lic or art else '')
-titulo = 'Auschwitz por dentro: cómo funcionaba el mayor campo de exterminio nazi | Documental'
+titulo = 'Así funcionaba Auschwitz: la fábrica de muerte nazi por dentro'
 desc = f"""Al menos 1,3 millones de personas fueron deportadas a Auschwitz. Más de 1,1 millones nunca salieron. Entramos en el mayor campo de exterminio nazi para entender cómo funcionaba: los trenes, la selección en el andén, el número tatuado, el trabajo esclavo para IG Farben, la resistencia y la liberación.
 
 📌 Capítulo 3 de la serie sobre el nazismo y la Segunda Guerra Mundial. Anterior: De Dachau a Auschwitz. Próximo: La Noche de los cristales rotos.

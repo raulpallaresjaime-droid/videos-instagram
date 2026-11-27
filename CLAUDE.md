@@ -192,7 +192,7 @@ solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. N
      **nada de repetir imágenes para rellenar**: una foto o clip solo se repite cuando se vuelve a hablar de ese sitio,
      hecho o persona (aunque sea minutos después); el render avisa `REPETIDA` y hay que revisar cada aviso; (3) imágenes con peso (presos, niños,
      familias en los andenes, zapatos, maletas, barracones, liberación, Núremberg, documentos), las banales en minoría;
-     revisar con hoja de contactos y sustituir las flojas; (4) lo más explícito solo si es imprescindible, con `blur`, breve,
+     revisar con hoja de contactos y sustituir las flojas; (4) lo más explícito solo si es imprescindible, con `blur` (12 px por defecto: que se intuya sin llegar a verse), breve,
      nunca en el primer minuto ni en la miniatura y con contexto; nada de sangre ni ejecuciones.
    - **Clips de vídeo (desde el episodio 9): 1 escena de cada 3-4 con `clip`** en vez de foto, priorizando los que muestran a los personajes (noticiarios con Hitler o Göring, juicios de Núremberg…). Solo dominio público:
      películas del Gobierno de EE. UU. (NARA, US Army Signal Corps, «Why We Fight», Universal Newsreels) copiadas en

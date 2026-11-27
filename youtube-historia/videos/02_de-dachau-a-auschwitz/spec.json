@@ -246,8 +246,12 @@
  "thumb": {
   "img": "img/dachau1.jpg",
   "fy": 0.45,
-  "l1": "Así empezó<br>el horror",
-  "l2": "1933",
-  "l3": "De Dachau a Auschwitz"
+  "face": {
+   "img": "img/himmler.jpg",
+   "fy": 0.3,
+   "w": 42
+  },
+  "l1": "Dachau",
+  "l2": "1933"
  }
 }

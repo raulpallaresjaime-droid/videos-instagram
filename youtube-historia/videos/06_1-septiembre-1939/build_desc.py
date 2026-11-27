@@ -25,7 +25,7 @@ for l in open(os.path.join(here, 'img', 'creditos.txt')):
     if t.startswith('Bundesarchiv'): t = t.split(' (')[0]  # solo la signatura: la descripción no puede pasar de 5.000 caracteres
     art = '' if 'Unknown' in art else art.split(' (')[0]
     cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
-titulo = '1 de septiembre de 1939: el día que empezó la Segunda Guerra Mundial | Documental'
+titulo = 'Así empezó la Segunda Guerra Mundial, hora a hora'
 desc = f"""A las 4:45 de la madrugada del 1 de septiembre de 1939, el acorazado Schleswig-Holstein abrió fuego contra Westerplatte y Alemania invadió Polonia. Así empezó la Segunda Guerra Mundial. En este documental: el pacto secreto entre Hitler y Stalin, el ataque falso de Gleiwitz, el bombardeo de Wielun, la resistencia de Westerplatte y de los correos de Danzig, el mito de la caballería polaca, el ultimátum británico, la invasión soviética y la caída de Varsovia.
 
 📌 Capítulo 6 de la serie sobre el nazismo y la Segunda Guerra Mundial. Anterior: Los españoles de Mauthausen. Próximo: Toda la Segunda Guerra Mundial en 20 minutos.

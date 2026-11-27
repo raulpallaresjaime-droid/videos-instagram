@@ -293,7 +293,7 @@ sc("En el próximo capítulo te cuento toda la Segunda Guerra Mundial en veinte 
 
 spec = dict(title='1 de septiembre de 1939', brand='Sombras del 39', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
             voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=4, scenes=S,
-            thumb=dict(img='img/frontera2.jpg', fy=0.45, l1='El día que<br>empezó la guerra', l2='1939', l3='1 de septiembre · 4:45'))
+            thumb={'img': 'img/frontera2.jpg', 'fy': 0.45, 'l1': '1 de septiembre<br>de 1939', 'l2': '4:45'})
 json.dump(spec, open(os.path.join(here, 'spec.json'), 'w'), ensure_ascii=False, indent=1)
 txt = ' '.join(s['say'] for s in S)
 print(len(S), 'escenas ·', len(txt), 'caracteres · ~%.1f min' % (len(txt) / 13.8 / 60), '· sin foto:', [i for i, s in enumerate(S) if 'img' not in s and 'bg' not in s])

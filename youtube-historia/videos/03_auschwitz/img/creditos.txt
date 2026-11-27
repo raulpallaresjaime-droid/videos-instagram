@@ -81,3 +81,7 @@ zyklon_etiquetas.jpg	Wikimedia Commons, File:Zyklon_B_labels.jpg	(ver licencia e
 wannsee.jpg	Wikimedia Commons, File:Wannsee_Conference_-_Letter_from_Reinhard_Heydrich_to_Martin_Luther_(Invitation).JPG	(ver licencia en Commons)	
 wannsee_protocolo.jpg	Wikimedia Commons, File:Heydrich-Endlosung.jpg	(ver licencia en Commons)	
 informe_vrba.jpg	Wikimedia Commons, File:Telegram,_Vrba_and_Wetzler_escape,_Auschwitz,_8_April_1944.jpg	(ver licencia en Commons)	
+westerbork.jpg	Wikimedia Commons, File:SettelaSteinbach1944.jpeg	(ver licencia en Commons)	
+alb_dos_jovenes.jpg	Wikimedia Commons, File:Birkenau_Two_young_women_selected_for_forced_labor.jpg	(ver licencia en Commons)	
+alb_ss_rampa.jpg	Wikimedia Commons, File:Stefan_Baretzki_at_the_Judenrampe_(Auschwitz_Album).jpg	(ver licencia en Commons)	
+hoss_juicio.jpg	Wikimedia Commons, File:Rudolf_Hoess_Trial_Sentence.jpg	(ver licencia en Commons)	

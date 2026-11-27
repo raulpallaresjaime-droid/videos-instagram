@@ -24,7 +24,7 @@ for l in open(os.path.join(here, 'img', 'creditos.txt')):
     if t.startswith('Bundesarchiv'): t = t.split(' (')[0]  # solo la signatura: la descripción no puede pasar de 5.000 caracteres
     art = '' if 'Unknown' in art else art.split(' (')[0]
     cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
-titulo = 'Operación Barbarroja: el mayor error de Hitler | Documental'
+titulo = 'El día que Hitler firmó su derrota sin saberlo'
 desc = f"""El 22 de junio de 1941, más de 3 millones de soldados alemanes invadieron la Unión Soviética. Hitler creía que bastaba «una patada a la puerta». Seis meses después, su ejército se congelaba a las puertas de Moscú. En este documental: la directiva n.º 21, el plan del hambre, los avisos que Stalin ignoró, los grandes cercos, el destino de los prisioneros soviéticos, Kiev y Babi Yar, el asedio de Leningrado, la División Azul, la Operación Tifón, el barro, el invierno y la contraofensiva de Zhúkov.
 
 📌 Capítulo 8 de la serie sobre el nazismo y la Segunda Guerra Mundial. Anterior: Toda la Segunda Guerra Mundial en 20 minutos. Próximo: Stalingrado.

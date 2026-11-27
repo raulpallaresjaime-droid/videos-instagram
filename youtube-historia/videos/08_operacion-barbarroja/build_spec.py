@@ -270,7 +270,7 @@ sc("En el próximo capítulo viajamos a la batalla que cambió el rumbo de la gu
 
 spec = dict(title='Operación Barbarroja', brand='Sombras del 39', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
             voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=4, scenes=S,
-            thumb=dict(img='img/schlamm2.jpg', fy=0.4, l1='El mayor error<br>de Hitler', l2='1941', l3='Operación Barbarroja'))
+            thumb={'img': 'img/schnee_moskau.jpg', 'fy': 0.5, 'face': {'img': 'personas/hitler.jpg', 'fx': 0.4, 'fy': 0.11, 'zoom': 2.3, 'w': 44}, 'l1': 'Firmó<br>su derrota', 'l2': '1941'})
 json.dump(spec, open(os.path.join(here, 'spec.json'), 'w'), ensure_ascii=False, indent=1)
 txt = ' '.join(s['say'] for s in S)
 print(len(S), 'escenas ·', len(txt), 'caracteres · ~%.1f min' % (len(txt) / 13.8 / 60), '· sin foto:', [i for i, s in enumerate(S) if 'img' not in s and 'bg' not in s])

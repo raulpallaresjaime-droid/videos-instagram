@@ -65,7 +65,7 @@ Para todo capítulo nuevo (y al rehacer las imágenes de los capítulos 3-8, reu
 - Fundido de 0,8 s entre imágenes y Ken Burns propio en cada una (alterna `in`/`out` si no se indica `kb`).
 - `who: {name, role}` → rótulo abajo a la izquierda (a la derecha con `side: "right"`) que entra con la imagen y dura ~7 s.
   Usarlo justo cuando la voz nombra a la persona (`cue` con su nombre).
-- `blur: true` (26 px) o un número de píxeles. `cap` de cada imagen = su pie de foto.
+- `blur: true` = 12 px (norma de Raúl: que se intuya lo que hay sin llegar a verse; si se desenfoca demasiado no se entiende) o un número de píxeles. Para cadáveres amontonados y similares. `cap` de cada imagen = su pie de foto.
 - `side`, `shade`, `html` y el `cap` de escena siguen funcionando igual. `img`/`clip` sueltos = una sola imagen (los
   episodios 1-8 se renderizan igual que antes).
 - Rutas: primero en la carpeta del episodio y, si no existen, en `youtube-historia/` (`personas/…`).

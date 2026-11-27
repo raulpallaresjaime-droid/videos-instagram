@@ -428,10 +428,16 @@
   }
  ],
  "thumb": {
-  "img": "img/schlamm2.jpg",
-  "fy": 0.4,
-  "l1": "El mayor error<br>de Hitler",
-  "l2": "1941",
-  "l3": "Operación Barbarroja"
+  "img": "img/schnee_moskau.jpg",
+  "fy": 0.5,
+  "face": {
+   "img": "personas/hitler.jpg",
+   "fx": 0.4,
+   "fy": 0.11,
+   "zoom": 2.3,
+   "w": 44
+  },
+  "l1": "Firmó<br>su derrota",
+  "l2": "1941"
  }
 }

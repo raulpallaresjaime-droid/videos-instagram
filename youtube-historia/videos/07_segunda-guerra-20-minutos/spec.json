@@ -490,8 +490,9 @@
  "thumb": {
   "img": "img/dday.jpg",
   "fy": 0.45,
-  "l1": "Toda la<br>Segunda Guerra",
-  "l2": "20 MIN",
-  "l3": "1939 · 1945"
+  "l1": "En 6 años",
+  "l2": "60 millones",
+  "l2size": 118,
+  "l3": "de muertos"
  }
 }

@@ -104,7 +104,7 @@ function sceneHTML(s, i) {
   let ph = '', labs = '';
   s.layers.forEach((L, j) => {
     const at = ` data-clip="${L.clip ? j : ''}"`;
-    const bl = L.blur ? ` style="--blur:${L.blur === true ? 26 : L.blur}px"` : '';
+    const bl = L.blur ? ` style="--blur:${L.blur === true ? 12 : L.blur}px"` : '';
     ph += `<div class="layer${L.blur ? ' blurred' : ''}" data-l="${j}"${bl}>`;
     if (s.side) ph += `<div class="ph blur"><img src="file://${L.src}" data-fill="1"${at}></div>`;
     ph += `<div class="ph ${L.dark ? 'bgimg' : 'main'}"><img src="file://${L.src}" data-kb="${L.kb}" data-fx="${L.fx ?? 0.5}" data-fy="${L.fy ?? 0.5}"${at}></div></div>`;

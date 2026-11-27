@@ -13,7 +13,8 @@
    "carpeta": "01_hitler-llega-al-poder",
    "tema": "Cómo Hitler llegó al poder",
    "estado": "programado",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-540799659121161172"
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-540799659121161172",
+   "titulo": "¿Cómo llegó Hitler al poder sin ganar nunca unas elecciones por mayoría?"
   },
   {
    "fecha": "2026-12-03",
@@ -22,7 +23,8 @@
    "tema": "De Dachau a Auschwitz",
    "estado": "programado",
    "carpeta": "02_de-dachau-a-auschwitz",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-6844359128481577063"
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-6844359128481577063",
+   "titulo": "Dachau: el primer campo de concentración nazi"
   },
   {
    "fecha": "2026-12-08",
@@ -32,7 +34,8 @@
    "estado": "programado",
    "carpeta": "03_auschwitz",
    "duracion": "19:02",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4609418732876285663"
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4609418732876285663",
+   "titulo": "Así funcionaba Auschwitz: la fábrica de muerte nazi por dentro"
   },
   {
    "fecha": "2026-12-10",
@@ -42,7 +45,8 @@
    "estado": "programado",
    "carpeta": "04_noche-cristales-rotos",
    "duracion": "15:57",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4039147293749692253"
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4039147293749692253",
+   "titulo": "La noche que anunció el Holocausto"
   },
   {
    "fecha": "2026-12-15",
@@ -52,7 +56,8 @@
    "estado": "programado",
    "carpeta": "05_espanoles-mauthausen",
    "duracion": "16:13",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=5018965093258641565"
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=5018965093258641565",
+   "titulo": "4.427 españoles murieron en un campo nazi. Casi nadie los recuerda"
   },
   {
    "fecha": "2026-12-17",
@@ -62,7 +67,8 @@
    "estado": "programado",
    "carpeta": "06_1-septiembre-1939",
    "duracion": "15:56",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-709990893383235455"
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-709990893383235455",
+   "titulo": "Así empezó la Segunda Guerra Mundial, hora a hora"
   },
   {
    "fecha": "2026-12-22",
@@ -72,7 +78,8 @@
    "estado": "programado",
    "carpeta": "07_segunda-guerra-20-minutos",
    "duracion": "17:07",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=5539716042497672790"
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=5539716042497672790",
+   "titulo": "Más de 60 millones de muertos en 6 años: toda la guerra en 20 minutos"
   },
   {
    "fecha": "2026-12-24",
@@ -82,21 +89,24 @@
    "estado": "programado",
    "carpeta": "08_operacion-barbarroja",
    "duracion": "16:08",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4469811646449404920"
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4469811646449404920",
+   "titulo": "El día que Hitler firmó su derrota sin saberlo"
   },
   {
    "fecha": "2026-12-29",
    "hora": "16:00",
    "episodio": 9,
    "tema": "Stalingrado: la batalla que cambió la guerra",
-   "estado": "pendiente"
+   "estado": "pendiente",
+   "titulo": "Stalingrado: la batalla que se luchó casa por casa"
   },
   {
    "fecha": "2026-12-31",
    "hora": "16:00",
    "episodio": 10,
    "tema": "Pearl Harbor: el día que Estados Unidos entró en la guerra",
-   "estado": "pendiente"
+   "estado": "pendiente",
+   "titulo": "Pearl Harbor: el ataque que Estados Unidos no vio venir"
   }
  ],
  "nota_presupuesto": "Episodios 3-8 de diciembre producidos antes del 3/12 con el saldo sobrante de noviembre de ElevenLabs."

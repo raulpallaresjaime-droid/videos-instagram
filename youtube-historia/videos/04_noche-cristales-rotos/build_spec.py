@@ -311,7 +311,7 @@ sc("En el próximo capítulo conoceremos una historia que nos toca muy de cerca:
 
 spec = dict(title='La Noche de los cristales rotos', brand='Sombras del 39', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
             voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=4, scenes=S,
-            thumb=dict(img='img/sinagoga_quemada.jpg', fy=0.4, l1='La noche que<br>ardió Alemania', l2='1938', l3='Noche de los cristales rotos'))
+            thumb={'img': 'img/sinagoga_quemada.jpg', 'fy': 0.4, 'l1': '9 de noviembre', 'l2': '1938'})
 json.dump(spec, open(os.path.join(here, 'spec.json'), 'w'), ensure_ascii=False, indent=1)
 txt = ' '.join(s['say'] for s in S)
 print(len(S), 'escenas ·', len(txt), 'caracteres · ~%.1f min' % (len(txt) / 13.8 / 60), '· sin foto:', [i for i, s in enumerate(S) if 'img' not in s and 'bg' not in s])

@@ -478,10 +478,10 @@
   }
  ],
  "thumb": {
-  "img": "img/puerta_birkenau.jpg",
-  "fy": 0.45,
-  "l1": "Así funcionaba<br>Auschwitz",
-  "l2": "1,1 M",
-  "l3": "Auschwitz por dentro"
+  "img": "img/lib_ninos.jpg",
+  "fy": 0.35,
+  "l1": "Auschwitz",
+  "l2": "por dentro",
+  "l2size": 118
  }
 }

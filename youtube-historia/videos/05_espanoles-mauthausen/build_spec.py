@@ -317,7 +317,7 @@ sc("En el próximo capítulo volvemos al principio de todo: el 1 de septiembre d
 
 spec = dict(title='Los españoles de Mauthausen', brand='Sombras del 39', voice='hyKxCTlAqtnW188CgltM', model='eleven_v4',
             voice_settings=dict(stability=0.5, similarity_boost=0.75), tail=4, scenes=S,
-            thumb=dict(img='img/escalera.jpg', fy=0.45, l1='Los españoles<br>olvidados', l2='4.427', l3='Mauthausen 1940-1945'))
+            thumb={'img': 'img/escalera.jpg', 'fy': 0.45, 'l1': 'Españoles<br>olvidados', 'l2': '4.427'})
 json.dump(spec, open(os.path.join(here, 'spec.json'), 'w'), ensure_ascii=False, indent=1)
 txt = ' '.join(s['say'] for s in S)
 print(len(S), 'escenas ·', len(txt), 'caracteres · ~%.1f min' % (len(txt) / 13.8 / 60), '· sin foto:', [i for i, s in enumerate(S) if 'img' not in s and 'bg' not in s])
