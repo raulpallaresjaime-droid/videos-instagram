@@ -32,29 +32,6 @@ scenes.forEach((s, i) => { s.end = i + 1 < scenes.length ? scenes[i + 1].start :
 const total = scenes[scenes.length - 1].end;
 const N = Math.ceil(total * FPS);
 
-// Clips de archivo: cada escena con `clip` se trocea en fotogramas JPG (caché en _clips_cache/) y el render
-// cambia de fotograma en sincronía con su propio reloj, así que funciona igual en los tramos en paralelo.
-// clipStart = segundo del clip donde empieza; clipRate = velocidad (por defecto 1, o más lenta si el clip
-// es más corto que la escena, hasta 0,6×; si aun así no llega, se queda congelado en el último fotograma).
-const CLIP_FPS = 30, CLIP_CACHE = path.join(dir, '_clips_cache');
-scenes.forEach((s, i) => {
-  if (!s.clip) return;
-  const src = path.join(dir, s.clip);
-  const len = +execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src]).toString().trim();
-  const avail = Math.max(0.1, len - (s.clipStart || 0)), need = s.end + FADE - s.start;
-  s.rate = s.clipRate || Math.max(0.6, Math.min(1, avail / need));
-  if (!part && avail < need * s.rate - 0.05) console.warn(`  Aviso: el clip de la escena ${i} se congela ${(need - avail / s.rate).toFixed(1)} s (es corto)`);
-  s.cdir = path.join(CLIP_CACHE, `${i}_${path.basename(s.clip).replace(/\W/g, '_')}_${s.clipStart || 0}`);
-  if (!fs.existsSync(path.join(s.cdir, '.ok'))) { // solo la primera vez (el proceso principal, antes de los tramos)
-    fs.mkdirSync(s.cdir, { recursive: true });
-    execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-ss', String(s.clipStart || 0), '-t', String(Math.min(avail, need * s.rate + 0.5)),
-      '-i', src, '-an', '-vf', `fps=${CLIP_FPS},scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720`,
-      '-q:v', '3', path.join(s.cdir, '%05d.jpg')]);
-    fs.writeFileSync(path.join(s.cdir, '.ok'), '');
-  }
-  s.frames = fs.readdirSync(s.cdir).filter(f => f.endsWith('.jpg')).length;
-});
-
 function cueTime(sc, cue, n = 1) {
   const hay = base(sc.say), needle = base(cue);
   let idx = -1, from = 0;
@@ -63,22 +40,80 @@ function cueTime(sc, cue, n = 1) {
   return starts[Math.min(sc.off + idx, starts.length - 1)];
 }
 
+// ---------- Capas de imagen ----------
+// Cada escena puede llevar varias imágenes/clips seguidos: `imgs: [item, item, …]`. item = "img/x.jpg" o
+// { img | clip, clipStart, clipRate, kb, fx, fy, blur, cue, n, t, cap, who: {name, role} }.
+// Cada capa entra con un fundido (XF) cuando se pronuncia `cue` (o en `t` s desde el inicio de la escena; si no hay
+// ninguno, se reparten a partes iguales) y tiene su propio Ken Burns. `img`/`clip` sueltos = una sola capa (compatible
+// con los episodios antiguos). Las rutas se buscan en la carpeta del episodio y, si no están, en youtube-historia/
+// (así sirve la biblioteca de retratos: "personas/hoss.jpg").
+// Clips: cada capa con `clip` se trocea en fotogramas JPG (_clips_cache/) y el render cambia de fotograma en
+// sincronía con su propio reloj (funciona igual en --preview y en los tramos en paralelo). Si el clip es más corto que
+// su capa se ralentiza hasta 0,6× y después se congela (el render avisa).
+// `who` = rótulo de identificación (nombre + cargo) que aparece al entrar la capa y dura ~7 s.
+// `blur` = desenfoque fuerte (true = 26 px, o un número) para lo más duro.
 const KB = { clip: [1.0, 1.05, 0, 0], in: [1.0, 1.12, 0, 0], out: [1.14, 1.0, 0, 0], left: [1.12, 1.12, 0.6, -0.6], right: [1.12, 1.12, -0.6, 0.6],
   up: [1.12, 1.12, 0, 0], still: [1.04, 1.1, 0, 0] };
+const XF = 0.8, CLIP_FPS = 30, CLIP_CACHE = path.join(dir, '_clips_cache');
+const resolve = p => { const a = path.join(dir, p); return fs.existsSync(a) ? a : path.join(__dirname, '..', p); };
+const usage = {};
+scenes.forEach((s, i) => {
+  let items = s.imgs || (s.img || s.clip ? [{ img: s.img, clip: s.clip, clipStart: s.clipStart, clipRate: s.clipRate, kb: s.kb,
+    fx: s.fx, fy: s.fy, blur: s.blur, who: s.who }] : []);
+  items = items.map(x => typeof x === 'string' ? { [/\.(mp4|webm)$/i.test(x) ? 'clip' : 'img']: x } : { ...x });
+  s.photo = items.length > 0;
+  if (!items.length && s.bg) items = [{ img: s.bg, bg: true, kb: 'still' }]; // fondo oscuro de gráficos y citas
+  const dur = s.end - s.start;
+  items.forEach((L, j) => {
+    L.a = j === 0 ? s.start : L.cue ? cueTime(s, L.cue, L.n || 1) - 0.2 : L.t !== undefined ? s.start + L.t : s.start + dur * j / items.length;
+  });
+  items.forEach((L, j) => {
+    L.e = j + 1 < items.length ? items[j + 1].a + XF : s.end + FADE;           // fin de la capa (cubierta por la siguiente)
+    L.out = j + 1 < items.length ? items[j + 1].a : s.end;                     // cuándo empieza a irse
+    L.kb = KB[L.kb] ? L.kb : L.clip ? 'clip' : (i + j) % 2 ? 'in' : 'out';
+    const key = (L.img || L.clip) + (L.clip ? '@' + (L.clipStart || 0) : '');
+    (usage[key] = usage[key] || []).push(i);
+    if (L.clip) {
+      const src = resolve(L.clip);
+      const len = +execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src]).toString().trim();
+      const avail = Math.max(0.1, len - (L.clipStart || 0)), need = L.e - L.a;
+      L.rate = L.clipRate || Math.max(0.6, Math.min(1, avail / need));
+      if (!part && avail < need * L.rate - 0.05) console.warn(`  Aviso: el clip ${L.clip} (escena ${i}) se congela ${(need - avail / L.rate).toFixed(1)} s (es corto)`);
+      L.cdir = path.join(CLIP_CACHE, `${i}_${j}_${path.basename(L.clip).replace(/\W/g, '_')}_${L.clipStart || 0}`);
+      if (!fs.existsSync(path.join(L.cdir, '.ok'))) { // solo la primera vez (el proceso principal, antes de los tramos)
+        fs.mkdirSync(L.cdir, { recursive: true });
+        execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-ss', String(L.clipStart || 0), '-t', String(Math.min(avail, need * L.rate + 0.5)),
+          '-i', src, '-an', '-vf', `fps=${CLIP_FPS},scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720`,
+          '-q:v', '3', path.join(L.cdir, '%05d.jpg')]);
+        fs.writeFileSync(path.join(L.cdir, '.ok'), '');
+      }
+      L.frames = fs.readdirSync(L.cdir).filter(f => f.endsWith('.jpg')).length;
+      L.src = path.join(L.cdir, '00001.jpg');
+    } else L.src = resolve(L.img);
+    if (!fs.existsSync(L.src)) throw new Error(`No existe la imagen ${L.img || L.clip} (escena ${i})`);
+  });
+  s.layers = items;
+});
+if (!part) { // regla: cada foto o clip, una sola vez por capítulo
+  const rep = Object.entries(usage).filter(([, v]) => v.length > 1);
+  rep.forEach(([k, v]) => console.warn(`  REPETIDA: ${k} en las escenas ${v.join(', ')}`));
+}
+
 function sceneHTML(s, i) {
-  const cls = ['scene', s.img || s.clip ? '' : 'paper', s.side ? 'side-' + s.side : ''].join(' ');
-  let ph = '';
-  if (s.img || s.clip) {
-    const src = s.clip ? path.join(s.cdir, '00001.jpg') : path.join(dir, s.img);
-    const ck = s.clip ? ` data-clip="${i}"` : '';
-    if (s.side) ph += `<div class="ph blur"><img src="file://${src}" data-fill="1"${ck}></div>`;
-    ph += `<div class="ph main"><img src="file://${src}" data-kb="${s.kb || (s.clip ? 'clip' : i % 2 ? 'in' : 'out')}" data-fx="${s.fx ?? 0.5}" data-fy="${s.fy ?? 0.5}"${ck}></div>`;
-    ph += `<div class="vig"></div>${s.shade ? '<div class="shade"></div>' : ''}`;
-  } else if (s.bg) { // escena de gráfico/cita: foto de fondo muy oscura para que nunca se vea negro
-    ph += `<div class="ph bgimg"><img src="file://${path.join(dir, s.bg)}" data-kb="still" data-fx="0.5" data-fy="0.5"></div><div class="vig"></div>`;
-  }
+  const cls = ['scene', s.photo ? '' : 'paper', s.side ? 'side-' + s.side : ''].join(' ');
+  let ph = '', labs = '';
+  s.layers.forEach((L, j) => {
+    const at = ` data-clip="${L.clip ? j : ''}"`;
+    const bl = L.blur ? ` style="--blur:${L.blur === true ? 26 : L.blur}px"` : '';
+    ph += `<div class="layer${L.blur ? ' blurred' : ''}" data-l="${j}"${bl}>`;
+    if (s.side) ph += `<div class="ph blur"><img src="file://${L.src}" data-fill="1"${at}></div>`;
+    ph += `<div class="ph ${L.bg ? 'bgimg' : 'main'}"><img src="file://${L.src}" data-kb="${L.kb}" data-fx="${L.fx ?? 0.5}" data-fy="${L.fy ?? 0.5}"${at}></div></div>`;
+    if (L.cap) labs += `<div class="cap lcap" data-l="${j}">${L.cap}</div>`;
+    if (L.who) labs += `<div class="idl${s.side === 'right' ? ' r' : ''}" data-l="${j}" data-w="1"><b>${L.who.name}</b>${L.who.role ? `<span>${L.who.role}</span>` : ''}</div>`;
+  });
+  if (s.layers.length) ph += `<div class="vig"></div>${s.shade && s.photo ? '<div class="shade"></div>' : ''}`;
   const cap = s.cap ? `<div class="cap in" data-t="0.4">${s.cap}</div>` : '';
-  return `<section class="${cls}" id="s${i}">${ph}${s.html || ''}${cap}</section>`;
+  return `<section class="${cls}" id="s${i}">${ph}${s.html || ''}${cap}${labs}</section>`;
 }
 const grain = `<svg class="grain" xmlns="http://www.w3.org/2000/svg" width="2040" height="1200"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>`;
 const html = `<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="file://${path.join(__dirname, 'style.css')}"></head><body>
@@ -113,7 +148,7 @@ async function setup(page) {
   }
   // regla anti-pantalla vacía: en escenas sin foto, lo primero aparece como muy tarde 0,8 s después de empezar
   scenes.forEach((sc, si) => {
-    if ((sc.img || sc.clip) && !sc.side) return; // en retratos, la mitad de texto tampoco puede quedarse vacía
+    if (sc.photo && !sc.side) return; // en retratos, la mitad de texto tampoco puede quedarse vacía
     const own = cueMap.filter(c => c.si === si);
     if (!own.length) return;
     const first = Math.min(...own.map(c => times[c.k]));
@@ -126,7 +161,7 @@ async function setup(page) {
       times[c.k] = Math.max(times[c.k], free); free = times[c.k] + c.chars / TYPE_CPS + 0.15;
     });
   });
-  await page.evaluate(({ times, bounds, KB, FADE, CPS, clips }) => {
+  await page.evaluate(({ times, bounds, KB, FADE, XF, CPS, layers }) => {
     const ease = p => 1 - Math.pow(1 - p, 3);
     const els = [...document.querySelectorAll('[data-k]')].map(el => {
       const cs = getComputedStyle(el);
@@ -147,14 +182,16 @@ async function setup(page) {
       return o;
     });
     const secs = [...document.querySelectorAll('.scene')];
-    const imgs = secs.map(sec => [...sec.querySelectorAll('.ph img')].map(img => {
-      const box = img.parentElement.getBoundingClientRect();
-      const r = Math.max(box.width / img.naturalWidth, box.height / img.naturalHeight);
-      img.style.width = img.naturalWidth * r + 'px'; img.style.height = img.naturalHeight * r + 'px';
-      return { img, bw: box.width, bh: box.height, w: img.naturalWidth * r, h: img.naturalHeight * r,
-        kb: KB[img.dataset.kb] || KB.in, fx: +img.dataset.fx, fy: +img.dataset.fy, fill: !!img.dataset.fill,
-        clip: img.dataset.clip !== undefined ? clips[img.dataset.clip] : null, cur: 1 };
-    }));
+    const imgs = secs.map((sec, si) => [...sec.querySelectorAll('.layer')].map((lay, j) => ({ lay, ...layers[si][j],
+      labs: [...sec.querySelectorAll(`.lcap[data-l="${j}"],.idl[data-l="${j}"]`)],
+      imgs: [...lay.querySelectorAll('.ph img')].map(img => {
+        const box = img.parentElement.getBoundingClientRect();
+        const r = Math.max(box.width / img.naturalWidth, box.height / img.naturalHeight);
+        img.style.width = img.naturalWidth * r + 'px'; img.style.height = img.naturalHeight * r + 'px';
+        return { img, bw: box.width, bh: box.height, w: img.naturalWidth * r, h: img.naturalHeight * r,
+          kb: KB[img.dataset.kb] || KB.in, fx: +img.dataset.fx, fy: +img.dataset.fy, fill: !!img.dataset.fill,
+          clip: img.dataset.clip !== '' && img.dataset.clip !== undefined, cur: 1 };
+      }) })));
     const grain = document.querySelector('.grain'), flick = document.querySelector('.flick');
     window.setT = t => {
       const loads = [];
@@ -164,19 +201,32 @@ async function setup(page) {
         s.style.zIndex = i + 1;
         s.style.opacity = !vis ? 0 : (i === 0 ? 1 : Math.min(1, (t - a) / FADE));
         if (!vis) return;
-        const p = Math.max(0, Math.min(1, (t - a) / (b + FADE - a)));
-        for (const o of imgs[i]) {
-          const k = o.fill ? [1.1, 1.1, 0, 0] : o.kb;
-          const sc = k[0] + (k[1] - k[0]) * p;
-          const mx = Math.max(0, (o.w * sc - o.bw) / 2), my = Math.max(0, (o.h * sc - o.bh) / 2);
-          const fx = (0.5 - o.fx) * 2, fy = (0.5 - o.fy) * 2;
-          const px = Math.max(-1, Math.min(1, fx + k[2] * (p - 0.5) * 2)), py = Math.max(-1, Math.min(1, fy + k[3] * (p - 0.5) * 2));
-          o.img.style.transform = `translate(-50%,-50%) translate(${px * mx}px,${py * my}px) scale(${sc})`;
-          if (o.clip) { // fotograma del clip que toca en este instante
-            const f = Math.max(1, Math.min(o.clip.frames, 1 + Math.floor((t - a) * o.clip.rate * 30 + 1e-6)));
-            if (f !== o.cur) { o.cur = f; o.img.src = o.clip.dir + '/' + String(f).padStart(5, '0') + '.jpg'; loads.push(o.img.decode().catch(() => {})); }
+        const ls = imgs[i];
+        ls.forEach((L, j) => {
+          const next = ls[j + 1];
+          const covered = next && t >= next.a + XF; // ya tapada del todo por la siguiente: no se pinta
+          const op = t < L.a || covered ? 0 : j === 0 ? 1 : Math.min(1, (t - L.a) / XF);
+          L.lay.style.opacity = op;
+          for (const lab of L.labs) { // pies de foto y rótulos de identificación de esta capa
+            const w = lab.dataset.w, a0 = L.a + (w ? 0.5 : 0.4), end = w ? Math.min(L.out, L.a + 7) : L.out;
+            lab.style.opacity = op && t >= a0 ? Math.min(1, (t - a0) / 0.5, Math.max(0, (end - t) / 0.4)) : 0;
+            if (w) lab.style.transform = `translateY(${(1 - Math.min(1, Math.max(0, (t - a0) / 0.5))) * 20}px)`;
           }
-        }
+          if (!op) return;
+          const p = Math.max(0, Math.min(1, (t - L.a) / (L.e - L.a)));
+          for (const o of L.imgs) {
+            const k = o.fill ? [1.1, 1.1, 0, 0] : o.kb;
+            const sc = k[0] + (k[1] - k[0]) * p;
+            const mx = Math.max(0, (o.w * sc - o.bw) / 2), my = Math.max(0, (o.h * sc - o.bh) / 2);
+            const fx = (0.5 - o.fx) * 2, fy = (0.5 - o.fy) * 2;
+            const px = Math.max(-1, Math.min(1, fx + k[2] * (p - 0.5) * 2)), py = Math.max(-1, Math.min(1, fy + k[3] * (p - 0.5) * 2));
+            o.img.style.transform = `translate(-50%,-50%) translate(${px * mx}px,${py * my}px) scale(${sc})`;
+            if (o.clip) { // fotograma del clip que toca en este instante
+              const f = Math.max(1, Math.min(L.frames, 1 + Math.floor((t - L.a) * L.rate * 30 + 1e-6)));
+              if (f !== o.cur) { o.cur = f; o.img.src = L.dir + '/' + String(f).padStart(5, '0') + '.jpg'; loads.push(o.img.decode().catch(() => {})); }
+            }
+          }
+        });
       });
       for (const o of els) {
         if (o.tw) {
@@ -205,8 +255,8 @@ async function setup(page) {
       flick.style.opacity = (Math.sin(f * 12.9898) * 43758.5453 % 1 + 1) % 1 * 0.04;
       return Promise.all(loads);
     };
-  }, { times, bounds: scenes.map(s => [s.start, s.end]), KB, FADE, CPS: TYPE_CPS,
-    clips: Object.fromEntries(scenes.filter(s => s.clip).map((s, _) => [scenes.indexOf(s), { dir: 'file://' + s.cdir, rate: s.rate, frames: s.frames }])) });
+  }, { times, bounds: scenes.map(s => [s.start, s.end]), KB, FADE, XF, CPS: TYPE_CPS,
+    layers: scenes.map(s => s.layers.map(L => ({ a: L.a, e: L.e, out: L.out, rate: L.rate, frames: L.frames, dir: L.cdir ? 'file://' + L.cdir : null }))) });
   return { cueMap, times };
 }
 
@@ -241,7 +291,7 @@ async function setup(page) {
   fs.writeFileSync(path.join(dir, 'eventos.json'), JSON.stringify(ev, null, 1));
   // informe de escenas: cuánto tarda en aparecer el primer elemento en las que no tienen foto
   scenes.forEach((sc, si) => {
-    if (sc.img || sc.clip) return;
+    if (sc.photo) return;
     const own = cueMap.filter(c => c.si === si).map(c => times[c.k] - sc.start);
     const first = own.length ? Math.min(...own) : Infinity;
     if (first > 1.5) console.warn(`  Aviso: escena ${si} sin nada en pantalla durante ${first.toFixed(1)} s`);

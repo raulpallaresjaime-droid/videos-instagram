@@ -1,0 +1,59 @@
+{
+ "title": "Prueba de imágenes",
+ "brand": "Sombras del 39",
+ "tail": 2,
+ "scenes": [
+  {
+   "say": "El 20 de enero de 1942, Reinhard Heydrich reúne a quince altos cargos del régimen en una villa junto al lago Wannsee, en Berlín.",
+   "mood": "inquietud",
+   "imgs": [
+    {
+     "img": "personas/heydrich.jpg",
+     "fy": 0.25,
+     "kb": "in",
+     "cue": "Reinhard Heydrich",
+     "who": {
+      "name": "Reinhard Heydrich",
+      "role": "Jefe de la Oficina Central de Seguridad del Reich"
+     }
+    }
+   ],
+   "side": "right",
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0\">20 de enero de 1942</div><div class=\"h2 in\" data-cue=\"wannsee\">Conferencia<br>de Wannsee</div></div>"
+  },
+  {
+   "say": "Desde ese momento, los trenes llegan a Auschwitz desde toda Europa. Familias enteras bajan a la rampa con sus maletas. Muchos niños no saben adónde los han traído.",
+   "mood": "tension",
+   "imgs": [
+    {
+     "img": "img/vagon.jpg",
+     "cap": "Vagón de deportación"
+    },
+    {
+     "img": "img/llegada_hungria.jpg",
+     "cue": "familias enteras",
+     "cap": "Llegada de judíos húngaros · Álbum de Auschwitz, 1944"
+    },
+    {
+     "img": "img/rampa_ninos.jpg",
+     "cue": "muchos ninos",
+     "fy": 0.4,
+     "cap": "Niños en la rampa de Birkenau · Álbum de Auschwitz, 1944"
+    }
+   ]
+  },
+  {
+   "say": "Cuando llegaron los soldados aliados en 1945, encontraron lo que quedaba de aquel horror.",
+   "mood": "melancolia",
+   "imgs": [
+    {
+     "img": "img/barracon.jpg",
+     "blur": true,
+     "kb": "still",
+     "cap": "Imagen desenfocada por respeto a las víctimas"
+    }
+   ],
+   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"1945\">1945</div></div>"
+  }
+ ]
+}

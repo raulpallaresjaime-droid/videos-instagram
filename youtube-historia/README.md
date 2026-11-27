@@ -26,6 +26,61 @@ node youtube-historia/engine/miniatura.js youtube-historia/videos/<carpeta> # �
 - Animación sincronizada con la voz igual que en Instagram: clase `in` + `data-cue="palabras"` o `data-t`.
 - Datos siempre verificados (USHMM, Bundestag, Britannica, DHM…). Nada de símbolos nazis en la miniatura.
 
+## Normas de imagen (desde la revisión del capítulo 3)
+
+Raúl: «el audio es un 10/10, pero las imágenes se quedan en suspenso: pocas, algunas repetidas y muchas banales».
+Para todo capítulo nuevo (y al rehacer las imágenes de los capítulos 3-8, reutilizando su `audio.mp3` y `align.json`):
+
+1. **Caras.** Cada vez que se nombra a una persona relevante (verdugos y también víctimas y supervivientes con nombre),
+   en ese momento aparece su cara (retrato o clip) con un **rótulo de identificación**: nombre y cargo
+   («Rudolf Höss · comandante de Auschwitz»). Retratos reutilizables en `personas/` (ver abajo).
+2. **Más imágenes, ninguna repetida.** Cambio de imagen cada 6-10 s: una escena de 20 s lleva 2-3 imágenes o clips
+   (`imgs`). Cada foto o clip se usa **una sola vez por capítulo** (también los fondos `bg`): el render avisa con
+   `REPETIDA: …` y hay que corregirlo antes del render final.
+3. **Imágenes con peso**: caras de presos, niños, familias en los andenes (Álbum de Auschwitz), zapatos, maletas, pelo,
+   gafas, barracones, alambradas, supervivientes en la liberación, Núremberg, documentos y órdenes firmadas… Las
+   banales (fachadas, paisajes, grupos anónimos) solo de apoyo y en minoría. Revisar con hoja de contactos y sustituir las flojas.
+4. **Lo duro, con cuidado.** Imágenes duras (supervivientes muy delgados) si aportan. Lo más explícito (cadáveres) solo
+   si es imprescindible, con `blur`, breve, nunca en el primer minuto ni en la miniatura, y con contexto
+   (pie de foto). Nada de sangre ni ejecuciones.
+5. **Clips** de dominio público, 1 de cada 3-4 escenas, priorizando los que muestran a los personajes (ver abajo).
+
+### Escenas con varias imágenes, rótulos y desenfoque
+
+```json
+{"say": "… Reinhard Heydrich reúne a quince altos cargos … Familias enteras bajan a la rampa … Muchos niños …",
+ "imgs": [
+   {"img": "personas/heydrich.jpg", "cue": "Reinhard Heydrich", "fy": 0.25,
+    "who": {"name": "Reinhard Heydrich", "role": "Jefe de la Oficina Central de Seguridad del Reich"}},
+   {"img": "img/llegada_hungria.jpg", "cue": "familias enteras", "cap": "Llegada de judíos húngaros · Álbum de Auschwitz, 1944"},
+   {"clip": "clips/rampa.mp4", "clipStart": 2, "cue": "muchos ninos"},
+   {"img": "img/x.jpg", "blur": true, "cap": "Imagen desenfocada por respeto a las víctimas"}
+ ]}
+```
+
+- Cada elemento de `imgs` es una ruta (`"img/x.jpg"`, `"clips/y.mp4"`) o un objeto con `img` o `clip` (+ `clipStart`,
+  `clipRate`), `kb`, `fx`, `fy`, `cap`, `who`, `blur` y **cuándo entra**: `cue` (palabras del `say`, sin tildes; `n` para la
+  2.ª aparición) o `t` (segundos desde el inicio de la escena). Sin `cue`/`t`, se reparten a partes iguales. La primera
+  entra con la escena.
+- Fundido de 0,8 s entre imágenes y Ken Burns propio en cada una (alterna `in`/`out` si no se indica `kb`).
+- `who: {name, role}` → rótulo abajo a la izquierda (a la derecha con `side: "right"`) que entra con la imagen y dura ~7 s.
+  Usarlo justo cuando la voz nombra a la persona (`cue` con su nombre).
+- `blur: true` (26 px) o un número de píxeles. `cap` de cada imagen = su pie de foto.
+- `side`, `shade`, `html` y el `cap` de escena siguen funcionando igual. `img`/`clip` sueltos = una sola imagen (los
+  episodios 1-8 se renderizan igual que antes).
+- Rutas: primero en la carpeta del episodio y, si no existen, en `youtube-historia/` (`personas/…`).
+- Prueba: `videos/_prueba_imagenes/` (rótulo + escena de 3 imágenes + imagen desenfocada, voz falsa).
+
+### Biblioteca de retratos (`personas/`)
+
+- `personas/<nombre>.jpg` + `personas/creditos.txt` + `personas/personas.json` (`name`, `role` y `fx`/`fy` de la cara
+  para encuadrar). Solo licencias libres: Bundesarchiv (`engine/bundesarchiv.py search "Name Porträt"` / `get`, CC BY-SA 3.0 DE),
+  Wikimedia Commons (dominio público: fotos de NARA, de los juicios, del Álbum Höcker…). Para descargar un archivo de
+  Commons sin gastar API: `curl -A 'HistoriaDocBot/1.0' "$(python3 engine/commons.py vurl 'File:…')"`.
+- Como cada foto va una sola vez por capítulo, guardar **varios retratos** de los personajes que salen mucho
+  (`hitler.jpg`, `hitler_1938.jpg`, `hitler_bunker.jpg`…) y añadir a la biblioteca cada retrato nuevo que se use.
+- El cargo del rótulo se adapta al momento del relato (Höss en 1940 = «comandante de Auschwitz»).
+
 ## Clips de vídeo de archivo (desde el episodio 9)
 
 **Regla: 1 escena de cada 3-4 lleva un clip** (imágenes en movimiento) en vez de una foto. Los episodios 1-8 no se tocan.

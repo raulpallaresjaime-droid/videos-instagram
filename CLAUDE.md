@@ -175,7 +175,15 @@ solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. N
      a veces corta la conexión: elegir otra). Wikimedia (`engine/commons.py`) limita mucho: lanzarlo al principio en
      segundo plano y usar `fallback` en el spec. **Nada de cadáveres ni imágenes explícitas**, y nada de símbolos
      nazis en la miniatura. Revisar siempre las fotos con una hoja de contactos antes de usarlas.
-   - **Clips de vídeo (desde el episodio 9): 1 escena de cada 3-4 con `clip`** en vez de foto. Solo dominio público:
+   - **Normas de imagen (revisión de Raúl del cap. 3: «imágenes pocas, repetidas y banales»)**, detalle en
+     `youtube-historia/README.md`: (1) cada vez que se nombra a una persona relevante (verdugos, víctimas, supervivientes)
+     aparece **su cara con rótulo** `who: {name, role}` («Rudolf Höss · comandante de Auschwitz»), con retratos de la
+     biblioteca `youtube-historia/personas/`; (2) **cambio de imagen cada 6-10 s** (`imgs: [...]`, 2-3 por escena de 20 s) y
+     **cada foto o clip una sola vez por capítulo** (el render avisa `REPETIDA`); (3) imágenes con peso (presos, niños,
+     familias en los andenes, zapatos, maletas, barracones, liberación, Núremberg, documentos), las banales en minoría;
+     revisar con hoja de contactos y sustituir las flojas; (4) lo más explícito solo si es imprescindible, con `blur`, breve,
+     nunca en el primer minuto ni en la miniatura y con contexto; nada de sangre ni ejecuciones.
+   - **Clips de vídeo (desde el episodio 9): 1 escena de cada 3-4 con `clip`** en vez de foto, priorizando los que muestran a los personajes (noticiarios con Hitler o Göring, juicios de Núremberg…). Solo dominio público:
      películas del Gobierno de EE. UU. (NARA, US Army Signal Corps, «Why We Fight», Universal Newsreels) copiadas en
      Wikimedia Commons. Nada de British Pathé, Getty, Bundesarchiv-Filmothek ni Riefenstahl; nada explícito (cadáveres,
      ejecuciones) ni propaganda nazi sin contexto. Flujo: `commons.py vsearch "texto"` → `commons.py vurl "File:…"` →

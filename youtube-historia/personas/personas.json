@@ -1,0 +1,50 @@
+{
+ "hitler": {
+  "name": "Adolf Hitler",
+  "role": "Führer y canciller del Reich",
+  "fx": 0.42,
+  "fy": 0.15
+ },
+ "goebbels": {
+  "name": "Joseph Goebbels",
+  "role": "Ministro de Propaganda",
+  "fx": 0.5,
+  "fy": 0.2
+ },
+ "himmler": {
+  "name": "Heinrich Himmler",
+  "role": "Jefe de las SS y de la policía",
+  "fx": 0.5,
+  "fy": 0.3
+ },
+ "heydrich": {
+  "name": "Reinhard Heydrich",
+  "role": "Jefe de la Oficina Central de Seguridad del Reich",
+  "fx": 0.5,
+  "fy": 0.25
+ },
+ "eichmann": {
+  "name": "Adolf Eichmann",
+  "role": "Organizador de las deportaciones",
+  "fx": 0.5,
+  "fy": 0.25
+ },
+ "eicke": {
+  "name": "Theodor Eicke",
+  "role": "Inspector de los campos de concentración",
+  "fx": 0.5,
+  "fy": 0.3
+ },
+ "goring": {
+  "name": "Hermann Göring",
+  "role": "Jefe de la Luftwaffe",
+  "fx": 0.55,
+  "fy": 0.3
+ },
+ "speer": {
+  "name": "Albert Speer",
+  "role": "Arquitecto de Hitler y ministro de Armamento",
+  "fx": 0.5,
+  "fy": 0.3
+ }
+}
