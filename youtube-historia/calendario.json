@@ -69,9 +69,10 @@
    "hora": "16:00",
    "episodio": 7,
    "tema": "Toda la Segunda Guerra Mundial en 20 minutos",
-   "estado": "hecho",
+   "estado": "programado",
    "carpeta": "07_segunda-guerra-20-minutos",
-   "duracion": "17:07"
+   "duracion": "17:07",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=5539716042497672790"
   },
   {
    "fecha": "2026-12-29",
