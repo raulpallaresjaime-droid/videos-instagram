@@ -285,72 +285,81 @@
    "serie": "bolsa",
    "slug": "moats",
    "tema": "Moats: ventajas competitivas",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-02_bolsa_moats"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-02_bolsa_moats",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-1492362767582934033"
   },
   {
    "fecha": "2027-02-04",
    "serie": "fondo",
    "slug": "wacc",
    "tema": "El WACC",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-04_fondo_wacc"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-04_fondo_wacc",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-3328117652288550710"
   },
   {
    "fecha": "2027-02-07",
    "serie": "nadie",
    "slug": "regla-4",
    "tema": "¿Cuánto necesitas para vivir de rentas? La regla del 4 %",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-07_nadie_regla-4"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-07_nadie_regla-4",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-3305275855388327471"
   },
   {
    "fecha": "2027-02-09",
    "serie": "bolsa",
    "slug": "calidad-beneficio",
    "tema": "Calidad del beneficio",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-09_bolsa_calidad-beneficio"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-09_bolsa_calidad-beneficio",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-1401747909058804581"
   },
   {
    "fecha": "2027-02-11",
    "serie": "fondo",
    "slug": "multiplos",
    "tema": "Valoración por múltiplos",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-11_fondo_multiplos"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-11_fondo_multiplos",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-8359315337466658332"
   },
   {
    "fecha": "2027-02-14",
    "serie": "nadie",
    "slug": "hipoteca-o-invertir",
    "tema": "¿Amortizar la hipoteca o invertir?",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-14_nadie_hipoteca-o-invertir"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-14_nadie_hipoteca-o-invertir",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4119270315393304358"
   },
   {
    "fecha": "2027-02-16",
    "serie": "bolsa",
    "slug": "value-vs-growth",
    "tema": "Value vs growth",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-16_bolsa_value-vs-growth"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-16_bolsa_value-vs-growth",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=-6972806557594466289"
   },
   {
    "fecha": "2027-02-18",
    "serie": "fondo",
    "slug": "roe-roa-roce-roic",
    "tema": "ROE, ROA, ROCE y ROIC",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-18_fondo_roe-roa-roce-roic"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-18_fondo_roe-roa-roce-roic",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4070652202488515652"
   },
   {
    "fecha": "2027-02-21",
    "serie": "nadie",
    "slug": "no-solo-tu-pais",
    "tema": "No invertir solo en tu país: el IBEX y Japón tras sus máximos",
-   "estado": "pendiente",
-   "carpeta": "videos/2027-02-21_nadie_no-solo-tu-pais"
+   "estado": "programado",
+   "carpeta": "videos/2027-02-21_nadie_no-solo-tu-pais",
+   "metricool": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=609866122555838156"
   },
   {
    "fecha": "2027-02-23",
