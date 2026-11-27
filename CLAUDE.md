@@ -159,6 +159,16 @@ Documentales sin cara (diciembre 2026: ~10 min; **desde enero 2027: mini documen
 Todo vive en `youtube-historia/` (motor, música, efectos, logos) y `youtube-historia/calendario.json` es la fuente
 de verdad (`pendiente` → `hecho` → `programado`). Detalle técnico en `youtube-historia/README.md`.
 
+## Títulos, miniaturas y símbolos (normas de Raúl, desde el capítulo 11)
+- **Título = [lo que la gente busca en YouTube: evento, lugar o persona importante] + [gancho].** Lo buscable va
+  delante («Pearl Harbor: el ataque que Estados Unidos no vio venir», «Así funcionaba Auschwitz: …», «Stalingrado:
+  …»). Nunca un gancho suelto sin el nombre del hecho («51 días de cuenta atrás» → «Pearl Harbor: 51 días de cuenta
+  atrás»). Siempre veraz y con cifras verificadas. Desde el cap. 11 el título y la miniatura los decide el equipo
+  (CEO) sin preguntar a Raúl, siguiendo esta norma.
+- **Miniatura:** cara reconocible o imagen con peso, mucho contraste, 2-4 palabras o una cifra grande, coherente con el título.
+- **Símbolos nazis:** permitidos en el vídeo cuando aparecen en fotos o clips históricos con contexto (por ejemplo, al
+  fondo de un mitin). **Nunca** en la miniatura, ni en los primeros segundos, ni en primer plano sin motivo.
+
 ## Tarea semanal (domingo)
 Dejar **los episodios de la semana siguiente** (martes y jueves 16:00 Europe/Madrid en diciembre 2026; desde enero
 solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. Nunca publicar sin su revisión.
