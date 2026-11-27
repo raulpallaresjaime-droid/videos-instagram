@@ -1,0 +1,56 @@
+{
+ "series": "fondo",
+ "topic": "Ratios de <span class=\"c-teal\">deuda</span>",
+ "title_post": "Ratios de deuda",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Una empresa debe trescientos mil euros. ¿Es mucho o es poco? Depende. Y solo hacen falta tres cuentas para saberlo.",
+   "html": "<div class=\"big c-orange in\" data-t=\"0\" style=\"text-align:center\">300.000 €</div><div class=\"note in\" data-t=\"0.3\" style=\"margin-top:30px\">de deuda</div><div class=\"q in\" data-cue=\"mucho o es poco\" style=\"\">¿Mucho o <em class=\"c-teal\">poco</em>?</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas a fondo: los ratios de deuda. ¿Puede una empresa pagar lo que debe?",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">Ratios de <em class=\"c-teal\">deuda</em></div>"
+  },
+  {
+   "title": "Café <em class=\"c-navy\">Lumen</em>",
+   "say": "Volvamos a nuestra cafetería inventada, Café Lumen. Debe trescientos mil euros al banco y tiene cincuenta mil en caja. Su EBITDA, lo que genera su negocio antes de intereses, impuestos y amortizaciones, es de cien mil euros al año.",
+   "html": "<div class=\"row\" style=\"gap:20px\"><div class=\"card orange in\" data-cue=\"trescientos mil\" style=\"min-width:280px\"><div class=\"lab\">Deuda</div><div class=\"val\">300.000 €</div></div><div class=\"card teal in\" data-cue=\"cincuenta mil\" style=\"min-width:280px\"><div class=\"lab\">Caja</div><div class=\"val\">50.000 €</div></div><div class=\"card navy in\" data-cue=\"cien mil\" style=\"min-width:280px\"><div class=\"lab\">EBITDA</div><div class=\"val\">100.000 €</div></div></div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "title": "1 · Deuda neta / <em class=\"c-teal\">EBITDA</em>",
+   "say": "Primera cuenta: la deuda neta, que es la deuda menos la caja, dividida entre el EBITDA. Doscientos cincuenta mil entre cien mil: dos coma cinco veces. Dicho fácil: con todo lo que genera, tardaría unos dos años y medio en pagar su deuda. Como orientación, por encima de tres o cuatro veces, muchos analistas empiezan a preocuparse.",
+   "html": "<div class=\"card teal in\" data-cue=\"dividida entre\" style=\"width:100%\"><div class=\"lab\">Deuda neta ÷ EBITDA</div><div class=\"txt\">250.000 ÷ 100.000 = 2,5×</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill navy lg in\" data-cue=\"dos años y medio\">≈ 2,5 años para pagarla</span><span class=\"pill orange lg in\" data-cue=\"preocuparse\">&gt; 3-4× → cuidado</span></div>"
+  },
+  {
+   "title": "2 · Cobertura de <em class=\"c-navy\">intereses</em>",
+   "say": "Segunda: la cobertura de intereses. El beneficio de explotación, el EBIT, dividido entre los intereses que paga. Café Lumen gana setenta mil y paga quince mil de intereses. Los cubre casi cinco veces. Cuanto más alto, más margen tiene si las cosas se tuercen.",
+   "html": "<div class=\"card navy in\" data-cue=\"dividido entre\" style=\"width:100%\"><div class=\"lab\">EBIT ÷ intereses</div><div class=\"txt\">70.000 ÷ 15.000 ≈ 4,7×</div></div><div class=\"note in\" data-cue=\"más margen\" style=\"margin-top:30px\">Cuanto más alto, más margen</div>"
+  },
+  {
+   "title": "3 · El <em class=\"c-teal\">DSCR</em>",
+   "say": "Tercera, la que más miran los bancos: el DSCR, la cobertura del servicio de la deuda. Es el EBITDA entre todo lo que hay que pagar en el año: intereses y devolución del préstamo. Café Lumen paga quince mil de intereses y devuelve sesenta mil. Cien mil entre setenta y cinco mil: uno coma tres. Le sobra algo.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"es el ebitda\"><span>EBITDA</span><i class=\"teal grow\" style=\"--w:100%\">100.000 €</i></div><div class=\"b in\" data-cue=\"setenta y cinco mil\"><span>Pagos del año</span><i class=\"orange grow\" style=\"--w:75%\">75.000 €</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill teal lg in\" data-cue=\"uno coma tres\">DSCR = 1,33</span></div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "title": "Ahora, un año <em class=\"c-orange\">malo</em>",
+   "say": "Pero ahora llega un año malo y el EBITDA cae un treinta por ciento, hasta setenta mil. Los pagos siguen siendo setenta y cinco mil. El DSCR baja de uno: ya no le llega para pagar el banco. Y la deuda neta sube a tres coma seis veces el EBITDA. La misma deuda que parecía cómoda, ahora aprieta.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"hasta setenta mil\"><span>EBITDA</span><i class=\"orange grow\" style=\"--w:93%\">70.000 €</i></div><div class=\"b in\" data-cue=\"siguen siendo\"><span>Pagos del año</span><i class=\"navy grow\" style=\"--w:100%\">75.000 €</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill orange lg in\" data-cue=\"baja de uno\">DSCR &lt; 1</span><span class=\"pill orange lg in\" data-cue=\"tres coma seis\">Deuda neta 3,6×</span></div>",
+   "sub": "EBITDA −30 %"
+  },
+  {
+   "title": "Para no <em class=\"c-navy\">olvidarlo</em>",
+   "say": "Para no olvidarlo: la deuda neta entre EBITDA te dice cuánto debe. La cobertura, si puede pagar los intereses. Y el DSCR, si puede pagarlo todo. Y haz siempre la prueba del año malo.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step teal in\" data-cue=\"cuánto debe\"><div class=\"n\">1</div><div><div class=\"t\">Deuda neta / EBITDA</div><div class=\"d\">¿Cuánto debe?</div></div></div><div class=\"step navy in\" data-cue=\"la cobertura\"><div class=\"n\">2</div><div><div class=\"t\">Cobertura de intereses</div><div class=\"d\">¿Paga los intereses?</div></div></div><div class=\"step ink in\" data-cue=\"pagarlo todo\"><div class=\"n\">3</div><div><div class=\"t\">DSCR</div><div class=\"d\">¿Puede pagarlo todo?</div></div></div><div class=\"step orange in\" data-cue=\"año malo\"><div class=\"n\">!</div><div><div class=\"t\">Prueba del año malo</div></div></div></div>"
+  },
+  {
+   "dark": true,
+   "say": "La deuda no hunde a una empresa en los años buenos. La hunde en el primer año malo.",
+   "html": "<div class=\"final in\" data-t=\"0\">La deuda no hunde a una empresa en los años buenos. La hunde en el <em class=\"c-orange\">primer año malo</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo; los umbrales son orientativos.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

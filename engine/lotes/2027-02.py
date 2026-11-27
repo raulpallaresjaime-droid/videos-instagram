@@ -294,3 +294,96 @@ Guárdalo y compártelo con quien solo invierta en el IBEX 📌
 Contenido educativo, no es recomendación de inversión.
 
 #finanzaspersonales #bolsa #diversificacion #educacionfinanciera #loquenadietecuenta""")
+
+# ───────────── Mar 23 feb · bolsa · cíclicos vs defensivos
+guardar("2027-02-23_bolsa_ciclicos-defensivos", "bolsa", 'Cíclicos vs <span class="c-teal">defensivos</span>', "Cíclicos vs defensivos", [
+ hook("En 2008, la bolsa de Estados Unidos cayó casi un cuarenta por ciento. Pero algunas empresas apenas lo notaron. ¿Sabes cuáles?",
+      big("−38 %", t=0, cls="c-orange", style="text-align:center") + note("S&amp;P 500 · 2008", t=0.3) + q('¿Quién <em class="c-teal">aguantó</em>?', c="sabes cuáles")),
+ portada("bolsa", 'Cíclicas vs <em class="c-teal">defensivas</em>', "Hoy, en finanzas desde cero: empresas cíclicas y empresas defensivas."),
+ esc('Las <em class="c-orange">cíclicas</em>', "Imagina que la economía va bien. Tienes trabajo, te suben el sueldo y te das caprichos: cenas fuera, viajas, cambias de coche. Las empresas que venden esas cosas son las cíclicas. Cuando la economía crece, ganan mucho. Cuando se frena, son lo primero que recortamos.",
+     row(pill("Coches", "orange", c="cambias de coche", lg=True), pill("Viajes", "orange", c="viajas", lg=True), pill("Restaurantes", "orange", c="cenas fuera", lg=True)) +
+     steps(("↑", "Economía crece", "Ganan mucho", "teal", "ganan mucho"), ("↓", "Economía se frena", "Lo primero que recortamos", "orange", "lo primero"), style="margin-top:40px")),
+ esc('Las <em class="c-teal">defensivas</em>', "Las defensivas venden lo que compras pase lo que pase. Aunque haya crisis, sigues comprando comida, pasta de dientes y medicinas, y sigues pagando la luz. Sus ventas casi no dependen de cómo vaya la economía.",
+     row(pill("Comida", "teal", c="comida", lg=True), pill("Higiene", "teal", c="pasta de dientes", lg=True), pill("Salud", "teal", c="medicinas", lg=True), pill("Luz", "teal", c="la luz", lg=True)) +
+     note("Venden casi lo mismo con crisis o sin ella", c="casi no dependen")),
+ esc('Qué pasó en <em class="c-orange">2008</em>', "Mira lo que pasó en 2008. El S&P 500 cayó un treinta y ocho por ciento. Las empresas de consumo básico, como las de alimentación, cayeron alrededor de un dieciocho. El consumo no básico, como coches o tiendas, más de un treinta y cinco. Y los bancos, más de la mitad.",
+     bars(("S&amp;P 500", "navy", 67, "−38 %", "treinta y ocho"), ("Consumo básico", "teal", 32, "≈ −18 %", "dieciocho"), ("Consumo no básico", "orange", 63, "≈ −36 %", "treinta y cinco"), ("Bancos", "orange", 100, "≈ −55 %", "la mitad")), sub="Sectores del S&amp;P 500 · datos aproximados"),
+ esc('Pero luego <em class="c-teal">rebotan</em>', "Pero la historia no acaba ahí. En 2009, cuando la bolsa se recuperó, el consumo no básico subió cerca de un cuarenta por ciento. El básico, en torno a un quince. Las cíclicas caen más… pero también rebotan más.",
+     cols(("≈ +40 %", "orange", 100, "No básico", "cuarenta por ciento"), ("≈ +15 %", "teal", 38, "Básico", "quince"), h=480, w=260) + note("Rebote de 2009 · datos aproximados", c="rebotan más", style="margin-top:70px")),
+ esc('La <em class="c-orange">trampa</em> de las cíclicas', "Y aquí viene la trampa. Una cíclica parece más barata justo en lo mejor del ciclo, cuando gana más que nunca. Su PER es bajísimo… pero porque esos beneficios no van a durar. Muchas veces, el mejor momento para comprarlas es cuando peor pintan.",
+     card("PER bajo en lo mejor del ciclo", 'Parece una ganga… y suele ser <em style="color:#E8915A">una trampa</em>', "", c="la trampa") + note("Los beneficios récord no duran", c="no van a durar")),
+ esc('¿Y las <em class="c-teal">defensivas</em>?', "Las defensivas tampoco son perfectas. Como crecen menos, en las buenas épocas suelen quedarse atrás. Y si todo el mundo corre a refugiarse en ellas, se pueden poner muy caras. Por eso muchos inversores tienen de los dos tipos.",
+     steps(("1", "Crecen menos", "En las buenas épocas se quedan atrás", "navy", "crecen menos"), ("2", "Se pueden poner caras", "Si todos buscan refugio", "orange", "muy caras"), ("3", "Mejor tener de las dos", None, "teal", "de los dos tipos"))),
+ final('Las cíclicas te hacen ganar cuando todo va <em class="c-teal">bien</em>. Las defensivas, perder menos cuando va <em class="c-orange">mal</em>.', "Las cíclicas te hacen ganar cuando todo va bien. Las defensivas, perder menos cuando todo va mal.", "Datos aproximados: sectores del S&amp;P 500, 2008-2009 (S&amp;P Dow Jones Indices)."),
+], f"""
+En 2008 la bolsa de EE. UU. cayó casi un 40 %… pero no todas las empresas igual 📉
+
+🔸 Cíclicas → coches, viajes, bancos: ganan mucho cuando la economía crece y caen fuerte cuando se frena
+🔹 Defensivas → comida, salud, luz: venden casi lo mismo pase lo que pase
+
+Ojo con la trampa: una cíclica parece más barata justo cuando más gana.
+
+Guárdalo y compártelo con quien esté empezando a invertir 📌
+
+{HB} #sectores""")
+
+# ───────────── Jue 25 feb · fondo · ratios de deuda
+guardar("2027-02-25_fondo_ratios-deuda", "fondo", 'Ratios de <span class="c-teal">deuda</span>', "Ratios de deuda", [
+ hook("Una empresa debe trescientos mil euros. ¿Es mucho o es poco? Depende. Y solo hacen falta tres cuentas para saberlo.",
+      big("300.000 €", t=0, cls="c-orange", style="text-align:center") + note("de deuda", t=0.3) + q('¿Mucho o <em class="c-teal">poco</em>?', c="mucho o es poco")),
+ portada("fondo", 'Ratios de <em class="c-teal">deuda</em>', "Hoy, en finanzas a fondo: los ratios de deuda. ¿Puede una empresa pagar lo que debe?"),
+ esc('Café <em class="c-navy">Lumen</em>', "Volvamos a nuestra cafetería inventada, Café Lumen. Debe trescientos mil euros al banco y tiene cincuenta mil en caja. Su EBITDA, lo que genera su negocio antes de intereses, impuestos y amortizaciones, es de cien mil euros al año.",
+     row(card("Deuda", "300.000 €", "orange", c="trescientos mil", val=True, style="min-width:280px"), card("Caja", "50.000 €", "teal", c="cincuenta mil", val=True, style="min-width:280px"), card("EBITDA", "100.000 €", "navy", c="cien mil", val=True, style="min-width:280px"), style="gap:20px"), sub="Ejemplo ilustrativo"),
+ esc('1 · Deuda neta / <em class="c-teal">EBITDA</em>', "Primera cuenta: la deuda neta, que es la deuda menos la caja, dividida entre el EBITDA. Doscientos cincuenta mil entre cien mil: dos coma cinco veces. Dicho fácil: con todo lo que genera, tardaría unos dos años y medio en pagar su deuda. Como orientación, por encima de tres o cuatro veces, muchos analistas empiezan a preocuparse.",
+     card("Deuda neta ÷ EBITDA", "250.000 ÷ 100.000 = 2,5×", "teal", c="dividida entre") + row(pill("≈ 2,5 años para pagarla", "navy", c="dos años y medio", lg=True), pill("&gt; 3-4× → cuidado", "orange", c="preocuparse", lg=True), style="margin-top:40px")),
+ esc('2 · Cobertura de <em class="c-navy">intereses</em>', "Segunda: la cobertura de intereses. El beneficio de explotación, el EBIT, dividido entre los intereses que paga. Café Lumen gana setenta mil y paga quince mil de intereses. Los cubre casi cinco veces. Cuanto más alto, más margen tiene si las cosas se tuercen.",
+     card("EBIT ÷ intereses", "70.000 ÷ 15.000 ≈ 4,7×", "navy", c="dividido entre") + note("Cuanto más alto, más margen", c="más margen")),
+ esc('3 · El <em class="c-teal">DSCR</em>', "Tercera, la que más miran los bancos: el DSCR, la cobertura del servicio de la deuda. Es el EBITDA entre todo lo que hay que pagar en el año: intereses y devolución del préstamo. Café Lumen paga quince mil de intereses y devuelve sesenta mil. Cien mil entre setenta y cinco mil: uno coma tres. Le sobra algo.",
+     bars(("EBITDA", "teal", 100, "100.000 €", "es el ebitda"), ("Pagos del año", "orange", 75, "75.000 €", "setenta y cinco mil")) + row(pill("DSCR = 1,33", "teal", c="uno coma tres", lg=True), style="margin-top:40px"), sub="Ejemplo ilustrativo"),
+ esc('Ahora, un año <em class="c-orange">malo</em>', "Pero ahora llega un año malo y el EBITDA cae un treinta por ciento, hasta setenta mil. Los pagos siguen siendo setenta y cinco mil. El DSCR baja de uno: ya no le llega para pagar el banco. Y la deuda neta sube a tres coma seis veces el EBITDA. La misma deuda que parecía cómoda, ahora aprieta.",
+     bars(("EBITDA", "orange", 93, "70.000 €", "hasta setenta mil"), ("Pagos del año", "navy", 100, "75.000 €", "siguen siendo")) + row(pill("DSCR &lt; 1", "orange", c="baja de uno", lg=True), pill("Deuda neta 3,6×", "orange", c="tres coma seis", lg=True), style="margin-top:40px"), sub="EBITDA −30 %"),
+ esc('Para no <em class="c-navy">olvidarlo</em>', "Para no olvidarlo: la deuda neta entre EBITDA te dice cuánto debe. La cobertura, si puede pagar los intereses. Y el DSCR, si puede pagarlo todo. Y haz siempre la prueba del año malo.",
+     steps(("1", "Deuda neta / EBITDA", "¿Cuánto debe?", "teal", "cuánto debe"), ("2", "Cobertura de intereses", "¿Paga los intereses?", "navy", "la cobertura"), ("3", "DSCR", "¿Puede pagarlo todo?", "ink", "pagarlo todo"), ("!", "Prueba del año malo", None, "orange", "año malo"))),
+ final('La deuda no hunde a una empresa en los años buenos. La hunde en el <em class="c-orange">primer año malo</em>.', "La deuda no hunde a una empresa en los años buenos. La hunde en el primer año malo.", "Ejemplo ilustrativo; los umbrales son orientativos."),
+], """
+Una empresa debe 300.000 €: ¿es mucho o poco? 🧮
+
+Depende de lo que genere. Con tres cuentas lo sabes:
+🔸 Deuda neta / EBITDA → cuántos años tardaría en pagarla
+🔹 Cobertura de intereses → si puede pagar los intereses
+🔸 DSCR → si puede pagarlo todo: intereses y préstamo
+
+Y haz siempre la prueba del año malo: con un EBITDA un 30 % más bajo, una deuda cómoda puede empezar a apretar.
+
+Guárdalo para repasar 📌
+
+#finanzas #analisisfundamental #inversion #educacionfinanciera #finanzasafondo""")
+
+# ───────────── Dom 28 feb · nadie · Buffett después de los 50
+guardar("2027-02-28_nadie_buffett-despues-50", "nadie", NADIE, "Buffett hizo casi toda su fortuna después de los 50", [
+ hook("Warren Buffett compró su primera acción con once años. Y aun así, casi toda su fortuna llegó después de cumplir los cincuenta. ¿Cómo es posible?",
+      row(pill("11 años · 1.ª acción", "sand", t=0, lg=True)) + big("≈ 99 %", c="casi toda", cls="c-orange", style="text-align:center;margin-top:40px") + note("de su fortuna, después de los 50", c="cincuenta")),
+ portada("nadie", 'La fortuna de Buffett llegó <em class="c-orange">después de los 50</em>', "Esto es lo que nadie te cuenta sobre la fortuna de Warren Buffett."),
+ esc('El dato de <em class="c-navy">Housel</em>', "Lo cuenta Morgan Housel en su libro La psicología del dinero. Cuando lo escribió, Buffett tenía unos ochenta y cuatro mil quinientos millones de dólares. De ellos, unos ochenta y cuatro mil doscientos los ganó después de cumplir cincuenta años. Y la gran mayoría, después de los sesenta y cinco.",
+     cols(("≈ 0,3", "navy", 2, "Antes de los 50", "cuando lo escribió"), ("≈ 84.200", "teal", 100, "Después de los 50", "ochenta y cuatro mil doscientos"), h=480, w=300) + note("Miles de millones de dólares · datos aproximados", c="sesenta y cinco", style="margin-top:70px"), sub="La psicología del dinero, Morgan Housel"),
+ esc('No es solo <em class="c-orange">talento</em>', "Buffett es un inversor buenísimo, eso nadie lo duda. Pero lo que de verdad explica su fortuna es otra cosa: lleva más de setenta y cinco años invirtiendo. Como dice Housel, su habilidad es invertir, pero su secreto es el tiempo.",
+     card("Morgan Housel", 'Su habilidad es invertir. Su secreto es <em style="color:#7CC4BF">el tiempo</em>.', "", c="su secreto") + row(pill("+75 años invirtiendo", "teal", c="setenta y cinco años", lg=True), style="margin-top:40px")),
+ esc('Hagamos la <em class="c-teal">cuenta</em>', "Míralo con números sencillos. Pones diez mil euros a los veinticinco años y te dan un siete por ciento al año. A los treinta y cinco tienes casi veinte mil. A los cuarenta y cinco, casi treinta y nueve mil. A los cincuenta y cinco, unos setenta y seis mil. Y a los sesenta y cinco, casi ciento cincuenta mil.",
+     cols(("19.672", "sand", 13, "35 años", "casi veinte mil"), ("38.697", "sand", 26, "45 años", "treinta y nueve"), ("76.123", "navy", 51, "55 años", "setenta y seis"), ("149.745", "teal", 100, "65 años", "ciento cincuenta"), h=480, w=200) + note("10.000 € al 7 % anual · ejemplo ilustrativo", c="siete por ciento", style="margin-top:70px")),
+ esc('Lo mejor llega al <em class="c-orange">final</em>', "Fíjate en lo que pasa. En los primeros diez años ganas menos de diez mil euros. En los últimos diez, más de setenta mil. Con el interés compuesto, lo grande siempre llega al final. Por eso lo que más importa no es cuánto ganas cada año, sino cuántos años aguantas.",
+     bars(("Primeros 10 años", "sand", 13, "+9.672 €", "primeros diez"), ("Últimos 10 años", "teal", 100, "+73.622 €", "últimos diez")) + note("Lo grande llega al final", c="llega al final", style="margin-top:40px")),
+ esc('¿Y si hubiera <em class="c-navy">empezado tarde</em>?', "Housel hace otra cuenta. Si Buffett hubiera empezado a invertir a los treinta y lo hubiera dejado a los sesenta, con la misma rentabilidad, tendría unos doce millones de dólares. Un buen patrimonio, sí. Pero miles de veces menos que su fortuna real.",
+     row(card("De los 30 a los 60", "≈ 12 M$", "navy", c="a los treinta", val=True, style="min-width:420px"), card("Fortuna real", "≈ 84.500 M$", "teal", c="fortuna real", val=True, style="min-width:420px"), style="gap:30px"), sub="Cálculo de Morgan Housel · datos aproximados"),
+ final('El interés compuesto no premia al más listo. Premia al que <em class="c-teal">más aguanta</em>.', "El interés compuesto no premia al más listo. Premia al que más aguanta.", "Datos aproximados: Morgan Housel, La psicología del dinero (2020)."),
+], """
+Buffett compró su primera acción con 11 años… y aun así casi toda su fortuna llegó después de los 50 😳
+
+Según Morgan Housel, en «La psicología del dinero», de unos 84.500 millones de dólares, unos 84.200 los ganó después de cumplir 50. Su habilidad es invertir, pero su secreto es el tiempo.
+
+Con el interés compuesto, lo grande siempre llega al final. Lo que más importa no es cuánto ganas cada año, sino cuántos años aguantas.
+
+Guárdalo y compártelo con quien crea que ya es tarde para empezar 📌
+
+Contenido educativo, no es recomendación de inversión.
+
+#finanzaspersonales #interescompuesto #inversion #educacionfinanciera #loquenadietecuenta""")

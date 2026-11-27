@@ -1,0 +1,50 @@
+{
+ "series": "nadie",
+ "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+ "title_post": "Buffett hizo casi toda su fortuna después de los 50",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Warren Buffett compró su primera acción con once años. Y aun así, casi toda su fortuna llegó después de cumplir los cincuenta. ¿Cómo es posible?",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-t=\"0\">11 años · 1.ª acción</span></div><div class=\"big c-orange in\" data-cue=\"casi toda\" style=\"text-align:center;margin-top:40px\">≈ 99 %</div><div class=\"note in\" data-cue=\"cincuenta\" style=\"margin-top:30px\">de su fortuna, después de los 50</div>"
+  },
+  {
+   "dark": true,
+   "say": "Esto es lo que nadie te cuenta sobre la fortuna de Warren Buffett.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">La fortuna de Buffett llegó <em class=\"c-orange\">después de los 50</em></div>"
+  },
+  {
+   "title": "El dato de <em class=\"c-navy\">Housel</em>",
+   "say": "Lo cuenta Morgan Housel en su libro La psicología del dinero. Cuando lo escribió, Buffett tenía unos ochenta y cuatro mil quinientos millones de dólares. De ellos, unos ochenta y cuatro mil doscientos los ganó después de cumplir cincuenta años. Y la gran mayoría, después de los sesenta y cinco.",
+   "html": "<div class=\"cols\" style=\"height:480px;\"><div class=\"c in\" data-cue=\"cuando lo escribió\" style=\"width:300px\"><b>≈ 0,3</b><i class=\"navy grow\" style=\"--h:2%\"></i><span>Antes de los 50</span></div><div class=\"c in\" data-cue=\"ochenta y cuatro mil doscientos\" style=\"width:300px\"><b>≈ 84.200</b><i class=\"teal grow\" style=\"--h:100%\"></i><span>Después de los 50</span></div></div><div class=\"note in\" data-cue=\"sesenta y cinco\" style=\"margin-top:70px\">Miles de millones de dólares · datos aproximados</div>",
+   "sub": "La psicología del dinero, Morgan Housel"
+  },
+  {
+   "title": "No es solo <em class=\"c-orange\">talento</em>",
+   "say": "Buffett es un inversor buenísimo, eso nadie lo duda. Pero lo que de verdad explica su fortuna es otra cosa: lleva más de setenta y cinco años invirtiendo. Como dice Housel, su habilidad es invertir, pero su secreto es el tiempo.",
+   "html": "<div class=\"card  in\" data-cue=\"su secreto\" style=\"width:100%\"><div class=\"lab\">Morgan Housel</div><div class=\"txt\">Su habilidad es invertir. Su secreto es <em style=\"color:#7CC4BF\">el tiempo</em>.</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill teal lg in\" data-cue=\"setenta y cinco años\">+75 años invirtiendo</span></div>"
+  },
+  {
+   "title": "Hagamos la <em class=\"c-teal\">cuenta</em>",
+   "say": "Míralo con números sencillos. Pones diez mil euros a los veinticinco años y te dan un siete por ciento al año. A los treinta y cinco tienes casi veinte mil. A los cuarenta y cinco, casi treinta y nueve mil. A los cincuenta y cinco, unos setenta y seis mil. Y a los sesenta y cinco, casi ciento cincuenta mil.",
+   "html": "<div class=\"cols\" style=\"height:480px;\"><div class=\"c in\" data-cue=\"casi veinte mil\" style=\"width:200px\"><b>19.672</b><i class=\"sand grow\" style=\"--h:13%\"></i><span>35 años</span></div><div class=\"c in\" data-cue=\"treinta y nueve\" style=\"width:200px\"><b>38.697</b><i class=\"sand grow\" style=\"--h:26%\"></i><span>45 años</span></div><div class=\"c in\" data-cue=\"setenta y seis\" style=\"width:200px\"><b>76.123</b><i class=\"navy grow\" style=\"--h:51%\"></i><span>55 años</span></div><div class=\"c in\" data-cue=\"ciento cincuenta\" style=\"width:200px\"><b>149.745</b><i class=\"teal grow\" style=\"--h:100%\"></i><span>65 años</span></div></div><div class=\"note in\" data-cue=\"siete por ciento\" style=\"margin-top:70px\">10.000 € al 7 % anual · ejemplo ilustrativo</div>"
+  },
+  {
+   "title": "Lo mejor llega al <em class=\"c-orange\">final</em>",
+   "say": "Fíjate en lo que pasa. En los primeros diez años ganas menos de diez mil euros. En los últimos diez, más de setenta mil. Con el interés compuesto, lo grande siempre llega al final. Por eso lo que más importa no es cuánto ganas cada año, sino cuántos años aguantas.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"primeros diez\"><span>Primeros 10 años</span><i class=\"sand grow short\" style=\"--w:13%\">+9.672 €</i></div><div class=\"b in\" data-cue=\"últimos diez\"><span>Últimos 10 años</span><i class=\"teal grow\" style=\"--w:100%\">+73.622 €</i></div></div><div class=\"note in\" data-cue=\"llega al final\" style=\"margin-top:40px\">Lo grande llega al final</div>"
+  },
+  {
+   "title": "¿Y si hubiera <em class=\"c-navy\">empezado tarde</em>?",
+   "say": "Housel hace otra cuenta. Si Buffett hubiera empezado a invertir a los treinta y lo hubiera dejado a los sesenta, con la misma rentabilidad, tendría unos doce millones de dólares. Un buen patrimonio, sí. Pero miles de veces menos que su fortuna real.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-cue=\"a los treinta\" style=\"min-width:420px\"><div class=\"lab\">De los 30 a los 60</div><div class=\"val\">≈ 12 M$</div></div><div class=\"card teal in\" data-cue=\"fortuna real\" style=\"min-width:420px\"><div class=\"lab\">Fortuna real</div><div class=\"val\">≈ 84.500 M$</div></div></div>",
+   "sub": "Cálculo de Morgan Housel · datos aproximados"
+  },
+  {
+   "dark": true,
+   "say": "El interés compuesto no premia al más listo. Premia al que más aguanta.",
+   "html": "<div class=\"final in\" data-t=\"0\">El interés compuesto no premia al más listo. Premia al que <em class=\"c-teal\">más aguanta</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Datos aproximados: Morgan Housel, La psicología del dinero (2020).<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}
