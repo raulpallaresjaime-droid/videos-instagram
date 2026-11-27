@@ -1,0 +1,61 @@
+{
+ "series": "fondo",
+ "topic": "El <span class=\"c-orange\">WACC</span>",
+ "title_post": "El WACC",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "¿Cuánto le cuesta a una empresa el dinero que usa? Un solo punto de diferencia en esa cifra puede cambiar lo que vale casi un veinte por ciento.",
+   "html": "<div class=\"q in\" data-t=\"0\" style=\"font-size:60px\">¿Cuánto le cuesta<br>el <em class=\"c-orange\">dinero</em> a una empresa?</div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill orange lg in\" data-cue=\"un solo punto\">± 1 punto → valor ± 20 %</span></div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas a fondo: el WACC, el coste medio del capital.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">El <em class=\"c-orange\">WACC</em></div><div class=\"q in\" data-cue=\"coste medio\" style=\"font-size:46px\">Coste medio del <em class=\"c-teal\">capital</em></div>"
+  },
+  {
+   "title": "Dos tipos de <em class=\"c-navy\">dinero</em>",
+   "say": "Una empresa se financia con dos tipos de dinero. El de los socios, que es el equity, y el de los bancos y los bonistas, que es la deuda. Y ninguno de los dos es gratis.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-cue=\"de los socios\" style=\"min-width:420px\"><div class=\"lab\">Equity</div><div class=\"txt\">Los socios</div></div><div class=\"card navy in\" data-cue=\"la deuda\" style=\"min-width:420px\"><div class=\"lab\">Deuda</div><div class=\"txt\">Bancos y bonistas</div></div></div><div class=\"note in\" data-cue=\"ninguno\" style=\"margin-top:30px\">Ninguno de los dos es gratis</div>"
+  },
+  {
+   "title": "1 · El coste del <em class=\"c-teal\">equity</em>",
+   "say": "Los socios esperan ganar más que con algo sin riesgo, porque arriesgan más. Se suele calcular con el CAPM: la rentabilidad sin riesgo, más la beta de la empresa por la prima de riesgo del mercado. En nuestro ejemplo, un diez por ciento.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill  lg in\" data-cue=\"el capm\">Ke = Rf + β × prima de mercado</span></div><div class=\"card teal in\" data-cue=\"un diez por ciento\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">Coste del equity (Ke)</div><div class=\"val\">10 %</div></div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "title": "2 · El coste de la <em class=\"c-navy\">deuda</em>",
+   "say": "La deuda es más barata, porque el banco cobra antes que los socios si algo va mal. Además, los intereses se pagan antes de impuestos, así que Hacienda pone una parte. Un préstamo al seis por ciento, con un impuesto del veinticinco, cuesta en realidad un cuatro y medio.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"seis por ciento\"><span>Interés del préstamo</span><i class=\"navy grow\" style=\"--w:100%\">6 %</i></div><div class=\"b in\" data-cue=\"cuatro y medio\"><span>Tras impuestos (25 %)</span><i class=\"teal grow\" style=\"--w:75%\">4,5 %</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"antes de impuestos\">Kd × (1 − t)</span></div>"
+  },
+  {
+   "title": "3 · Los <em class=\"c-orange\">pesos</em>",
+   "say": "Ahora, los pesos. Imagina un negocio de cien mil euros: setenta y cinco mil los ponen los socios y veinticinco mil los presta el banco. El equity pesa un setenta y cinco por ciento y la deuda, un veinticinco.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"setenta y cinco mil\"><span>Socios (equity)</span><i class=\"teal grow\" style=\"--w:100%\">75.000 € · 75 %</i></div><div class=\"b in\" data-cue=\"veinticinco mil\"><span>Banco (deuda)</span><i class=\"navy grow\" style=\"--w:33%\">25.000 € · 25 %</i></div></div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "title": "El <em class=\"c-orange\">WACC</em>",
+   "say": "El WACC es la media ponderada: setenta y cinco por ciento por diez, más veinticinco por ciento por cuatro y medio. Sale un ocho coma seis por ciento. Es la rentabilidad mínima que tiene que conseguir la empresa para que todos los que la financian queden contentos.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill teal lg in\" data-cue=\"por diez\">75 % × 10 %</span><span class=\"pill navy lg in\" data-cue=\"por cuatro y medio\">+ 25 % × 4,5 %</span></div><div class=\"card orange in\" data-cue=\"ocho coma seis\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">WACC</div><div class=\"val\">≈ 8,6 %</div></div><div class=\"note in\" data-cue=\"rentabilidad mínima\" style=\"margin-top:30px\">La rentabilidad mínima que tiene que conseguir</div>"
+  },
+  {
+   "title": "Por qué importa <em class=\"c-navy\">tanto</em>",
+   "say": "Y aquí está lo importante. En un DCF, los flujos futuros se descuentan al WACC. En el ejemplo de Nova Industrial, bajar el WACC un punto subía el valor un diecinueve por ciento, y subirlo un punto lo bajaba un catorce. Por eso es la cifra que más se discute en cualquier valoración.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"subía el valor\"><span>WACC − 1 punto</span><i class=\"teal grow\" style=\"--w:100%\">+19 %</i></div><div class=\"b in\" data-cue=\"lo bajaba\"><span>WACC + 1 punto</span><i class=\"orange grow\" style=\"--w:74%\">−14 %</i></div></div><div class=\"note in\" data-cue=\"más se discute\" style=\"margin-top:30px\">La cifra que más se discute</div>",
+   "sub": "Nova Industrial · ejemplo de los DCF"
+  },
+  {
+   "title": "El error más <em class=\"c-orange\">común</em>",
+   "say": "Un error típico es usar la deuda neta para calcular los pesos. En empresas con más caja que deuda, eso da pesos absurdos, incluso un WACC negativo. Los pesos se calculan con el valor de mercado del equity y con la deuda bruta.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step orange in\" data-cue=\"deuda neta\"><div class=\"n\">✗</div><div><div class=\"t\">Pesos con la deuda neta</div><div class=\"d\">Puede dar un WACC negativo</div></div></div><div class=\"step teal in\" data-cue=\"valor de mercado\"><div class=\"n\">✓</div><div><div class=\"t\">Valor de mercado del equity + deuda bruta</div></div></div></div>"
+  },
+  {
+   "dark": true,
+   "say": "El WACC es el listón: si la empresa no lo supera, destruye valor.",
+   "html": "<div class=\"final in\" data-t=\"0\">El WACC es el listón: si la empresa no lo <em class=\"c-teal\">supera</em>, <em class=\"c-orange\">destruye valor</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

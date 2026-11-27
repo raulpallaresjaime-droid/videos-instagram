@@ -1,0 +1,59 @@
+{
+ "series": "bolsa",
+ "topic": "Moats: ventajas <span class=\"c-teal\">competitivas</span>",
+ "title_post": "Moats: ventajas competitivas",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "¿Por qué tanta gente sigue pagando más por una Coca-Cola que por un refresco de marca blanca que sabe casi igual? Esa pregunta esconde una de las ideas más importantes para invertir.",
+   "html": "<div class=\"q in\" data-t=\"0\" style=\"font-size:64px\">¿Por qué pagas <em class=\"c-orange\">más</em><br>por lo mismo?</div><div class=\"note in\" data-cue=\"más importantes\" style=\"margin-top:30px\">Una de las ideas clave para invertir</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas desde cero: los moats, o ventajas competitivas.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas desde cero</div><div class=\"hero sm in\" data-t=\"0.2\">Los <em class=\"c-teal\">moats</em></div><div class=\"q in\" data-cue=\"ventajas competitivas\" style=\"font-size:46px\">Ventajas <em class=\"c-teal\">competitivas</em></div>"
+  },
+  {
+   "title": "Un <em class=\"c-navy\">foso</em> alrededor del castillo",
+   "say": "Moat, en inglés, significa foso: el agua que rodeaba los castillos para que nadie pudiera entrar. Warren Buffett popularizó la idea. En 1999 dijo que la clave para invertir es encontrar la ventaja competitiva de una empresa y, sobre todo, cuánto le va a durar.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill navy lg in\" data-cue=\"significa foso\">Moat = foso</span></div><div class=\"card  in\" data-cue=\"la clave para invertir\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">Warren Buffett · Fortune, 1999</div><div class=\"txt\">La clave: la ventaja competitiva… y <em style=\"color:#7CC4BF\">cuánto dura</em></div></div>"
+  },
+  {
+   "title": "Por qué <em class=\"c-orange\">importa</em>",
+   "say": "Porque cuando un negocio gana mucho dinero, enseguida llegan competidores a copiarlo. Bajan los precios y los beneficios se evaporan. Una empresa con foso puede seguir ganando mucho durante años, porque a los demás les cuesta entrar.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step teal in\" data-cue=\"gana mucho dinero\"><div class=\"n\">1</div><div><div class=\"t\">Un negocio gana mucho</div></div></div><div class=\"step orange in\" data-cue=\"llegan competidores\"><div class=\"n\">2</div><div><div class=\"t\">Llegan competidores</div><div class=\"d\">Bajan los precios</div></div></div><div class=\"step navy in\" data-cue=\"se evaporan\"><div class=\"n\">3</div><div><div class=\"t\">Sin foso: el beneficio se evapora</div><div class=\"d\">Con foso: se defiende durante años</div></div></div></div>"
+  },
+  {
+   "title": "1 · La <em class=\"c-teal\">marca</em>",
+   "say": "El primer foso es la marca. Hay gente que paga más por algo solo por el nombre que lleva. Coca-Cola, Apple o Ferrari pueden cobrar más que sus rivales sin perder clientes.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"coca-cola\">Coca-Cola</span><span class=\"pill sand lg in\" data-cue=\"apple\">Apple</span><span class=\"pill sand lg in\" data-cue=\"ferrari\">Ferrari</span></div><div class=\"note in\" data-cue=\"sin perder clientes\" style=\"margin-top:30px\">Cobran más sin perder clientes</div>"
+  },
+  {
+   "title": "2 · Lo que cuesta <em class=\"c-navy\">cambiarse</em>",
+   "say": "El segundo, lo que cuesta cambiarse. Si toda una empresa trabaja con un programa, cambiar a otro es caro, lento y arriesgado. Por eso muchos clientes se quedan aunque les suban el precio. Piensa en el software de gestión de una empresa, o en tu propio banco.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill orange lg in\" data-cue=\"caro\">Caro</span><span class=\"pill orange lg in\" data-cue=\"lento\">Lento</span><span class=\"pill orange lg in\" data-cue=\"arriesgado\">Arriesgado</span></div><div class=\"card navy in\" data-cue=\"se quedan\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">Resultado</div><div class=\"txt\">Los clientes se quedan aunque suba el precio</div></div>"
+  },
+  {
+   "title": "3 · El efecto <em class=\"c-teal\">red</em>",
+   "say": "El tercero, el efecto red: el producto vale más cuanta más gente lo usa. Nadie quiere una red social sin amigos, ni un sistema de pago que no acepta nadie. Por eso Visa, Mastercard o WhatsApp son tan difíciles de desbancar.",
+   "html": "<div class=\"card teal in\" data-cue=\"el efecto red\" style=\"width:100%\"><div class=\"lab\">Efecto red</div><div class=\"txt\">Más usuarios → más valor → más usuarios</div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill sand in\" data-cue=\"visa\">Visa</span><span class=\"pill sand in\" data-cue=\"mastercard\">Mastercard</span><span class=\"pill sand in\" data-cue=\"whatsapp\">WhatsApp</span></div>"
+  },
+  {
+   "title": "4 · Costes más <em class=\"c-orange\">bajos</em>",
+   "say": "Y el cuarto, poder producir más barato que nadie, por tamaño o por eficiencia. Si tú ganas dinero vendiendo al precio al que tu rival pierde, tienes una ventaja enorme. Es lo que hacen Costco o Amazon con su escala.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"más barato\"><span>Tú: coste</span><i class=\"teal grow\" style=\"--w:60%\">60 €</i></div><div class=\"b in\" data-cue=\"tu rival pierde\"><span>Tu rival: coste</span><i class=\"orange grow\" style=\"--w:100%\">100 €</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"vendiendo al precio\">Precio de venta: 80 €</span></div><div class=\"note in\" data-cue=\"ventaja enorme\" style=\"margin-top:30px\">Tú ganas 20 €, tu rival pierde 20 €</div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "title": "¿Cómo se <em class=\"c-navy\">ve</em> en los números?",
+   "say": "¿Y cómo se ve un foso en los números? Una empresa con foso suele tener márgenes altos y estables durante muchos años, y una rentabilidad sobre lo que invierte por encima de la de su sector. Si los márgenes se hunden en cuanto llega un competidor, es que no había foso.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step teal in\" data-cue=\"márgenes altos\"><div class=\"n\">✓</div><div><div class=\"t\">Márgenes altos y estables</div><div class=\"d\">Durante muchos años</div></div></div><div class=\"step teal in\" data-cue=\"rentabilidad sobre\"><div class=\"n\">✓</div><div><div class=\"t\">Rentabilidad sobre lo invertido alta</div><div class=\"d\">Por encima de su sector</div></div></div><div class=\"step orange in\" data-cue=\"se hunden\"><div class=\"n\">✗</div><div><div class=\"t\">Márgenes que se hunden con la competencia</div><div class=\"d\">No había foso</div></div></div></div>"
+  },
+  {
+   "dark": true,
+   "say": "No busques solo empresas que ganan mucho. Busca las que pueden seguir haciéndolo.",
+   "html": "<div class=\"final in\" data-t=\"0\">No busques solo empresas que ganan mucho. Busca las que pueden <em class=\"c-teal\">seguir haciéndolo</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Cita: Warren Buffett, Fortune (1999). Empresas citadas como ejemplo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

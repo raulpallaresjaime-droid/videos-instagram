@@ -1,0 +1,53 @@
+{
+ "series": "nadie",
+ "topic": "<span class=\"k\">Lo que</span> <span class=\"c-orange\">nadie te cuenta</span>",
+ "title_post": "La regla del 4 %",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "Si quieres vivir de rentas con dos mil euros al mes, ¿cuánto dinero necesitas tener invertido? Hay una regla muy famosa que te da la respuesta en un segundo.",
+   "html": "<div class=\"card  in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">Quieres vivir de rentas con</div><div class=\"val\">2.000 €/mes</div></div><div class=\"q in\" data-cue=\"cuánto dinero\" style=\"\">¿Cuánto necesitas <em class=\"c-teal\">invertido</em>?</div>"
+  },
+  {
+   "dark": true,
+   "say": "Esto es lo que nadie te cuenta sobre la regla del cuatro por ciento.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Lo que nadie te cuenta</div><div class=\"hero sm in\" data-t=\"0.2\">La regla del <em class=\"c-teal\">4 %</em></div>"
+  },
+  {
+   "title": "La <em class=\"c-teal\">regla</em>",
+   "say": "La regla dice que puedes retirar cada año un cuatro por ciento de lo que tenías al jubilarte, subiéndolo con la inflación, y que el dinero te durará al menos treinta años. Dicho al revés: necesitas veinticinco veces lo que gastas en un año.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill teal lg in\" data-cue=\"un cuatro por ciento\">Retiras un 4 % al año</span></div><div class=\"row\" style=\"margin-top:24px\"><span class=\"pill sand in\" data-cue=\"con la inflación\">+ inflación</span><span class=\"pill sand in\" data-cue=\"treinta años\">≥ 30 años</span></div><div class=\"card  in\" data-cue=\"dicho al revés\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">Dicho al revés</div><div class=\"txt\">Necesitas × 25 lo que gastas al año</div></div>"
+  },
+  {
+   "title": "Hagamos la <em class=\"c-orange\">cuenta</em>",
+   "say": "Si quieres dos mil euros al mes, son veinticuatro mil al año. Por veinticinco, seiscientos mil euros. Si te basta con mil quinientos al mes, cuatrocientos cincuenta mil.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"seiscientos mil\"><span>2.000 €/mes</span><i class=\"teal grow\" style=\"--w:100%\">600.000 €</i></div><div class=\"b in\" data-cue=\"cuatrocientos cincuenta mil\"><span>1.500 €/mes</span><i class=\"navy grow\" style=\"--w:75%\">450.000 €</i></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"veinticuatro mil\">24.000 €/año × 25</span></div>"
+  },
+  {
+   "title": "¿De dónde <em class=\"c-navy\">sale</em>?",
+   "say": "La regla viene de un estudio de 1994 de William Bengen, un asesor financiero de Estados Unidos. Miró los datos históricos de su bolsa y sus bonos, y buscó cuánto podías retirar sin quedarte sin dinero en treinta años, incluso empezando en los peores momentos. En 1998, el llamado estudio Trinity llegó a conclusiones parecidas.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step navy in\" data-cue=\"william bengen\"><div class=\"n\">1</div><div><div class=\"t\">William Bengen · 1994</div><div class=\"d\">Datos históricos de EE. UU.</div></div></div><div class=\"step teal in\" data-cue=\"peores momentos\"><div class=\"n\">2</div><div><div class=\"t\">Peor momento posible</div><div class=\"d\">El máximo sin quedarte sin dinero en 30 años</div></div></div><div class=\"step ink in\" data-cue=\"estudio trinity\"><div class=\"n\">3</div><div><div class=\"t\">Estudio Trinity · 1998</div><div class=\"d\">Conclusiones parecidas</div></div></div></div>"
+  },
+  {
+   "title": "La letra <em class=\"c-orange\">pequeña</em>",
+   "say": "Pero tiene letra pequeña. Está hecha con datos de Estados Unidos, uno de los mercados que mejor ha ido del mundo. Cuando se repitió el cálculo en otros países desarrollados, el cuatro por ciento solo habría aguantado en una minoría. Y Morningstar llegó a calcular una tasa segura de alrededor del tres coma tres.",
+   "html": "<div class=\"card orange in\" data-cue=\"datos de estados unidos\" style=\"width:100%\"><div class=\"lab\">Hecha con datos de</div><div class=\"txt\">EE. UU.: de los que mejor han ido</div></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill sand in\" data-cue=\"otros países\">Otros países: solo en una minoría</span></div><div class=\"row\" style=\"margin-top:24px\"><span class=\"pill navy lg in\" data-cue=\"tres coma tres\">Morningstar: ≈ 3,3 %</span></div>"
+  },
+  {
+   "title": "Y lo que no <em class=\"c-navy\">cuenta</em>",
+   "say": "Además, la regla no cuenta ni impuestos ni comisiones. Si pagas un uno y medio por ciento al año en comisiones, te comes buena parte de ese cuatro. Y treinta años se quedan cortos si te retiras a los cincuenta.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill grey lg in\" data-cue=\"impuestos\">Impuestos ✗</span><span class=\"pill grey lg in\" data-cue=\"comisiones\">Comisiones ✗</span></div><div class=\"bars\" style=\"margin-top:40px\"><div class=\"b in\" data-cue=\"te comes\"><span>Retiras</span><i class=\"teal grow\" style=\"--w:100%\">4 %</i></div><div class=\"b in\" data-cue=\"uno y medio\"><span>Comisiones</span><i class=\"orange grow\" style=\"--w:38%\">1,5 %</i></div></div><div class=\"note in\" data-cue=\"a los cincuenta\" style=\"margin-top:30px\">Si te retiras a los 50, 30 años se quedan cortos</div>"
+  },
+  {
+   "title": "Entonces, ¿<em class=\"c-teal\">sirve</em>?",
+   "say": "¿Entonces no sirve? Sí, pero como punto de partida, no como garantía. Es una forma muy rápida de ponerle número a tu objetivo. Y a partir de ahí, ser prudente: retirar algo menos, o gastar menos en los años malos.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-cue=\"punto de partida\" style=\"min-width:420px\"><div class=\"lab\">Sirve como</div><div class=\"txt\">Punto de partida</div></div><div class=\"card orange in\" data-cue=\"no como garantía\" style=\"min-width:420px\"><div class=\"lab\">No es</div><div class=\"txt\">Una garantía</div></div></div><div class=\"note in\" data-cue=\"ser prudente\" style=\"margin-top:30px\">Retira algo menos y ajusta en los años malos</div>"
+  },
+  {
+   "dark": true,
+   "say": "Para vivir de rentas, multiplica lo que gastas por veinticinco. Y luego, sé prudente.",
+   "html": "<div class=\"final in\" data-t=\"0\">Para vivir de rentas, multiplica lo que gastas por <em class=\"c-teal\">25</em>… y luego sé <em class=\"c-orange\">prudente</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Fuentes: Bengen (1994), estudio Trinity (1998), Morningstar. Ejemplos ilustrativos.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

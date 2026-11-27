@@ -1,0 +1,55 @@
+{
+ "series": "bolsa",
+ "topic": "Calidad del <span class=\"c-orange\">beneficio</span>",
+ "title_post": "Calidad del beneficio",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "En 2018, una empresa alemana llegó a valer en bolsa más que el Deutsche Bank. Dos años después reconoció que mil novecientos millones de euros de su caja, probablemente, no existían.",
+   "html": "<div class=\"card teal in\" data-t=\"0\" style=\"width:100%\"><div class=\"lab\">Empresa alemana · 2018</div><div class=\"txt\">Vale más que el Deutsche Bank</div></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"mil novecientos millones\">1.900 M€ que no existían</span></div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas desde cero: la calidad del beneficio.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas desde cero</div><div class=\"hero sm in\" data-t=\"0.2\">Calidad del <em class=\"c-orange\">beneficio</em></div>"
+  },
+  {
+   "title": "No todo beneficio <em class=\"c-orange\">vale</em> igual",
+   "say": "El beneficio que ves en las cuentas no siempre es dinero de verdad. Las normas contables dejan margen para decidir cuándo se apunta un ingreso o un gasto. Por eso, dos empresas que ganan lo mismo pueden ser muy distintas por dentro.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card teal in\" data-cue=\"dos empresas\" style=\"min-width:400px\"><div class=\"lab\">Empresa A</div><div class=\"val\">Gana 100</div></div><div class=\"card orange in\" data-cue=\"ganan lo mismo\" style=\"min-width:400px\"><div class=\"lab\">Empresa B</div><div class=\"val\">Gana 100</div></div></div><div class=\"note in\" data-cue=\"por dentro\" style=\"margin-top:30px\">…y pueden ser muy distintas por dentro</div>"
+  },
+  {
+   "title": "1 · ¿Se convierte en <em class=\"c-teal\">caja</em>?",
+   "say": "La primera prueba: compara el beneficio con el flujo de caja de las operaciones. Si una empresa gana cien millones, pero su negocio solo genera veinte de caja, año tras año, algo no cuadra. En un negocio sano, la caja suele ser parecida al beneficio, o mayor.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"gana cien millones\"><span>Beneficio</span><i class=\"navy grow\" style=\"--w:100%\">100</i></div><div class=\"b in\" data-cue=\"solo genera veinte\"><span>Caja operativa</span><i class=\"orange grow short\" style=\"--w:20%\">20 ✗</i></div></div><div class=\"note in\" data-cue=\"negocio sano\" style=\"margin-top:30px\">En un negocio sano, la caja ≈ el beneficio o más</div>",
+   "sub": "Ejemplo ilustrativo · millones"
+  },
+  {
+   "title": "2 · Lo que no se <em class=\"c-navy\">repite</em>",
+   "say": "La segunda: quita lo extraordinario. Vender un edificio, cobrar una indemnización o un cambio contable pueden inflar un año concreto. Lo que importa es lo que el negocio gana de forma recurrente: lo que se va a repetir el año que viene.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand in\" data-cue=\"vender un edificio\">Venta de un edificio</span><span class=\"pill sand in\" data-cue=\"indemnización\">Indemnización</span><span class=\"pill sand in\" data-cue=\"cambio contable\">Cambio contable</span></div><div class=\"card teal in\" data-cue=\"recurrente\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">Lo que importa</div><div class=\"txt\">El beneficio recurrente</div></div>"
+  },
+  {
+   "title": "3 · Clientes que no <em class=\"c-orange\">pagan</em>",
+   "say": "La tercera: mira lo que te deben los clientes. Si las ventas suben un diez por ciento, pero las facturas pendientes de cobro suben un cuarenta, puede que la empresa esté vendiendo a quien no paga, o apuntando ventas antes de tiempo.",
+   "html": "<div class=\"bars\" style=\"\"><div class=\"b in\" data-cue=\"las ventas suben\"><span>Ventas</span><i class=\"teal grow\" style=\"--w:25%\">+10 %</i></div><div class=\"b in\" data-cue=\"suben un cuarenta\"><span>Pendiente de cobro</span><i class=\"orange grow\" style=\"--w:100%\">+40 %</i></div></div><div class=\"note in\" data-cue=\"a quien no paga\" style=\"margin-top:30px\">¿Vende a quien no paga?</div>",
+   "sub": "Ejemplo ilustrativo"
+  },
+  {
+   "title": "El caso <em class=\"c-orange\">Wirecard</em>",
+   "say": "Esa empresa era Wirecard, que llegó a estar en el principal índice de la bolsa alemana. En junio de 2020, su auditora se negó a firmar las cuentas porque no pudo confirmar unos mil novecientos millones de euros que debían estar en bancos de Asia. Días después, la empresa admitió que probablemente no existían, y se declaró insolvente.",
+   "html": "<div class=\"card  in\" data-cue=\"su auditora\" style=\"width:100%\"><div class=\"lab\">Wirecard · junio de 2020</div><div class=\"txt\">La auditora no puede confirmar <em style=\"color:#E8915A\">1.900 M€</em></div></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"probablemente no existían\">“Probablemente no existían”</span></div><div class=\"row\" style=\"margin-top:24px\"><span class=\"pill  lg in\" data-cue=\"insolvente\">Insolvencia</span></div>"
+  },
+  {
+   "title": "Las señales de <em class=\"c-orange\">alarma</em>",
+   "say": "Así que desconfía cuando veas beneficios que no se convierten en caja, extraordinarios positivos todos los años, cobros pendientes que crecen más que las ventas, o retrasos en las cuentas y problemas con el auditor.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step orange in\" data-cue=\"no se convierten\"><div class=\"n\">1</div><div><div class=\"t\">Beneficio sin caja</div></div></div><div class=\"step orange in\" data-cue=\"todos los años\"><div class=\"n\">2</div><div><div class=\"t\">Extraordinarios todos los años</div></div></div><div class=\"step orange in\" data-cue=\"cobros pendientes\"><div class=\"n\">3</div><div><div class=\"t\">Cobros que crecen más que las ventas</div></div></div><div class=\"step ink in\" data-cue=\"retrasos\"><div class=\"n\">4</div><div><div class=\"t\">Retrasos y problemas con el auditor</div></div></div></div>"
+  },
+  {
+   "dark": true,
+   "say": "No preguntes solo cuánto gana una empresa. Pregunta cuánto de eso es real.",
+   "html": "<div class=\"final in\" data-t=\"0\">No preguntes solo cuánto gana una empresa. Pregunta cuánto de eso es <em class=\"c-teal\">real</em>.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Caso Wirecard: prensa internacional, junio de 2020. Resto, ejemplos ilustrativos.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}

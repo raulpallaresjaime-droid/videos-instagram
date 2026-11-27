@@ -1,0 +1,54 @@
+{
+ "series": "fondo",
+ "topic": "Valoración por <span class=\"c-teal\">múltiplos</span>",
+ "title_post": "Valoración por múltiplos",
+ "coverScene": 1,
+ "scenes": [
+  {
+   "dark": true,
+   "say": "¿Cómo sabe un tasador lo que vale tu piso sin abrir ni una hoja de cálculo? Mirando lo que se ha pagado por los de al lado. Con las empresas se hace exactamente igual.",
+   "html": "<div class=\"q in\" data-t=\"0\" style=\"font-size:60px\">¿Cómo sabe un tasador<br>lo que <em class=\"c-teal\">vale</em> tu piso?</div><div class=\"note in\" data-cue=\"los de al lado\" style=\"margin-top:30px\">Mirando lo que se paga por los de al lado</div>"
+  },
+  {
+   "dark": true,
+   "say": "Hoy, en finanzas a fondo: la valoración por múltiplos.",
+   "html": "<div class=\"kicker in\" data-t=\"0\">Finanzas a fondo</div><div class=\"hero sm in\" data-t=\"0.2\">Valoración por <em class=\"c-teal\">múltiplos</em></div>"
+  },
+  {
+   "title": "Como un <em class=\"c-navy\">tasador</em>",
+   "say": "Si los pisos parecidos de tu barrio se venden a cuatro mil euros el metro, el tuyo de ochenta metros vale unos trescientos veinte mil. Eso es un múltiplo: el precio dividido entre algo que se pueda comparar.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill sand lg in\" data-cue=\"cuatro mil euros\">4.000 €/m²</span><span class=\"pill sand lg in\" data-cue=\"ochenta metros\">× 80 m²</span></div><div class=\"card navy in\" data-cue=\"trescientos veinte mil\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">Tu piso</div><div class=\"val\">≈ 320.000 €</div></div><div class=\"note in\" data-cue=\"eso es un múltiplo\" style=\"margin-top:30px\">Múltiplo = precio ÷ algo comparable</div>"
+  },
+  {
+   "title": "Los más <em class=\"c-teal\">usados</em>",
+   "say": "En empresas, los más usados son el PER, que compara el precio con el beneficio, y el EV entre EBITDA, que compara el valor de todo el negocio con lo que genera su actividad. El segundo no depende de cuánta deuda tenga la empresa, y por eso es el favorito para comparar.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-cue=\"el per\" style=\"min-width:420px\"><div class=\"lab\">PER</div><div class=\"txt\">Precio ÷ beneficio</div></div><div class=\"card teal in\" data-cue=\"ev entre ebitda\" style=\"min-width:420px\"><div class=\"lab\">EV / EBITDA</div><div class=\"txt\">Valor del negocio ÷ EBITDA</div></div></div><div class=\"note in\" data-cue=\"no depende\" style=\"margin-top:30px\">EV/EBITDA no depende de la deuda</div>"
+  },
+  {
+   "title": "1 · Compara lo <em class=\"c-navy\">comparable</em>",
+   "say": "La primera regla: compara con empresas parecidas de verdad. Mismo sector, tamaño parecido, crecimiento parecido. Comparar una eléctrica con una tecnológica es como tasar tu piso mirando lo que vale un chalé con piscina.",
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill teal in\" data-cue=\"mismo sector\">Mismo sector</span><span class=\"pill teal in\" data-cue=\"tamaño parecido\">Tamaño parecido</span><span class=\"pill teal in\" data-cue=\"crecimiento parecido\">Crecimiento parecido</span></div><div class=\"card orange in\" data-cue=\"una eléctrica\" style=\"margin-top:40px;width:100%\"><div class=\"lab\">Error</div><div class=\"txt\">Eléctrica ↔ tecnológica = piso ↔ chalé con piscina</div></div>"
+  },
+  {
+   "title": "2 · Cada sector, su <em class=\"c-orange\">múltiplo</em>",
+   "say": "La segunda: usa el múltiplo adecuado. En los bancos se mira el precio frente a su valor en libros. En empresas de software que aún no ganan dinero, el valor frente a las ventas. Y en las aerolíneas, un EBITDA que incluye el alquiler de los aviones.",
+   "html": "<div class=\"steps\" style=\"\"><div class=\"step navy in\" data-cue=\"los bancos\"><div class=\"n\">B</div><div><div class=\"t\">Bancos</div><div class=\"d\">Precio ÷ valor en libros</div></div></div><div class=\"step teal in\" data-cue=\"software\"><div class=\"n\">S</div><div><div class=\"t\">Software sin beneficios</div><div class=\"d\">Valor ÷ ventas</div></div></div><div class=\"step orange in\" data-cue=\"aerolíneas\"><div class=\"n\">A</div><div><div class=\"t\">Aerolíneas</div><div class=\"d\">EV ÷ EBITDAR (incluye alquiler de aviones)</div></div></div></div>"
+  },
+  {
+   "title": "3 · La mediana, no la <em class=\"c-teal\">media</em>",
+   "say": "La tercera: usa la mediana, no la media. Imagina cinco comparables que cotizan entre ocho y doce veces su EBITDA, y uno raro a treinta. La media sube a trece coma tres. La mediana se queda en diez y medio. Con un EBITDA de cien millones, esa diferencia infla el valor más de un veinticinco por ciento.",
+   "html": "<div class=\"cols\" style=\"height:300px;\"><div class=\"c in\" data-cue=\"entre ocho\" style=\"width:110px\"><b>8</b><i class=\"navy grow\" style=\"--h:27%\"></i><span></span></div><div class=\"c in\" data-cue=\"entre ocho\" style=\"width:110px\"><b>9</b><i class=\"navy grow\" style=\"--h:30%\"></i><span></span></div><div class=\"c in\" data-cue=\"entre ocho\" style=\"width:110px\"><b>10</b><i class=\"navy grow\" style=\"--h:33%\"></i><span></span></div><div class=\"c in\" data-cue=\"doce veces\" style=\"width:110px\"><b>11</b><i class=\"navy grow\" style=\"--h:37%\"></i><span></span></div><div class=\"c in\" data-cue=\"doce veces\" style=\"width:110px\"><b>12</b><i class=\"navy grow\" style=\"--h:40%\"></i><span></span></div><div class=\"c in\" data-cue=\"uno raro\" style=\"width:110px\"><b>30</b><i class=\"orange grow\" style=\"--h:100%\"></i><span>el raro</span></div></div><div class=\"bars\" style=\"margin-top:70px\"><div class=\"b in\" data-cue=\"la media\"><span>Media</span><i class=\"orange grow\" style=\"--w:100%\">13,3 ×</i></div><div class=\"b in\" data-cue=\"la mediana se queda\"><span>Mediana</span><i class=\"teal grow\" style=\"--w:79%\">10,5 ×</i></div></div><div class=\"row\" style=\"margin-top:30px\"><span class=\"pill orange lg in\" data-cue=\"más de un veinticinco\">Valor inflado +27 %</span></div>",
+   "sub": "Ejemplo ilustrativo · EV/EBITDA"
+  },
+  {
+   "title": "4 · Un rango, no un <em class=\"c-navy\">número</em>",
+   "say": "Y la cuarta: da un rango, no un número exacto. Los múltiplos te dicen cuánto paga hoy el mercado por negocios parecidos, no cuánto vale de verdad la empresa. Por eso los profesionales los combinan con un DCF.",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-cue=\"los múltiplos te dicen\" style=\"min-width:420px\"><div class=\"lab\">Múltiplos</div><div class=\"txt\">Lo que paga el mercado hoy</div></div><div class=\"card teal in\" data-cue=\"un dcf\" style=\"min-width:420px\"><div class=\"lab\">DCF</div><div class=\"txt\">Lo que vale el negocio</div></div></div><div class=\"row\" style=\"margin-top:40px\"><span class=\"pill  lg in\" data-cue=\"un rango\">Un rango, no un número</span></div>"
+  },
+  {
+   "dark": true,
+   "say": "Los múltiplos te dicen el precio. El DCF, el valor. Un buen análisis usa los dos.",
+   "html": "<div class=\"final in\" data-t=\"0\">Los múltiplos te dicen el <em class=\"c-navy\">precio</em>. El DCF, el <em class=\"c-teal\">valor</em>. Un buen análisis usa los dos.</div><div class=\"rule in\" data-t=\"1\"></div><div class=\"disc in\" data-t=\"1\">Ejemplo ilustrativo.<br>Contenido educativo, no es recomendación de inversión.</div>"
+  }
+ ]
+}
