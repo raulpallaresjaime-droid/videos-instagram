@@ -74,7 +74,7 @@ M = {  # escena: (capas, opciones de escena)
  45: ([L(I+'alb_llegada_mayo.jpg', cap='Judíos de Hungría llegan a Birkenau, mayo de 1944 · Álbum de Auschwitz'),
        L(C+'via_tren.mp4', 'casi todos van')], {'shade': True}),
  47: ([L(I+'lodz_valla.jpg', cap='Gueto de Lodz'), L(I+'lodz_anciano.jpg', 'personas como este anciano')], {'side': None}),
- 48: ([L(I+'westerbork.jpg', cap='Westerbork (Países Bajos), 1944: Settela Steinbach, niña sinti, en un tren hacia Auschwitz'), L(P+'ana_frank_1939.jpg', 'ana frank', who=who('Ana Frank', '15 años · deportada desde Westerbork')), L(P+'ana_frank.jpg', 'sobrevivio a auschwitz', fy=0.3)], {'shade': True}),
+ 48: ([L(I+'vagon.jpg'), L(I+'alb_dos_jovenes.jpg', 'sobrevivio a auschwitz', cap='Jóvenes seleccionadas para el trabajo · Álbum de Auschwitz, 1944')], {'shade': True}),  # sin fotos de Ana Frank: derechos discutidos en EE. UU.
  49: ([L(C+'barracones_vista.mp4'), L(I+'informe_vrba.jpg', 'se esconden', cap='Telegrama de las SS sobre la fuga de Vrba y Wetzler, 8 de abril de 1944')], {'side': None, 'shade': True}),
  50: ([L(I+'aereo_usaf44.jpg', cap='Birkenau desde el aire, 1944'), L(I+'informe_vrba.jpg', 'ese informe llego')], {'shade': True}),
  51: ([L(I+'aereo_lw.jpg', dark=True)], {}),
@@ -89,7 +89,7 @@ M = {  # escena: (capas, opciones de escena)
  60: ([L(P+'hoss_1947.jpg', fy=0.3, who=who('Rudolf Höss', 'Excomandante de Auschwitz, ante el tribunal')), L(I+'muro_muerte_1975.jpg', 'el 16 de abril de 1947', dark=True)], {'side': 'right'}),
  61: ([L(I+'memorial70.jpg'), L(I+'alambrada_flor.jpg', 'en 1979'), L(C+'mujeres_salen.mp4', 'caminan por los mismos')], {}),
  62: ([L(I+'solahutte2.jpg', cap='Personal de las SS de Auschwitz de descanso en Solahütte, 1944'), L(I+'alb_ss_rampa.jpg', 'personas normales', cap='Un guardia de las SS en la rampa · Álbum de Auschwitz, 1944')], {'shade': True}),
- 63: ([L(C+'ninos_salen2.mp4'), L(I+'lib_ninos2.jpg', 'para recordar a cada una', cap='Niños supervivientes de Auschwitz, 1945')], {'shade': True}),
+ 63: ([L(C+'ninos_salen2.mp4'), L(I+'lib_ninos.jpg', 'para recordar a cada una', cap='Niños supervivientes de Auschwitz, 1945')], {'shade': True}),
  64: ([L('../04_noche-cristales-rotos/img/sinagoga_quemada.jpg', dark=True)], {}),
 }
 

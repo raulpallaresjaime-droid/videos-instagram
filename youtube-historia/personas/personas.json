@@ -106,11 +106,5 @@
   "role": "Químico y escritor, superviviente de Auschwitz",
   "fx": 0.5,
   "fy": 0.3
- },
- "ana_frank": {
-  "name": "Ana Frank",
-  "role": "Autora del diario, deportada a Auschwitz",
-  "fx": 0.5,
-  "fy": 0.3
  }
 }
