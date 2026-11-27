@@ -76,9 +76,10 @@
    "hora": "16:00",
    "episodio": 8,
    "tema": "Operación Barbarroja: el mayor error de Hitler",
-   "estado": "hecho",
+   "estado": "programado",
    "carpeta": "08_operacion-barbarroja",
-   "duracion": "16:08"
+   "duracion": "16:08",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8071218&openWithPostUuid=4469811646449404920"
   }
  ],
  "nota_presupuesto": "Episodios 3-8 de diciembre producidos antes del 3/12 con el saldo sobrante de noviembre de ElevenLabs."
