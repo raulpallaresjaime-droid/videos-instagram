@@ -61,8 +61,8 @@ scenes.forEach((s, i) => {
   let items = s.imgs || (s.img || s.clip ? [{ img: s.img, clip: s.clip, clipStart: s.clipStart, clipRate: s.clipRate, kb: s.kb,
     fx: s.fx, fy: s.fy, blur: s.blur, who: s.who }] : []);
   items = items.map(x => typeof x === 'string' ? { [/\.(mp4|webm)$/i.test(x) ? 'clip' : 'img']: x } : { ...x });
-  s.photo = items.length > 0;
-  if (!items.length && s.bg) items = [{ img: s.bg, bg: true, kb: 'still' }]; // fondo oscuro de gráficos y citas
+  if (!items.length && s.bg) items = [{ img: s.bg, dark: true, kb: 'still' }]; // fondo oscuro de gráficos y citas
+  s.photo = items.some(L => !L.dark); // `dark: true` = fondo oscuro y desenfocado (escenas de texto o gráfico)
   const dur = s.end - s.start;
   items.forEach((L, j) => {
     L.a = j === 0 ? s.start : L.cue ? cueTime(s, L.cue, L.n || 1) - 0.2 : L.t !== undefined ? s.start + L.t : s.start + dur * j / items.length;
@@ -107,7 +107,7 @@ function sceneHTML(s, i) {
     const bl = L.blur ? ` style="--blur:${L.blur === true ? 26 : L.blur}px"` : '';
     ph += `<div class="layer${L.blur ? ' blurred' : ''}" data-l="${j}"${bl}>`;
     if (s.side) ph += `<div class="ph blur"><img src="file://${L.src}" data-fill="1"${at}></div>`;
-    ph += `<div class="ph ${L.bg ? 'bgimg' : 'main'}"><img src="file://${L.src}" data-kb="${L.kb}" data-fx="${L.fx ?? 0.5}" data-fy="${L.fy ?? 0.5}"${at}></div></div>`;
+    ph += `<div class="ph ${L.dark ? 'bgimg' : 'main'}"><img src="file://${L.src}" data-kb="${L.kb}" data-fx="${L.fx ?? 0.5}" data-fy="${L.fy ?? 0.5}"${at}></div></div>`;
     if (L.cap) labs += `<div class="cap lcap" data-l="${j}">${L.cap}</div>`;
     if (L.who) labs += `<div class="idl${s.side === 'right' ? ' r' : ''}" data-l="${j}" data-w="1"><b>${L.who.name}</b>${L.who.role ? `<span>${L.who.role}</span>` : ''}</div>`;
   });

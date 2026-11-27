@@ -46,5 +46,71 @@
   "role": "Arquitecto de Hitler y ministro de Armamento",
   "fx": 0.5,
   "fy": 0.3
+ },
+ "hoss": {
+  "name": "Rudolf Höss",
+  "role": "Comandante de Auschwitz",
+  "fx": 0.5,
+  "fy": 0.3,
+  "nota": "Álbum Höcker, 1944"
+ },
+ "hoss_2": {
+  "name": "Rudolf Höss",
+  "role": "Comandante de Auschwitz",
+  "fx": 0.5,
+  "fy": 0.3,
+  "nota": "Álbum Höcker, 1944 (otra toma)"
+ },
+ "hoss_1947": {
+  "name": "Rudolf Höss",
+  "role": "Excomandante de Auschwitz",
+  "fx": 0.5,
+  "fy": 0.3,
+  "nota": "juicio en Varsovia, 1947"
+ },
+ "hoss_juicio": {
+  "name": "Rudolf Höss",
+  "role": "Excomandante de Auschwitz",
+  "nota": "composición de 3 fotos del juicio (ancha)"
+ },
+ "mengele": {
+  "name": "Josef Mengele",
+  "role": "Médico de las SS en Auschwitz",
+  "fx": 0.5,
+  "fy": 0.3,
+  "nota": "Álbum Höcker, 1944"
+ },
+ "mengele_grupo": {
+  "name": "Josef Mengele",
+  "role": "con Kramer, Baer y Höcker, 1944",
+  "nota": "foto de grupo"
+ },
+ "himmler_auschwitz_1942": {
+  "name": "Heinrich Himmler",
+  "role": "visita IG Farben Auschwitz, julio de 1942",
+  "nota": "foto de grupo"
+ },
+ "pilecki": {
+  "name": "Witold Pilecki",
+  "role": "Oficial de la resistencia polaca",
+  "fx": 0.5,
+  "fy": 0.3
+ },
+ "pilecki_auschwitz": {
+  "name": "Witold Pilecki",
+  "role": "Preso n.º 4859 de Auschwitz",
+  "nota": "fotos de registro del campo"
+ },
+ "primo_levi": {
+  "name": "Primo Levi",
+  "role": "Químico y escritor, superviviente de Auschwitz",
+  "fx": 0.5,
+  "fy": 0.3
+ },
+ "ana_frank": {
+  "name": "Ana Frank",
+  "role": "Autora del diario, deportada a Auschwitz",
+  "fx": 0.5,
+  "fy": 0.3
  }
 }
