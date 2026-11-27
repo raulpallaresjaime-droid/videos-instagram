@@ -17,12 +17,12 @@
   {
    "title": "Las <em class=\"c-orange\">cíclicas</em>",
    "say": "Imagina que la economía va bien. Tienes trabajo, te suben el sueldo y te das caprichos: cenas fuera, viajas, cambias de coche. Las empresas que venden esas cosas son las cíclicas. Cuando la economía crece, ganan mucho. Cuando se frena, son lo primero que recortamos.",
-   "html": "<div class=\"row\" style=\"\"><span class=\"pill orange lg in\" data-cue=\"cambias de coche\">Coches</span><span class=\"pill orange lg in\" data-cue=\"viajas\">Viajes</span><span class=\"pill orange lg in\" data-cue=\"cenas fuera\">Restaurantes</span></div><div class=\"steps\" style=\"margin-top:40px\"><div class=\"step teal in\" data-cue=\"ganan mucho\"><div class=\"n\">↑</div><div><div class=\"t\">Economía crece</div><div class=\"d\">Ganan mucho</div></div></div><div class=\"step orange in\" data-cue=\"lo primero\"><div class=\"n\">↓</div><div><div class=\"t\">Economía se frena</div><div class=\"d\">Lo primero que recortamos</div></div></div></div>"
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill orange lg in\" data-cue=\"caprichos\">Coches</span><span class=\"pill orange lg in\" data-cue=\"caprichos\" data-d=\"0.3\">Viajes</span><span class=\"pill orange lg in\" data-cue=\"caprichos\" data-d=\"0.6\">Restaurantes</span></div><div class=\"steps\" style=\"margin-top:40px\"><div class=\"step teal in\" data-cue=\"ganan mucho\"><div class=\"n\">↑</div><div><div class=\"t\">Economía crece</div><div class=\"d\">Ganan mucho</div></div></div><div class=\"step orange in\" data-cue=\"lo primero\"><div class=\"n\">↓</div><div><div class=\"t\">Economía se frena</div><div class=\"d\">Lo primero que recortamos</div></div></div></div>"
   },
   {
    "title": "Las <em class=\"c-teal\">defensivas</em>",
    "say": "Las defensivas venden lo que compras pase lo que pase. Aunque haya crisis, sigues comprando comida, pasta de dientes y medicinas, y sigues pagando la luz. Sus ventas casi no dependen de cómo vaya la economía.",
-   "html": "<div class=\"row\" style=\"\"><span class=\"pill teal lg in\" data-cue=\"comida\">Comida</span><span class=\"pill teal lg in\" data-cue=\"pasta de dientes\">Higiene</span><span class=\"pill teal lg in\" data-cue=\"medicinas\">Salud</span><span class=\"pill teal lg in\" data-cue=\"la luz\">Luz</span></div><div class=\"note in\" data-cue=\"casi no dependen\" style=\"margin-top:30px\">Venden casi lo mismo con crisis o sin ella</div>"
+   "html": "<div class=\"row\" style=\"\"><span class=\"pill teal lg in\" data-cue=\"pase lo que pase\">Comida</span><span class=\"pill teal lg in\" data-cue=\"pase lo que pase\" data-d=\"0.3\">Higiene</span><span class=\"pill teal lg in\" data-cue=\"pase lo que pase\" data-d=\"0.6\">Salud</span><span class=\"pill teal lg in\" data-cue=\"pase lo que pase\" data-d=\"0.9\">Luz</span></div><div class=\"note in\" data-cue=\"casi no dependen\" style=\"margin-top:30px\">Venden casi lo mismo con crisis o sin ella</div>"
   },
   {
    "title": "Qué pasó en <em class=\"c-orange\">2008</em>",
@@ -33,7 +33,7 @@
   {
    "title": "Pero luego <em class=\"c-teal\">rebotan</em>",
    "say": "Pero la historia no acaba ahí. En 2009, cuando la bolsa se recuperó, el consumo no básico subió cerca de un cuarenta por ciento. El básico, en torno a un quince. Las cíclicas caen más… pero también rebotan más.",
-   "html": "<div class=\"cols\" style=\"height:480px;\"><div class=\"c in\" data-cue=\"cuarenta por ciento\" style=\"width:260px\"><b>≈ +40 %</b><i class=\"orange grow\" style=\"--h:100%\"></i><span>No básico</span></div><div class=\"c in\" data-cue=\"quince\" style=\"width:260px\"><b>≈ +15 %</b><i class=\"teal grow\" style=\"--h:38%\"></i><span>Básico</span></div></div><div class=\"note in\" data-cue=\"rebotan más\" style=\"margin-top:70px\">Rebote de 2009 · datos aproximados</div>"
+   "html": "<div class=\"cols\" style=\"height:480px;\"><div class=\"c in\" data-cue=\"se recuperó\" style=\"width:260px\"><b>≈ +40 %</b><i class=\"orange grow\" style=\"--h:100%\"></i><span>No básico</span></div><div class=\"c in\" data-cue=\"el básico\" style=\"width:260px\"><b>≈ +15 %</b><i class=\"teal grow\" style=\"--h:38%\"></i><span>Básico</span></div></div><div class=\"note in\" data-cue=\"rebotan más\" style=\"margin-top:70px\">Rebote de 2009 · datos aproximados</div>"
   },
   {
    "title": "La <em class=\"c-orange\">trampa</em> de las cíclicas",

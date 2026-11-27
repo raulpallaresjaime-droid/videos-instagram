@@ -38,7 +38,7 @@
   {
    "title": "¿Y si hubiera <em class=\"c-navy\">empezado tarde</em>?",
    "say": "Housel hace otra cuenta. Si Buffett hubiera empezado a invertir a los treinta y lo hubiera dejado a los sesenta, con la misma rentabilidad, tendría unos doce millones de dólares. Un buen patrimonio, sí. Pero miles de veces menos que su fortuna real.",
-   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-cue=\"a los treinta\" style=\"min-width:420px\"><div class=\"lab\">De los 30 a los 60</div><div class=\"val\">≈ 12 M$</div></div><div class=\"card teal in\" data-cue=\"fortuna real\" style=\"min-width:420px\"><div class=\"lab\">Fortuna real</div><div class=\"val\">≈ 84.500 M$</div></div></div>",
+   "html": "<div class=\"row\" style=\"gap:30px\"><div class=\"card navy in\" data-cue=\"a los treinta\" style=\"min-width:420px\"><div class=\"lab\">De los 30 a los 60</div><div class=\"val\">≈ 12 M$</div></div><div class=\"card teal in\" data-cue=\"un buen patrimonio\" style=\"min-width:420px\"><div class=\"lab\">Fortuna real</div><div class=\"val\">≈ 84.500 M$</div></div></div>",
    "sub": "Cálculo de Morgan Housel · datos aproximados"
   },
   {
