@@ -169,6 +169,12 @@ solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. N
      a veces corta la conexión: elegir otra). Wikimedia (`engine/commons.py`) limita mucho: lanzarlo al principio en
      segundo plano y usar `fallback` en el spec. **Nada de cadáveres ni imágenes explícitas**, y nada de símbolos
      nazis en la miniatura. Revisar siempre las fotos con una hoja de contactos antes de usarlas.
+   - **Clips de vídeo (desde el episodio 9): 1 escena de cada 3-4 con `clip`** en vez de foto. Solo dominio público:
+     películas del Gobierno de EE. UU. (NARA, US Army Signal Corps, «Why We Fight», Universal Newsreels) copiadas en
+     Wikimedia Commons. Nada de British Pathé, Getty, Bundesarchiv-Filmothek ni Riefenstahl; nada explícito (cadáveres,
+     ejecuciones) ni propaganda nazi sin contexto. Flujo: `commons.py vsearch "texto"` → `commons.py vurl "File:…"` →
+     `clip.py sheet <url> <inicio> <dur> hoja.jpg 10` (elegir tramo mirando la hoja) → `clip.py <url> <inicio> <dur>
+     clips/x.mp4` (lee solo ese tramo, ≤20 s, 1920×1080, sin audio, apunta el crédito). Detalle en `youtube-historia/README.md`.
    - Nombres con letras no españolas (ł, ż, ś…): sin ellas en `say` y en los títulos (la tipografía no las tiene).
    - `node youtube-historia/engine/tts.js <carpeta>` (voz Salva `hyKxCTlAqtnW188CgltM`, `eleven_v4`).
    - Revisar con `render.js <carpeta> --preview t1,t2,…` (un fotograma por escena) y corregir solapes/huecos.

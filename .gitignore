@@ -5,3 +5,6 @@ engine/_page_*.html
 .render_*.log
 *.tmp.mp4
 .rerender.txt
+youtube-historia/videos/*/_clips_cache/
+youtube-historia/videos/*/video_mudo.mp4
+youtube-historia/videos/*/mezcla.wav

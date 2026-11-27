@@ -1,0 +1,35 @@
+{
+ "title": "Prueba de clips",
+ "brand": "Sombras del 39",
+ "tail": 2,
+ "scenes": [
+  {
+   "say": "En 1933 Hitler llega al poder y promete devolver a Alemania su grandeza perdida.",
+   "mood": "inquietud",
+   "img": "img/hitler.jpg",
+   "kb": "in",
+   "cap": "Adolf Hitler, 1933"
+  },
+  {
+   "say": "En pocos años, las fábricas alemanas trabajan día y noche para el rearme: acero, cañones y tanques.",
+   "mood": "tension",
+   "clip": "clips/acerias.mp4",
+   "cap": "Acerías alemanas · «Why We Fight» (1943)",
+   "html": "<div class=\"ov left low\"><div class=\"date in\" data-cue=\"rearme\">1935 · 1939</div></div>"
+  },
+  {
+   "say": "Generales como Heinz Guderian preparan una nueva forma de hacer la guerra, basada en la velocidad.",
+   "mood": "tension",
+   "img": "img/guderian.jpg",
+   "side": "right",
+   "html": "<div class=\"ov left\"><div class=\"h2 in\" data-t=\"0.3\">Heinz Guderian</div><div class=\"rule in\" data-cue=\"nueva\"></div><div class=\"txt in\" data-cue=\"velocidad\">La guerra relámpago</div></div>"
+  },
+  {
+   "say": "Mientras tanto, en Moscú, Stalin exhibe su propia fuerza en la Plaza Roja.",
+   "mood": "melancolia",
+   "clip": "clips/desfile_moscu.mp4",
+   "kb": "in",
+   "cap": "Plaza Roja, Moscú · «The Battle of Russia» (1943)"
+  }
+ ]
+}
