@@ -56,7 +56,9 @@
    "hora": "16:00",
    "episodio": 6,
    "tema": "1 de septiembre de 1939: el día que empezó la guerra",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "carpeta": "06_1-septiembre-1939",
+   "duracion": "15:56"
   },
   {
    "fecha": "2026-12-22",

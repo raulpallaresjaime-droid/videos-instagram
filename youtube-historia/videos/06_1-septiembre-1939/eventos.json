@@ -1,0 +1,628 @@
+{
+ "total": 955.92,
+ "scenes": [
+  {
+   "start": 0,
+   "end": 22.31,
+   "mood": "tension"
+  },
+  {
+   "start": 22.31,
+   "end": 33.03,
+   "mood": "melancolia"
+  },
+  {
+   "start": 33.03,
+   "end": 51.31,
+   "mood": "inquietud"
+  },
+  {
+   "start": 51.31,
+   "end": 69.91,
+   "mood": "inquietud"
+  },
+  {
+   "start": 69.91,
+   "end": 84.87,
+   "mood": "inquietud"
+  },
+  {
+   "start": 84.87,
+   "end": 101.11,
+   "mood": "tension"
+  },
+  {
+   "start": 101.11,
+   "end": 114.55,
+   "mood": "inquietud"
+  },
+  {
+   "start": 114.55,
+   "end": 127.27,
+   "mood": "tension"
+  },
+  {
+   "start": 127.27,
+   "end": 141.43,
+   "mood": "inquietud"
+  },
+  {
+   "start": 141.43,
+   "end": 163.91,
+   "mood": "tension"
+  },
+  {
+   "start": 163.91,
+   "end": 182.39,
+   "mood": "tension"
+  },
+  {
+   "start": 182.39,
+   "end": 204.87,
+   "mood": "tension"
+  },
+  {
+   "start": 204.87,
+   "end": 221.43,
+   "mood": "inquietud"
+  },
+  {
+   "start": 221.43,
+   "end": 239.43,
+   "mood": "inquietud"
+  },
+  {
+   "start": 239.43,
+   "end": 256.23,
+   "mood": "tension"
+  },
+  {
+   "start": 256.23,
+   "end": 273.03,
+   "mood": "tension"
+  },
+  {
+   "start": 273.03,
+   "end": 283.67,
+   "mood": "tension"
+  },
+  {
+   "start": 283.67,
+   "end": 302.39,
+   "mood": "melancolia"
+  },
+  {
+   "start": 302.39,
+   "end": 320.79,
+   "mood": "melancolia"
+  },
+  {
+   "start": 320.79,
+   "end": 338.87,
+   "mood": "tension"
+  },
+  {
+   "start": 338.87,
+   "end": 357.83,
+   "mood": "tension"
+  },
+  {
+   "start": 357.83,
+   "end": 372.23,
+   "mood": "tension"
+  },
+  {
+   "start": 372.23,
+   "end": 385.75,
+   "mood": "inquietud"
+  },
+  {
+   "start": 385.75,
+   "end": 395.83,
+   "mood": "tension"
+  },
+  {
+   "start": 395.83,
+   "end": 416.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 416.71,
+   "end": 431.99,
+   "mood": "tension"
+  },
+  {
+   "start": 431.99,
+   "end": 441.03,
+   "mood": "inquietud"
+  },
+  {
+   "start": 441.03,
+   "end": 458.07,
+   "mood": "tension"
+  },
+  {
+   "start": 458.07,
+   "end": 470.07,
+   "mood": "inquietud"
+  },
+  {
+   "start": 470.07,
+   "end": 483.03,
+   "mood": "tension"
+  },
+  {
+   "start": 483.03,
+   "end": 503.51,
+   "mood": "melancolia"
+  },
+  {
+   "start": 503.51,
+   "end": 517.11,
+   "mood": "tension"
+  },
+  {
+   "start": 517.11,
+   "end": 533.19,
+   "mood": "melancolia"
+  },
+  {
+   "start": 533.19,
+   "end": 542.79,
+   "mood": "inquietud"
+  },
+  {
+   "start": 542.79,
+   "end": 559.67,
+   "mood": "tension"
+  },
+  {
+   "start": 559.67,
+   "end": 573.03,
+   "mood": "melancolia"
+  },
+  {
+   "start": 573.03,
+   "end": 584.87,
+   "mood": "inquietud"
+  },
+  {
+   "start": 584.87,
+   "end": 598.47,
+   "mood": "tension"
+  },
+  {
+   "start": 598.47,
+   "end": 612.07,
+   "mood": "tension"
+  },
+  {
+   "start": 612.07,
+   "end": 631.27,
+   "mood": "tension"
+  },
+  {
+   "start": 631.27,
+   "end": 648.87,
+   "mood": "inquietud"
+  },
+  {
+   "start": 648.87,
+   "end": 666.31,
+   "mood": "melancolia"
+  },
+  {
+   "start": 666.31,
+   "end": 677.59,
+   "mood": "tension"
+  },
+  {
+   "start": 677.59,
+   "end": 693.67,
+   "mood": "tension"
+  },
+  {
+   "start": 693.67,
+   "end": 713.27,
+   "mood": "melancolia"
+  },
+  {
+   "start": 713.27,
+   "end": 730.15,
+   "mood": "tension"
+  },
+  {
+   "start": 730.15,
+   "end": 745.67,
+   "mood": "melancolia"
+  },
+  {
+   "start": 745.67,
+   "end": 760.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 760.71,
+   "end": 776.23,
+   "mood": "tension"
+  },
+  {
+   "start": 776.23,
+   "end": 789.03,
+   "mood": "melancolia"
+  },
+  {
+   "start": 789.03,
+   "end": 798.31,
+   "mood": "melancolia"
+  },
+  {
+   "start": 798.31,
+   "end": 812.55,
+   "mood": "inquietud"
+  },
+  {
+   "start": 812.55,
+   "end": 831.99,
+   "mood": "melancolia"
+  },
+  {
+   "start": 831.99,
+   "end": 844.71,
+   "mood": "inquietud"
+  },
+  {
+   "start": 844.71,
+   "end": 859.43,
+   "mood": "melancolia"
+  },
+  {
+   "start": 859.43,
+   "end": 878.63,
+   "mood": "inquietud"
+  },
+  {
+   "start": 878.63,
+   "end": 892.95,
+   "mood": "inquietud"
+  },
+  {
+   "start": 892.95,
+   "end": 907.43,
+   "mood": "melancolia"
+  },
+  {
+   "start": 907.43,
+   "end": 920.87,
+   "mood": "melancolia"
+  },
+  {
+   "start": 920.87,
+   "end": 936.63,
+   "mood": "melancolia"
+  },
+  {
+   "start": 936.63,
+   "end": 955.92,
+   "mood": "melancolia"
+  }
+ ],
+ "typing": [
+  {
+   "t": 0,
+   "text": "1 de septiembre de 1939",
+   "cps": 18
+  },
+  {
+   "t": 22.71,
+   "text": "Capítulo 6",
+   "cps": 18
+  },
+  {
+   "t": 31.88,
+   "text": "El día que empezó la guerra",
+   "cps": 18
+  },
+  {
+   "t": 72.96,
+   "text": "Una heridaabierta",
+   "cps": 18
+  },
+  {
+   "t": 85.07,
+   "text": "15 de marzo de 1939",
+   "cps": 18
+  },
+  {
+   "t": 92.96,
+   "text": "Fin deChecoslovaquia",
+   "cps": 18
+  },
+  {
+   "t": 101.31,
+   "text": "31 de marzo de 1939 · Londres",
+   "cps": 18
+  },
+  {
+   "t": 124.96,
+   "text": "Fall Weiss",
+   "cps": 18
+  },
+  {
+   "t": 127.87,
+   "text": "¿Dos frentes?",
+   "cps": 18
+  },
+  {
+   "t": 141.63,
+   "text": "23 de agosto de 1939",
+   "cps": 18
+  },
+  {
+   "t": 155.6,
+   "text": "PactoRibbentrop-Mólotov",
+   "cps": 18
+  },
+  {
+   "t": 182.59,
+   "text": "22 de agosto de 1939 · Obersalzberg",
+   "cps": 18
+  },
+  {
+   "t": 205.07,
+   "text": "25 de agosto de 1939",
+   "cps": 18
+  },
+  {
+   "t": 221.63,
+   "text": "26 de agosto · madrugada",
+   "cps": 18
+  },
+  {
+   "t": 223.32,
+   "text": "La ordenque no llegó",
+   "cps": 18
+  },
+  {
+   "t": 239.63,
+   "text": "31 de agosto de 1939",
+   "cps": 18
+  },
+  {
+   "t": 248,
+   "text": "Directiva n.º 1",
+   "cps": 18
+  },
+  {
+   "t": 256.43,
+   "text": "31 de agosto de 1939 · hacia las 20:00",
+   "cps": 18
+  },
+  {
+   "t": 269.92,
+   "text": "Gleiwitz",
+   "cps": 18
+  },
+  {
+   "t": 273.52,
+   "text": "Disfrazadosde polacos",
+   "cps": 18
+  },
+  {
+   "t": 320.99,
+   "text": "Hacia las 4:30",
+   "cps": 18
+  },
+  {
+   "t": 332.72,
+   "text": "Puentes deTczew",
+   "cps": 18
+  },
+  {
+   "t": 339.07,
+   "text": "Hacia las 4:40",
+   "cps": 18
+  },
+  {
+   "t": 342.08,
+   "text": "Wielun",
+   "cps": 18
+  },
+  {
+   "t": 358.03,
+   "text": "Hacia las 4:45",
+   "cps": 18
+  },
+  {
+   "t": 362.32,
+   "text": "Fuego sobreWesterplatte",
+   "cps": 18
+  },
+  {
+   "t": 376.72,
+   "text": "Sin fronteras",
+   "cps": 18
+  },
+  {
+   "t": 430.48,
+   "text": "Blitzkrieg",
+   "cps": 18
+  },
+  {
+   "t": 433.16,
+   "text": "Un mito",
+   "cps": 18
+  },
+  {
+   "t": 441.23,
+   "text": "1 de septiembre · Krojanty",
+   "cps": 18
+  },
+  {
+   "t": 474.44,
+   "text": "Correosde Danzig",
+   "cps": 18
+  },
+  {
+   "t": 483.23,
+   "text": "5 de octubre de 1939",
+   "cps": 18
+  },
+  {
+   "t": 533.39,
+   "text": "1 de septiembre · 10:00",
+   "cps": 18
+  },
+  {
+   "t": 538.72,
+   "text": "Ópera Kroll,Berlín",
+   "cps": 18
+  },
+  {
+   "t": 573.63,
+   "text": "Dos díasde dudas",
+   "cps": 18
+  },
+  {
+   "t": 585.07,
+   "text": "3 de septiembre de 1939",
+   "cps": 18
+  },
+  {
+   "t": 598.67,
+   "text": "3 de septiembre · 11:15 · BBC",
+   "cps": 18
+  },
+  {
+   "t": 612.27,
+   "text": "3 de septiembre · noche",
+   "cps": 18
+  },
+  {
+   "t": 617.6,
+   "text": "Athenia",
+   "cps": 18
+  },
+  {
+   "t": 631.47,
+   "text": "7 de septiembre · El Sarre",
+   "cps": 18
+  },
+  {
+   "t": 636.52,
+   "text": "La ofensivaque no fue",
+   "cps": 18
+  },
+  {
+   "t": 670.347,
+   "text": "Huir",
+   "cps": 18
+  },
+  {
+   "t": 678.19,
+   "text": "Einsatzgruppen",
+   "cps": 18
+  },
+  {
+   "t": 693.87,
+   "text": "1 de septiembre - 25 de octubre de 1939",
+   "cps": 18
+  },
+  {
+   "t": 713.47,
+   "text": "17 de septiembre de 1939",
+   "cps": 18
+  },
+  {
+   "t": 723.92,
+   "text": "Entra elEjército Rojo",
+   "cps": 18
+  },
+  {
+   "t": 730.35,
+   "text": "17-18 de septiembre",
+   "cps": 18
+  },
+  {
+   "t": 734.56,
+   "text": "El Gobiernocruza a Rumanía",
+   "cps": 18
+  },
+  {
+   "t": 745.87,
+   "text": "22 de septiembre de 1939",
+   "cps": 18
+  },
+  {
+   "t": 751.72,
+   "text": "Desfileconjunto",
+   "cps": 18
+  },
+  {
+   "t": 776.43,
+   "text": "28 de septiembre de 1939",
+   "cps": 18
+  },
+  {
+   "t": 780.32,
+   "text": "CapitulaVarsovia",
+   "cps": 18
+  },
+  {
+   "t": 789.63,
+   "text": "Barrios enteros, en escombros",
+   "cps": 18
+  },
+  {
+   "t": 798.51,
+   "text": "5-6 de octubre de 1939",
+   "cps": 18
+  },
+  {
+   "t": 801.76,
+   "text": "Desfile dela victoria",
+   "cps": 18
+  },
+  {
+   "t": 840.16,
+   "text": "Poloniadesaparece",
+   "cps": 18
+  },
+  {
+   "t": 859.63,
+   "text": "Julio de 1939 · bosque de Pyry",
+   "cps": 18
+  },
+  {
+   "t": 875.92,
+   "text": "Enigma",
+   "cps": 18
+  },
+  {
+   "t": 879.23,
+   "text": "Bletchley Park",
+   "cps": 18
+  },
+  {
+   "t": 902.32,
+   "text": "Cada 1 de septiembre · 4:45",
+   "cps": 18
+  },
+  {
+   "t": 936.83,
+   "text": "Próximo capítulo",
+   "cps": 18
+  },
+  {
+   "t": 937.869,
+   "text": "Toda la Segunda Guerra Mundialen 20 minutos",
+   "cps": 18
+  }
+ ],
+ "hits": [
+  164.51,
+  219.28,
+  282.08,
+  458.67
+ ]
+}

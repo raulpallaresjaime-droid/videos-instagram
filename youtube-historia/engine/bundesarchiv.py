@@ -20,7 +20,7 @@ def records(query):
         f = lambda lab: (re.findall(r'"values":\["([^"]*)"\],"label":"' + lab + '"', seg) or [''])[-1]
         yield dict(sig=f('Signatur'), title=f('Archivtitel').replace('\n', ' '), size=f('Abmessungen'),
                    date=(re.findall(r'"date":"([^"]*)"', page[m.end():m.end() + 400]) or [''])[0],
-                   url=m.group(1).replace('\\/', '/'))
+                   url=m.group(1).replace('\\/', '/').replace('bundesbildarchiv.init-ag.de', 'bild.bundesarchiv.de'))
 
 if sys.argv[1] == 'search':
     seen = set()
