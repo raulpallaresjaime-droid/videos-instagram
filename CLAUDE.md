@@ -210,6 +210,7 @@ solo martes 16:00) como **borradores en Metricool** para que Raúl los revise. N
    - `node youtube-historia/engine/render.js <carpeta>` (~30 min, mezcla voz + música + tecleo) y
      `node youtube-historia/engine/miniatura.js <carpeta>`; `python3 build_desc.py`.
    - Comprimir para GitHub (<100 MB): `ffmpeg -i video.mp4 -c:v libx264 -preset slow -crf 27 -c:a aac -b:a 160k -movflags +faststart youtube.mp4`.
+     Si pasa de 100 MB (clips y grano comprimen peor), usar H.265: `ffmpeg -i video.mp4 -c:v libx265 -preset medium -crf 28 -tag:v hvc1 -c:a aac -b:a 160k -movflags +faststart youtube.mp4`.
 3. `git add` + commit + push (Metricool descarga `youtube.mp4` y `miniatura.jpg` de raw.githubusercontent.com).
 4. Metricool (`blogId` 8071218; plan gratuito: el YouTube de la marca _raulpallares es Sombras del 39). Si la sesión
    no tiene las herramientas de Metricool, enviar carpeta + fecha + hora de cada vídeo con `send_message` a la sesión
