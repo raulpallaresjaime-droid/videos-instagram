@@ -11,3 +11,4 @@ youtube-historia/videos/*/mezcla.wav
 youtube-historia/videos/*/_part_*.mp4
 youtube-historia/videos/*/_parts.txt
 youtube-historia/videos/*/_page*.html
+__pycache__/
