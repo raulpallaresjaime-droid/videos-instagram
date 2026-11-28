@@ -31,3 +31,25 @@ lavanderia.jpg	Bundesarchiv, Bild 192-008 (\u00d6sterreich.- Konzentrationslager
 patatas.jpg	Bundesarchiv, Bild 192-126 (\u00d6sterreich, Konzentrationslager Mauthausen, Kartoffelanbau durch H\u00e4ftl)	CC BY-SA 3.0 DE	
 boix.jpg	File:Boix testigo.jpg	Public domain	
 liberacion2.jpg	File:KZ Mauthausen.jpg	Public domain	Cpl Donald R. Ornitz, US Army
+m_jovenes_appell.jpg	Bundesarchiv, Bild 192-046 (\u00d6sterreich, Konzentrationslager Mauthausen, Jugendliche H\u00e4ftlinge am A)	CC BY-SA 3.0 DE	
+m_jovenes_appell2.jpg	Bundesarchiv, Bild 192-058 (\u00d6sterreich, Konzentrationslager Mauthausen, jugendliche H\u00e4ftlinge am A)	CC BY-SA 3.0 DE	
+m_llegada_yugo2.jpg	Bundesarchiv, Bild 192-083 (\u00d6sterreich, Konzentrationslager Mauthausen, Neuankunft, vermutlich jugoslaw)	CC BY-SA 3.0 DE	
+ziereis_ss.jpg	Bundesarchiv, Bild 192-093 (\u00d6sterreich, Konzentrationslager Mauthausen.- SS-Obersturmbannf\u00fchrer Fr)	CC BY-SA 3.0 DE	
+ziereis.jpg	Bundesarchiv, Bild 192-094 (\u00d6sterreich, Konzentrationslager Mauthausen.- SS-Obersturmbannf\u00fchrer Fr)	CC BY-SA 3.0 DE	
+ziereis_grupo.jpg	Bundesarchiv, Bild 192-095 (\u00d6sterreich, Konzentrationslager Mauthausen, Franz Ziereis mit SS-M\u00e4nne)	CC BY-SA 3.0 DE	
+m_himmler_visita.jpg	Bundesarchiv, Bild 192-037 (\u00d6sterreich, Konzentrationslager Mauthausen.- Besuch Heinrich Himmler.- Himm)	CC BY-SA 3.0 DE	
+m_himmler_ziereis.jpg	Bundesarchiv, Bild 192-198 (\u00d6sterreich.- Konzentrationslager Mauthausen, Begr\u00fc\u00dfung Himmlers d)	CC BY-SA 3.0 DE	
+m_gusen_barracones.jpg	Bundesarchiv, Bild 192-285 (\u00d6sterreich.- Konzentrationslager Mauthausen, SS-Baracken im Lager Gusen\n\n)	CC BY-SA 3.0 DE	
+m_gusen_letrinas.jpg	Bundesarchiv, Bild 192-248 (\u00d6sterreich.- Konzentrationslager Mauthausen, Latrinen in einer Baracke des )	CC BY-SA 3.0 DE	
+m_cantera_g2.jpg	Bundesarchiv, Bild 192-279 (\u00d6sterreich.- Konzentrationslager Mauthausen, Steinbruch in Gusen oder Mauth)	CC BY-SA 3.0 DE	
+m_cantera_g3.jpg	Bundesarchiv, Bild 192-280 (\u00d6sterreich.- Konzentrationslager Mauthausen, Steinbruch in Gusen oder Mauth)	CC BY-SA 3.0 DE	
+m_018.jpg	Bundesarchiv, Bild 192-018 ()	CC BY-SA 3.0 DE	
+m_019.jpg	Bundesarchiv, Bild 192-019 ()	CC BY-SA 3.0 DE	
+m_003.jpg	Bundesarchiv, Bild 192-003 ()	CC BY-SA 3.0 DE	
+m_004.jpg	Bundesarchiv, Bild 192-004 ()	CC BY-SA 3.0 DE	
+m_005.jpg	Bundesarchiv, Bild 192-005 ()	CC BY-SA 3.0 DE	
+arg_entrada.jpg	Wikimedia Commons, File:Réfugiés_républicains_espagnols_à_l'entrée_du_camp_de_concentration_d'Argelès,_février_1939.jpg	(ver licencia en Commons)	
+arg_entrada2.jpg	Wikimedia Commons, File:22NUM27FI77_(Entrée_du_camp.).jpg	(ver licencia en Commons)	
+arg_columna.jpg	Wikimedia Commons, File:22NUM1PH2-28_Arrivée_d'une_colonne_de_réfugiés.jpg	(ver licencia en Commons)	
+arg_alambradas.jpg	Wikimedia Commons, File:22NUM1PH2-44_Derrière_les_barbelés.jpg	(ver licencia en Commons)	
+arg_abrigo.jpg	Wikimedia Commons, File:22NUM27FI89_Un_réfugié_devant_son_abri_(«_L'Indépendant_»,_30_mars_1939).jpg	(ver licencia en Commons)	
