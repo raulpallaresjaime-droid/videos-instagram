@@ -49,7 +49,14 @@ m_003.jpg	Bundesarchiv, Bild 192-003 ()	CC BY-SA 3.0 DE
 m_004.jpg	Bundesarchiv, Bild 192-004 ()	CC BY-SA 3.0 DE	
 m_005.jpg	Bundesarchiv, Bild 192-005 ()	CC BY-SA 3.0 DE	
 arg_entrada.jpg	Wikimedia Commons, File:Réfugiés_républicains_espagnols_à_l'entrée_du_camp_de_concentration_d'Argelès,_février_1939.jpg	(ver licencia en Commons)	
-arg_entrada2.jpg	Wikimedia Commons, File:22NUM27FI77_(Entrée_du_camp.).jpg	(ver licencia en Commons)	
 arg_columna.jpg	Wikimedia Commons, File:22NUM1PH2-28_Arrivée_d'une_colonne_de_réfugiés.jpg	(ver licencia en Commons)	
 arg_alambradas.jpg	Wikimedia Commons, File:22NUM1PH2-44_Derrière_les_barbelés.jpg	(ver licencia en Commons)	
 arg_abrigo.jpg	Wikimedia Commons, File:22NUM27FI89_Un_réfugié_devant_son_abri_(«_L'Indépendant_»,_30_mars_1939).jpg	(ver licencia en Commons)	
+arg_pan.jpg	Wikimedia Commons, File:22NUM27FI81_Le_ravitaillement_du_camp_de_concentration._Les_corvées_de_pain.jpg	(ver licencia en Commons)	
+arg_heridos.jpg	Wikimedia Commons, File:22NUM1PH2-7_Sentier_de_la_Géla._-_Blessés_espagnols_descendus_de_la_frontière_à_dos_de_mulet.jpg	(ver licencia en Commons)	
+arg_panel.jpg	Wikimedia Commons, File:22NUM27FI79_Le_panneau_des_égarés_au_camp_d'Argelès.jpg	(ver licencia en Commons)	
+lib_vitorean.jpg	Wikimedia Commons, File:Mauthausen_survivors_cheer_the_soldiers_of_the_Eleventh_Armored_Division.jpg	(ver licencia en Commons)	
+lib_gusen.jpg	Wikimedia Commons, File:View_of_Gusen_concentration_camp_after_liberation.jpg	(ver licencia en Commons)	
+lib_gusen2.jpg	Wikimedia Commons, File:Gusen_I_after_liberation.jpg	(ver licencia en Commons)	
+gusen_aereo.jpg	Wikimedia Commons, File:Aerial_photograph_of_Gusen_I_and_II.jpg	(ver licencia en Commons)	
+lib_mujeres.jpg	Wikimedia Commons, File:Women's_camp_at_Mauthausen_after_liberation.jpg	(ver licencia en Commons)	

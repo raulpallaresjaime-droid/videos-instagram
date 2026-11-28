@@ -23,7 +23,7 @@ M = {
  4: ([L(I+'arg_entrada.jpg', cap='Republicanos a la entrada del campo de Argelès-sur-Mer, febrero de 1939'), L(I+'arg_alambradas.jpg', cap='Detrás de las alambradas, Argelès, 1939')], {}),
  5: ([L(I+'arg_abrigo.jpg', cap='Un refugiado ante su abrigo en la arena, Argelès, marzo de 1939'), L(I+'arg_pan.jpg', cap='El reparto de pan en el campo de Argelès, 1939')], {}),
  6: ([L(I+'arg_mujeres_ninos.jpg', cap='Refugiadas españolas con sus hijos, 1939'), L(I+'retirada2.jpg')], {}),
- 7: ([L(I+'arg_entrada2.jpg', cap='Entrada del campo de Argelès, 1939'), L(I+'arg_panel.jpg', 'para los republicanos', cap='El panel de los desaparecidos en Argelès')], {}),
+ 7: ([L(I+'arg_panel.jpg', cap='El panel de los desaparecidos en Argelès, 1939')], {}),
  8: ([L(I+'junio1940.jpg')], {}),
  9: ([L(I+'arg_pan.jpg', dark=True)], {}),
  10: ([L(I+'prisioneros_fr2.jpg')], {}),
