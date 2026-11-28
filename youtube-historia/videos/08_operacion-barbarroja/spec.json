@@ -12,419 +12,850 @@
   {
    "say": "Son las tres y cuarto de la madrugada del 22 de junio de 1941. A lo largo de casi 3.000 kilómetros de frontera, del mar Báltico al mar Negro, miles de cañones alemanes abren fuego a la vez. Más de 3 millones de soldados cruzan la frontera de la Unión Soviética. Es la mayor invasión terrestre de la historia.",
    "mood": "tension",
-   "img": "img/vormarsch_panzer.jpg",
-   "kb": "in",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0\">22 de junio de 1941</div><div class=\"big in\" data-t=\"0.4\" style=\"font-size:200px\">3:15</div><div class=\"h3 in\" data-cue=\"casi 3.000 kilometros\">≈ 3.000 km de frente</div><div class=\"h2 red in\" data-cue=\"mas de 3 millones\" style=\"margin-top:30px\">+3 millones de soldados</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0\">22 de junio de 1941</div><div class=\"big in\" data-t=\"0.4\" style=\"font-size:200px\">3:15</div><div class=\"h3 in\" data-cue=\"casi 3.000 kilometros\">≈ 3.000 km de frente</div><div class=\"h2 red in\" data-cue=\"mas de 3 millones\" style=\"margin-top:30px\">+3 millones de soldados</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/barbarroja_aviones.mp4",
+     "cap": "22 de junio de 1941 · «Why We Fight»"
+    },
+    {
+     "img": "img/vormarsch_panzer.jpg",
+     "cap": "Carros alemanes al comienzo de la invasión",
+     "cue": "a lo largo"
+    },
+    {
+     "clip": "clips/barbarroja_tanques.mp4",
+     "cap": "La Wehrmacht entra en la Unión Soviética · «Why We Fight»",
+     "cue": "mas de 3"
+    }
+   ]
   },
   {
    "say": "Hitler estaba convencido de que la Unión Soviética se derrumbaría en pocas semanas. Seis meses después, su ejército estaba congelándose a las puertas de Moscú. Esta es la historia de la Operación Barbarroja. Y de por qué fue, probablemente, el mayor error de Hitler.",
    "mood": "melancolia",
-   "img": "img/schnee_moskau.jpg",
-   "kb": "in",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"tag in\" data-t=\"0.4\">Capítulo 8</div><div class=\"h1 in\" data-cue=\"operacion barbarroja\">Operación<br>Barbarroja</div><div class=\"date in\" data-cue=\"el mayor error de hitler\" style=\"margin-top:30px\">El mayor error de Hitler</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"tag in\" data-t=\"0.4\">Capítulo 8</div><div class=\"h1 in\" data-cue=\"operacion barbarroja\">Operación<br>Barbarroja</div><div class=\"date in\" data-cue=\"el mayor error de hitler\" style=\"margin-top:30px\">El mayor error de Hitler</div></div>",
+   "imgs": [
+    {
+     "img": "personas/hitler.jpg",
+     "fy": 0.25,
+     "dark": true
+    },
+    {
+     "img": "img/schnee_moskau.jpg",
+     "cap": "Ante Moscú, invierno de 1941",
+     "cue": "seis meses despues"
+    }
+   ]
   },
   {
    "say": "Para entenderlo hay que volver a los años veinte. En Mi lucha, el libro que escribió en la cárcel, Hitler ya decía que el futuro de Alemania estaba en el este. Que los alemanes necesitaban espacio vital, y que ese espacio estaba en Rusia.",
    "mood": "inquietud",
-   "img": "img/hitler.jpg",
-   "kb": "in",
+   "html": "<div class=\"ov left\"><div class=\"h3 dim in\" data-cue=\"mi lucha\">Mi lucha, 1925</div><div class=\"h1 in tw\" data-cue=\"espacio vital\">«Espacio<br>vital»</div><div class=\"h3 red in\" data-cue=\"estaba en rusia\" style=\"margin-top:30px\">En el este</div></div>",
    "side": "right",
-   "html": "<div class=\"ov left\"><div class=\"h3 dim in\" data-cue=\"mi lucha\">Mi lucha, 1925</div><div class=\"h1 in tw\" data-cue=\"espacio vital\">«Espacio<br>vital»</div><div class=\"h3 red in\" data-cue=\"estaba en rusia\" style=\"margin-top:30px\">En el este</div></div>"
+   "imgs": [
+    {
+     "img": "personas/hitler.jpg",
+     "fy": 0.25,
+     "who": {
+      "name": "Adolf Hitler",
+      "role": "Autor de «Mi lucha»"
+     }
+    }
+   ]
   },
   {
    "say": "En su ideología, los pueblos eslavos eran inferiores y el comunismo soviético era una conspiración judía. La guerra contra la Unión Soviética no iba a ser una guerra normal. Iba a ser una guerra de exterminio.",
    "mood": "tension",
-   "bg": "img/hitler_polonia.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"eran inferiores\">Racismo</div><div class=\"h3 in\" data-cue=\"conspiracion judia\">Antisemitismo</div><div class=\"h1 red in tw\" data-cue=\"una guerra de exterminio\" style=\"margin-top:30px\">Guerra de<br>exterminio</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"eran inferiores\">Racismo</div><div class=\"h3 in\" data-cue=\"conspiracion judia\">Antisemitismo</div><div class=\"h1 red in tw\" data-cue=\"una guerra de exterminio\" style=\"margin-top:30px\">Guerra de<br>exterminio</div></div>",
+   "imgs": [
+    {
+     "img": "img/hitler_polonia.jpg",
+     "cap": "Hitler con sus generales"
+    },
+    {
+     "img": "img/prisionero_comisario.jpg",
+     "cap": "Prisionero soviético, 1941: retrato tomado por un fotógrafo de propaganda alemán",
+     "cue": "guerra de exterminio"
+    }
+   ]
   },
   {
    "say": "Por eso sorprendió tanto lo de agosto de 1939. Hitler y Stalin, enemigos a muerte, firmaron un pacto de no agresión y se repartieron Polonia. Durante casi dos años, la Unión Soviética envió a Alemania petróleo, cereales y materias primas.",
    "mood": "inquietud",
-   "img": "img/pacto.jpg",
-   "kb": "in",
-   "fy": 0.35,
-   "cap": "Moscú, agosto de 1939: Mólotov, Stalin y Ribbentrop",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">Agosto de 1939</div><div class=\"h2 in tw\" data-cue=\"pacto de no agresion\">El pacto</div><div class=\"h3 in\" data-cue=\"petroleo\" style=\"margin-top:30px\">Petróleo · cereales · materias primas</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Agosto de 1939</div><div class=\"h2 in tw\" data-cue=\"pacto de no agresion\">El pacto</div><div class=\"h3 in\" data-cue=\"petroleo\" style=\"margin-top:30px\">Petróleo · cereales · materias primas</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/pacto.jpg",
+     "cap": "Moscú, agosto de 1939: Mólotov, Stalin y Ribbentrop"
+    },
+    {
+     "clip": "clips/campesinos.mp4",
+     "cap": "Cosecha en la Unión Soviética · «Why We Fight»",
+     "cue": "envio a alemania"
+    }
+   ]
   },
   {
    "say": "Pero para Hitler aquel pacto siempre fue temporal. En el verano de 1940, con Francia derrotada, ordenó a sus generales preparar el ataque. Y el 18 de diciembre firmó la directiva número 21. Su nombre en clave: Barbarroja.",
    "mood": "tension",
-   "img": "img/lagebesprechung.jpg",
-   "kb": "in",
-   "cap": "Hitler con sus generales, 1941",
    "html": "<div class=\"ov left\"><div class=\"date in\" data-cue=\"el 18 de diciembre\">18 de diciembre de 1940</div><div class=\"h2 in tw\" data-cue=\"la directiva numero 21\">Directiva n.º 21</div><div class=\"h1 red in\" data-cue=\"barbarroja\" style=\"margin-top:20px\">Barbarroja</div></div>",
-   "shade": true
+   "shade": true,
+   "side": "right",
+   "imgs": [
+    {
+     "img": "img/lagebesprechung.jpg"
+    },
+    {
+     "img": "img/halder.jpg",
+     "fy": 0.25,
+     "who": {
+      "name": "Franz Halder",
+      "role": "Jefe del Estado Mayor del Ejército"
+     },
+     "cue": "ordeno a sus generales"
+    }
+   ]
   },
   {
    "say": "Barbarroja era el apodo del emperador Federico Primero, que según la leyenda duerme bajo una montaña y despertará para salvar a Alemania. La directiva lo decía sin rodeos: las fuerzas armadas debían aplastar a la Rusia soviética en una campaña rápida.",
    "mood": "inquietud",
-   "bg": "img/lagebesprechung.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-cue=\"federico primero\">Federico I «Barbarroja»</div><div class=\"q in\" data-cue=\"aplastar a la rusia sovietica\" style=\"margin-top:30px\">«Aplastar a la Rusia soviética<br>en una campaña rápida»</div><div class=\"who in\" data-cue=\"campana rapida\">Directiva n.º 21</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-cue=\"federico primero\">Federico I «Barbarroja»</div><div class=\"q in\" data-cue=\"aplastar a la rusia sovietica\" style=\"margin-top:30px\">«Aplastar a la Rusia soviética<br>en una campaña rápida»</div><div class=\"who in\" data-cue=\"campana rapida\">Directiva n.º 21</div></div>",
+   "imgs": [
+    {
+     "img": "img/lagebesprechung.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "¿Por qué tanta confianza? En 1940, la Wehrmacht había derrotado a Francia en seis semanas. Y en el invierno de 1939, el Ejército Rojo había hecho el ridículo contra la pequeña Finlandia. Además, Stalin había fusilado o encarcelado a miles de sus propios oficiales en las purgas.",
    "mood": "inquietud",
-   "img": "img/hitler_paris.jpg",
-   "kb": "in",
+   "html": "<div class=\"ov left\"><div class=\"h3 in\" data-cue=\"seis semanas\">Francia, en 6 semanas</div><div class=\"h3 in\" data-cue=\"finlandia\">El fiasco soviético en Finlandia</div><div class=\"h3 red in\" data-cue=\"las purgas\">Las purgas de Stalin</div></div>",
    "side": "right",
-   "cap": "Hitler en París, junio de 1940",
-   "html": "<div class=\"ov left\"><div class=\"h3 in\" data-cue=\"seis semanas\">Francia, en 6 semanas</div><div class=\"h3 in\" data-cue=\"finlandia\">El fiasco soviético en Finlandia</div><div class=\"h3 red in\" data-cue=\"las purgas\">Las purgas de Stalin</div></div>"
+   "imgs": [
+    {
+     "img": "img/hitler_paris.jpg",
+     "cap": "Hitler en París, junio de 1940"
+    },
+    {
+     "clip": "clips/tropas_sovieticas.mp4",
+     "cap": "El Ejército Rojo · «Why We Fight»",
+     "cue": "el ejercito rojo"
+    }
+   ]
   },
   {
    "say": "Hitler resumió su idea con una frase que se le atribuye: basta con dar una patada a la puerta y toda la estructura podrida se vendrá abajo. Sus generales calculaban que la campaña duraría unas pocas semanas. Casi nadie pensó en ropa de invierno.",
    "mood": "tension",
-   "img": "img/hitler.jpg",
-   "kb": "out",
+   "html": "<div class=\"ov left\"><div class=\"q in\" data-cue=\"una patada a la puerta\">«Una patada a la puerta<br>y todo se vendrá abajo»</div><div class=\"h3 red in\" data-cue=\"ropa de invierno\" style=\"margin-top:40px\">¿Ropa de invierno? No.</div></div>",
    "side": "right",
-   "html": "<div class=\"ov left\"><div class=\"q in\" data-cue=\"una patada a la puerta\">«Una patada a la puerta<br>y todo se vendrá abajo»</div><div class=\"h3 red in\" data-cue=\"ropa de invierno\" style=\"margin-top:40px\">¿Ropa de invierno? No.</div></div>"
+   "imgs": [
+    {
+     "img": "personas/hitler.jpg",
+     "fy": 0.25,
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Y había otro plan, mucho más siniestro. En mayo de 1941, altos funcionarios nazis acordaron que el ejército se alimentaría con la comida de los territorios ocupados. Sabían lo que significaba. En sus propias actas escribieron que decenas de millones de personas morirían de hambre.",
    "mood": "melancolia",
-   "bg": "img/dorf_brennt.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Mayo de 1941</div><div class=\"h1 in tw\" data-cue=\"mucho mas siniestro\">El plan del hambre</div><div class=\"h3 red in\" data-cue=\"decenas de millones\" style=\"margin-top:30px\">«Decenas de millones» morirían de hambre</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Mayo de 1941</div><div class=\"h1 in tw\" data-cue=\"mucho mas siniestro\">El plan del hambre</div><div class=\"h3 red in\" data-cue=\"decenas de millones\" style=\"margin-top:30px\">«Decenas de millones» morirían de hambre</div></div>",
+   "imgs": [
+    {
+     "img": "img/dorf_brennt.jpg",
+     "cap": "Un pueblo arde en Ucrania, 1941"
+    },
+    {
+     "clip": "clips/campesinos.mp4",
+     "clipStart": 5,
+     "dark": true,
+     "cue": "territorios ocupados"
+    }
+   ]
   },
   {
    "say": "Y en junio, el alto mando alemán dio otra orden: los comisarios políticos del Ejército Rojo capturados debían ser fusilados en el acto. Era la primera vez que un ejército moderno planeaba por escrito violar las leyes de la guerra a esa escala.",
    "mood": "tension",
-   "bg": "img/lagebesprechung.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">6 de junio de 1941</div><div class=\"stamp in\" data-cue=\"los comisarios politicos\">Orden de los comisarios</div><div class=\"h3 in\" data-cue=\"fusilados en el acto\" style=\"margin-top:30px\">Fusilarlos en el acto</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">6 de junio de 1941</div><div class=\"stamp in\" data-cue=\"los comisarios politicos\">Orden de los comisarios</div><div class=\"h3 in\" data-cue=\"fusilados en el acto\" style=\"margin-top:30px\">Fusilarlos en el acto</div></div>",
+   "imgs": [
+    {
+     "img": "img/prisionero_comisario.jpg",
+     "dark": true,
+     "cue": "comisarios politicos"
+    }
+   ]
   },
   {
    "say": "Lo más asombroso es que Stalin fue avisado. Muchas veces. Los británicos le advirtieron. Su espía en Tokio, Richard Sorge, le envió información sobre el ataque. Y sus propios servicios de inteligencia detectaron cómo se acumulaban tropas alemanas en la frontera.",
    "mood": "inquietud",
-   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"stalin fue avisado\">Stalin fue<br>avisado</div><div class=\"h3 in\" data-cue=\"los britanicos\">Londres</div><div class=\"h3 in\" data-cue=\"richard sorge\">Richard Sorge, desde Tokio</div><div class=\"h3 in\" data-cue=\"servicios de inteligencia\">Su propio espionaje</div></div>",
-   "bg": "img/pacto.jpg"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"stalin fue avisado\">Stalin fue<br>avisado</div><div class=\"h3 in\" data-cue=\"los britanicos\">Londres</div><div class=\"h3 in\" data-cue=\"richard sorge\">Richard Sorge, desde Tokio</div><div class=\"h3 in\" data-cue=\"servicios de inteligencia\">Su propio espionaje</div></div>",
+   "imgs": [
+    {
+     "img": "img/pacto_stalin.jpg",
+     "fy": 0.25,
+     "who": {
+      "name": "Iósif Stalin",
+      "role": "Dictador de la Unión Soviética"
+     }
+    },
+    {
+     "img": "img/bug_stug.jpg",
+     "cap": "Cañones de asalto alemanes junto al río Bug, frontera soviética",
+     "cue": "se acumulaban tropas"
+    }
+   ]
   },
   {
    "say": "Pero Stalin no quiso creerlo. Pensaba que eran provocaciones británicas para arrastrarle a la guerra. Prohibió cualquier movimiento que los alemanes pudieran interpretar como una provocación. La víspera del ataque, un soldado alemán desertó y cruzó la frontera para avisar. Tampoco sirvió de nada.",
    "mood": "tension",
-   "bg": "img/bug_stug.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"no quiso creerlo\">No quiso creerlo</div><div class=\"h3 in\" data-cue=\"provocaciones britanicas\" style=\"margin-top:30px\">«Provocaciones británicas»</div><div class=\"h3 red in\" data-cue=\"un soldado aleman deserto\">21 de junio: un desertor avisa</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"no quiso creerlo\">No quiso creerlo</div><div class=\"h3 in\" data-cue=\"provocaciones britanicas\" style=\"margin-top:30px\">«Provocaciones británicas»</div><div class=\"h3 red in\" data-cue=\"un soldado aleman deserto\">21 de junio: un desertor avisa</div></div>",
+   "imgs": [
+    {
+     "img": "img/pacto_stalin.jpg",
+     "fy": 0.25,
+     "dark": true
+    },
+    {
+     "clip": "clips/artilleria.mp4",
+     "dark": true,
+     "cue": "un soldado aleman"
+    }
+   ]
   },
   {
    "say": "Mientras tanto, al otro lado, se preparaba el mayor ejército de la historia. Junto con sus aliados, Finlandia, Rumanía, Hungría, Italia y Eslovaquia, el Eje reunió cerca de 3,7 millones de soldados, más de 3.000 tanques y unos 2.500 aviones.",
    "mood": "tension",
-   "img": "img/bug_stug.jpg",
-   "kb": "up",
-   "cap": "Junto al río Bug, junio de 1941: cañón de asalto alemán",
-   "html": "<div class=\"ov right\"><div class=\"row\" style=\"gap:30px;flex-direction:column;align-items:flex-end\"><div class=\"box in\" data-cue=\"3,7 millones\"><div class=\"lab\">Soldados</div><div class=\"val\">≈ 3,7 M</div></div><div class=\"box in\" data-cue=\"mas de 3.000 tanques\"><div class=\"lab\">Tanques</div><div class=\"val\">+3.000</div></div><div class=\"box in\" data-cue=\"2.500 aviones\"><div class=\"lab\">Aviones</div><div class=\"val\">≈ 2.500</div></div></div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"row\" style=\"gap:30px;flex-direction:column;align-items:flex-end\"><div class=\"box in\" data-cue=\"3,7 millones\"><div class=\"lab\">Soldados</div><div class=\"val\">≈ 3,7 M</div></div><div class=\"box in\" data-cue=\"mas de 3.000 tanques\"><div class=\"lab\">Tanques</div><div class=\"val\">+3.000</div></div><div class=\"box in\" data-cue=\"2.500 aviones\"><div class=\"lab\">Aviones</div><div class=\"val\">≈ 2.500</div></div></div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/panzer3.jpg",
+     "cap": "Carros Panzer III"
+    },
+    {
+     "img": "img/tross.jpg",
+     "cue": "mas de"
+    }
+   ]
   },
   {
    "say": "Se dividió en tres grandes grupos de ejércitos. El del norte iría hacia Leningrado. El del centro, hacia Moscú. Y el del sur, hacia Ucrania, con su trigo, y más allá, el petróleo del Cáucaso.",
    "mood": "inquietud",
-   "bg": "img/panzer3.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0\" style=\"margin-bottom:80px\">Tres grupos de ejércitos</div><div class=\"tl\"><div class=\"e in\" data-cue=\"hacia leningrado\"><div class=\"d\">Norte</div><div class=\"t\">Leningrado</div></div><div class=\"e in\" data-cue=\"hacia moscu\"><div class=\"d\">Centro</div><div class=\"t\">Moscú</div></div><div class=\"e in\" data-cue=\"hacia ucrania\"><div class=\"d\">Sur</div><div class=\"t\">Ucrania y el Cáucaso</div></div></div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0\" style=\"margin-bottom:80px\">Tres grupos de ejércitos</div><div class=\"tl\"><div class=\"e in\" data-cue=\"hacia leningrado\"><div class=\"d\">Norte</div><div class=\"t\">Leningrado</div></div><div class=\"e in\" data-cue=\"hacia moscu\"><div class=\"d\">Centro</div><div class=\"t\">Moscú</div></div><div class=\"e in\" data-cue=\"hacia ucrania\"><div class=\"d\">Sur</div><div class=\"t\">Ucrania y el Cáucaso</div></div></div></div>",
+   "imgs": [
+    {
+     "clip": "clips/columna_motor.mp4",
+     "cap": "Columna motorizada alemana · «Why We Fight»"
+    }
+   ]
   },
   {
    "say": "El ataque empezó casi el mismo día en que Napoleón había invadido Rusia, 129 años antes. En las primeras horas, la aviación alemana atacó los aeródromos soviéticos. Los aviones estaban alineados en tierra, sin camuflar. Según las cifras más citadas, unos 1.200 aviones soviéticos fueron destruidos solo el primer día.",
    "mood": "tension",
-   "img": "img/dnjestr_fuego.jpg",
-   "kb": "in",
-   "cap": "Unión Soviética, verano de 1941",
-   "html": "<div class=\"ov right\"><div class=\"h3 dim in\" data-cue=\"napoleon\">Napoleón: junio de 1812</div><div class=\"big red in\" data-cue=\"unos 1.200\" style=\"font-size:150px\">≈ 1.200</div><div class=\"h3 in\" data-cue=\"unos 1.200\" data-d=\"0.4\">aviones soviéticos destruidos el primer día</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-cue=\"napoleon\">Napoleón: junio de 1812</div><div class=\"big red in\" data-cue=\"unos 1.200\" style=\"font-size:150px\">≈ 1.200</div><div class=\"h3 in\" data-cue=\"unos 1.200\" data-d=\"0.4\">aviones soviéticos destruidos el primer día</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "clip": "clips/bombarderos.mp4",
+     "cap": "Bombarderos alemanes · «Why We Fight»"
+    },
+    {
+     "clip": "clips/stuka2.mp4",
+     "dark": true,
+     "cue": "sin camuflar"
+    }
+   ]
   },
   {
    "say": "En Moscú, nadie sabía qué hacer. Stalin no habló a su pueblo. Fue su ministro de Exteriores, Viacheslav Mólotov, quien anunció la invasión por la radio a mediodía. Terminó con una frase que se repetiría durante toda la guerra: nuestra causa es justa. El enemigo será derrotado. La victoria será nuestra.",
    "mood": "inquietud",
-   "bg": "img/pacto.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">22 de junio · mediodía · Radio Moscú</div><div class=\"q in\" data-cue=\"nuestra causa es justa\" style=\"margin-top:30px\">«Nuestra causa es justa.<br>El enemigo será derrotado.<br>La victoria será nuestra.»</div><div class=\"who in\" data-cue=\"la victoria sera nuestra\">Viacheslav Mólotov</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">22 de junio · mediodía · Radio Moscú</div><div class=\"q in\" data-cue=\"nuestra causa es justa\" style=\"margin-top:30px\">«Nuestra causa es justa.<br>El enemigo será derrotado.<br>La victoria será nuestra.»</div><div class=\"who in\" data-cue=\"la victoria sera nuestra\">Viacheslav Mólotov</div></div>",
+   "imgs": [
+    {
+     "img": "img/molotow.jpg",
+     "who": {
+      "name": "Viacheslav Mólotov",
+      "role": "Ministro de Exteriores soviético"
+     },
+     "cue": "molotov"
+    },
+    {
+     "clip": "clips/civiles_escuchan.mp4",
+     "cap": "Moscovitas escuchan el anuncio de la invasión · «Why We Fight»",
+     "cue": "anuncio la invasion"
+    }
+   ]
   },
   {
    "say": "Stalin no se dirigió a los soviéticos hasta el 3 de julio, once días después. Empezó de una forma que nadie esperaba de él: camaradas, ciudadanos, hermanos y hermanas. Pidió que, si había que retirarse, no se dejara al enemigo ni un kilo de grano, ni una locomotora. Tierra quemada.",
    "mood": "inquietud",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">3 de julio de 1941</div><div class=\"q in\" data-cue=\"hermanos y hermanas\">«Hermanos<br>y hermanas»</div><div class=\"h2 red in\" data-cue=\"tierra quemada\" style=\"margin-top:30px\">Tierra quemada</div></div>",
-   "bg": "img/pacto.jpg"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">3 de julio de 1941</div><div class=\"q in\" data-cue=\"hermanos y hermanas\">«Hermanos<br>y hermanas»</div><div class=\"h2 red in\" data-cue=\"tierra quemada\" style=\"margin-top:30px\">Tierra quemada</div></div>",
+   "imgs": [
+    {
+     "img": "img/pacto_stalin.jpg",
+     "fy": 0.25,
+     "dark": true
+    },
+    {
+     "clip": "clips/voluntarios.mp4",
+     "cap": "Voluntarios soviéticos, 1941 · «Why We Fight»",
+     "cue": "camaradas"
+    },
+    {
+     "clip": "clips/tierra_quemada.mp4",
+     "cap": "Tierra quemada · «Why We Fight»",
+     "cue": "tierra quemada"
+    }
+   ]
   },
   {
    "say": "Los primeros días fueron un desastre total para el Ejército Rojo. Las divisiones blindadas alemanas avanzaban a toda velocidad, se metían por detrás de las líneas soviéticas y cerraban enormes cercos, mientras la infantería, a pie y con carros de caballos, los seguía como podía.",
    "mood": "tension",
-   "img": "img/tross.jpg",
-   "kb": "left",
-   "cap": "Lituania, junio de 1941: infantería alemana con carros de caballos",
-   "html": "<div class=\"ov right\"><div class=\"h2 in tw\" data-cue=\"un desastre total\">Un desastre total</div><div class=\"h3 in\" data-cue=\"enormes cercos\" style=\"margin-top:30px\">Cercos gigantes</div><div class=\"h3 dim in\" data-cue=\"carros de caballos\">La mayoría, a pie y a caballo</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"un desastre total\">Un desastre total</div><div class=\"h3 in\" data-cue=\"enormes cercos\" style=\"margin-top:30px\">Cercos gigantes</div><div class=\"h3 dim in\" data-cue=\"carros de caballos\">La mayoría, a pie y a caballo</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "clip": "clips/columna_humo.mp4",
+     "cap": "El avance alemán, verano de 1941 · «Why We Fight»"
+    },
+    {
+     "clip": "clips/lucha_casas.mp4",
+     "cap": "Combates en el verano de 1941 · «Why We Fight»",
+     "cue": "avanzaban a toda velocidad"
+    }
+   ]
   },
   {
    "say": "Muchos olvidan ese detalle. La Wehrmacht no era un ejército totalmente motorizado. Invadió la Unión Soviética con cientos de miles de caballos. Los tanques iban delante, pero la mayor parte del ejército avanzaba al mismo ritmo que el de Napoleón.",
    "mood": "inquietud",
-   "img": "img/tross.jpg",
-   "kb": "in",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"h1 in tw\" data-cue=\"cientos de miles de caballos\">Cientos de miles<br>de caballos</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h1 in tw\" data-cue=\"cientos de miles de caballos\">Cientos de miles<br>de caballos</div></div>",
+   "imgs": [
+    {
+     "img": "img/smolensk_tross.jpg",
+     "cap": "Carros tirados por caballos cerca de Smolensk, julio de 1941"
+    },
+    {
+     "img": "img/nowgorod_rio.jpg",
+     "cap": "Soldados alemanes cruzan un río con sus caballos, 1941",
+     "cue": "caballos"
+    }
+   ]
   },
   {
    "say": "En la fortaleza de Brest, en la frontera, un puñado de soldados soviéticos resistió durante semanas, aislados, sin agua y sin esperanza. Pero eran excepciones. A finales de junio, Minsk, la capital de Bielorrusia, ya había caído.",
    "mood": "tension",
-   "img": "img/minsk_ruinas.jpg",
-   "kb": "in",
-   "cap": "Minsk, 1941",
-   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"la fortaleza de brest\">La fortaleza<br>de Brest</div><div class=\"h3 dim in\" data-cue=\"durante semanas\">Resiste semanas</div><div class=\"h3 red in\" data-cue=\"minsk\" style=\"margin-top:30px\">Cae Minsk</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"la fortaleza de brest\">La fortaleza<br>de Brest</div><div class=\"h3 dim in\" data-cue=\"durante semanas\">Resiste semanas</div><div class=\"h3 red in\" data-cue=\"minsk\" style=\"margin-top:30px\">Cae Minsk</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/minsk_ruinas.jpg",
+     "cap": "Minsk en ruinas, 1941"
+    }
+   ]
   },
   {
    "say": "En el cerco de Bialystok y Minsk, los alemanes capturaron a cientos de miles de soldados. Columnas interminables de prisioneros caminaban hacia el oeste. Nadie estaba preparado para alimentarlos. Y nadie en el mando alemán tenía intención de hacerlo.",
    "mood": "melancolia",
-   "img": "img/prisioneros_col.jpg",
-   "kb": "in",
-   "cap": "Columna de prisioneros soviéticos, 1941",
-   "html": "<div class=\"ov right\"><div class=\"h2 in tw\" data-cue=\"cientos de miles de soldados\">Cientos de miles<br>de prisioneros</div><div class=\"h3 red in\" data-cue=\"intencion de hacerlo\" style=\"margin-top:30px\">Sin comida. A propósito.</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"cientos de miles de soldados\">Cientos de miles<br>de prisioneros</div><div class=\"h3 red in\" data-cue=\"intencion de hacerlo\" style=\"margin-top:30px\">Sin comida. A propósito.</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/prisioneros_col.jpg"
+    },
+    {
+     "img": "img/prisioneros_marcha.jpg",
+     "cue": "columnas interminables"
+    }
+   ]
   },
   {
    "say": "Su destino fue uno de los grandes crímenes de la guerra. A lo largo del conflicto, unos 5,7 millones de soldados soviéticos cayeron prisioneros de los alemanes. Según el Museo del Holocausto de Estados Unidos, unos 3,3 millones murieron. La mayoría, de hambre, de frío y de enfermedades, en campos al aire libre.",
    "mood": "melancolia",
-   "img": "img/prisioneros_dnjepr.jpg",
-   "kb": "up",
+   "html": "<div class=\"ov left\"><div class=\"big in\" data-cue=\"5,7 millones\" style=\"font-size:130px\">5,7 M</div><div class=\"h3 in\" data-cue=\"5,7 millones\" data-d=\"0.4\">prisioneros soviéticos</div><div class=\"big red in\" data-cue=\"3,3 millones\" style=\"font-size:130px;margin-top:20px\">3,3 M</div><div class=\"h3 in\" data-cue=\"3,3 millones\" data-d=\"0.4\">murieron</div></div>",
    "side": "right",
-   "cap": "Prisioneros soviéticos en un campo de Ucrania, 1941",
-   "html": "<div class=\"ov left\"><div class=\"big in\" data-cue=\"5,7 millones\" style=\"font-size:130px\">5,7 M</div><div class=\"h3 in\" data-cue=\"5,7 millones\" data-d=\"0.4\">prisioneros soviéticos</div><div class=\"big red in\" data-cue=\"3,3 millones\" style=\"font-size:130px;margin-top:20px\">3,3 M</div><div class=\"h3 in\" data-cue=\"3,3 millones\" data-d=\"0.4\">murieron</div></div>"
+   "imgs": [
+    {
+     "img": "img/prisioneros_dnjepr.jpg"
+    },
+    {
+     "img": "img/prisioneros_lager.jpg",
+     "cap": "Prisioneros soviéticos en un campo alemán, Porjov",
+     "cue": "5,7 millones"
+    }
+   ]
   },
   {
    "say": "En julio, la ofensiva llegó a Smolensk, a unos 400 kilómetros de Moscú. El camino parecía abierto. Pero allí, por primera vez, el Ejército Rojo contraatacó con fuerza. Los combates duraron semanas y frenaron el avance alemán.",
    "mood": "tension",
-   "img": "img/smolensk.jpg",
-   "kb": "in",
-   "cap": "Smolensk, 1941",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">Julio de 1941</div><div class=\"h1 in tw\" data-cue=\"smolensk\">Smolensk</div><div class=\"h3 amber in\" data-cue=\"400 kilometros\">≈ 400 km de Moscú</div><div class=\"h3 red in\" data-cue=\"frenaron el avance\" style=\"margin-top:30px\">El primer frenazo</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Julio de 1941</div><div class=\"h1 in tw\" data-cue=\"smolensk\">Smolensk</div><div class=\"h3 amber in\" data-cue=\"400 kilometros\">≈ 400 km de Moscú</div><div class=\"h3 red in\" data-cue=\"frenaron el avance\" style=\"margin-top:30px\">El primer frenazo</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "clip": "clips/tropas_sovieticas.mp4",
+     "clipStart": 3,
+     "cap": "Tropas soviéticas · «Why We Fight»"
+    }
+   ]
   },
   {
    "say": "Y los generales alemanes descubrieron algo inquietante. El general Franz Halder, jefe del Estado Mayor, lo escribió en su diario en agosto: al principio de la guerra contábamos con unas 200 divisiones enemigas. Ya hemos contado 360.",
    "mood": "inquietud",
-   "img": "img/guderian.jpg",
-   "kb": "in",
+   "html": "<div class=\"ov left\"><div class=\"h3 dim in\" data-cue=\"franz halder\">Diario de Franz Halder, agosto de 1941</div><div class=\"big in\" data-cue=\"unas 200 divisiones\" style=\"font-size:140px\">200</div><div class=\"big red in\" data-cue=\"ya hemos contado 360\" style=\"font-size:140px\">360</div></div>",
    "side": "right",
-   "cap": "Los generales Guderian y Hoth, 1941",
-   "html": "<div class=\"ov left\"><div class=\"h3 dim in\" data-cue=\"franz halder\">Diario de Franz Halder, agosto de 1941</div><div class=\"big in\" data-cue=\"unas 200 divisiones\" style=\"font-size:140px\">200</div><div class=\"big red in\" data-cue=\"ya hemos contado 360\" style=\"font-size:140px\">360</div></div>"
+   "imgs": [
+    {
+     "img": "img/guderian.jpg",
+     "cap": "El general Heinz Guderian en el frente del este"
+    },
+    {
+     "img": "img/halder.jpg",
+     "fy": 0.25,
+     "who": {
+      "name": "Franz Halder",
+      "role": "Jefe del Estado Mayor: su diario, agosto de 1941"
+     },
+     "cue": "franz halder"
+    }
+   ]
   },
   {
    "say": "La Unión Soviética era mucho más grande y mucho más resistente de lo que Hitler había imaginado. Por cada ejército que los alemanes destruían, aparecía otro. Y detrás del frente, los soviéticos estaban haciendo algo extraordinario.",
    "mood": "inquietud",
-   "bg": "img/wjasma_panzer.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"mucho mas grande\">Más grande.<br>Más resistente.</div><div class=\"h3 amber in\" data-cue=\"aparecia otro\" style=\"margin-top:30px\">Cada ejército destruido, otro nuevo</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"mucho mas grande\">Más grande.<br>Más resistente.</div><div class=\"h3 amber in\" data-cue=\"aparecia otro\" style=\"margin-top:30px\">Cada ejército destruido, otro nuevo</div></div>",
+   "imgs": [
+    {
+     "img": "img/wjasma_panzer.jpg"
+    },
+    {
+     "clip": "clips/voluntarios.mp4",
+     "clipStart": 4,
+     "dark": true,
+     "cue": "aparecia otro"
+    }
+   ]
   },
   {
    "say": "Desmontaron más de 1.500 grandes fábricas y las cargaron en trenes rumbo a los montes Urales y Siberia, a miles de kilómetros. Allí, en algunos casos a la intemperie y en pleno invierno, las volvieron a montar y siguieron fabricando tanques y aviones.",
    "mood": "inquietud",
-   "bg": "img/schnee_marsch.jpg",
-   "html": "<div class=\"ov center\"><div class=\"big amber in\" data-cue=\"mas de 1.500\" style=\"font-size:180px\">+1.500</div><div class=\"h3 in\" data-cue=\"grandes fabricas\" >fábricas trasladadas al este</div><div class=\"h3 dim in\" data-cue=\"montes urales\" style=\"margin-top:30px\">Rumbo a los Urales y Siberia</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"big amber in\" data-cue=\"mas de 1.500\" style=\"font-size:180px\">+1.500</div><div class=\"h3 in\" data-cue=\"grandes fabricas\" >fábricas trasladadas al este</div><div class=\"h3 dim in\" data-cue=\"montes urales\" style=\"margin-top:30px\">Rumbo a los Urales y Siberia</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/presa_dnieper.mp4",
+     "cap": "La presa del Dniéper, 1941 · «Why We Fight»"
+    },
+    {
+     "clip": "clips/tierra_quemada.mp4",
+     "clipStart": 5,
+     "dark": true,
+     "cue": "en pleno invierno"
+    }
+   ]
   },
   {
    "say": "Entonces, Hitler tomó una decisión que todavía se discute. En lugar de lanzarse directamente sobre Moscú, como querían sus generales, desvió parte de los tanques del centro hacia el sur, hacia Kiev. Quería el trigo de Ucrania y el carbón de la cuenca del Donets.",
    "mood": "tension",
-   "img": "img/lagebesprechung.jpg",
-   "kb": "right",
-   "cap": "Hitler con Keitel y Brauchitsch, 1941",
-   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"todavia se discute\">Una decisión<br>polémica</div><div class=\"h3 in\" data-cue=\"hacia kiev\" style=\"margin-top:30px\">Moscú puede esperar: primero, Kiev</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"todavia se discute\">Una decisión<br>polémica</div><div class=\"h3 in\" data-cue=\"hacia kiev\" style=\"margin-top:30px\">Moscú puede esperar: primero, Kiev</div></div>",
+   "imgs": [
+    {
+     "img": "img/lagebesprechung.jpg",
+     "dark": true
+    },
+    {
+     "img": "personas/hitler.jpg",
+     "fy": 0.25,
+     "dark": true,
+     "cue": "hacia kiev"
+    }
+   ]
   },
   {
    "say": "En septiembre de 1941, las tenazas alemanas se cerraron detrás de Kiev. Stalin había prohibido retirarse. Fue uno de los mayores cercos de la historia militar. Según las cifras alemanas, unos 665.000 soldados soviéticos cayeron prisioneros.",
    "mood": "tension",
-   "img": "img/kiew.jpg",
-   "kb": "in",
-   "cap": "Kiev, 1941",
-   "html": "<div class=\"ov right\"><div class=\"date in\" data-t=\"0.2\">Septiembre de 1941</div><div class=\"h1 in tw\" data-cue=\"detras de kiev\">Kiev</div><div class=\"big red in\" data-cue=\"unos 665.000\" style=\"font-size:130px\">665.000</div><div class=\"h3 in\" data-cue=\"unos 665.000\" data-d=\"0.4\">prisioneros (cifras alemanas)</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Septiembre de 1941</div><div class=\"h1 in tw\" data-cue=\"detras de kiev\">Kiev</div><div class=\"big red in\" data-cue=\"unos 665.000\" style=\"font-size:130px\">665.000</div><div class=\"h3 in\" data-cue=\"unos 665.000\" data-d=\"0.4\">prisioneros (cifras alemanas)</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/kiew.jpg",
+     "cap": "Kiev, septiembre de 1941"
+    },
+    {
+     "img": "img/prisioneros_dnjepr.jpg",
+     "dark": true,
+     "cue": "665.000"
+    }
+   ]
   },
   {
    "say": "Pocos días después, en un barranco a las afueras de Kiev llamado Babi Yar, unidades alemanas asesinaron a tiros a 33.771 judíos en solo dos días, el 29 y el 30 de septiembre. Lo sabemos por los informes que ellos mismos enviaron a Berlín.",
    "mood": "melancolia",
-   "bg": "img/kiew.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">29-30 de septiembre de 1941</div><div class=\"h1 in tw\" data-cue=\"babi yar\">Babi Yar</div><div class=\"big red in\" data-cue=\"33.771\" style=\"font-size:160px\">33.771</div><div class=\"h3 in\" data-cue=\"en solo dos dias\">judíos asesinados en dos días</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">29-30 de septiembre de 1941</div><div class=\"h1 in tw\" data-cue=\"babi yar\">Babi Yar</div><div class=\"big red in\" data-cue=\"33.771\" style=\"font-size:160px\">33.771</div><div class=\"h3 in\" data-cue=\"en solo dos dias\">judíos asesinados en dos días</div></div>",
+   "imgs": [
+    {
+     "img": "img/kiew.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Porque detrás del frente avanzaban los Einsatzgruppen, los escuadrones de la muerte de las SS. Ciudad por ciudad, pueblo por pueblo, reunían a los judíos y los fusilaban junto a fosas. Antes de que existieran las cámaras de gas, el Holocausto empezó así, a tiros, en la Unión Soviética ocupada.",
    "mood": "melancolia",
-   "img": "img/dorf_reiter.jpg",
-   "kb": "in",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"einsatzgruppen\">Einsatzgruppen</div><div class=\"h3 red in\" data-cue=\"el holocausto empezo asi\" style=\"margin-top:30px\">El Holocausto empieza a tiros</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"einsatzgruppen\">Einsatzgruppen</div><div class=\"h3 red in\" data-cue=\"el holocausto empezo asi\" style=\"margin-top:30px\">El Holocausto empieza a tiros</div></div>",
+   "imgs": [
+    {
+     "img": "img/dorf_reiter.jpg",
+     "dark": true
+    },
+    {
+     "img": "personas/himmler.jpg",
+     "fy": 0.25,
+     "who": {
+      "name": "Heinrich Himmler",
+      "role": "Jefe de las SS"
+     },
+     "cue": "einsatzgruppen"
+    }
+   ]
   },
   {
    "say": "En el norte, el 8 de septiembre, los alemanes y sus aliados finlandeses cerraron el cerco de Leningrado. Hitler no quería tomar la ciudad. Quería algo peor: rendirla por hambre y borrarla del mapa.",
    "mood": "tension",
-   "img": "img/leningrad_winter.jpg",
-   "kb": "in",
-   "cap": "Frente de Leningrado, invierno",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">8 de septiembre de 1941</div><div class=\"h1 in tw\" data-cue=\"el cerco de leningrado\">Leningrado</div><div class=\"h3 red in\" data-cue=\"rendirla por hambre\" style=\"margin-top:30px\">Rendirla por hambre</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">8 de septiembre de 1941</div><div class=\"h1 in tw\" data-cue=\"el cerco de leningrado\">Leningrado</div><div class=\"h3 red in\" data-cue=\"rendirla por hambre\" style=\"margin-top:30px\">Rendirla por hambre</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/leningrad_winter.jpg"
+    },
+    {
+     "clip": "clips/leningrado_calle.mp4",
+     "cap": "Leningrado sitiada · «Why We Fight»",
+     "cue": "rendirla por hambre"
+    }
+   ]
   },
   {
    "say": "El asedio duró 872 días. Durante el primer invierno, para muchos la ración de pan llegó a ser de 125 gramos al día. Muchas estimaciones hablan de unos 800.000 civiles muertos, la mayoría de hambre. Solo por el lago Ladoga helado, el llamado camino de la vida, llegaban algunos suministros.",
    "mood": "melancolia",
-   "img": "img/leningrad_winter.jpg",
-   "kb": "out",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"big in\" data-cue=\"872 dias\" style=\"font-size:150px\">872 días</div><div class=\"h3 amber in\" data-cue=\"125 gramos\">125 g de pan al día</div><div class=\"h3 red in\" data-cue=\"unos 800.000\">≈ 800.000 civiles muertos</div><div class=\"h3 dim in\" data-cue=\"camino de la vida\" style=\"margin-top:20px\">«El camino de la vida»</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"big in\" data-cue=\"872 dias\" style=\"font-size:150px\">872 días</div><div class=\"h3 amber in\" data-cue=\"125 gramos\">125 g de pan al día</div><div class=\"h3 red in\" data-cue=\"unos 800.000\">≈ 800.000 civiles muertos</div><div class=\"h3 dim in\" data-cue=\"camino de la vida\" style=\"margin-top:20px\">«El camino de la vida»</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/leningrado_agua.mp4",
+     "cap": "Vecinos de Leningrado sacan agua del hielo · «Why We Fight»"
+    },
+    {
+     "clip": "clips/racion_pan.mp4",
+     "cap": "La ración de pan de Leningrado, diciembre de 1941 · «Why We Fight»",
+     "cue": "125 gramos"
+    },
+    {
+     "img": "img/leningrad_winter.jpg",
+     "dark": true,
+     "cue": "800.000"
+    }
+   ]
   },
   {
    "say": "Y frente a Leningrado combatían también españoles. La División Azul, formada por voluntarios que Franco envió en el verano de 1941, llegó al frente del río Vóljov en octubre. Allí descubrieron lo que era el invierno ruso.",
    "mood": "inquietud",
-   "img": "img/division_azul.jpg",
-   "kb": "in",
-   "cap": "Voluntarios españoles de la División Azul en el frente del este",
-   "html": "<div class=\"ov right\"><div class=\"h1 in tw\" data-cue=\"la division azul\">División Azul</div><div class=\"h3 dim in\" data-cue=\"rio voljov\">Frente del Vóljov, octubre de 1941</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h1 in tw\" data-cue=\"la division azul\">División Azul</div><div class=\"h3 dim in\" data-cue=\"rio voljov\">Frente del Vóljov, octubre de 1941</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/division_azul.jpg",
+     "cap": "Voluntarios de la División Azul en el frente ruso"
+    }
+   ]
   },
   {
    "say": "A finales de septiembre, Hitler volvió a mirar hacia Moscú. El 2 de octubre lanzó la Operación Tifón. Y otra vez, al principio, todo pareció salirle bien. En los cercos de Viazma y Briansk cayeron prisioneros cientos de miles de soldados soviéticos más.",
    "mood": "tension",
-   "img": "img/wjasma_fuego.jpg",
-   "kb": "in",
-   "cap": "Viazma, octubre de 1941",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">2 de octubre de 1941</div><div class=\"h1 in tw\" data-cue=\"la operacion tifon\">Operación Tifón</div><div class=\"h3 red in\" data-cue=\"viazma y briansk\" style=\"margin-top:30px\">Viazma y Briansk</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">2 de octubre de 1941</div><div class=\"h1 in tw\" data-cue=\"la operacion tifon\">Operación Tifón</div><div class=\"h3 red in\" data-cue=\"viazma y briansk\" style=\"margin-top:30px\">Viazma y Briansk</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/wjasma_fuego.jpg",
+     "cap": "Viazma en llamas, octubre de 1941"
+    },
+    {
+     "img": "img/wjasma_gefang.jpg",
+     "cap": "Soldados soviéticos capturados cerca de Viazma",
+     "cue": "briansk"
+    }
+   ]
   },
   {
    "say": "En Moscú cundió el pánico. A mediados de octubre, el gobierno empezó a evacuar ministerios hacia el este, y miles de moscovitas intentaron huir. Pero Stalin decidió quedarse. Y llamó a un general duro y eficaz para defender la capital: Gueorgui Zhúkov.",
    "mood": "tension",
-   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"cundio el panico\">Pánico<br>en Moscú</div><div class=\"h3 in\" data-cue=\"decidio quedarse\" style=\"margin-top:30px\">Stalin se queda</div><div class=\"h2 amber in\" data-cue=\"zhukov\">Zhúkov</div></div>",
-   "bg": "img/wjasma_panzer.jpg"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"cundio el panico\">Pánico<br>en Moscú</div><div class=\"h3 in\" data-cue=\"decidio quedarse\" style=\"margin-top:30px\">Stalin se queda</div><div class=\"h2 amber in\" data-cue=\"zhukov\">Zhúkov</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/civiles_escuchan.mp4",
+     "clipStart": 7,
+     "dark": true
+    },
+    {
+     "img": "img/pacto_stalin.jpg",
+     "fy": 0.25,
+     "dark": true,
+     "cue": "stalin decidio quedarse"
+    }
+   ]
   },
   {
    "say": "Y entonces llegó la lluvia. Los rusos la llaman rasputitsa: la época del barro. Los caminos de tierra se convirtieron en lodazales donde se hundían camiones, cañones y caballos. El avance alemán se arrastraba a pocos kilómetros al día.",
    "mood": "inquietud",
-   "img": "img/schlamm2.jpg",
-   "kb": "in",
-   "cap": "Unión Soviética, otoño de 1941: soldados empujando un carro en el barro",
-   "html": "<div class=\"ov right\"><div class=\"h1 in tw\" data-cue=\"rasputitsa\">Rasputitsa</div><div class=\"h3 dim in\" data-cue=\"la epoca del barro\">La época del barro</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h1 in tw\" data-cue=\"rasputitsa\">Rasputitsa</div><div class=\"h3 dim in\" data-cue=\"la epoca del barro\">La época del barro</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/schlamm2.jpg",
+     "cap": "El barro de la «rasputitsa», otoño de 1941"
+    },
+    {
+     "img": "img/schlamm3.jpg",
+     "cue": "se hundian"
+    }
+   ]
   },
   {
    "say": "Hitler y sus generales culparon después al barro y al frío de su derrota. Pero el barro afectaba a los dos bandos, y el invierno ruso llegaba todos los años. El verdadero problema era que la campaña rápida que habían planeado ya no existía.",
    "mood": "inquietud",
-   "img": "img/schlamm1.jpg",
-   "kb": "up",
+   "html": "<div class=\"ov left\"><div class=\"h3 in\" data-cue=\"culparon despues\">¿La culpa? El barro.</div><div class=\"h3 in\" data-cue=\"el invierno ruso\">¿El frío?</div><div class=\"h2 red in tw\" data-cue=\"el verdadero problema\" style=\"margin-top:30px\">La guerra rápida<br>había fracasado</div></div>",
    "side": "right",
-   "cap": "Soldados alemanes sacando un coche del barro, octubre de 1941",
-   "html": "<div class=\"ov left\"><div class=\"h3 in\" data-cue=\"culparon despues\">¿La culpa? El barro.</div><div class=\"h3 in\" data-cue=\"el invierno ruso\">¿El frío?</div><div class=\"h2 red in tw\" data-cue=\"el verdadero problema\" style=\"margin-top:30px\">La guerra rápida<br>había fracasado</div></div>"
+   "imgs": [
+    {
+     "img": "img/schlamm1.jpg"
+    }
+   ]
   },
   {
    "say": "El 7 de noviembre, aniversario de la revolución, Stalin organizó un desfile militar en la Plaza Roja, con la nieve cayendo y el enemigo a las puertas. Muchos de los soldados que desfilaron se fueron directamente desde la plaza al frente.",
    "mood": "inquietud",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">7 de noviembre de 1941</div><div class=\"h2 in tw\" data-cue=\"la plaza roja\">Desfile en<br>la Plaza Roja</div><div class=\"h3 red in\" data-cue=\"directamente desde la plaza al frente\" style=\"margin-top:30px\">De la plaza, al frente</div></div>",
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">7 de noviembre de 1941</div><div class=\"h2 in tw\" data-cue=\"la plaza roja\">Desfile en<br>la Plaza Roja</div><div class=\"h3 red in\" data-cue=\"directamente desde la plaza al frente\" style=\"margin-top:30px\">De la plaza, al frente</div></div>",
    "shade": true,
-   "bg": "img/schnee_marsch.jpg"
+   "imgs": [
+    {
+     "clip": "clips/invierno_moscu.mp4",
+     "cap": "El Ejército Rojo en el invierno de 1941 · «Why We Fight»"
+    }
+   ]
   },
   {
    "say": "Cuando el suelo se heló, los alemanes volvieron a avanzar. A finales de noviembre y principios de diciembre, algunas unidades llegaron a unos 30 kilómetros del Kremlin. Dicen que con prismáticos podían ver las torres de la ciudad. Fue lo más cerca que estuvieron nunca.",
    "mood": "tension",
-   "img": "img/schnee_moskau.jpg",
-   "kb": "left",
-   "cap": "Ante Moscú, finales de 1941",
-   "html": "<div class=\"ov right\"><div class=\"big red in\" data-cue=\"unos 30 kilometros\" style=\"font-size:180px\">≈ 30 km</div><div class=\"h3 in\" data-cue=\"del kremlin\">del Kremlin</div><div class=\"h3 dim in\" data-cue=\"lo mas cerca\" style=\"margin-top:30px\">Nunca llegaron más cerca</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"big red in\" data-cue=\"unos 30 kilometros\" style=\"font-size:180px\">≈ 30 km</div><div class=\"h3 in\" data-cue=\"del kremlin\">del Kremlin</div><div class=\"h3 dim in\" data-cue=\"lo mas cerca\" style=\"margin-top:30px\">Nunca llegaron más cerca</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/schnee_moskau.jpg"
+    },
+    {
+     "clip": "clips/esquiadores.mp4",
+     "dark": true,
+     "cue": "30 kilometros"
+    }
+   ]
   },
   {
    "say": "Y entonces llegó el frío de verdad. En diciembre, los termómetros bajaron de los 30 grados bajo cero. Los motores no arrancaban, el aceite se congelaba y las armas se encasquillaban. Los soldados alemanes seguían con sus uniformes de verano.",
    "mood": "melancolia",
-   "img": "img/schnee_schlitten.jpg",
-   "kb": "in",
-   "cap": "Unión Soviética, invierno: soldados alemanes con un coche sobre un trineo",
-   "html": "<div class=\"ov left\"><div class=\"big in\" data-cue=\"30 grados bajo cero\" style=\"font-size:180px\">-30 °C</div><div class=\"h3 in\" data-cue=\"los motores no arrancaban\">Motores congelados</div><div class=\"h3 red in\" data-cue=\"uniformes de verano\">Uniformes de verano</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"big in\" data-cue=\"30 grados bajo cero\" style=\"font-size:180px\">-30 °C</div><div class=\"h3 in\" data-cue=\"los motores no arrancaban\">Motores congelados</div><div class=\"h3 red in\" data-cue=\"uniformes de verano\">Uniformes de verano</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/schnee_schlitten.jpg",
+     "cap": "Soldados alemanes con un coche averiado en la nieve"
+    },
+    {
+     "img": "img/schnee_marsch.jpg",
+     "cue": "los motores no arrancaban"
+    }
+   ]
   },
   {
    "say": "Decenas de miles sufrieron congelaciones. En Alemania, Goebbels tuvo que organizar una colecta de ropa de abrigo entre la población: abrigos de piel, guantes, esquís. Llegó tarde. La propaganda que había prometido una victoria rápida ya no podía esconder la verdad.",
    "mood": "melancolia",
-   "img": "img/schnee_marsch.jpg",
-   "kb": "left",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"congelaciones\">Congelaciones</div><div class=\"h3 in\" data-cue=\"una colecta de ropa\" style=\"margin-top:30px\">Colecta de abrigos en Alemania</div><div class=\"h3 red in\" data-cue=\"llego tarde\">Demasiado tarde</div></div>"
+   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"congelaciones\">Congelaciones</div><div class=\"h3 in\" data-cue=\"una colecta de ropa\" style=\"margin-top:30px\">Colecta de abrigos en Alemania</div><div class=\"h3 red in\" data-cue=\"llego tarde\">Demasiado tarde</div></div>",
+   "side": "right",
+   "imgs": [
+    {
+     "img": "personas/goebbels.jpg",
+     "fy": 0.3,
+     "who": {
+      "name": "Joseph Goebbels",
+      "role": "Ministro de Propaganda"
+     },
+     "cue": "goebbels"
+    }
+   ]
   },
   {
    "say": "Mientras tanto, Stalin guardaba un as en la manga. Su espía Sorge le había informado de que Japón no pensaba atacar a la Unión Soviética por el este. Así que Stalin pudo traer hacia Moscú tropas de Siberia y del Lejano Oriente, frescas y equipadas para el invierno.",
    "mood": "inquietud",
-   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"un as en la manga\">Un as<br>en la manga</div><div class=\"h3 in\" data-cue=\"japon no pensaba atacar\" style=\"margin-top:30px\">Japón no atacará</div><div class=\"h3 amber in\" data-cue=\"tropas de siberia\">Tropas de Siberia, hacia Moscú</div></div>",
-   "bg": "img/leningrad_winter.jpg"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"un as en la manga\">Un as<br>en la manga</div><div class=\"h3 in\" data-cue=\"japon no pensaba atacar\" style=\"margin-top:30px\">Japón no atacará</div><div class=\"h3 amber in\" data-cue=\"tropas de siberia\">Tropas de Siberia, hacia Moscú</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/tropas_blanco.mp4",
+     "cap": "Soldados soviéticos con ropa de invierno · «Why We Fight»"
+    }
+   ]
   },
   {
    "say": "El 5 de diciembre de 1941, con temperaturas de hasta 40 grados bajo cero en algunas zonas, el Ejército Rojo lanzó su contraofensiva ante Moscú. Por primera vez en toda la guerra, la Wehrmacht tuvo que retroceder de verdad. Y en algunos sectores, a la desbandada.",
    "mood": "tension",
-   "img": "img/wjasma_gefang.jpg",
-   "kb": "in",
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">5 de diciembre de 1941</div><div class=\"h1 in tw\" data-cue=\"su contraofensiva\">La contra-<br>ofensiva</div><div class=\"h3 red in\" data-cue=\"tuvo que retroceder\" style=\"margin-top:30px\">La Wehrmacht retrocede</div></div>",
    "side": "right",
-   "cap": "Combates en la región de Viazma",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">5 de diciembre de 1941</div><div class=\"h1 in tw\" data-cue=\"su contraofensiva\">La contra-<br>ofensiva</div><div class=\"h3 red in\" data-cue=\"tuvo que retroceder\" style=\"margin-top:30px\">La Wehrmacht retrocede</div></div>"
+   "imgs": [
+    {
+     "clip": "clips/contraofensiva.mp4",
+     "cap": "La contraofensiva soviética ante Moscú, diciembre de 1941 · «Why We Fight»"
+    },
+    {
+     "img": "img/wjasma_gefang.jpg",
+     "dark": true,
+     "cue": "tuvo que"
+    },
+    {
+     "clip": "clips/civiles_liberados.mp4",
+     "cap": "Pueblos liberados cerca de Moscú · «Why We Fight»",
+     "cue": "retroceder"
+    }
+   ]
   },
   {
    "say": "Dos días después, Japón atacó Pearl Harbor. Y el 11 de diciembre, Hitler cometió otro error colosal: declaró la guerra a Estados Unidos. En menos de una semana, Alemania había perdido la ocasión de ganar la guerra rápida en el este y se había enfrentado a la mayor potencia industrial del planeta.",
    "mood": "tension",
-   "bg": "img/lagebesprechung.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0\" style=\"margin-bottom:80px\">Diciembre de 1941</div><div class=\"tl\"><div class=\"e in\" data-cue=\"dos dias despues\"><div class=\"d\">5 dic.</div><div class=\"t\">Contraofensiva ante Moscú</div></div><div class=\"e in\" data-cue=\"pearl harbor\"><div class=\"d\">7 dic.</div><div class=\"t\">Pearl Harbor</div></div><div class=\"e in\" data-cue=\"declaro la guerra a estados unidos\"><div class=\"d\">11 dic.</div><div class=\"t\">Alemania declara la guerra a EE. UU.</div></div></div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0\" style=\"margin-bottom:80px\">Diciembre de 1941</div><div class=\"tl\"><div class=\"e in\" data-cue=\"dos dias despues\"><div class=\"d\">5 dic.</div><div class=\"t\">Contraofensiva ante Moscú</div></div><div class=\"e in\" data-cue=\"pearl harbor\"><div class=\"d\">7 dic.</div><div class=\"t\">Pearl Harbor</div></div><div class=\"e in\" data-cue=\"declaro la guerra a estados unidos\"><div class=\"d\">11 dic.</div><div class=\"t\">Alemania declara la guerra a EE. UU.</div></div></div></div>",
+   "imgs": [
+    {
+     "clip": "clips/pearl_harbor.mp4",
+     "cap": "Pearl Harbor, 7 de diciembre de 1941 · «Why We Fight»"
+    },
+    {
+     "img": "img/lagebesprechung.jpg",
+     "dark": true,
+     "cue": "el 11 de diciembre"
+    }
+   ]
   },
   {
    "say": "Hitler destituyó al comandante en jefe del ejército, Walther von Brauchitsch, y asumió él mismo el mando. Y dio una orden: ni un paso atrás. Los soldados debían resistir donde estaban, pasara lo que pasara.",
    "mood": "tension",
-   "img": "img/lagebesprechung.jpg",
-   "kb": "in",
-   "cap": "Hitler con Keitel y Brauchitsch, 1941",
-   "html": "<div class=\"ov left\"><div class=\"h3 dim in\" data-cue=\"brauchitsch\">Brauchitsch, destituido</div><div class=\"h2 in tw\" data-cue=\"asumio el mismo el mando\">Hitler toma<br>el mando</div><div class=\"stamp in\" data-cue=\"ni un paso atras\" style=\"margin-top:30px\">Ni un paso atrás</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-cue=\"brauchitsch\">Brauchitsch, destituido</div><div class=\"h2 in tw\" data-cue=\"asumio el mismo el mando\">Hitler toma<br>el mando</div><div class=\"stamp in\" data-cue=\"ni un paso atras\" style=\"margin-top:30px\">Ni un paso atrás</div></div>",
+   "imgs": [
+    {
+     "img": "personas/hitler.jpg",
+     "fy": 0.25,
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Cuando terminó el invierno, Moscú seguía en manos soviéticas. Leningrado seguía resistiendo. El ejército alemán había sufrido cerca de un millón de bajas entre muertos, heridos, desaparecidos y enfermos. La Wehrmacht nunca volvería a ser tan fuerte como el 22 de junio.",
    "mood": "melancolia",
-   "bg": "img/schnee_schlitten.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"moscu seguia\">Moscú resiste</div><div class=\"h3 in\" data-cue=\"leningrado seguia\">Leningrado resiste</div><div class=\"big red in\" data-cue=\"cerca de un millon\" style=\"font-size:150px;margin-top:20px\">≈ 1 millón</div><div class=\"h3 in\" data-cue=\"cerca de un millon\" data-d=\"0.4\">de bajas alemanas</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"moscu seguia\">Moscú resiste</div><div class=\"h3 in\" data-cue=\"leningrado seguia\">Leningrado resiste</div><div class=\"big red in\" data-cue=\"cerca de un millon\" style=\"font-size:150px;margin-top:20px\">≈ 1 millón</div><div class=\"h3 in\" data-cue=\"cerca de un millon\" data-d=\"0.4\">de bajas alemanas</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/columna_nieve.mp4",
+     "cap": "Invierno de 1941-1942 · «Why We Fight»"
+    },
+    {
+     "img": "img/schnee_schlitten.jpg",
+     "dark": true,
+     "cue": "un millon de bajas"
+    }
+   ]
   },
   {
    "say": "Las pérdidas soviéticas fueron muchísimo mayores. Millones de muertos y prisioneros solo en 1941. Pero la Unión Soviética tenía algo que Alemania no tenía: un territorio inmenso, una población enorme y un régimen dispuesto a sacrificarlas sin límite.",
    "mood": "melancolia",
-   "img": "img/prisioneros_marcha.jpg",
-   "kb": "in",
-   "shade": true,
-   "cap": "Prisioneros soviéticos, octubre de 1941",
-   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"muchisimo mayores\">Pérdidas soviéticas:<br>millones</div><div class=\"h3 amber in\" data-cue=\"un territorio inmenso\" style=\"margin-top:30px\">Territorio inmenso · población enorme</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"muchisimo mayores\">Pérdidas soviéticas:<br>millones</div><div class=\"h3 amber in\" data-cue=\"un territorio inmenso\" style=\"margin-top:30px\">Territorio inmenso · población enorme</div></div>",
+   "imgs": [
+    {
+     "img": "img/prisioneros_marcha.jpg",
+     "dark": true
+    },
+    {
+     "clip": "clips/presa_dnieper.mp4",
+     "clipStart": 7,
+     "dark": true,
+     "cue": "un territorio inmenso"
+    }
+   ]
   },
   {
    "say": "¿Por qué decimos que fue el mayor error de Hitler? Primero, porque abrió el frente que acabaría destruyendo a su ejército. La mayoría de los soldados alemanes muertos en toda la guerra cayeron en el frente del este.",
    "mood": "inquietud",
-   "img": "img/stalingrado_vista.jpg",
-   "kb": "in",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0.3\">¿Por qué fue su mayor error?</div><div class=\"h2 in tw\" data-cue=\"primero\">1 · El frente que le destruyó</div><div class=\"h3 red in\" data-cue=\"la mayoria de los soldados alemanes\" style=\"margin-top:30px\">La mayoría de los muertos alemanes cayeron en el este</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0.3\">¿Por qué fue su mayor error?</div><div class=\"h2 in tw\" data-cue=\"primero\">1 · El frente que le destruyó</div><div class=\"h3 red in\" data-cue=\"la mayoria de los soldados alemanes\" style=\"margin-top:30px\">La mayoría de los muertos alemanes cayeron en el este</div></div>",
+   "imgs": [
+    {
+     "img": "img/stalingrado_vista.jpg",
+     "cap": "Stalingrado, 1942"
+    }
+   ]
   },
   {
    "say": "Segundo, porque convirtió en enemigo a quien le estaba suministrando petróleo y cereales. Y tercero, porque se lanzó a una guerra larga y de desgaste contra la Unión Soviética, el Reino Unido y, muy pronto, Estados Unidos. Una guerra que Alemania, con sus recursos, no podía ganar.",
    "mood": "inquietud",
-   "bg": "img/stalingrado_vista.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"segundo\">2 · Su proveedor, su enemigo</div><div class=\"h2 in tw\" data-cue=\"y tercero\" style=\"margin-top:20px\">3 · Una guerra imposible</div><div class=\"h3 dim in\" data-cue=\"no podia ganar\" style=\"margin-top:30px\">URSS + Reino Unido + EE. UU.</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"segundo\">2 · Su proveedor, su enemigo</div><div class=\"h2 in tw\" data-cue=\"y tercero\" style=\"margin-top:20px\">3 · Una guerra imposible</div><div class=\"h3 dim in\" data-cue=\"no podia ganar\" style=\"margin-top:30px\">URSS + Reino Unido + EE. UU.</div></div>",
+   "imgs": [
+    {
+     "img": "img/pacto.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Y Barbarroja tuvo otra consecuencia, la más terrible. La guerra de exterminio en el este fue el escenario donde el Holocausto pasó de la persecución al asesinato en masa. Los fusilamientos de 1941 abrieron el camino a Auschwitz.",
    "mood": "melancolia",
-   "bg": "img/dorf_brennt.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h2 red in tw\" data-cue=\"la mas terrible\">La consecuencia<br>más terrible</div><div class=\"h3 in\" data-cue=\"abrieron el camino a auschwitz\" style=\"margin-top:30px\">De los fusilamientos de 1941, a Auschwitz</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h2 red in tw\" data-cue=\"la mas terrible\">La consecuencia<br>más terrible</div><div class=\"h3 in\" data-cue=\"abrieron el camino a auschwitz\" style=\"margin-top:30px\">De los fusilamientos de 1941, a Auschwitz</div></div>",
+   "imgs": [
+    {
+     "img": "img/dorf_brennt.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Napoleón entró en Rusia en junio de 1812 con el ejército más grande que Europa había visto. Seis meses después, lo que quedaba de él se arrastraba por la nieve de vuelta a casa. Hitler conocía esa historia. Y aun así, la repitió.",
    "mood": "melancolia",
-   "img": "img/schnee_marsch.jpg",
-   "kb": "out",
-   "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"napoleon entro en rusia\">1812 · Napoleón</div><div class=\"h3 in\" data-cue=\"hitler conocia\">1941 · Hitler</div><div class=\"h2 red in tw\" data-cue=\"conocia esa historia\" style=\"margin-top:30px\">La misma historia</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"napoleon entro en rusia\">1812 · Napoleón</div><div class=\"h3 in\" data-cue=\"hitler conocia\">1941 · Hitler</div><div class=\"h2 red in tw\" data-cue=\"conocia esa historia\" style=\"margin-top:30px\">La misma historia</div></div>",
+   "imgs": [
+    {
+     "img": "img/wjasma_fuego.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Barbarroja no fue derrotada por el barro ni por el frío. Fue derrotada por la soberbia de un hombre que creyó que bastaba con dar una patada a la puerta. Porque el error más peligroso no es equivocarse. Es estar tan seguro de tener razón que nadie se atreve a decirte que no.",
    "mood": "melancolia",
-   "img": "img/schnee_moskau.jpg",
-   "kb": "out",
-   "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"el error mas peligroso\">El error más peligroso es estar tan seguro<br>de tener razón que nadie se atreve<br>a decirte que no.</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"el error mas peligroso\">El error más peligroso es estar tan seguro<br>de tener razón que nadie se atreve<br>a decirte que no.</div></div>",
+   "imgs": [
+    {
+     "img": "img/schnee_moskau.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "En el próximo capítulo viajamos a la batalla que cambió el rumbo de la guerra: Stalingrado. Si no quieres perdértelo, suscríbete. Y cuéntame en los comentarios: ¿crees que Hitler podría haber tomado Moscú si no se hubiera desviado hacia Kiev?",
    "mood": "melancolia",
-   "bg": "img/stalingrado_vista.jpg",
-   "html": "<div class=\"ov center\"><div class=\"tag in\" data-t=\"0.2\">Próximo capítulo</div><div class=\"h2 in tw\" data-t=\"0.4\">Stalingrado</div><div class=\"rule in\" data-t=\"0.6\"></div><div class=\"h3 dim in\" data-cue=\"suscribete\">Suscríbete para no perdértelo</div><div class=\"who in\" data-cue=\"suscribete\" data-d=\"1.5\" style=\"font-size:24px;margin-top:80px\">Fuentes: Britannica, USHMM, German History in Documents (GHI), Deutsches Historisches Museum, World History Encyclopedia. Imágenes: Bundesarchiv y Wikimedia Commons (créditos en la descripción).</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"tag in\" data-t=\"0.2\">Próximo capítulo</div><div class=\"h2 in tw\" data-t=\"0.4\">Stalingrado</div><div class=\"rule in\" data-t=\"0.6\"></div><div class=\"h3 dim in\" data-cue=\"suscribete\">Suscríbete para no perdértelo</div><div class=\"who in\" data-cue=\"suscribete\" data-d=\"1.5\" style=\"font-size:24px;margin-top:80px\">Fuentes: Britannica, USHMM, German History in Documents (GHI), Deutsches Historisches Museum, World History Encyclopedia. Imágenes: Bundesarchiv y Wikimedia Commons (créditos en la descripción).</div></div>",
+   "imgs": [
+    {
+     "img": "img/stalingrado_vista.jpg",
+     "dark": true
+    }
+   ]
   }
  ],
  "thumb": {

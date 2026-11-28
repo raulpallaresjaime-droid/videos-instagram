@@ -12,18 +12,8 @@ CAP = [(0, '22 de junio de 1941, 3:15'), (2, 'El espacio vital'), (4, 'Del pacto
        (46, 'El balance'), (48, '¿Por qué fue su mayor error?'), (51, 'Conclusión')]
 mmss = lambda t: f'{int(t // 60)}:{int(t % 60):02d}'
 cap = '\n'.join(f'{mmss(0 if i == 0 else max(0, starts[i] - 0.25))} {t}' for i, t in CAP)
-usadas = {os.path.basename(x) for sc in spec['scenes'] for x in (sc.get('img'), sc.get('bg')) if x}
-cred = {}
-for l in open(os.path.join(here, 'img', 'creditos.txt')):
-    n, t, lic, art = (l.rstrip('\n').split('\t') + ['', '', '', ''])[:4]
-    if n not in usadas: continue
-    t = t.replace('File:', '')
-    if t.startswith('Bundesarchiv'): t = t.split(' (')[0]
-    if '\\u' in t: t = t.encode('latin-1', 'backslashreplace').decode('unicode_escape')
-    t = re.sub(r' \(\)', '', t).replace('\\/', '/')
-    if t.startswith('Bundesarchiv'): t = t.split(' (')[0]  # solo la signatura: la descripción no puede pasar de 5.000 caracteres
-    art = '' if 'Unknown' in art else art.split(' (')[0]
-    cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
+import sys; sys.path.insert(0, os.path.join(here, '..', '..', 'engine')); import creditos
+CRED = creditos.bloque(here, spec)
 titulo = 'El día que Hitler firmó su derrota sin saberlo'
 desc = f"""El 22 de junio de 1941, más de 3 millones de soldados alemanes invadieron la Unión Soviética. Hitler creía que bastaba «una patada a la puerta». Seis meses después, su ejército se congelaba a las puertas de Moscú. En este documental: la directiva n.º 21, el plan del hambre, los avisos que Stalin ignoró, los grandes cercos, el destino de los prisioneros soviéticos, Kiev y Babi Yar, el asedio de Leningrado, la División Azul, la Operación Tifón, el barro, el invierno y la contraofensiva de Zhúkov.
 
@@ -39,8 +29,7 @@ desc = f"""El 22 de junio de 1941, más de 3 millones de soldados alemanes invad
 - Deutsches Historisches Museum (LeMO) y World History Encyclopedia: Kiev y Viazma
 Muchas cifras (aviones destruidos el primer día, prisioneros de Kiev, víctimas de Leningrado) proceden de fuentes alemanas o soviéticas de la época y varían según la fuente; usamos las más citadas y formulaciones prudentes. La frase de la «patada a la puerta» se atribuye a Hitler en varias fuentes, pero no está en un documento oficial.
 
-🖼️ Imágenes: Bundesarchiv, archivo federal alemán (CC BY-SA 3.0 DE) y Wikimedia Commons.
-{chr(10).join(cred.values())}
+{CRED}
 
 Contenido histórico y educativo. Este canal no hace apología de ninguna ideología: contamos la historia para que no se repita.
 

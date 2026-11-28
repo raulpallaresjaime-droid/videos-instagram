@@ -12,17 +12,8 @@ CAP = [(0, 'Una sola noche'), (2, 'Los judíos de Alemania (1933-1937)'), (7, '1
        (57, 'El camino hacia el Holocausto'), (60, 'Conclusión')]
 mmss = lambda t: f'{int(t // 60)}:{int(t % 60):02d}'
 cap = '\n'.join(f'{mmss(0 if i == 0 else max(0, starts[i] - 0.25))} {t}' for i, t in CAP)
-usadas = {os.path.basename(x) for sc in spec['scenes'] for x in (sc.get('img'), sc.get('bg')) if x}
-cred = {}
-for l in open(os.path.join(here, 'img', 'creditos.txt')):
-    n, t, lic, art = (l.rstrip('\n').split('\t') + ['', '', '', ''])[:4]
-    if n not in usadas: continue
-    t = t.replace('File:', '')
-    if '\\u' in t: t = t.encode('latin-1', 'backslashreplace').decode('unicode_escape')
-    t = re.sub(r' \(\)', '', t).replace('\\/', '/')
-    if t.startswith('Bundesarchiv'): t = t.split(' (')[0]  # solo la signatura: la descripción no puede pasar de 5.000 caracteres
-    art = '' if 'Unknown' in art else art.split(' (')[0]
-    cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
+import sys; sys.path.insert(0, os.path.join(here, '..', '..', 'engine')); import creditos
+CRED = creditos.bloque(here, spec)
 titulo = 'La noche que anunció el Holocausto'
 desc = f"""En la noche del 9 al 10 de noviembre de 1938 ardieron o fueron destrozadas más de 1.400 sinagogas y casas de oración en Alemania y Austria, unos 7.500 comercios judíos acabaron con los escaparates rotos y unos 30.000 hombres fueron enviados a campos de concentración. Así fue el pogromo de noviembre: el disparo de Herschel Grynszpan en París, el discurso de Goebbels, las órdenes de Heydrich y la factura que se obligó a pagar a las víctimas.
 
@@ -38,8 +29,7 @@ desc = f"""En la noche del 9 al 10 de noviembre de 1938 ardieron o fueron destro
 - Encyclopaedia Britannica
 Las cifras de sinagogas, comercios y víctimas son las más citadas por estas fuentes; algunas varían ligeramente según el estudio.
 
-🖼️ Imágenes: Bundesarchiv, archivo federal alemán (licencia CC BY-SA 3.0 DE), y Wikimedia Commons.
-{chr(10).join(cred.values())}
+{CRED}
 
 Contenido histórico y educativo. Este canal no hace apología de ninguna ideología: contamos la historia para que no se repita.
 

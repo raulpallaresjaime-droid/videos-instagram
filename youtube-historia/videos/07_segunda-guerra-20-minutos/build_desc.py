@@ -12,18 +12,8 @@ CAP = [(0, 'Seis años y un día'), (2, '1939: Polonia'), (6, '1940: la caída d
        (54, 'El balance'), (56, 'El mundo después'), (57, 'Conclusión')]
 mmss = lambda t: f'{int(t // 60)}:{int(t % 60):02d}'
 cap = '\n'.join(f'{mmss(0 if i == 0 else max(0, starts[i] - 0.25))} {t}' for i, t in CAP)
-usadas = {os.path.basename(x) for sc in spec['scenes'] for x in (sc.get('img'), sc.get('bg')) if x}
-cred = {}
-for l in open(os.path.join(here, 'img', 'creditos.txt')):
-    n, t, lic, art = (l.rstrip('\n').split('\t') + ['', '', '', ''])[:4]
-    if n not in usadas: continue
-    t = t.replace('File:', '')
-    if t.startswith('Bundesarchiv'): t = t.split(' (')[0]
-    if '\\u' in t: t = t.encode('latin-1', 'backslashreplace').decode('unicode_escape')
-    t = re.sub(r' \(\)', '', t).replace('\\/', '/')
-    if t.startswith('Bundesarchiv'): t = t.split(' (')[0]  # solo la signatura: la descripción no puede pasar de 5.000 caracteres
-    art = '' if 'Unknown' in art else art.split(' (')[0]
-    cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
+import sys; sys.path.insert(0, os.path.join(here, '..', '..', 'engine')); import creditos
+CRED = creditos.bloque(here, spec)
 titulo = 'Más de 60 millones de muertos en 6 años: toda la guerra en 20 minutos'
 desc = f"""Seis años y un día: del 1 de septiembre de 1939 al 2 de septiembre de 1945. En este documental te cuento toda la Segunda Guerra Mundial en unos 20 minutos: la invasión de Polonia, la caída de Francia, la batalla de Inglaterra, Hendaya, la Operación Barbarroja, el Holocausto, Pearl Harbor, Midway, Stalingrado, El Alamein, Kursk, el Día D, la liberación de París con los españoles de la Nueve, la caída de Berlín, Hiroshima y Nagasaki.
 
@@ -39,8 +29,7 @@ desc = f"""Seis años y un día: del 1 de septiembre de 1939 al 2 de septiembre 
 - National Archives (EE. UU.) y The National WWII Museum: Pearl Harbor y el Día D
 Las cifras de víctimas de la guerra son estimaciones y varían mucho según la fuente (el total va de unos 60 a más de 70 millones; Hiroshima y Nagasaki, según los cálculos a finales de 1945). Usamos las más citadas y formulaciones prudentes.
 
-🖼️ Imágenes: Bundesarchiv, archivo federal alemán (CC BY-SA 3.0 DE) y Wikimedia Commons.
-{chr(10).join(cred.values())}
+{CRED}
 
 Contenido histórico y educativo. Este canal no hace apología de ninguna ideología: contamos la historia para que no se repita.
 

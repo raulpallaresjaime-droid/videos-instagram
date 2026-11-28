@@ -12,18 +12,8 @@ CAP = [(0, 'Los españoles olvidados'), (2, 'La Retirada (1939)'), (4, 'Los camp
        (54, 'Boix en Núremberg'), (58, 'El exilio y el olvido'), (62, 'La lista del BOE (2019)'), (65, 'Conclusión')]
 mmss = lambda t: f'{int(t // 60)}:{int(t % 60):02d}'
 cap = '\n'.join(f'{mmss(0 if i == 0 else max(0, starts[i] - 0.25))} {t}' for i, t in CAP)
-usadas = {os.path.basename(x) for sc in spec['scenes'] for x in (sc.get('img'), sc.get('bg')) if x}
-cred = {}
-for l in open(os.path.join(here, 'img', 'creditos.txt')):
-    n, t, lic, art = (l.rstrip('\n').split('\t') + ['', '', '', ''])[:4]
-    if n not in usadas: continue
-    t = t.replace('File:', '')
-    if t.startswith('Bundesarchiv'): t = t.split(' (')[0]
-    if '\\u' in t: t = t.encode('latin-1', 'backslashreplace').decode('unicode_escape')
-    t = re.sub(r' \(\)', '', t).replace('\\/', '/')
-    if t.startswith('Bundesarchiv'): t = t.split(' (')[0]  # solo la signatura: la descripción no puede pasar de 5.000 caracteres
-    art = '' if 'Unknown' in art else art.split(' (')[0]
-    cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
+import sys; sys.path.insert(0, os.path.join(here, '..', '..', 'engine')); import creditos
+CRED = creditos.bloque(here, spec)
 titulo = '4.427 españoles murieron en un campo nazi. Casi nadie los recuerda'
 desc = f"""Unos 7.500 republicanos españoles pasaron por el campo de concentración nazi de Mauthausen y sus subcampos, y más de 4.400 murieron allí, la mayoría en Gusen. Habían perdido la Guerra Civil, cruzado a Francia en la Retirada de 1939 y caído prisioneros en 1940. El régimen de Franco no los reclamó. Esta es su historia: el convoy de los 927, la escalera de la muerte, la solidaridad que salvó vidas y el fotógrafo Francisco Boix, que sacó a escondidas las fotos de las SS y declaró en Núremberg.
 
@@ -41,8 +31,7 @@ desc = f"""Unos 7.500 republicanos españoles pasaron por el campo de concentrac
 - Benito Bermejo y Sandra Checa, «Libro memorial. Españoles deportados a los campos nazis (1940-1945)»; Montse Armengou y Ricard Belis, «El convoy de los 927»
 Las cifras de la Retirada, del convoy de Angulema y de los deportados varían ligeramente según la fuente; usamos las más citadas y formulaciones aproximadas («unos», «más de»).
 
-🖼️ Imágenes: Bundesarchiv, archivo federal alemán (licencia CC BY-SA 3.0 DE; muchas son fotos tomadas por las propias SS en Mauthausen), y Wikimedia Commons.
-{chr(10).join(cred.values())}
+{CRED}
 
 Contenido histórico y educativo. Este canal no hace apología de ninguna ideología: contamos la historia para que no se repita.
 

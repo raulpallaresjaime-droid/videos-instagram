@@ -13,18 +13,8 @@ CAP = [(0, 'Las 4:45 del 1 de septiembre'), (2, 'Danzig y el corredor polaco'), 
        (55, 'Enigma: el legado polaco'), (57, 'Conclusión')]
 mmss = lambda t: f'{int(t // 60)}:{int(t % 60):02d}'
 cap = '\n'.join(f'{mmss(0 if i == 0 else max(0, starts[i] - 0.25))} {t}' for i, t in CAP)
-usadas = {os.path.basename(x) for sc in spec['scenes'] for x in (sc.get('img'), sc.get('bg')) if x}
-cred = {}
-for l in open(os.path.join(here, 'img', 'creditos.txt')):
-    n, t, lic, art = (l.rstrip('\n').split('\t') + ['', '', '', ''])[:4]
-    if n not in usadas: continue
-    t = t.replace('File:', '')
-    if t.startswith('Bundesarchiv'): t = t.split(' (')[0]
-    if '\\u' in t: t = t.encode('latin-1', 'backslashreplace').decode('unicode_escape')
-    t = re.sub(r' \(\)', '', t).replace('\\/', '/')
-    if t.startswith('Bundesarchiv'): t = t.split(' (')[0]  # solo la signatura: la descripción no puede pasar de 5.000 caracteres
-    art = '' if 'Unknown' in art else art.split(' (')[0]
-    cred[n] = f"- {t} ({lic}{', ' + art if art else ''})"
+import sys; sys.path.insert(0, os.path.join(here, '..', '..', 'engine')); import creditos
+CRED = creditos.bloque(here, spec)
 titulo = 'Así empezó la Segunda Guerra Mundial, hora a hora'
 desc = f"""A las 4:45 de la madrugada del 1 de septiembre de 1939, el acorazado Schleswig-Holstein abrió fuego contra Westerplatte y Alemania invadió Polonia. Así empezó la Segunda Guerra Mundial. En este documental: el pacto secreto entre Hitler y Stalin, el ataque falso de Gleiwitz, el bombardeo de Wielun, la resistencia de Westerplatte y de los correos de Danzig, el mito de la caballería polaca, el ultimátum británico, la invasión soviética y la caída de Varsovia.
 
@@ -41,8 +31,7 @@ desc = f"""A las 4:45 de la madrugada del 1 de septiembre de 1939, el acorazado 
 - GCHQ: la reunión de Pyry (julio de 1939) y Enigma
 Algunas horas (4:30, 4:40, 4:45) y cifras de víctimas varían según la fuente; usamos las más citadas y formulaciones prudentes. La frase sobre los armenios del 22 de agosto de 1939 se conoce por un solo resumen de aquella reunión y su autenticidad está discutida.
 
-🖼️ Imágenes: Bundesarchiv, archivo federal alemán (licencia CC BY-SA 3.0 DE).
-{chr(10).join(cred.values())}
+{CRED}
 
 Contenido histórico y educativo. Este canal no hace apología de ninguna ideología: contamos la historia para que no se repita.
 
