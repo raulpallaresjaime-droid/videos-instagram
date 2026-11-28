@@ -12,269 +12,533 @@
   {
    "say": "Son las cuatro y cuarenta y cinco de la madrugada del 1 de septiembre de 1939. En el puerto de Danzig, un viejo acorazado alemán, el Schleswig-Holstein, que había llegado días antes en visita de cortesía, apunta sus cañones a una pequeña península. Y abre fuego. Así empieza la guerra más mortífera de la historia de la humanidad.",
    "mood": "tension",
-   "img": "img/schleswig1.jpg",
-   "kb": "in",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0\">1 de septiembre de 1939</div><div class=\"big in\" data-t=\"0.4\" style=\"font-size:200px\">4:45</div><div class=\"h3 in\" data-cue=\"schleswig-holstein\">Acorazado Schleswig-Holstein</div><div class=\"h2 red in\" data-cue=\"y abre fuego\" style=\"margin-top:30px\">Fuego</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0\">1 de septiembre de 1939</div><div class=\"big in\" data-t=\"0.4\" style=\"font-size:200px\">4:45</div><div class=\"h3 in\" data-cue=\"schleswig-holstein\">Acorazado Schleswig-Holstein</div><div class=\"h2 red in\" data-cue=\"y abre fuego\" style=\"margin-top:30px\">Fuego</div></div>",
+   "imgs": [
+    {
+     "img": "img/schleswig1.jpg"
+    },
+    {
+     "img": "img/schleswig2.jpg",
+     "cap": "El Schleswig-Holstein dispara contra Westerplatte",
+     "cue": "apunta sus canones"
+    },
+    {
+     "clip": "clips/puerto_danzig.mp4",
+     "cap": "Danzig, septiembre de 1939 · «Why We Fight»",
+     "cue": "y abre fuego"
+    }
+   ]
   },
   {
    "say": "Esta es la historia del día en que empezó la Segunda Guerra Mundial. De cómo se preparó, de las mentiras que la justificaron y de las semanas en que Polonia quedó sola.",
    "mood": "melancolia",
-   "img": "img/schleswig3.jpg",
-   "kb": "in",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"tag in\" data-t=\"0.4\">Capítulo 6</div><div class=\"h1 in\" data-t=\"0.6\">1 de septiembre<br>de 1939</div><div class=\"date in\" data-cue=\"quedo sola\" style=\"margin-top:30px\">El día que empezó la guerra</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"tag in\" data-t=\"0.4\">Capítulo 6</div><div class=\"h1 in\" data-t=\"0.6\">1 de septiembre<br>de 1939</div><div class=\"date in\" data-cue=\"quedo sola\" style=\"margin-top:30px\">El día que empezó la guerra</div></div>",
+   "imgs": [
+    {
+     "img": "img/schleswig3.jpg"
+    }
+   ]
   },
   {
    "say": "Para entenderlo hay que volver a 1919. Tras la Primera Guerra Mundial, el Tratado de Versalles devuelve a Polonia su independencia y le da una salida al mar: una franja de tierra que separa Prusia Oriental del resto de Alemania. Los alemanes la llamaban el corredor polaco.",
    "mood": "inquietud",
-   "bg": "img/danzig_ss.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0\" style=\"margin-bottom:80px\">El origen</div><div class=\"tl\"><div class=\"e in\" data-cue=\"tratado de versalles\"><div class=\"d\">1919</div><div class=\"t\">Versalles</div></div><div class=\"e in\" data-cue=\"su independencia\"><div class=\"d\"></div><div class=\"t\">Polonia independiente</div></div><div class=\"e in\" data-cue=\"el corredor polaco\"><div class=\"d\"></div><div class=\"t\">El «corredor polaco»</div></div></div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0\" style=\"margin-bottom:80px\">El origen</div><div class=\"tl\"><div class=\"e in\" data-cue=\"tratado de versalles\"><div class=\"d\">1919</div><div class=\"t\">Versalles</div></div><div class=\"e in\" data-cue=\"su independencia\"><div class=\"d\"></div><div class=\"t\">Polonia independiente</div></div><div class=\"e in\" data-cue=\"el corredor polaco\"><div class=\"d\"></div><div class=\"t\">El «corredor polaco»</div></div></div></div>",
+   "imgs": [
+    {
+     "clip": "clips/vias_aereo.mp4",
+     "cap": "Polonia vista desde un avión alemán, 1939 · «Why We Fight»"
+    }
+   ]
   },
   {
    "say": "Y en la desembocadura del Vístula estaba Danzig, una ciudad de mayoría alemana convertida en ciudad libre bajo la protección de la Sociedad de Naciones. Polonia tenía allí derechos especiales: su puerto, su aduana, su oficina de correos, y un pequeño depósito militar en la península de Westerplatte.",
    "mood": "inquietud",
-   "img": "img/westerplatte_puerta.jpg",
-   "kb": "in",
-   "cap": "Puerta del depósito militar polaco de Westerplatte, septiembre de 1939",
-   "html": "<div class=\"ov right\"><div class=\"h1 in\" data-cue=\"estaba danzig\">Danzig</div><div class=\"h3 dim in\" data-cue=\"ciudad libre\">Ciudad libre</div><div class=\"h3 amber in\" data-cue=\"westerplatte\" style=\"margin-top:30px\">Westerplatte: depósito polaco</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-cue=\"estaba danzig\">Danzig</div><div class=\"h3 dim in\" data-cue=\"ciudad libre\">Ciudad libre</div><div class=\"h3 amber in\" data-cue=\"westerplatte\" style=\"margin-top:30px\">Westerplatte: depósito polaco</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/westerplatte_puerta.jpg",
+     "cap": "Entrada del depósito polaco de Westerplatte"
+    },
+    {
+     "img": "img/correos2.jpg",
+     "cue": "su oficina de correos"
+    }
+   ]
   },
   {
    "say": "Para los nazis, Danzig y el corredor eran una herida abierta. En 1939, los nazis ya controlaban la vida política de la ciudad. Su jefe del partido, Albert Forster, organizaba desfiles y milicias armadas.",
    "mood": "inquietud",
-   "img": "img/danzig_ss.jpg",
-   "kb": "right",
-   "cap": "Danzig, agosto de 1939: desfile de la milicia nazi ante Albert Forster",
    "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"una herida abierta\">Una herida<br>abierta</div><div class=\"h3 dim in\" data-cue=\"albert forster\" style=\"margin-top:30px\">Albert Forster, jefe nazi de Danzig</div></div>",
-   "shade": true
+   "shade": true,
+   "side": "right",
+   "imgs": [
+    {
+     "img": "img/danzig_ss.jpg"
+    },
+    {
+     "img": "img/forster.jpg",
+     "fy": 0.3,
+     "who": {
+      "name": "Albert Forster",
+      "role": "Jefe del partido nazi en Danzig"
+     },
+     "cue": "albert forster"
+    }
+   ]
   },
   {
    "say": "En marzo de 1939, Hitler rompe la promesa que había hecho en Múnich apenas seis meses antes y ocupa lo que queda de Checoslovaquia. Europa entiende por fin que no se detendrá. Y el siguiente objetivo es evidente: Polonia.",
    "mood": "tension",
-   "bg": "img/frontera1.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">15 de marzo de 1939</div><div class=\"h2 in tw\" data-cue=\"checoslovaquia\">Fin de<br>Checoslovaquia</div><div class=\"h2 red in\" data-cue=\"polonia\" style=\"margin-top:40px\">Siguiente: Polonia</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">15 de marzo de 1939</div><div class=\"h2 in tw\" data-cue=\"checoslovaquia\">Fin de<br>Checoslovaquia</div><div class=\"h2 red in\" data-cue=\"polonia\" style=\"margin-top:40px\">Siguiente: Polonia</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/hitler_discurso.mp4",
+     "cap": "Hitler en un discurso · «Why We Fight»"
+    },
+    {
+     "img": "img/tanques2.jpg",
+     "cue": "polonia"
+    }
+   ]
   },
   {
    "say": "El 31 de marzo, el primer ministro británico Neville Chamberlain anuncia en el Parlamento que el Reino Unido, junto con Francia, garantizará la independencia de Polonia. Si Polonia es atacada, la defenderán.",
    "mood": "inquietud",
-   "bg": "img/kutrzeba.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">31 de marzo de 1939 · Londres</div><div class=\"h1 in\" data-cue=\"neville chamberlain\">La garantía</div><div class=\"h3 in\" data-cue=\"la defenderan\" style=\"margin-top:30px\">Reino Unido y Francia defenderán a Polonia</div></div>"
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">31 de marzo de 1939 · Londres</div><div class=\"h1 in\" data-cue=\"neville chamberlain\">La garantía</div><div class=\"h3 in\" data-cue=\"la defenderan\" style=\"margin-top:30px\">Reino Unido y Francia defenderán a Polonia</div></div>",
+   "side": "right",
+   "imgs": [
+    {
+     "img": "img/chamberlain.jpg",
+     "fy": 0.25,
+     "who": {
+      "name": "Neville Chamberlain",
+      "role": "Primer ministro británico"
+     },
+     "cue": "neville chamberlain"
+    }
+   ]
   },
   {
    "say": "Hitler no se lo cree. Piensa que británicos y franceses volverán a echarse atrás, como en Múnich. Y ordena a sus generales preparar el ataque. Nombre en clave: Fall Weiss. Caso Blanco.",
    "mood": "tension",
-   "img": "img/hitler_polonia.jpg",
-   "kb": "in",
-   "cap": "Hitler con sus generales durante la campaña de Polonia",
-   "html": "<div class=\"ov left\"><div class=\"h3 dim in\" data-t=\"0.3\">Nombre en clave</div><div class=\"h1 in tw\" data-cue=\"fall weiss\">Fall Weiss</div><div class=\"h3 in\" data-cue=\"caso blanco\">«Caso Blanco»</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0.3\">Nombre en clave</div><div class=\"h1 in tw\" data-cue=\"fall weiss\">Fall Weiss</div><div class=\"h3 in\" data-cue=\"caso blanco\">«Caso Blanco»</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "personas/hitler.jpg",
+     "fy": 0.25
+    },
+    {
+     "img": "img/hitler_polonia.jpg",
+     "cap": "Hitler con sus generales, 1939",
+     "cue": "fall weiss"
+    }
+   ]
   },
   {
    "say": "Pero había un problema. Si Alemania atacaba Polonia, podía encontrarse con una guerra en dos frentes: Francia y Reino Unido al oeste, y la Unión Soviética de Stalin al este. Hitler necesitaba neutralizar a Stalin.",
    "mood": "inquietud",
-   "bg": "img/hitler_polonia.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"dos frentes\">¿Dos frentes?</div><div class=\"row\" style=\"gap:80px;margin-top:40px\"><div class=\"box in\" data-cue=\"al oeste\"><div class=\"lab\">Oeste</div><div class=\"val\" style=\"font-size:56px\">Francia · R. Unido</div></div><div class=\"box in\" data-cue=\"al este\" style=\"border-color:var(--red)\"><div class=\"lab\">Este</div><div class=\"val red\" style=\"font-size:56px\">URSS</div></div></div></div>"
+   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"dos frentes\">¿Dos frentes?</div><div class=\"row\" style=\"gap:80px;margin-top:40px\"><div class=\"box in\" data-cue=\"al oeste\"><div class=\"lab\">Oeste</div><div class=\"val\" style=\"font-size:56px\">Francia · R. Unido</div></div><div class=\"box in\" data-cue=\"al este\" style=\"border-color:var(--red)\"><div class=\"lab\">Este</div><div class=\"val red\" style=\"font-size:56px\">URSS</div></div></div></div>",
+   "side": "right",
+   "imgs": [
+    {
+     "img": "img/pacto_stalin.jpg",
+     "fy": 0.25,
+     "who": {
+      "name": "Iósif Stalin",
+      "role": "Dictador de la Unión Soviética"
+     },
+     "cue": "stalin"
+    }
+   ]
   },
   {
    "say": "Y lo consigue. El 23 de agosto de 1939, el ministro de Exteriores alemán, Joachim von Ribbentrop, aterriza en Moscú. Esa misma noche, ante un Stalin sonriente, firma con Viacheslav Mólotov un pacto de no agresión. El mundo no da crédito: los nazis y los comunistas, enemigos jurados, ahora son aliados.",
    "mood": "tension",
-   "img": "img/pacto.jpg",
-   "kb": "in",
-   "fy": 0.35,
-   "cap": "Moscú, agosto de 1939: Mólotov, Stalin y Ribbentrop tras la firma del pacto",
    "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">23 de agosto de 1939</div><div class=\"h2 in tw\" data-cue=\"un pacto de no agresion\">Pacto<br>Ribbentrop-Mólotov</div></div>",
-   "shade": true
+   "shade": true,
+   "side": "right",
+   "imgs": [
+    {
+     "img": "img/ribbentrop.jpg",
+     "fy": 0.2,
+     "who": {
+      "name": "Joachim von Ribbentrop",
+      "role": "Ministro de Exteriores alemán"
+     }
+    },
+    {
+     "img": "img/pacto_firma.jpg",
+     "cap": "Mólotov firma el pacto; detrás, Ribbentrop y Stalin",
+     "cue": "viacheslav molotov"
+    },
+    {
+     "img": "img/pacto.jpg",
+     "cue": "el mundo no da credito"
+    }
+   ]
   },
   {
    "say": "Pero lo más importante no se hizo público. El pacto tenía un protocolo secreto. En él, Alemania y la Unión Soviética se repartían Europa del Este: Finlandia, Estonia y Letonia para Stalin. Y Polonia, partida en dos por los ríos Narew, Vístula y San.",
    "mood": "tension",
-   "bg": "img/pacto.jpg",
-   "html": "<div class=\"ov center\"><div class=\"stamp in\" data-cue=\"un protocolo secreto\">Protocolo secreto</div><div class=\"row\" style=\"gap:60px;margin-top:50px\"><div class=\"box in\" data-cue=\"finlandia\"><div class=\"lab\">Para Stalin</div><div class=\"val\" style=\"font-size:52px\">Finlandia · Estonia · Letonia</div></div><div class=\"box in\" data-cue=\"partida en dos\" style=\"border-color:var(--red)\"><div class=\"lab\">Polonia</div><div class=\"val red\" style=\"font-size:52px\">Partida en dos</div></div></div></div>"
+   "html": "<div class=\"ov center\"><div class=\"stamp in\" data-cue=\"un protocolo secreto\">Protocolo secreto</div><div class=\"row\" style=\"gap:60px;margin-top:50px\"><div class=\"box in\" data-cue=\"finlandia\"><div class=\"lab\">Para Stalin</div><div class=\"val\" style=\"font-size:52px\">Finlandia · Estonia · Letonia</div></div><div class=\"box in\" data-cue=\"partida en dos\" style=\"border-color:var(--red)\"><div class=\"lab\">Polonia</div><div class=\"val red\" style=\"font-size:52px\">Partida en dos</div></div></div></div>",
+   "imgs": [
+    {
+     "img": "img/pacto_stalin.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "El día antes, el 22 de agosto, Hitler había reunido a sus generales en su residencia de los Alpes. Según una de las versiones de aquella reunión, les dijo: ¿quién se acuerda hoy del exterminio de los armenios? Los historiadores aún discuten si dijo exactamente esa frase. Pero la idea estaba clara: en esta guerra no habría piedad.",
    "mood": "tension",
-   "bg": "img/hitler_polonia.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">22 de agosto de 1939 · Obersalzberg</div><div class=\"q in\" data-cue=\"quien se acuerda\" style=\"margin-top:30px\">«¿Quién se acuerda hoy<br>del exterminio de los armenios?»</div><div class=\"who in\" data-cue=\"aun discuten\">— Frase atribuida a Hitler (autenticidad discutida)</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">22 de agosto de 1939 · Obersalzberg</div><div class=\"q in\" data-cue=\"quien se acuerda\" style=\"margin-top:30px\">«¿Quién se acuerda hoy<br>del exterminio de los armenios?»</div><div class=\"who in\" data-cue=\"aun discuten\">— Frase atribuida a Hitler (autenticidad discutida)</div></div>",
+   "imgs": [
+    {
+     "img": "img/hitler_polonia.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "El ataque se fija para el 26 de agosto. Pero el 25 todo se tuerce: el Reino Unido firma una alianza formal con Polonia, y Mussolini avisa de que Italia no está preparada para entrar en guerra. Hitler da marcha atrás en el último momento.",
    "mood": "inquietud",
-   "bg": "img/frontera1.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">25 de agosto de 1939</div><div class=\"h3 in\" data-cue=\"una alianza formal\">Alianza anglo-polaca</div><div class=\"h3 in\" data-cue=\"mussolini\">Mussolini: «Italia no está preparada»</div><div class=\"stamp in\" data-cue=\"marcha atras\" style=\"margin-top:40px\">Ataque aplazado</div></div>"
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">25 de agosto de 1939</div><div class=\"h3 in\" data-cue=\"una alianza formal\">Alianza anglo-polaca</div><div class=\"h3 in\" data-cue=\"mussolini\">Mussolini: «Italia no está preparada»</div><div class=\"stamp in\" data-cue=\"marcha atras\" style=\"margin-top:40px\">Ataque aplazado</div></div>",
+   "side": "right",
+   "imgs": [
+    {
+     "img": "img/mussolini.jpg",
+     "fy": 0.3,
+     "who": {
+      "name": "Benito Mussolini",
+      "role": "Dictador de Italia"
+     },
+     "cue": "mussolini"
+    },
+    {
+     "clip": "clips/stuka2.mp4",
+     "dark": true,
+     "cue": "marcha atras"
+    }
+   ]
   },
   {
    "say": "Tan en el último momento que la orden no llega a todos. Un pequeño comando alemán ataca de madrugada una estación de tren en el sur de Polonia, en el paso de montaña de Jablonkov. Durante unas horas, la guerra ya ha empezado sin que nadie lo sepa. Después, se retiran.",
    "mood": "inquietud",
-   "bg": "img/frontera2.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">26 de agosto · madrugada</div><div class=\"h2 in tw\" data-cue=\"la orden no llega\">La orden<br>que no llegó</div><div class=\"h3 dim in\" data-cue=\"jablonkov\" style=\"margin-top:30px\">Ataque a la estación de Mosty, paso de Jablonkov</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">26 de agosto · madrugada</div><div class=\"h2 in tw\" data-cue=\"la orden no llega\">La orden<br>que no llegó</div><div class=\"h3 dim in\" data-cue=\"jablonkov\" style=\"margin-top:30px\">Ataque a la estación de Mosty, paso de Jablonkov</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/soldados_marcha.mp4",
+     "cap": "Soldados alemanes, 1939 · «Why We Fight»"
+    },
+    {
+     "img": "img/frontera2.jpg",
+     "dark": true,
+     "cue": "un pequeno comando"
+    }
+   ]
   },
   {
    "say": "Durante una semana, los diplomáticos hacen intentos desesperados. Pero Hitler ya ha decidido. El 31 de agosto firma la Directiva número uno para la conducción de la guerra. Hora del ataque: cuatro y cuarenta y cinco de la mañana del día siguiente.",
    "mood": "tension",
-   "bg": "img/reichstag.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">31 de agosto de 1939</div><div class=\"h2 in tw\" data-cue=\"directiva numero uno\">Directiva n.º 1</div><div class=\"big red in\" data-cue=\"cuatro y cuarenta y cinco\" style=\"margin-top:20px\">4:45</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">31 de agosto de 1939</div><div class=\"h2 in tw\" data-cue=\"directiva numero uno\">Directiva n.º 1</div><div class=\"big red in\" data-cue=\"cuatro y cuarenta y cinco\" style=\"margin-top:20px\">4:45</div></div>",
+   "imgs": [
+    {
+     "img": "img/henderson.jpg",
+     "cap": "Diplomáticos en Berlín: el embajador británico Nevile Henderson (centro)"
+    },
+    {
+     "img": "personas/hitler.jpg",
+     "fy": 0.25,
+     "dark": true,
+     "cue": "hitler ya ha decidido"
+    }
+   ]
   },
   {
    "say": "Solo faltaba una excusa. Y los nazis la fabricaron. La noche del 31 de agosto, hacia las ocho de la tarde, un grupo de hombres de las SS dirigido por Alfred Naujocks asalta la emisora de radio de Gleiwitz, una ciudad alemana junto a la frontera.",
    "mood": "tension",
-   "bg": "img/frontera1.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">31 de agosto de 1939 · hacia las 20:00</div><div class=\"h1 in tw\" data-cue=\"gleiwitz\">Gleiwitz</div><div class=\"h3 dim in\" data-cue=\"alfred naujocks\" style=\"margin-top:20px\">Un comando de las SS dirigido por Alfred Naujocks</div></div>"
+   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">31 de agosto de 1939 · hacia las 20:00</div><div class=\"h1 in tw\" data-cue=\"gleiwitz\">Gleiwitz</div><div class=\"h3 dim in\" data-cue=\"alfred naujocks\" style=\"margin-top:20px\">Un comando de las SS dirigido por Alfred Naujocks</div></div>",
+   "side": "right",
+   "imgs": [
+    {
+     "img": "personas/heydrich.jpg",
+     "fy": 0.25,
+     "who": {
+      "name": "Reinhard Heydrich",
+      "role": "Jefe del SD: ordenó el montaje"
+     },
+     "cue": "un grupo de hombres"
+    }
+   ]
   },
   {
    "say": "Van disfrazados de insurgentes polacos. Interrumpen la emisión y leen un breve mensaje en polaco, llamando a la lucha contra Alemania. Todo es un montaje.",
    "mood": "tension",
-   "bg": "img/frontera2.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"disfrazados\">Disfrazados<br>de polacos</div><div class=\"stamp in\" data-cue=\"todo es un montaje\" style=\"margin-top:50px\">Montaje</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"disfrazados\">Disfrazados<br>de polacos</div><div class=\"stamp in\" data-cue=\"todo es un montaje\" style=\"margin-top:50px\">Montaje</div></div>",
+   "imgs": [
+    {
+     "img": "personas/heydrich.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Para que pareciera real, necesitaban un cadáver. Se lo dieron a Franciszek Honiok, un campesino de Alta Silesia de 43 años, simpatizante de Polonia. Lo detuvieron el día antes, lo drogaron y lo mataron. Dejaron su cuerpo en la emisora como si fuera uno de los asaltantes.",
    "mood": "melancolia",
-   "bg": "img/westerplatte_ruinas.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-cue=\"franciszek honiok\">Franciszek Honiok</div><div class=\"h3 dim in\" data-cue=\"43 anos\" style=\"margin-top:20px\">Campesino silesio · 43 años</div><div class=\"h3 red in\" data-cue=\"lo mataron\" style=\"margin-top:30px\">Asesinado para fingir un ataque</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-cue=\"franciszek honiok\">Franciszek Honiok</div><div class=\"h3 dim in\" data-cue=\"43 anos\" style=\"margin-top:20px\">Campesino silesio · 43 años</div><div class=\"h3 red in\" data-cue=\"lo mataron\" style=\"margin-top:30px\">Asesinado para fingir un ataque</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/barricadas.mp4",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Muchos lo consideran la primera víctima de la Segunda Guerra Mundial. Esa misma noche, las SS montaron otros ataques falsos en la frontera, en una aduana y en un puesto forestal. Al día siguiente, Hitler hablaría de una veintena de incidentes fronterizos. Todos eran mentira.",
    "mood": "melancolia",
-   "bg": "img/frontera1.jpg",
-   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"la primera victima\">La primera víctima de la guerra</div><div class=\"h3 in\" data-cue=\"otros ataques falsos\" style=\"margin-top:40px\">Otros ataques falsos: Hochlinden, Pitschen</div><div class=\"h2 red in\" data-cue=\"todos eran mentira\" style=\"margin-top:20px\">Todos, mentira</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"la primera victima\">La primera víctima de la guerra</div><div class=\"h3 in\" data-cue=\"otros ataques falsos\" style=\"margin-top:40px\">Otros ataques falsos: Hochlinden, Pitschen</div><div class=\"h2 red in\" data-cue=\"todos eran mentira\" style=\"margin-top:20px\">Todos, mentira</div></div>",
+   "imgs": [
+    {
+     "img": "img/frontera1.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Y llega el 1 de septiembre. Los primeros golpes caen incluso antes de la hora oficial. Hacia las cuatro y media, bombarderos en picado Stuka atacan los puentes sobre el Vístula en Tczew, para que los polacos no puedan volarlos. Los zapadores polacos los vuelan igualmente.",
    "mood": "tension",
-   "img": "img/stuka.jpg",
-   "kb": "in",
-   "cap": "Bombardero en picado Junkers Ju 87 «Stuka»",
-   "html": "<div class=\"ov right\"><div class=\"date in\" data-t=\"0.2\">Hacia las 4:30</div><div class=\"h2 in tw\" data-cue=\"tczew\">Puentes de<br>Tczew</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Hacia las 4:30</div><div class=\"h2 in tw\" data-cue=\"tczew\">Puentes de<br>Tczew</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "clip": "clips/stuka_vuelo.mp4",
+     "cap": "Bombarderos en picado Stuka · «Why We Fight»"
+    },
+    {
+     "img": "img/stuka.jpg",
+     "cue": "puentes sobre el vistula"
+    }
+   ]
   },
   {
    "say": "Hacia las cuatro y cuarenta, los Stuka bombardean Wielun, una pequeña ciudad polaca sin ningún objetivo militar. La gente aún duerme. Más de tres cuartas partes de los edificios quedan destruidos y mueren cientos de civiles. Fue uno de los primeros bombardeos de la guerra contra una ciudad.",
    "mood": "tension",
-   "img": "img/varsovia_ruinas2.jpg",
-   "kb": "up",
-   "cap": "Edificios destruidos por los bombardeos en Polonia, septiembre de 1939",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">Hacia las 4:40</div><div class=\"h1 in tw\" data-cue=\"wielun\">Wielun</div><div class=\"h3 red in\" data-cue=\"tres cuartas partes\" style=\"margin-top:20px\">Más del 75 % de la ciudad destruida</div><div class=\"h3 in\" data-cue=\"cientos de civiles\">Cientos de civiles muertos</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Hacia las 4:40</div><div class=\"h1 in tw\" data-cue=\"wielun\">Wielun</div><div class=\"h3 red in\" data-cue=\"tres cuartas partes\" style=\"margin-top:20px\">Más del 75 % de la ciudad destruida</div><div class=\"h3 in\" data-cue=\"cientos de civiles\">Cientos de civiles muertos</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "clip": "clips/bombarderos.mp4",
+     "cap": "Bombarderos alemanes sobre Polonia · «Why We Fight»"
+    },
+    {
+     "clip": "clips/ciudad_bombardeada.mp4",
+     "cap": "Ciudad polaca tras el bombardeo · «Why We Fight»",
+     "cue": "tres cuartas partes"
+    }
+   ]
   },
   {
    "say": "Y hacia las cuatro y cuarenta y cinco, en Danzig, el Schleswig-Holstein abre fuego contra Westerplatte. Al mismo tiempo, más de un millón y medio de soldados alemanes cruzan la frontera por el norte, por el oeste y por el sur.",
    "mood": "tension",
-   "img": "img/schleswig3.jpg",
-   "kb": "in",
-   "cap": "Danzig, 1 de septiembre de 1939: humo sobre Westerplatte",
-   "html": "<div class=\"ov right\"><div class=\"date in\" data-t=\"0.2\">Hacia las 4:45</div><div class=\"h2 in tw\" data-cue=\"abre fuego contra westerplatte\">Fuego sobre<br>Westerplatte</div><div class=\"h3 amber in\" data-cue=\"millon y medio\" style=\"margin-top:30px\">≈ 1,5 millones de soldados cruzan la frontera</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Hacia las 4:45</div><div class=\"h2 in tw\" data-cue=\"abre fuego contra westerplatte\">Fuego sobre<br>Westerplatte</div><div class=\"h3 amber in\" data-cue=\"millon y medio\" style=\"margin-top:30px\">≈ 1,5 millones de soldados cruzan la frontera</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "clip": "clips/tanques_avance.mp4",
+     "cap": "Carros alemanes entran en Polonia · «Why We Fight»"
+    }
+   ]
   },
   {
    "say": "Las imágenes de aquella mañana se hicieron famosas. Soldados alemanes arrancando las barreras fronterizas polacas, como si las fronteras fueran ya cosa del pasado. Muchas de esas fotos fueron preparadas por la propaganda.",
    "mood": "inquietud",
-   "img": "img/frontera2.jpg",
-   "kb": "in",
-   "cap": "Septiembre de 1939: soldados alemanes retiran una barrera fronteriza polaca (foto de propaganda)",
    "html": "<div class=\"ov left low\"><div class=\"h2 in tw\" data-cue=\"arrancando las barreras\">Sin fronteras</div></div>",
-   "shade": true
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/frontera2.jpg"
+    },
+    {
+     "img": "img/frontera1.jpg",
+     "cue": "preparadas por la propaganda"
+    }
+   ]
   },
   {
    "say": "La diferencia de fuerzas era enorme. Alemania atacaba con cerca de un millón y medio de hombres, unos 2.700 tanques y más de 2.000 aviones.",
    "mood": "tension",
-   "img": "img/tanques.jpg",
-   "kb": "right",
-   "cap": "Polonia, 1939: carros de combate alemanes",
-   "html": "<div class=\"ov left\"><div class=\"h3 dim in\" data-t=\"0.2\">Alemania</div><div class=\"h2 in\" data-cue=\"millon y medio\">1,5 millones de hombres</div><div class=\"h2 in\" data-cue=\"2.700 tanques\">≈ 2.700 tanques</div><div class=\"h2 in\" data-cue=\"mas de 2.000 aviones\">+2.000 aviones</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0.2\">Alemania</div><div class=\"h2 in\" data-cue=\"millon y medio\">1,5 millones de hombres</div><div class=\"h2 in\" data-cue=\"2.700 tanques\">≈ 2.700 tanques</div><div class=\"h2 in\" data-cue=\"mas de 2.000 aviones\">+2.000 aviones</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/tanques.jpg"
+    },
+    {
+     "clip": "clips/ataque_aereo.mp4",
+     "cap": "Ataque aéreo alemán · «Why We Fight»",
+     "cue": "aviones"
+    }
+   ]
   },
   {
    "say": "Polonia tenía, sobre el papel, cerca de un millón de soldados, pero muchos ni siquiera habían llegado a sus unidades: la movilización general se había retrasado por presión de británicos y franceses, que no querían provocar a Hitler. Tenía unos 880 tanques, casi todos ligeros o anticuados, y unos 400 aviones de combate.",
    "mood": "inquietud",
-   "img": "img/renault.jpg",
-   "kb": "in",
-   "cap": "Carros polacos de modelo francés, anticuados ya en 1939",
-   "html": "<div class=\"ov right\"><div class=\"h3 dim in\" data-t=\"0.2\">Polonia</div><div class=\"h2 in\" data-cue=\"cerca de un millon\" style=\"font-size:60px\">≈ 1 millón (sobre el papel)</div><div class=\"h2 in\" data-cue=\"880 tanques\" style=\"font-size:60px\">≈ 880 tanques ligeros</div><div class=\"h2 in\" data-cue=\"400 aviones\" style=\"font-size:60px\">≈ 400 aviones de combate</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0.2\">Polonia</div><div class=\"h2 in\" data-cue=\"cerca de un millon\" style=\"font-size:60px\">≈ 1 millón (sobre el papel)</div><div class=\"h2 in\" data-cue=\"880 tanques\" style=\"font-size:60px\">≈ 880 tanques ligeros</div><div class=\"h2 in\" data-cue=\"400 aviones\" style=\"font-size:60px\">≈ 400 aviones de combate</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/renault.jpg",
+     "cap": "Carros polacos capturados"
+    },
+    {
+     "clip": "clips/carros_caballos.mp4",
+     "cap": "El ejército polaco, 1939 · «Why We Fight»",
+     "cue": "880 tanques"
+    }
+   ]
   },
   {
    "say": "Los alemanes ponen en práctica una forma nueva de hacer la guerra: los carros de combate avanzan rápido, apoyados por la aviación, rompen las líneas y siguen adelante sin esperar a la infantería. Más tarde la llamarán guerra relámpago.",
    "mood": "tension",
-   "img": "img/panzer1.jpg",
-   "kb": "in",
-   "fy": 0.4,
-   "cap": "Un carro de combate Panzer I en el frente de Polonia",
-   "html": "<div class=\"ov left\"><div class=\"h1 in tw\" data-cue=\"guerra relampago\">Blitzkrieg</div><div class=\"h3 dim in\" data-cue=\"guerra relampago\" data-d=\"0.5\">«Guerra relámpago»</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h1 in tw\" data-cue=\"guerra relampago\">Blitzkrieg</div><div class=\"h3 dim in\" data-cue=\"guerra relampago\" data-d=\"0.5\">«Guerra relámpago»</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/panzer1.jpg"
+    },
+    {
+     "clip": "clips/columna_motor.mp4",
+     "cue": "rompen las lineas"
+    }
+   ]
   },
   {
    "say": "De aquellos días nació un mito: el de la caballería polaca cargando con lanzas contra los tanques alemanes. Nunca ocurrió así.",
    "mood": "inquietud",
-   "img": "img/caballeria.jpg",
-   "kb": "right",
-   "cap": "Septiembre de 1939: tropas a caballo entran en un pueblo polaco",
-   "html": "<div class=\"ov right\"><div class=\"h2 in tw\" data-cue=\"nacio un mito\">Un mito</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"nacio un mito\">Un mito</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "clip": "clips/caballeria_carga.mp4",
+     "cap": "Caballería polaca · «Why We Fight»"
+    }
+   ]
   },
   {
    "say": "La tarde del 1 de septiembre, en Krojanty, los jinetes del 18.º Regimiento de Ulanos de Pomerania cargaron contra infantería alemana que descansaba en un claro del bosque. La sorprendieron. Pero entonces llegaron blindados y ametralladoras, y los ulanos fueron barridos.",
    "mood": "tension",
-   "bg": "img/caballeria.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">1 de septiembre · Krojanty</div><div class=\"h2 in\" data-cue=\"ulanos de pomerania\">Ulanos de Pomerania</div><div class=\"h3 in\" data-cue=\"contra infanteria\" style=\"margin-top:30px\">Cargan contra infantería, no contra tanques</div><div class=\"h3 red in\" data-cue=\"fueron barridos\">Barridos por los blindados</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">1 de septiembre · Krojanty</div><div class=\"h2 in\" data-cue=\"ulanos de pomerania\">Ulanos de Pomerania</div><div class=\"h3 in\" data-cue=\"contra infanteria\" style=\"margin-top:30px\">Cargan contra infantería, no contra tanques</div><div class=\"h3 red in\" data-cue=\"fueron barridos\">Barridos por los blindados</div></div>",
+   "imgs": [
+    {
+     "img": "img/caballeria.jpg",
+     "cap": "Tropas montadas alemanas entran en un pueblo polaco"
+    },
+    {
+     "clip": "clips/puente_tanque.mp4",
+     "cue": "llegaron blindados"
+    }
+   ]
   },
   {
    "say": "Periodistas italianos y la propaganda alemana convirtieron aquella escena en la imagen de unos polacos heroicos pero ingenuos, atacando tanques a caballo. Una mentira que duró décadas.",
    "mood": "inquietud",
-   "bg": "img/caballeria.jpg",
-   "html": "<div class=\"ov center\"><div class=\"stamp in\" data-cue=\"una mentira\">Mito</div><div class=\"h3 dim in\" data-cue=\"duro decadas\" style=\"margin-top:40px\">Una mentira que duró décadas</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"stamp in\" data-cue=\"una mentira\">Mito</div><div class=\"h3 dim in\" data-cue=\"duro decadas\" style=\"margin-top:40px\">Una mentira que duró décadas</div></div>",
+   "imgs": [
+    {
+     "img": "img/caballeria.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Mientras tanto, en Danzig, la policía y las milicias nazis atacan la oficina de correos polaca. Dentro hay unos cincuenta empleados, casi todos civiles, con algunas armas. Resisten unas quince horas.",
    "mood": "tension",
-   "img": "img/correos1.jpg",
-   "kb": "in",
-   "cap": "Danzig, 1 de septiembre de 1939: ataque a la oficina de correos polaca",
-   "html": "<div class=\"ov right\"><div class=\"h2 in tw\" data-cue=\"la oficina de correos\">Correos<br>de Danzig</div><div class=\"h3 amber in\" data-cue=\"quince horas\" style=\"margin-top:30px\">≈ 15 horas de resistencia</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"la oficina de correos\">Correos<br>de Danzig</div><div class=\"h3 amber in\" data-cue=\"quince horas\" style=\"margin-top:30px\">≈ 15 horas de resistencia</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/correos1.jpg"
+    },
+    {
+     "img": "img/correos2.jpg",
+     "cue": "resisten"
+    }
+   ]
   },
   {
    "say": "Al final, los alemanes rocían el sótano con gasolina y le prenden fuego. Los supervivientes se rinden. Un tribunal militar los condena como francotiradores, sin derecho a nada. El 5 de octubre, 38 de ellos son fusilados. Su fosa no se encontró hasta 1991.",
    "mood": "melancolia",
-   "img": "img/correos3.jpg",
-   "kb": "up",
-   "cap": "Danzig, 1939: el edificio de correos dañado tras el asalto",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">5 de octubre de 1939</div><div class=\"big red in\" data-cue=\"38 de ellos\">38</div><div class=\"h3 in\" data-cue=\"38 de ellos\" data-d=\"0.3\">defensores fusilados</div><div class=\"h3 dim in\" data-cue=\"hasta 1991\" style=\"margin-top:20px\">Fosa hallada en 1991</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">5 de octubre de 1939</div><div class=\"big red in\" data-cue=\"38 de ellos\">38</div><div class=\"h3 in\" data-cue=\"38 de ellos\" data-d=\"0.3\">defensores fusilados</div><div class=\"h3 dim in\" data-cue=\"hasta 1991\" style=\"margin-top:20px\">Fosa hallada en 1991</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/correos3.jpg"
+    }
+   ]
   },
   {
    "say": "Y en Westerplatte, unos doscientos soldados polacos al mando del mayor Henryk Sucharski resisten bombardeos desde el mar, desde el aire y ataques de infantería. Los alemanes esperaban tomarlo en unas horas.",
    "mood": "tension",
-   "img": "img/schleswig2.jpg",
-   "kb": "up",
-   "cap": "Westerplatte bajo el fuego, septiembre de 1939",
-   "html": "<div class=\"ov left\"><div class=\"h1 in\" data-cue=\"westerplatte\">Westerplatte</div><div class=\"h3 in\" data-cue=\"unos doscientos\" style=\"margin-top:20px\">≈ 200 soldados polacos</div><div class=\"h3 dim in\" data-cue=\"henryk sucharski\">Mayor Henryk Sucharski</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-cue=\"westerplatte\">Westerplatte</div><div class=\"h3 in\" data-cue=\"unos doscientos\" style=\"margin-top:20px\">≈ 200 soldados polacos</div><div class=\"h3 dim in\" data-cue=\"henryk sucharski\">Mayor Henryk Sucharski</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/schleswig2.jpg",
+     "dark": true
+    },
+    {
+     "img": "img/westerplatte_sold.jpg",
+     "cap": "Soldados alemanes en las ruinas de Westerplatte",
+     "cue": "infanteria"
+    }
+   ]
   },
   {
    "say": "Aguantaron siete días. Se rindieron el 7 de septiembre, sin agua, sin medicinas y con muchos heridos. Habían muerto unos quince defensores. Westerplatte se convirtió en el gran símbolo de la resistencia polaca.",
    "mood": "melancolia",
-   "img": "img/westerplatte_ruinas.jpg",
-   "kb": "in",
-   "cap": "Westerplatte tras la rendición: edificios destruidos",
-   "html": "<div class=\"ov right\"><div class=\"big in\" data-cue=\"siete dias\">7 días</div><div class=\"h3 amber in\" data-cue=\"el gran simbolo\" style=\"margin-top:30px\">Símbolo de la resistencia polaca</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"big in\" data-cue=\"siete dias\">7 días</div><div class=\"h3 amber in\" data-cue=\"el gran simbolo\" style=\"margin-top:30px\">Símbolo de la resistencia polaca</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/westerplatte_ruinas.jpg"
+    },
+    {
+     "clip": "clips/bandera_blanca.mp4",
+     "cap": "Rendición polaca, 1939 · «Why We Fight»",
+     "cue": "se rindieron"
+    }
+   ]
   },
   {
    "say": "A las diez de la mañana del 1 de septiembre, Hitler habla ante el Reichstag, reunido en la Ópera Kroll de Berlín. Viste un uniforme gris de campaña.",
    "mood": "inquietud",
-   "img": "img/reichstag.jpg",
-   "kb": "in",
-   "cap": "Berlín, 1 de septiembre de 1939: Hitler habla ante el Reichstag en la Ópera Kroll",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">1 de septiembre · 10:00</div><div class=\"h2 in tw\" data-cue=\"opera kroll\">Ópera Kroll,<br>Berlín</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">1 de septiembre · 10:00</div><div class=\"h2 in tw\" data-cue=\"opera kroll\">Ópera Kroll,<br>Berlín</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/reichstag.jpg",
+     "cap": "Ópera Kroll, Berlín, 1 de septiembre de 1939: Hitler ante el Reichstag"
+    }
+   ]
   },
   {
    "say": "Y pronuncia una frase que pasaría a la historia: desde las cinco y cuarenta y cinco se está devolviendo el fuego. Ni siquiera la hora era cierta: el ataque había empezado una hora antes. Y nadie estaba devolviendo nada. Alemania era el agresor.",
    "mood": "tension",
-   "bg": "img/reichstag.jpg",
-   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"se esta devolviendo el fuego\">«Desde las 5:45<br>se está devolviendo el fuego.»</div><div class=\"h3 red in\" data-cue=\"una hora antes\" style=\"margin-top:40px\">Falso: el ataque empezó a las 4:45</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"se esta devolviendo el fuego\">«Desde las 5:45<br>se está devolviendo el fuego.»</div><div class=\"h3 red in\" data-cue=\"una hora antes\" style=\"margin-top:40px\">Falso: el ataque empezó a las 4:45</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/hitler_discurso.mp4"
+    },
+    {
+     "img": "img/reichstag.jpg",
+     "dark": true,
+     "cue": "ni siquiera la hora"
+    }
+   ]
   },
   {
    "say": "También dijo que se había puesto aquella guerrera, la más sagrada para él, y que no se la quitaría hasta la victoria, o no viviría para ver el final. Casi seis años después, cumplió la segunda parte.",
@@ -285,20 +549,40 @@
   {
    "say": "En Londres y en París hay dudas. ¿De verdad hay que ir a la guerra por Polonia? Durante dos días se intenta una última negociación. Pero Hitler no retira sus tropas.",
    "mood": "inquietud",
-   "bg": "img/kutrzeba.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"hay dudas\">Dos días<br>de dudas</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"hay dudas\">Dos días<br>de dudas</div></div>",
+   "imgs": [
+    {
+     "img": "img/chamberlain.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "El 3 de septiembre, a las nueve de la mañana, el embajador británico en Berlín entrega un ultimátum: o Alemania se retira de Polonia antes de las once, o habrá guerra. Las once llegan sin respuesta.",
    "mood": "tension",
-   "bg": "img/reichstag.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">3 de septiembre de 1939</div><div class=\"row\" style=\"gap:80px;margin-top:30px\"><div><div class=\"big in\" data-cue=\"nueve de la manana\" style=\"font-size:150px\">9:00</div><div class=\"h3 in\" data-cue=\"nueve de la manana\" data-d=\"0.3\">Ultimátum</div></div><div><div class=\"big red in\" data-cue=\"las once llegan\" style=\"font-size:150px\">11:00</div><div class=\"h3 in\" data-cue=\"sin respuesta\">Sin respuesta</div></div></div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">3 de septiembre de 1939</div><div class=\"row\" style=\"gap:80px;margin-top:30px\"><div><div class=\"big in\" data-cue=\"nueve de la manana\" style=\"font-size:150px\">9:00</div><div class=\"h3 in\" data-cue=\"nueve de la manana\" data-d=\"0.3\">Ultimátum</div></div><div><div class=\"big red in\" data-cue=\"las once llegan\" style=\"font-size:150px\">11:00</div><div class=\"h3 in\" data-cue=\"sin respuesta\">Sin respuesta</div></div></div></div>",
+   "imgs": [
+    {
+     "img": "img/henderson.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "A las once y cuarto, Chamberlain habla por la radio a todo el país. Con voz cansada, anuncia que el Reino Unido está en guerra con Alemania. Esa misma tarde, a las cinco, Francia hace lo mismo.",
    "mood": "tension",
-   "bg": "img/varsovia_humo.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">3 de septiembre · 11:15 · BBC</div><div class=\"q in\" data-cue=\"esta en guerra\">«Este país está en guerra con Alemania.»</div><div class=\"who in\" data-cue=\"esta en guerra\" data-d=\"1\">— Neville Chamberlain</div><div class=\"h3 amber in\" data-cue=\"francia hace lo mismo\" style=\"margin-top:40px\">17:00: Francia, también en guerra</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">3 de septiembre · 11:15 · BBC</div><div class=\"q in\" data-cue=\"esta en guerra\">«Este país está en guerra con Alemania.»</div><div class=\"who in\" data-cue=\"esta en guerra\" data-d=\"1\">— Neville Chamberlain</div><div class=\"h3 amber in\" data-cue=\"francia hace lo mismo\" style=\"margin-top:40px\">17:00: Francia, también en guerra</div></div>",
+   "imgs": [
+    {
+     "img": "img/chamberlain.jpg",
+     "fy": 0.25
+    },
+    {
+     "clip": "clips/varsovia_humo.mp4",
+     "cap": "Varsovia, septiembre de 1939 · «Why We Fight»",
+     "cue": "francia hace lo mismo"
+    }
+   ]
   },
   {
    "say": "Esa misma noche, un submarino alemán torpedea por error un transatlántico británico, el Athenia, con más de mil cuatrocientas personas a bordo. Mueren más de cien. Alemania lo niega todo y hasta falsifica el diario de a bordo del submarino. La guerra en el mar también ha empezado.",
@@ -309,162 +593,312 @@
   {
    "say": "Pero la declaración de guerra no se convierte en ayuda. Los polacos esperaban una gran ofensiva francesa en el oeste. El 7 de septiembre, los franceses avanzan en la región del Sarre, ocupan una veintena de aldeas vacías, a unos ocho kilómetros de la frontera… y se detienen.",
    "mood": "inquietud",
-   "bg": "img/varsovia_humo.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">7 de septiembre · El Sarre</div><div class=\"h2 in tw\" data-cue=\"ofensiva francesa\">La ofensiva<br>que no fue</div><div class=\"h3 dim in\" data-cue=\"ocho kilometros\" style=\"margin-top:30px\">≈ 8 km · una veintena de aldeas vacías</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">7 de septiembre · El Sarre</div><div class=\"h2 in tw\" data-cue=\"ofensiva francesa\">La ofensiva<br>que no fue</div><div class=\"h3 dim in\" data-cue=\"ocho kilometros\" style=\"margin-top:30px\">≈ 8 km · una veintena de aldeas vacías</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/artilleria.mp4",
+     "cap": "Artillería, 1939 · «Why We Fight»"
+    },
+    {
+     "img": "img/varsovia_humo.jpg",
+     "cue": "region del sarre"
+    }
+   ]
   },
   {
    "say": "El 12 de septiembre, los aliados deciden suspender la ofensiva. Al oeste comienza lo que los franceses llamarán la drôle de guerre, la guerra de broma. Una guerra declarada donde casi no se combate. Mientras tanto, en Polonia, se muere de verdad.",
    "mood": "melancolia",
-   "bg": "img/varsovia_ruinas.jpg",
-   "html": "<div class=\"ov center\"><div class=\"row\" style=\"gap:70px\"><div class=\"box in\" data-cue=\"la drole de guerre\"><div class=\"lab\">Oeste</div><div class=\"val dim\" style=\"font-size:54px\">«La guerra de broma»</div></div><div class=\"box in\" data-cue=\"se muere de verdad\" style=\"border-color:var(--red)\"><div class=\"lab\">Polonia</div><div class=\"val red\" style=\"font-size:54px\">Se muere de verdad</div></div></div></div>"
+   "html": "<div class=\"ov center\"><div class=\"row\" style=\"gap:70px\"><div class=\"box in\" data-cue=\"la drole de guerre\"><div class=\"lab\">Oeste</div><div class=\"val dim\" style=\"font-size:54px\">«La guerra de broma»</div></div><div class=\"box in\" data-cue=\"se muere de verdad\" style=\"border-color:var(--red)\"><div class=\"lab\">Polonia</div><div class=\"val red\" style=\"font-size:54px\">Se muere de verdad</div></div></div></div>",
+   "imgs": [
+    {
+     "img": "img/vars_civiles.jpg",
+     "cap": "Varsovia, septiembre de 1939",
+     "cue": "se muere de verdad"
+    }
+   ]
   },
   {
    "say": "Las columnas alemanas avanzan sin parar. Por las carreteras huyen miles de familias con lo que pueden cargar en un carro. Y la aviación alemana ataca también a los civiles que huyen.",
    "mood": "tension",
-   "img": "img/refugiados.jpg",
-   "kb": "right",
-   "cap": "Polonia, 1939: refugiados con un carro en una carretera",
    "html": "<div class=\"ov right low\"><div class=\"h2 in tw\" data-cue=\"huyen miles de familias\">Huir</div></div>",
-   "shade": true
+   "shade": true,
+   "imgs": [
+    {
+     "clip": "clips/civiles_huyen.mp4",
+     "cap": "Civiles polacos huyen de un bombardeo · «Why We Fight»"
+    },
+    {
+     "img": "img/refugiados.jpg",
+     "cue": "tambien a los civiles"
+    }
+   ]
   },
   {
    "say": "Detrás del ejército llegan las unidades especiales de la policía y de las SS, los Einsatzgruppen. Su misión: eliminar a la clase dirigente polaca. Maestros, sacerdotes, abogados, alcaldes. Y también a judíos.",
    "mood": "tension",
-   "bg": "img/refugiados.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h1 in tw\" data-cue=\"los einsatzgruppen\">Einsatzgruppen</div><div class=\"row\" style=\"margin-top:40px;gap:40px\"><div class=\"h3 dim in\" data-cue=\"maestros\">Maestros</div><div class=\"h3 dim in\" data-cue=\"sacerdotes\">Sacerdotes</div><div class=\"h3 dim in\" data-cue=\"abogados\">Abogados</div><div class=\"h3 dim in\" data-cue=\"alcaldes\">Alcaldes</div></div><div class=\"h3 red in\" data-cue=\"tambien a judios\" style=\"margin-top:30px\">Y judíos</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h1 in tw\" data-cue=\"los einsatzgruppen\">Einsatzgruppen</div><div class=\"row\" style=\"margin-top:40px;gap:40px\"><div class=\"h3 dim in\" data-cue=\"maestros\">Maestros</div><div class=\"h3 dim in\" data-cue=\"sacerdotes\">Sacerdotes</div><div class=\"h3 dim in\" data-cue=\"abogados\">Abogados</div><div class=\"h3 dim in\" data-cue=\"alcaldes\">Alcaldes</div></div><div class=\"h3 red in\" data-cue=\"tambien a judios\" style=\"margin-top:30px\">Y judíos</div></div>",
+   "imgs": [
+    {
+     "img": "personas/heydrich.jpg",
+     "fy": 0.25,
+     "dark": true,
+     "cue": "einsatzgruppen"
+    },
+    {
+     "img": "img/vars_civiles2.jpg",
+     "cap": "Civiles polacos en Varsovia, 1939",
+     "cue": "maestros"
+    }
+   ]
   },
   {
    "say": "Hasta finales de octubre, en más de setecientas ejecuciones masivas, el ejército, las SS y las milicias asesinaron a unos 16.000 civiles polacos. Solo en Bydgoszcz fusilaron al menos a quinientos. Antes de que existieran los campos de exterminio, el terror ya había empezado.",
    "mood": "melancolia",
-   "bg": "img/prisioneros.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">1 de septiembre - 25 de octubre de 1939</div><div class=\"big red in\" data-cue=\"unos 16.000\"><span data-count=\"16000\">0</span></div><div class=\"h3 in\" data-cue=\"unos 16.000\" data-d=\"0.3\">civiles asesinados</div><div class=\"h3 dim in\" data-cue=\"bydgoszcz\" style=\"margin-top:20px\">Bydgoszcz: al menos 500</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">1 de septiembre - 25 de octubre de 1939</div><div class=\"big red in\" data-cue=\"unos 16.000\"><span data-count=\"16000\">0</span></div><div class=\"h3 in\" data-cue=\"unos 16.000\" data-d=\"0.3\">civiles asesinados</div><div class=\"h3 dim in\" data-cue=\"bydgoszcz\" style=\"margin-top:20px\">Bydgoszcz: al menos 500</div></div>",
+   "imgs": [
+    {
+     "img": "img/vars_tumbas.jpg",
+     "cap": "Varsovia: tumbas provisionales de víctimas de los bombardeos"
+    }
+   ]
   },
   {
    "say": "Y entonces, cuando el ejército polaco intenta reorganizarse en el este del país, llega el golpe definitivo. El 17 de septiembre, sin declaración de guerra, el Ejército Rojo cruza la frontera oriental. Stalin viene a cobrar su parte del pacto.",
    "mood": "tension",
-   "img": "img/lublin_sov.jpg",
-   "kb": "in",
-   "cap": "Polonia, septiembre de 1939: encuentro de soldados alemanes y soviéticos",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">17 de septiembre de 1939</div><div class=\"h2 red in tw\" data-cue=\"el ejercito rojo\">Entra el<br>Ejército Rojo</div><div class=\"h3 amber in\" data-cue=\"cobrar su parte\" style=\"margin-top:30px\">Stalin cobra su parte</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">17 de septiembre de 1939</div><div class=\"h2 red in tw\" data-cue=\"el ejercito rojo\">Entra el<br>Ejército Rojo</div><div class=\"h3 amber in\" data-cue=\"cobrar su parte\" style=\"margin-top:30px\">Stalin cobra su parte</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/lublin_sov.jpg",
+     "cap": "Soldados alemanes y soviéticos se encuentran en Polonia"
+    },
+    {
+     "img": "img/pacto_stalin.jpg",
+     "fy": 0.25,
+     "cue": "cobrar su parte"
+    }
+   ]
   },
   {
    "say": "Esa misma noche, el presidente y el Gobierno polacos cruzan la frontera de Rumanía. Allí quedan internados. Poco después se formará un Gobierno polaco en el exilio, primero en Francia y luego en Londres, que seguirá luchando toda la guerra.",
    "mood": "melancolia",
-   "bg": "img/refugiados.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">17-18 de septiembre</div><div class=\"h2 in tw\" data-cue=\"rumania\">El Gobierno<br>cruza a Rumanía</div><div class=\"h3 amber in\" data-cue=\"en el exilio\" style=\"margin-top:30px\">Gobierno en el exilio: Francia, después Londres</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">17-18 de septiembre</div><div class=\"h2 in tw\" data-cue=\"rumania\">El Gobierno<br>cruza a Rumanía</div><div class=\"h3 amber in\" data-cue=\"en el exilio\" style=\"margin-top:30px\">Gobierno en el exilio: Francia, después Londres</div></div>",
+   "imgs": [
+    {
+     "img": "img/refugiados.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "El 22 de septiembre, en la ciudad de Brest-Litovsk, alemanes y soviéticos celebran juntos un desfile militar para entregar la ciudad a los soviéticos. Dos dictaduras, una al lado de la otra, sobre las ruinas de un país.",
    "mood": "inquietud",
-   "img": "img/brest.jpg",
-   "kb": "right",
-   "cap": "Brest-Litovsk, 22 de septiembre de 1939: desfile conjunto germano-soviético",
-   "html": "<div class=\"ov left\"><div class=\"date in\" data-t=\"0.2\">22 de septiembre de 1939</div><div class=\"h2 in tw\" data-cue=\"desfile militar\">Desfile<br>conjunto</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">22 de septiembre de 1939</div><div class=\"h2 in tw\" data-cue=\"desfile militar\">Desfile<br>conjunto</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/brest.jpg",
+     "cap": "Brest-Litovsk, 22 de septiembre de 1939: desfile germano-soviético"
+    }
+   ]
   },
   {
    "say": "Solo quedaba Varsovia. La capital resiste un asedio de casi tres semanas. Los alemanes la bombardean desde el aire y con la artillería. Se quedan sin agua, sin luz, sin comida. Los incendios lo devoran todo.",
    "mood": "tension",
-   "img": "img/varsovia_aerea.jpg",
-   "kb": "in",
-   "cap": "Varsovia, septiembre de 1939: incendios vistos desde el aire",
-   "html": "<div class=\"ov right\"><div class=\"h1 in\" data-cue=\"solo quedaba varsovia\">Varsovia</div><div class=\"h3 in\" data-cue=\"sin agua\" style=\"margin-top:20px\">Sin agua · sin luz · sin comida</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-cue=\"solo quedaba varsovia\">Varsovia</div><div class=\"h3 in\" data-cue=\"sin agua\" style=\"margin-top:20px\">Sin agua · sin luz · sin comida</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "clip": "clips/varsovia_aerea.mp4",
+     "cap": "Varsovia bajo el asedio · «Why We Fight»"
+    },
+    {
+     "img": "img/varsovia_aerea.jpg",
+     "cap": "Incendios en Varsovia, vistos desde el aire",
+     "cue": "los incendios"
+    }
+   ]
   },
   {
    "say": "El 28 de septiembre, el general Tadeusz Kutrzeba firma la capitulación de Varsovia ante el general alemán Johannes Blaskowitz. Más de cien mil soldados polacos se convierten en prisioneros.",
    "mood": "melancolia",
-   "img": "img/kutrzeba.jpg",
-   "kb": "in",
-   "fy": 0.4,
-   "cap": "Varsovia, 28 de septiembre de 1939: el general Kutrzeba acude a firmar la capitulación",
-   "html": "<div class=\"ov right\"><div class=\"date in\" data-t=\"0.2\">28 de septiembre de 1939</div><div class=\"h2 in tw\" data-cue=\"la capitulacion\">Capitula<br>Varsovia</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">28 de septiembre de 1939</div><div class=\"h2 in tw\" data-cue=\"la capitulacion\">Capitula<br>Varsovia</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/kutrzeba.jpg",
+     "fy": 0.3,
+     "who": {
+      "name": "Tadeusz Kutrzeba",
+      "role": "General polaco"
+     },
+     "cue": "tadeusz kutrzeba"
+    },
+    {
+     "img": "img/blaskowitz.jpg",
+     "who": {
+      "name": "Johannes Blaskowitz",
+      "role": "General alemán (izquierda)"
+     },
+     "cue": "johannes blaskowitz"
+    },
+    {
+     "clip": "clips/prisioneros_columna.mp4",
+     "cap": "Prisioneros polacos · «Why We Fight»",
+     "cue": "cien mil soldados"
+    }
+   ]
   },
   {
    "say": "Las calles que los soldados alemanes recorren días después ya no se parecen a las de un mes antes. Barrios enteros reducidos a escombros.",
    "mood": "melancolia",
-   "img": "img/varsovia_ruinas.jpg",
-   "kb": "in",
-   "cap": "Varsovia, 1939: una calle destruida",
    "html": "<div class=\"ov left low\"><div class=\"h3 in tw\" data-t=\"0.6\">Barrios enteros, en escombros</div></div>",
-   "shade": true
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/varsovia_ruinas.jpg"
+    },
+    {
+     "img": "img/vars_ochota.jpg",
+     "cap": "Varsovia: la población abandona los barrios destruidos",
+     "cue": "barrios enteros"
+    }
+   ]
   },
   {
    "say": "Y el 5 de octubre, Hitler en persona preside un desfile de la victoria en Varsovia. Al día siguiente se rinden las últimas tropas polacas, tras la batalla de Kock. La campaña ha durado poco más de cinco semanas.",
    "mood": "inquietud",
-   "img": "img/desfile.jpg",
-   "kb": "right",
-   "cap": "Varsovia, octubre de 1939: desfile de tropas alemanas",
-   "html": "<div class=\"ov right\"><div class=\"date in\" data-t=\"0.2\">5-6 de octubre de 1939</div><div class=\"h2 in tw\" data-cue=\"desfile de la victoria\">Desfile de<br>la victoria</div><div class=\"h3 amber in\" data-cue=\"cinco semanas\" style=\"margin-top:30px\">Poco más de 5 semanas</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">5-6 de octubre de 1939</div><div class=\"h2 in tw\" data-cue=\"desfile de la victoria\">Desfile de<br>la victoria</div><div class=\"h3 amber in\" data-cue=\"cinco semanas\" style=\"margin-top:30px\">Poco más de 5 semanas</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/desfile.jpg"
+    },
+    {
+     "clip": "clips/oficiales_polacos.mp4",
+     "cap": "Soldados polacos prisioneros · «Why We Fight»",
+     "cue": "kock"
+    }
+   ]
   },
   {
    "say": "El balance es terrible. Entre 66.000 y 70.000 soldados polacos muertos. Unos 15.000 alemanes. Cientos de miles de prisioneros: unos 400.000 en manos alemanas y más de 200.000 en manos soviéticas. Y decenas de miles de civiles muertos.",
    "mood": "melancolia",
-   "img": "img/prisioneros.jpg",
-   "kb": "in",
-   "cap": "Polonia, 1939: soldados polacos prisioneros",
-   "html": "<div class=\"ov left\"><div class=\"h3 dim in\" data-t=\"0.2\">Septiembre-octubre de 1939</div><div class=\"h3 in\" data-cue=\"soldados polacos muertos\">66.000-70.000 polacos muertos</div><div class=\"h3 in\" data-cue=\"unos 15.000\">≈ 15.000 alemanes muertos</div><div class=\"h3 amber in\" data-cue=\"400.000\">≈ 400.000 prisioneros (Alemania)</div><div class=\"h3 amber in\" data-cue=\"mas de 200.000\">+200.000 prisioneros (URSS)</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h3 dim in\" data-t=\"0.2\">Septiembre-octubre de 1939</div><div class=\"h3 in\" data-cue=\"soldados polacos muertos\">66.000-70.000 polacos muertos</div><div class=\"h3 in\" data-cue=\"unos 15.000\">≈ 15.000 alemanes muertos</div><div class=\"h3 amber in\" data-cue=\"400.000\">≈ 400.000 prisioneros (Alemania)</div><div class=\"h3 amber in\" data-cue=\"mas de 200.000\">+200.000 prisioneros (URSS)</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/prisioneros.jpg"
+    },
+    {
+     "img": "img/prisioneros_vars.jpg",
+     "cue": "cientos de miles"
+    }
+   ]
   },
   {
    "say": "El 28 de septiembre, en Moscú, Ribbentrop y Mólotov firman un segundo tratado para fijar la nueva frontera. Polonia vuelve a desaparecer del mapa, repartida entre dos dictaduras.",
    "mood": "inquietud",
-   "img": "img/pacto2.jpg",
-   "kb": "in",
-   "cap": "Moscú, 28 de septiembre de 1939: Ribbentrop firma el segundo tratado germano-soviético; detrás, Stalin",
-   "html": "<div class=\"ov left\"><div class=\"h2 in tw\" data-cue=\"vuelve a desaparecer\">Polonia<br>desaparece</div></div>",
-   "shade": true
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"vuelve a desaparecer\">Polonia<br>desaparece</div></div>",
+   "shade": true,
+   "imgs": [
+    {
+     "img": "img/pacto2.jpg",
+     "cap": "Moscú, 28 de septiembre de 1939: segundo tratado germano-soviético"
+    }
+   ]
   },
   {
    "say": "Lo que vino después fue aún peor. Durante la ocupación, Polonia perdería alrededor de cinco o seis millones de ciudadanos. La mitad de ellos, unos tres millones, eran judíos polacos asesinados en el Holocausto.",
    "mood": "melancolia",
-   "bg": "img/prisioneros_vars.jpg",
-   "html": "<div class=\"ov center\"><div class=\"big red in\" data-cue=\"cinco o seis millones\" style=\"font-size:150px\">5-6 millones</div><div class=\"h3 in\" data-cue=\"cinco o seis millones\" data-d=\"0.3\">ciudadanos polacos muertos en la guerra</div><div class=\"h3 amber in\" data-cue=\"tres millones\" style=\"margin-top:30px\">≈ 3 millones, judíos polacos</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"big red in\" data-cue=\"cinco o seis millones\" style=\"font-size:150px\">5-6 millones</div><div class=\"h3 in\" data-cue=\"cinco o seis millones\" data-d=\"0.3\">ciudadanos polacos muertos en la guerra</div><div class=\"h3 amber in\" data-cue=\"tres millones\" style=\"margin-top:30px\">≈ 3 millones, judíos polacos</div></div>",
+   "imgs": [
+    {
+     "img": "img/mujeres_pan.jpg",
+     "cap": "Mujeres y niños polacos, 1939"
+    }
+   ]
   },
   {
    "say": "Pero Polonia dejó algo antes de caer. En julio de 1939, en un bosque cerca de Varsovia, tres matemáticos polacos, Marian Rejewski, Jerzy Rozycki y Henryk Zygalski, entregaron a británicos y franceses todo lo que sabían sobre Enigma, la máquina de cifrado alemana.",
    "mood": "inquietud",
-   "bg": "img/varsovia_humo.jpg",
-   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Julio de 1939 · bosque de Pyry</div><div class=\"h1 in tw\" data-cue=\"enigma\">Enigma</div><div class=\"h3 in\" data-cue=\"marian rejewski\" style=\"margin-top:20px\">Rejewski · Rozycki · Zygalski</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"date in\" data-t=\"0.2\">Julio de 1939 · bosque de Pyry</div><div class=\"h1 in tw\" data-cue=\"enigma\">Enigma</div><div class=\"h3 in\" data-cue=\"marian rejewski\" style=\"margin-top:20px\">Rejewski · Rozycki · Zygalski</div></div>",
+   "imgs": [
+    {
+     "clip": "clips/humo.mp4"
+    },
+    {
+     "img": "img/enigma.jpg",
+     "cap": "Una máquina Enigma en uso por el ejército alemán",
+     "cue": "enigma"
+    }
+   ]
   },
   {
    "say": "Habían conseguido descifrarla años antes. Con lo que entregaron, los británicos pudieron empezar su trabajo en Bletchley Park. Leer los mensajes secretos alemanes fue una de las grandes armas de los aliados en toda la guerra.",
    "mood": "inquietud",
-   "bg": "img/varsovia_humo.jpg",
-   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"bletchley park\">Bletchley Park</div><div class=\"q in\" data-cue=\"grandes armas\" style=\"margin-top:40px\">Un regalo polaco que cambió la guerra</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h2 in tw\" data-cue=\"bletchley park\">Bletchley Park</div><div class=\"q in\" data-cue=\"grandes armas\" style=\"margin-top:40px\">Un regalo polaco que cambió la guerra</div></div>",
+   "imgs": [
+    {
+     "img": "img/enigma.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "Hoy, en Westerplatte, en la entrada del puerto de Gdansk, un gran monumento recuerda a los defensores de aquellos siete días. Cada 1 de septiembre, al amanecer, Polonia vuelve allí a recordar la hora en que empezó todo.",
    "mood": "melancolia",
-   "img": "img/westerplatte_puerta.jpg",
-   "kb": "out",
-   "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-cue=\"westerplatte\">Westerplatte</div><div class=\"date in\" data-cue=\"al amanecer\" style=\"margin-top:30px\">Cada 1 de septiembre · 4:45</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h1 in\" data-cue=\"westerplatte\">Westerplatte</div><div class=\"date in\" data-cue=\"al amanecer\" style=\"margin-top:30px\">Cada 1 de septiembre · 4:45</div></div>",
+   "imgs": [
+    {
+     "img": "img/westerplatte_puerta.jpg",
+     "dark": true
+    }
+   ]
   },
   {
    "say": "La Segunda Guerra Mundial no empezó por un accidente ni por un malentendido. Empezó con una mentira cuidadosamente preparada, un cadáver colocado en una emisora de radio y un pacto secreto entre dos dictadores.",
    "mood": "melancolia",
-   "img": "img/schleswig3.jpg",
-   "kb": "out",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"una mentira\">Una mentira preparada</div><div class=\"h3 in\" data-cue=\"un cadaver\">Un cadáver en una emisora</div><div class=\"h3 in\" data-cue=\"un pacto secreto\">Un pacto secreto</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"h3 in\" data-cue=\"una mentira\">Una mentira preparada</div><div class=\"h3 in\" data-cue=\"un cadaver\">Un cadáver en una emisora</div><div class=\"h3 in\" data-cue=\"un pacto secreto\">Un pacto secreto</div></div>",
+   "imgs": [
+    {
+     "img": "img/schleswig3.jpg"
+    },
+    {
+     "img": "personas/heydrich.jpg",
+     "fy": 0.25,
+     "dark": true,
+     "cue": "una emisora"
+    },
+    {
+     "img": "img/pacto.jpg",
+     "dark": true,
+     "cue": "un pacto secreto"
+    }
+   ]
   },
   {
    "say": "Durante los seis años siguientes, esa mentira costaría decenas de millones de vidas. Porque las guerras casi nunca empiezan con el primer disparo. Empiezan mucho antes, cuando alguien decide que la verdad ya no importa.",
    "mood": "melancolia",
-   "img": "img/varsovia_ruinas.jpg",
-   "kb": "out",
    "shade": true,
-   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"la verdad ya no importa\">Las guerras empiezan cuando<br>la verdad ya no importa.</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"q in\" data-cue=\"la verdad ya no importa\">Las guerras empiezan cuando<br>la verdad ya no importa.</div></div>",
+   "imgs": [
+    {
+     "img": "img/varsovia_ruinas2.jpg"
+    }
+   ]
   },
   {
    "say": "En el próximo capítulo te cuento toda la Segunda Guerra Mundial en veinte minutos: de Polonia a Hiroshima. Si no quieres perdértelo, suscríbete. Y cuéntame en los comentarios: ¿sabías que la guerra empezó con un ataque falso en una emisora de radio?",
    "mood": "melancolia",
-   "bg": "img/schleswig1.jpg",
-   "html": "<div class=\"ov center\"><div class=\"tag in\" data-t=\"0.2\">Próximo capítulo</div><div class=\"h2 in tw\" data-t=\"0.4\">Toda la Segunda Guerra Mundial<br>en 20 minutos</div><div class=\"rule in\" data-t=\"0.6\"></div><div class=\"h3 dim in\" data-cue=\"suscribete\">Suscríbete para no perdértelo</div><div class=\"who in\" data-cue=\"suscribete\" data-d=\"1.5\" style=\"font-size:24px;margin-top:80px\">Fuentes: Museo de la II Guerra Mundial de Gdansk, IPN, USHMM, Britannica, Proyecto Avalon (Yale), National WWII Museum. Imágenes: Bundesarchiv (créditos en la descripción).</div></div>"
+   "html": "<div class=\"ov center\"><div class=\"tag in\" data-t=\"0.2\">Próximo capítulo</div><div class=\"h2 in tw\" data-t=\"0.4\">Toda la Segunda Guerra Mundial<br>en 20 minutos</div><div class=\"rule in\" data-t=\"0.6\"></div><div class=\"h3 dim in\" data-cue=\"suscribete\">Suscríbete para no perdértelo</div><div class=\"who in\" data-cue=\"suscribete\" data-d=\"1.5\" style=\"font-size:24px;margin-top:80px\">Fuentes: Museo de la II Guerra Mundial de Gdansk, IPN, USHMM, Britannica, Proyecto Avalon (Yale), National WWII Museum. Imágenes: Bundesarchiv (créditos en la descripción).</div></div>",
+   "imgs": [
+    {
+     "img": "img/schleswig1.jpg",
+     "dark": true
+    }
+   ]
   }
  ],
  "thumb": {

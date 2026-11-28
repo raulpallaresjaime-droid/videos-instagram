@@ -35,3 +35,17 @@ forster.jpg	Bundesarchiv, Bild 146-1969-167-41 (Portr\u00e4t Albert Forster)	CC 
 caballeria.jpg	Bundesarchiv, Bild 101I-318-0061-33A (Polen.- Einmarsch berittener deutscher Truppen in polnische Ortschaft. Zivilbev\)	CC BY-SA 3.0 DE	
 varsovia_humo.jpg	Bundesarchiv, Bild 183-E11275 (Polen, vor Warschau.- Scherenfernrohr in getarneter Stellung, im Hintergrun Rauc)	CC BY-SA 3.0 DE	
 renault.jpg	Bundesarchiv, Bild 101I-121-0007-24 (Polen.- Deutsche Soldaten vor zwei polnischen Panzern (franz\u00f6sischer Typ Re)	CC BY-SA 3.0 DE	
+chamberlain.jpg	Bundesarchiv, Bild 183-H12959 (Portr\u00e4t Arthur Neville Chamberlain.)	CC BY-SA 3.0 DE	
+munich_1938.jpg	Bundesarchiv, Bild 146-1972-001-03 (M\u00fcnchen.- v.l.n.r.: Joachim von Ribbentrop, Neville Chamberlain, Adolf Hitl)	CC BY-SA 3.0 DE	
+ribbentrop.jpg	Bundesarchiv, Bild 102-18080 (Bad Freienwalde (Oder), Altranft.- Gutshaus Sonnenburg.- Portr\u00e4t Joachim vo)	CC BY-SA 3.0 DE	
+pacto_stalin.jpg	Bundesarchiv, Bild 183-H27337 (Sowjetunion, Moskau.- Abschluss des Hitler-Stalin-Pakts (Deutsch-sowjetischer Ni)	CC BY-SA 3.0 DE	
+pacto_firma.jpg	Bundesarchiv, Bild 183-H27299 ()	CC BY-SA 3.0 DE	
+mussolini.jpg	Bundesarchiv, Bild 102-07323 (Portr\u00e4t Benito Mussolini)	CC BY-SA 3.0 DE	
+blaskowitz.jpg	Bundesarchiv, Bild 101I-001-0256-30 (Polen, Warschau.- Deutsche Offiziere, General Johannes von Blaskowitz (links) ne)	CC BY-SA 3.0 DE	
+vars_civiles.jpg	Bundesarchiv, Bild 101I-001-0285-23A (Polen, Warschau.- Zivilbev\u00f6lkerung vor zerst\u00f6rtem Geb\u00e4ude; PK 501)	CC BY-SA 3.0 DE	
+vars_civiles2.jpg	Bundesarchiv, Bild 101I-001-0283-36 (Polen, Warschau.- Zivilbev\u00f6lkerung vor zerst\u00f6rten Geb\u00e4uden; PK 50)	CC BY-SA 3.0 DE	
+vars_ochota.jpg	Bundesarchiv, Bild 146-1977-047-17 (Polen, Warschau (s\u00fcdwestl. Vorort Ochota).- Die Bev\u00f6lkerung wandert au)	CC BY-SA 3.0 DE	
+vars_tumbas.jpg	Bundesarchiv, Bild 101I-001-0285-10A (Polen, Warschau.-  Provisorische Gr\u00e4ber f\u00fcr Bombenopfer auf dem Drei-K)	CC BY-SA 3.0 DE	
+enigma.jpg	Bundesarchiv, Bild 101I-769-0229-12A ()	CC BY-SA 3.0 DE	
+henderson.jpg	Bundesarchiv, Bild 102-17849 (Berlin, Hotel Kaiserhof.- Empfang des britischen Botschafters Sir Nevile Henders)	CC BY-SA 3.0 DE	
+bromberg.jpg	Bundesarchiv, Bild 183-E10612 ()	CC BY-SA 3.0 DE	

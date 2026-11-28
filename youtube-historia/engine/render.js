@@ -94,6 +94,8 @@ scenes.forEach((s, i) => {
   });
   s.layers = items;
 });
+// LAYER_TIMES=fichero → apunta un instante de cada capa (a mitad, máx. 3 s) para revisar con --preview
+if (process.env.LAYER_TIMES) fs.writeFileSync(process.env.LAYER_TIMES, scenes.flatMap(s => s.layers.map(L => +(L.a + Math.min(3, (L.out - L.a) / 2)).toFixed(1))).join(','));
 if (!part) { // regla: no repetir imágenes para rellenar (solo si se vuelve a hablar de ese sitio, hecho o persona)
   const rep = Object.entries(usage).filter(([, v]) => v.length > 1);
   rep.forEach(([k, v]) => console.warn(`  REPETIDA: ${k} en las escenas ${v.join(', ')} (solo vale si se vuelve a hablar de ello)`));
